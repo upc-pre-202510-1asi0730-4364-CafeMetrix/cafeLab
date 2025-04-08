@@ -85,4 +85,14 @@ Repositorio del repositorio del **Project Report**: [)
 | - Plataforma dual (software + IoT):<br>  - Software con módulos para gestión de café verde, tueste, calibración, cata y administración.<br>  - TrackSilo: Sensor IoT para monitorear temperatura (18–22 °C) y humedad (55–65 %) del café verde, con alertas y registro por lote. | - Si proporcionamos a baristas herramientas para registrar curvas de tueste, entonces mejorarán la consistencia.<br>- Si ofrecemos trazabilidad a cafeterías, entonces cumplirán certificaciones y fidelizarán clientes.<br>- Si integramos TrackSilo, entonces reduciremos pérdidas de calidad.<br>- Si el software es intuitivo, entonces los baristas lo adoptarán.<br>- Si ofrecemos planes premium, entonces los usuarios pagarán $29 o $59/mes. | - **Riesgo:** Resistencia a la adopción tecnológica, costo percibido de planes premium, problemas técnicos con TrackSilo.<br>- **Validar:** Usabilidad, valor percibido y disposición a pagar mediante pruebas con un MVP. | - Desarrollar un MVP del software y TrackSilo.<br>- Probar con un grupo pequeño de baristas y cafeterías.<br>- Recopilar retroalimentación y ajustar la solución. |
 
 
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hypothesis Statement 1:**  
+*Si* CaféLab proporciona a baristas y cafeterías una plataforma digital que permita documentar, replicar y compartir procesos clave como el tueste, la calibración del molino, la cata y la preparación, *entonces* lograrán estandarizar la calidad del café, mejorando la consistencia en un 40% y aumentando la satisfacción del cliente en un 30%.
+
+**Hypothesis Statement 2:**  
+*Si* CaféLab implementa un módulo que alinee los parámetros técnicos del tueste (como humedad, temperatura de carga y curva de tueste) con el perfil final en taza, *entonces* los baristas reducirán las inconsistencias en la extracción en un 35% y disminuirán las pérdidas de calidad en un 25%.
+
+**Hypothesis Statement 3:**  
+*Si* CaféLab integra el sensor IoT TrackSilo para monitorear en tiempo real la temperatura (18–22 °C) y la humedad (55–65 %) del café verde, con alertas tempranas y registro por lote, *entonces* los usuarios reducirán las pérdidas de calidad por mala conservación en un 30% y mejorarán los resultados del tueste en un 20%.
 
