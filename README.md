@@ -21,7 +21,7 @@
 | Nombre                                | Código       |
 |---------------------------------------|--------------|
 |Renzo Sebastian Uribe Livia            |U202311745    |
-|                                       |              |
+|Joseph Manuel Chavez Viera             |U202314019    |
 |                                       |              |
 |                                       |              |
 |                                       |              |
