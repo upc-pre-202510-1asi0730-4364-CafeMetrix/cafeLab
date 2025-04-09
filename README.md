@@ -79,21 +79,27 @@ Repositorio del repositorio del **Project Report**: [)
 ###  1.2.2.2 Lean UX Assumptions.
 
 **¿Quién es el usuario?**
+
 El usuario principal de este producto son baristas profesionales y cafeterías de especialidad. Los baristas profesionales se encargan de gestionar todo el proceso del café, desde la compra del café verde hasta su preparación en taza. Buscan consistencia, calidad y trazabilidad para ofrecer un café superior, ya sea en competencias, consultorías o para clientes exigentes. Por otro lado, las cafeterías de especialidad se enfocan en ofrecer cafés de origen con características únicas y diferenciadas. Estas cafeterías necesitan herramientas para asegurar la calidad del café, cumplir con certificaciones y fidelizar a sus clientes a través de la transparencia y el seguimiento de cada etapa del proceso.
 
 **¿Dónde encaja nuestro producto en su vida?**
+
 El producto encaja perfectamente en el flujo de trabajo diario de los baristas y las cafeterías, proporcionando una herramienta integral para documentar, estandarizar y optimizar cada uno de los pasos del proceso de preparación del café. Desde el tueste del grano, pasando por la calibración de los molinos, hasta la cata y la preparación final, el producto facilita la replicabilidad de los procesos y mejora la consistencia de la calidad del café. Además, el sistema ayuda a las cafeterías a gestionar la trazabilidad del café, asegurando que cumplan con las normativas de certificación y mantengan un registro detallado desde el origen del grano hasta la taza que llega al cliente.
 
 **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+
 El primer problema que enfrentan los usuarios es la falta de herramientas integradas para la documentación y replicación de procesos. Muchos baristas y cafeterías trabajan con métodos desarticulados y no tienen una forma eficiente de documentar sus procedimientos. Nuestro producto resuelve esto mediante una plataforma que integra el software, permitiendo a los usuarios documentar y comparar perfiles de tueste, calibración de molinos y catas. El segundo problema es la falta de trazabilidad en los procesos, lo que genera inconsistencias y pérdidas de calidad. La plataforma resuelve esto al ofrecer trazabilidad completa desde el grano verde hasta la taza, asegurando que las variables críticas sean controladas y monitorizadas. 
 
 **¿Cuándo y cómo se usará nuestro producto?**
+
 El producto se utilizará en todo el ciclo de vida del café. Desde la recepción y almacenamiento del café verde hasta el proceso de tueste, calibración, cata y preparación final. Los baristas y administradores de cafeterías utilizarán la plataforma de manera continua en su jornada diaria, ajustando los parámetros de tueste, calibrando los molinos, y evaluando las catas de café. La herramienta será accesible tanto en plataformas web como móviles, lo que permitirá a los usuarios acceder a los datos y realizar ajustes desde cualquier lugar. 
 
 **¿Qué características son importantes?**
+
 Las características clave de nuestro producto incluyen una interfaz intuitiva, que permita a los baristas y administradores navegar y usar la plataforma sin complicaciones. La trazabilidad completa es otra característica esencial, permitiendo que los usuarios rastreen el café desde su origen hasta la taza, asegurando que cada variable crítica sea registrada y controlada. También es crucial que el sistema envíe alertas automáticas sobre el estado del café verde, como cambios en la temperatura o humedad, para prevenir el deterioro del grano. La documentación y comparativa de los diferentes perfiles de tueste y catas permite replicar los procesos exitosos y mejorar la calidad. Además, el producto debe incluir capacitación y soporte, proporcionando guías de uso y recursos educativos para maximizar la efectividad del sistema.
 
 **¿Cómo debe verse nuestro producto y cómo debe comportarse?**
+
 Visualmente, el producto debe ser claro, moderno y profesional, con un diseño minimalista que facilite la comprensión de los datos. La interfaz debe incluir gráficos fáciles de interpretar y una visualización intuitiva de los diferentes parámetros del proceso de café, como las curvas de tueste, los parámetros de extracción y los perfiles sensoriales. En cuanto a su comportamiento, la plataforma debe ser rápida y confiable, con tiempos de respuesta mínimos para que los usuarios puedan tomar decisiones en tiempo real. Las alertas automáticas deben ser precisas y oportunas, mientras que la navegación debe ser fluida tanto en la aplicación web como móvil. Además, el sistema debe permitir una rápida configuración de los perfiles de tueste, calibraciones y ajustes según las necesidades de cada usuario.
 
 
