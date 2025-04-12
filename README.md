@@ -431,10 +431,11 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 **Administradores y dueños de cafeterias de especialidad**
-![Empathy Mapping - Fernando Goijman](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Emphaty%20Mapping/EmphatyMapping_FernandoGoijman.png)
+![Empathy Mapping - Fernando Goijman](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Empaty%20Mapping/EmpatyMapping_FernandoGoijman.png)
+
 
 **Barista Profesional**
-![Empathy Mapping - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Emphaty%20Mapping/EmpathyMapping_ValeriaRamos.png)
+![Empathy Mapping - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Empaty%20Mapping/EmpathyMapping_Valeria%20Ramos.png)
 
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
