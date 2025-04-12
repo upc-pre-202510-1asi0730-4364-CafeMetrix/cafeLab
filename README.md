@@ -325,20 +325,46 @@ Visualmente, el producto debe ser claro, moderno y profesional, con un diseño m
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
+
 **Cropster**: Cropster es una plataforma líder global en la gestión del café de especialidad, con herramientas para tueste, inventario, cata y análisis de datos. Se enfoca en optimizar procesos y facilitar la colaboración en la cadena del café.
 
 **Artisan**: Artisan es un software gratuito y de código abierto para registrar y analizar perfiles de tueste, popular entre tostadores y baristas con presupuestos limitados.
 
 **CoffeeMind**: CoffeeMind combina educación y herramientas digitales para baristas, con un enfoque en cata sensorial y formación profesional, ofreciendo módulos para registrar y analizar perfiles de sabor.
-### 2.1.1. Análisis competitivo
-| Competencia                     | CaféLab                              | Cropster                                   | Artisan                              | CoffeeMind                          |
-|---------------------------------|--------------------------------------|--------------------------------------------|--------------------------------------|-------------------------------------|
-| **Precio**                      | Modelo freemium (Plan Base Cafetal) + premium ($29/mes Artista del Tueste, $59/mes D’ Especialidad) con módulos avanzados y conectividad IoT. | Suscripciones premium (desde $99/mes), sin versión gratuita. | Gratuito (código abierto), pero sin soporte oficial ni módulos adicionales. | Suscripción mensual (aprox. $50/mes), enfocada en cata y educación, sin versión gratuita. |
-| **Confiabilidad**               | Alta confiabilidad gracias al sensor IoT TrackSilo, trazabilidad completa y módulos integrados para tueste, cata y calibración. | Procesos estandarizados y confiables, con integración directa con máquinas de tueste. | Confiable para tueste, pero depende de la configuración manual del usuario. | Confiable para cata y educación, pero limitada en otras áreas del proceso del café. |
-| **Información**                 | Dashboard con métricas en tiempo real (almacenamiento, tueste, cata), hexágonos sensoriales y reportes de trazabilidad. | Datos detallados de tueste y cata, con análisis avanzados, pero sin monitoreo de almacenamiento. | Información técnica de tueste, sin análisis automatizado ni reportes avanzados. | Reportes de cata y perfiles sensoriales, pero sin datos de tueste o inventario. |
-| **Limitaciones**                | Requiere conexión a internet para el sensor IoT y la plataforma. Plan freemium con acceso limitado a funciones avanzadas. | Costo elevado, sin IoT para almacenamiento, interfaz compleja para usuarios nuevos. | Sin módulos de cata, calibración o trazabilidad; requiere conocimientos técnicos. | Enfocada solo en cata y educación, sin herramientas para tueste o gestión de inventario. |
-| **Características Diferenciales** | Plataforma integral con sensor IoT TrackSilo, trazabilidad desde el grano hasta la taza, módulos para tueste, cata, calibración y certificaciones. | Especialización en tueste y cata, con integración con equipos de tueste y colaboración en la cadena de suministro. | Software gratuito y personalizable para registrar curvas de tueste. | Enfoque en cata sensorial y educación, con herramientas para análisis de perfiles de sabor. |
-### 2.1.2. Estrategias y tácticas frente a competidores
+
+### 2.1.1. Análisis Competitivo
+
+#### Competitive Analysis
+
+**¿Por qué llevar a cabo este análisis?**  
+Este análisis busca identificar las fortalezas, debilidades y estrategias de los competidores de CaféLab en el mercado del café de especialidad, para entender cómo posicionar nuestra solución (software + IoT) y destacar frente a competidores establecidos.
+
+**¿En la cabeza colocaré por cada competidor su startup, nombre y logo?**  
+En este caso, incluiré el nombre de cada competidor (CaféLab, Cropster, Artisan, CoffeeMind). No incluiré logos ya que no puedo generar imágenes sin confirmación explícita, pero dejaré un espacio donde podrías insertarlos si lo deseas.
+
+|                      | **CaféLab**                              | **Cropster**                                   | **Artisan**                              | **CoffeeMind**                          |
+|----------------------|------------------------------------------|-----------------------------------------------|------------------------------------------|-----------------------------------------|
+| **Overview**         | Plataforma dual (software + IoT) para baristas y cafeterías, con módulos para tueste, cata, calibración, trazabilidad y monitoreo de almacenamiento (TrackSilo). | Plataforma líder para la gestión del café, con herramientas para tueste, inventario, cata y análisis de datos. | Software gratuito y de código abierto para registrar y analizar perfiles de tueste. | Plataforma enfocada en cata sensorial y educación para baristas, con herramientas para análisis de perfiles de sabor. |
+| **Perfil**           | Startup tecnológica enfocada en el café de especialidad, con un sensor IoT (TrackSilo) y un modelo freemium. | Empresa establecida con presencia global, usada por tostadores y cafeterías grandes. | Proyecto de código abierto con una comunidad activa de usuarios técnicos. | Empresa enfocada en educación y cata, con un enfoque en formación profesional. |
+| **Ventaja Competitiva** | Sensor IoT TrackSilo para monitoreo de almacenamiento, trazabilidad completa y precios accesibles. | Integración con máquinas de tueste, análisis avanzados y colaboración en la cadena de suministro. | Gratuito y personalizable, ideal para usuarios con presupuestos limitados. | Especialización en cata sensorial y educación, con herramientas para análisis de sabor. |
+| **¿Qué valor ofrece a los clientes?** | Solución integral que estandariza procesos, mejora la calidad del café y asegura trazabilidad desde el grano hasta la taza. | Optimización de procesos de tueste y cata, con datos detallados para grandes operaciones. | Registro técnico de tuestes a costo cero, con flexibilidad para usuarios avanzados. | Formación y herramientas para mejorar habilidades de cata y análisis sensorial. |
+| **Mercado Objetivo** | Baristas profesionales y cafeterías de especialidad que buscan calidad, consistencia y trazabilidad. | Tostadores, baristas y cafeterías grandes con presupuestos altos. | Tostadores y baristas individuales con conocimientos técnicos y presupuestos limitados. | Baristas y cafeterías enfocadas en cata y formación profesional. |
+| **Estrategias de Marketing** | Campañas educativas sobre trazabilidad y calidad, promoción del plan gratuito y colaboraciones con certificadoras. | Marketing B2B enfocado en tostadores y cafeterías grandes, presencia en eventos internacionales. | Comunidad de código abierto, soporte a través de foros y contribuciones de usuarios. | Marketing educativo con cursos, talleres y contenido sobre cata sensorial. |
+| **Productos & Servicios** | Software con módulos para tueste, cata, calibración, trazabilidad e inventario; sensor IoT TrackSilo. | Software para tueste, cata, inventario y análisis de datos; integración con equipos de tueste. | Software para registro de perfiles de tueste, sin módulos adicionales. | Plataforma para cata digital, análisis sensorial y cursos de formación. |
+
+#### Precios & Costos y Análisis SWOT
+
+|                      | **CaféLab**                              | **Cropster**                                   | **Artisan**                              | **CoffeeMind**                          |
+|----------------------|------------------------------------------|-----------------------------------------------|------------------------------------------|-----------------------------------------|
+| **Precios & Costos** | Modelo freemium (Plan Base Cafetal gratuito) + planes premium ($29/mes Artista del Tueste, $59/mes D’ Especialidad). | Suscripciones premium (desde $99/mes), sin versión gratuita. | Gratuito (código abierto). | Suscripción mensual (aprox. $50/mes), sin versión gratuita. |
+| **Canales de Distribución (Web y/o Móvil)** | Plataforma web y app móvil (iOS/Android) para acceder a módulos y monitorear el sensor TrackSilo. | Plataforma web y app móvil, con integración directa con equipos de tueste. | Descarga gratuita desde su sitio web, sin app móvil oficial. | Plataforma web y app móvil para cata y formación. |
+| **Fortalezas**       | Sensor IoT TrackSilo, trazabilidad completa, solución integral, precios accesibles. | Presencia global, integración con equipos, análisis avanzados. | Gratuito, personalizable, comunidad activa. | Especialización en cata y educación, herramientas sensoriales. |
+| **Debilidades**      | Requiere conexión a internet, plan freemium con funciones limitadas. | Costo elevado, sin IoT, interfaz compleja. | Sin módulos de cata o trazabilidad, requiere conocimientos técnicos. | Limitada a cata y educación, sin herramientas para tueste o inventario. |
+| **Oportunidades**    | Creciente demanda de trazabilidad y sostenibilidad en el café de especialidad, adopción de tecnología por cafeterías pequeñas. | Expansión a mercados emergentes, integración con más equipos. | Ampliación de funcionalidades mediante la comunidad de código abierto. | Expansión a otros aspectos del café, como tueste o calibración. |
+| **Amenazas**         | Competencia de soluciones establecidas como Cropster, resistencia a la adopción tecnológica. | Nuevas startups con soluciones más accesibles, cambios en regulaciones. | Competencia de soluciones integrales como CaféLab, falta de soporte oficial. | Competencia de plataformas integrales, saturación en el mercado de cata. |
+
+### 2.1.2. Estrategias y Tácticas Frente a Competidores
+
 Nuestra estrategia se basa en la diferenciación tecnológica y la accesibilidad para baristas y cafeterías de especialidad, ofreciendo una solución integral que combine software y hardware (IoT). Así, nuestras tácticas clave son:
 
 🟩 **Optimizar la Experiencia del Usuario en la Plataforma**  
