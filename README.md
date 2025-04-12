@@ -247,8 +247,47 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
+En esta sección se brinda la descripción de nuestra startup, producto y miembros de equipo.
 ### 1.1.1. Descripción de la Startup
+**Café Metrix** es una startup enfocada en desarrollar soluciones tecnológicas para la industria del café de especialidad. Nace de la pasión por combinar tecnología accesible con el arte del café.
+
+Así, nace **Café Lab**, el cual es un sistema integral diseñado para baristas profesionales y cafeterías de especialidad que busca resolver dos problemas fundamentales en la industria: la falta de herramientas integradas para documentar, replicar y compartir procesos clave del café, y la desarticulación entre el tueste del grano y la experiencia final en taza.
+
+La solución consiste en una plataforma dual que combina software y componentes IoT, proporcionando control total sobre el café desde el grano verde hasta la preparación final. Permite documentar perfiles de tueste, controlar el almacenamiento del café verde, digitalizar procesos de calibración, conectar la forma en que tuestan el café con cómo sabe finalmente (alineando parámetros técnicos del tostado con el perfil en taza) y reforzar la transparencia de la cadena productiva (mostrando de dónde viene el café y cómo se ha procesado en cada etapa).
+
+**Misión: **elevar la calidad y consistencia del café, documentando cada etapa del proceso para garantizar resultados excepcionales y sostenibles.
+
+**Visión: **Ser líder en el estándar tecnológico que revoluciona la industria del café de especialidad.
+
+#### Logo de Café Metrix:
+
+#### Logo de Café Lab:
+
 ### 1.1.2. Perfiles de integrantes del equipo
+<table border="1">
+  <tr>
+    <td><img src="public/assets/images/integrantes/adriand.jpeg" alt="Adrian Donayre" width="150"></td>
+    <td>Mi nombre es <strong>Adrian Donayre</strong>, tengo 19 
+    años y actualmente estoy cursando el quinto ciclo de la 
+    carrera de Ingeniería de Software en la UPC. Tengo habilidad en los lenguajes C++ y javascript. Así mismo, cuento con experiencia en monitoreo de infraestructura en herramientas como Azure, NR y Kemp. Personalmente, opino que lo que hagamos en la universidad se verá reflejado en nuestra vida profesional. Por ello me esfuerzo en ampliar mis conocimientos y conseguir nuevas experiencias que me sumen para seguir mejorando.</td>
+  </tr>
+  <tr>
+    <td>Fila 2, Columna 1</td>
+    <td>Fila 2, Columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 3, Columna 1</td>
+    <td>Fila 3, Columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 4, Columna 1</td>
+    <td>Fila 4, Columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 5, Columna 1</td>
+    <td>Fila 5, Columna 2</td>
+  </tr>
+</table>
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
