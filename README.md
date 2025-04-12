@@ -421,9 +421,21 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+**Administradores y dueños de cafeterias de especialidad**
+![User Persona - Fernando Goijman](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/User%20Persona/UserPersona_FernandoGoijman.png)
+
+**Barista Profesional**
+![User Persona - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/User%20Persona/UserPersona_ValeriaRamos.png)
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
+**Administradores y dueños de cafeterias de especialidad**
+![Empathy Mapping - Fernando Goijman](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Emphaty%20Mapping/EmphatyMapping_FernandoGoijman.png)
+
+**Barista Profesional**
+![Empathy Mapping - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Emphaty%20Mapping/EmpathyMapping_ValeriaRamos.png)
+
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
 
