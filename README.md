@@ -442,6 +442,32 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas 
+**Entrevistas - Dueños/Administradores de Cafeterías de Especialidad y Baristas Profesionales**
+
+#### Entrevista a Dueños o Administradores de Cafeterías de Especialidad
+
+
+| Campo                         | Información                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------|
+| Entrevistado  1              | Omar Ortiz                                                                                          |
+| Edad                         | 47                                                                                                   |
+| Distrito                     | San Borja                                                                                           |
+| ![Foto de Omar Ortiz](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Entrevistas/EntrevistaOmarOrtiz.png) | Omar cuenta con una certificación internacional como barista por la SCA y actualmente es dueño de una cafetería especializada. Tiene un conocimiento sólido sobre los procesos del café, desde la selección del grano y sus características (como altura, proceso y humedad), hasta el control del tueste y la calibración diaria de las bebidas. Se encarga personalmente del almacenamiento y monitoreo del grano, utilizando herramientas como Excel para llevar registros de peso, rendimiento y trazabilidad. Aunque se maneja bien con herramientas digitales básicas, reconoce que ciertos procesos manuales podrían optimizarse mediante una plataforma digital especializada. Publica contenido educativo sobre café en LinkedIn, lo cual también refuerza su rol como formador dentro del rubro. |
+| Timing:                      |                                                                                                      |
+
+---
+
+#### Entrevista a Baristas Profesionales
+
+| Campo                         | Información                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------|
+| Entrevistado    1            | Alejandra Avellaneda                                                                                 |
+| Edad                         | 27                                                                                                   |
+| Distrito                     | Surco                                                                                                |
+| ![Foto de Alejandra Avellaneda](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Entrevistas/EntrevistaAlejandraAvellaneda.png) | Alejandra trabaja en el área operativa de una cadena de cafeterías, donde se encarga de estandarizar las recetas y asegurar la consistencia en la calidad del café entre tiendas. Tiene conocimientos técnicos sobre calibración, evaluación sensorial y trazabilidad del grano, y maneja protocolos detallados para eventos fuera del entorno habitual. Utiliza balanzas de precisión y máquinas programables como parte de sus herramientas diarias. Si bien reconoce que ciertos datos sensibles no pueden compartirse por temas de confidencialidad, considera que una plataforma digital que integre información de trazabilidad, tueste y calidad sensorial podría ser de gran valor para su operación. |
+| Timing:                      |                                                                                                      |
+
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
@@ -545,10 +571,8 @@ En la presente sección se ilustra el recorrido end-to-end del sistema integral 
 - **Allied Market Research.** (2022). *Specialty Coffee Market by Product Type and Distribution Channel: Global Opportunity Analysis and Industry Forecast, 2021–2027*. [https://www.alliedmarketresearch.com](https://www.alliedmarketresearch.com)
 - **International Coffee Organization (ICO).** (2023). *World Coffee Consumption Statistics*. [https://www.ico.org](https://www.ico.org)
 
+
 # Anexos
-
-
-
 
 
 
