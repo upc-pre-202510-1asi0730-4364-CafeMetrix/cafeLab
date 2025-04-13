@@ -255,9 +255,9 @@ Así, nace **Café Lab**, el cual es un sistema integral diseñado para baristas
 
 La solución consiste en una plataforma dual que combina software y componentes IoT, proporcionando control total sobre el café desde el grano verde hasta la preparación final. Permite documentar perfiles de tueste, controlar el almacenamiento del café verde, digitalizar procesos de calibración, conectar la forma en que tuestan el café con cómo sabe finalmente (alineando parámetros técnicos del tostado con el perfil en taza) y reforzar la transparencia de la cadena productiva (mostrando de dónde viene el café y cómo se ha procesado en cada etapa).
 
-**Misión: **elevar la calidad y consistencia del café, documentando cada etapa del proceso para garantizar resultados excepcionales y sostenibles.
+**Misión**: Elevar la calidad y consistencia del café, documentando cada etapa del proceso para garantizar resultados excepcionales y sostenibles.
 
-**Visión: **Ser líder en el estándar tecnológico que revoluciona la industria del café de especialidad.
+**Visión**: Ser líder en el estándar tecnológico que revoluciona la industria del café de especialidad.
 
 #### Logo de Café Metrix:
 
