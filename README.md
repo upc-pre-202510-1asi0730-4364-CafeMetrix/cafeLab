@@ -633,9 +633,34 @@ En la presente sección se ilustra el recorrido end-to-end del sistema integral 
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
+
+El Domain Driven Design (DDD) busca establecer un entendimiento común del dominio que engloba el espacio del problema, fomentando una mejor colaboración entre desarrolladores y expertos del dominio. Este enfoque no se limita a emplear un lenguaje ubicuo, sino que incluye un conjunto de patrones, procesos y diagramas de la arquitectura del sistema, artefactos diseñados para alinear el software con el dominio y fortalecer la perspectiva compartida que promueve DDD.
+
 ### 4.6.1. Software Architecture Context Diagram.
+
+![image](https://github.com/user-attachments/assets/38460830-585d-4833-ae1a-4afa48e16528)
+
+
 ### 4.6.2. Software Architecture Container Diagrams.
+
+![image](https://github.com/user-attachments/assets/53a50408-68b1-4db5-bfc8-d0b588a4f9d8)
+
+
 ### 4.6.3. Software Architecture Components Diagrams.
+
+**Log-In Bounded Context**
+
+![structurizr-92816-ComponentsDiagram](https://github.com/user-attachments/assets/d74302e8-31a2-45de-b9a7-44bd5b5aa37d)
+
+**Companies Bounded Context**
+
+![structurizr-92816-ComponentsDiagram (1)](https://github.com/user-attachments/assets/eec71779-f7f1-4c00-850b-a76e28dd7ed8)
+
+**Crop Bounded Context**
+
+![structurizr-92816-ComponentsDiagram (2)](https://github.com/user-attachments/assets/5b179005-3810-4671-8366-22a662045acf)
+
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 ### 4.7.2. Class Dictionary.
