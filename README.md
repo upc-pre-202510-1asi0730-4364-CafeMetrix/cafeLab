@@ -554,7 +554,7 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
   </tr>
   <tr>
     <td>Distrito</td>
-    <td></td>
+    <td>San Borja</td>
   </tr>
   <tr>
     <td><img src="public\assets\images\Entrevistas\EntrevistaAngelaGuillermo.png" alt="Foto de Anyela Guillermo" width="7000"></td>
