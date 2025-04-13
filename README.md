@@ -441,6 +441,42 @@ Promover buenas prácticas de almacenamiento, tueste y cata a través de conteni
 Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básico de tuestes y catas), e incentivos como acceso a hexágonos sensoriales personalizados o descuentos en los planes premium durante los primeros meses, para atraer a usuarios iniciales, validar el modelo y generar confianza frente a competidores como Cropster y CoffeeMind.
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+#### Preguntas dirigidas a Baristas Profesionales:
+
+**Preguntas principales:**
+
+1. ¿Qué aspecto de tu método actual para registrar tus perfiles de tueste y recetas te gustaría que fuera más eficiente o preciso? ¿Hay alguna información valiosa que actualmente sea difícil de capturar o que lleve demasiado tiempo documentar?
+2. ¿Qué sistema has desarrollado para capturar y gestionar toda la información sobre origen, altitud, variedad y procesamiento? ¿Hay algún dato que te gustaría replicar más veces pero es complicado hacerlo con tus métodos actuales?
+3. ¿Qué sistema has empleado para capturar y gestionar toda la información sobre origen, altitud, variedad y procesamiento? ¿Hay algún dato que te gustaría registrar pero es complicado hacerlo con tus métodos actuales?
+4. ¿Qué estrategia has desarrollado para documentar y ajustar los parámetros de molienda para tus diferentes métodos de preparación? ¿Cuál es el desafío más frustrante que enfrentas al intentar mantener esta precisión?
+5. ¿Qué método has encontrado más efectivo para registrar tus evaluaciones sensoriales y conectarlas directamente con tus perfiles de tueste?
+6. ¿Qué tipo de información te han solicitado jueces o clientes sofisticados que te haya costado proporcionar de manera profesional? ¿Cómo has resuelto este desafío?
+7. ¿Qué sistema has desarrollado para transportar todo tu conocimiento técnico y artístico en competencias, consultorías o colaboraciones? ¿Cuál es el punto débil de este proceso que te gustaría resolver?
+8. ¿Qué metodología has implementado para rastrear el estado de tu café verde y tostado a lo largo del tiempo? ¿Qué información adicional sobre tus lotes te ayudaría a tomar decisiones más precisas sobre su uso óptimo?
+9. ¿Cuáles son esos puntos críticos que encuentras más desafiantes al intentar documentar y reproducir una curva de tueste específica? ¿Qué soluciones creativas has desarrollado para superar estas limitaciones?
+10. ¿Qué herramientas digitales has incorporado que realmente han transformado algún aspecto de tu proceso? ¿Dónde sientes que la tecnología actual todavía te deja con necesidades sin resolver?
+11. Si existiera una plataforma integral que conectara cada fase del proceso —desde la recepción del grano verde hasta la experiencia final en taza—, ¿qué funcionalidades específicas considerarías absolutamente esenciales? Considerando el impacto en tu eficiencia y calidad.
+
+---
+
+#### Preguntas dirigidas a Dueños/Administradores de Cafeterías de Especialidad:
+
+**Preguntas principales:**
+
+1. ¿Qué certificaciones son importantes para tu negocio (orgánico, comercio justo, etc.)? ¿Cómo gestionas actualmente la documentación relacionada?
+2. ¿Cómo comunicas a tus clientes la información sobre las características especiales del café que ofreces? ¿Cuál es la información más solicitada por ellos?
+3. ¿Cómo registras y evalúas a tus proveedores de café verde? ¿Qué datos son cruciales para tu proceso de selección?
+4. ¿Cómo controlas las condiciones de almacenamiento de tus granos de café verde? ¿Has experimentado pérdidas por deterioro y cómo podrías haberlas evitado?
+5. ¿Qué estrategias implementas para mantener la consistencia en la calidad del café servido cuando cuentas con diferentes baristas en tu equipo?
+6. ¿Qué sistema has desarrollado para transportar todo tu conocimiento técnico y artístico en competencias, eventos o colaboraciones? ¿Cuál es el punto débil de este proceso que te gustaría resolver?
+7. ¿Cómo documentas y transmites el conocimiento técnico sobre tus cafés a tu equipo? ¿Qué herramientas utilizas para este proceso?
+8. ¿Cómo calculan actualmente el rendimiento y la rentabilidad por lote de café? ¿Qué métricas te gustaría poder medir con más precisión?
+9. ¿Qué información consideras fundamental para garantizar la trazabilidad completa desde el origen hasta la taza? ¿Cómo la organizas actualmente?
+10. ¿Qué herramientas digitales utilizas actualmente para la gestión de tu cafetería? ¿Qué procesos siguen siendo principalmente manuales o análogos?
+11. Si existiera una plataforma integral que conectara cada fase del proceso —desde la recepción del grano verde hasta la experiencia final en taza—, ¿qué funcionalidades específicas considerarías absolutamente esenciales? Considerando el impacto en tu eficiencia y calidad.
+
+---
 ### 2.2.2. Registro de entrevistas 
 **Entrevistas - Dueños/Administradores de Cafeterías de Especialidad y Baristas Profesionales**
 
