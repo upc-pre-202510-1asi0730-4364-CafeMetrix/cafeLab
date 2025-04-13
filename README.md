@@ -557,7 +557,7 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
     <td></td>
   </tr>
   <tr>
-    <td><img src="public\assets\images\Entrevistas\EntrevistaAngelaGuillermo.png" alt="Foto de Anyela Guillermo" width="3500"></td>
+    <td><img src="public\assets\images\Entrevistas\EntrevistaAngelaGuillermo.png" alt="Foto de Anyela Guillermo" width="7000"></td>
     <td>Angela es una barista con 3 años de experiencia en café de especialidad y participante en competencias de latte art. Sus principales desafíos incluyen mantener la consistencia entre baristas, documentar recetas, encontrar temperaturas ideales para métodos filtrados, preservar propiedades del café mediante almacenamiento adecuado y lograr precisión en calibraciones. Aunque utiliza registros manuales, identifica la necesidad de herramientas tecnológicas para evaluación del café, análisis de variedades y monitoreo de almacenamiento. Considera valioso implementar una plataforma integral que conecte todo el proceso del café y espacios tipo laboratorio que integren teoría y práctica, desde el cultivo hasta la taza final.</td>
   </tr>
   <tr>
