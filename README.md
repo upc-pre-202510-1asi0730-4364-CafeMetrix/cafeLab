@@ -293,6 +293,11 @@ La solución consiste en una plataforma dual que combina software y componentes 
 ### 1.2.1 Antecedentes y problemática
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+Nuestro sistema para baristas y cafeterías de especialidad fue diseñado para lograr que los usuarios puedan documentar, replicar y mejorar procesos como el tueste, la preparación y la cata, además de asegurar trazabilidad y control desde el grano verde hasta la taza.
+
+Hemos observado que el producto no está cumpliendo completamente con estos objetivos, ya que los procesos están desarticulados, no hay conexión entre etapas como el almacenamiento, el tueste y la extracción, y muchos datos importantes se pierden o no se registran. Esto provoca errores, variabilidad en la calidad, pérdida de información y poca confianza del cliente final.
+
+¿Cómo podríamos mejorar la plataforma para que los usuarios sean más exitosos mediante una integración real de procesos, alertas en tiempo real sobre el estado del grano, y herramientas que permitan ver y comparar datos técnicos y sensoriales, basándonos en métricas como consistencia en recetas, reducción de pérdidas y mejora en la trazabilidad?
 #### 1.2.2.2. Lean UX Assumptions
 **¿Quién es el usuario?**
 
@@ -603,6 +608,7 @@ En la presente sección se ilustra el recorrido end-to-end del sistema integral 
 
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
+
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
