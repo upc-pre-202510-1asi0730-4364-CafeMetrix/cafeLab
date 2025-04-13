@@ -361,6 +361,30 @@ Visualmente, el producto debe ser claro, moderno y profesional, con un diseño m
 
 ## 1.3. Segmentos objetivo
 
+### Segmentación del Dominio del Problema
+Esta sección describe a los segmentos clave vinculados al dominio del problema en el contexto del café de especialidad, integrando características demográficas y datos estadísticos de respaldo, a fin de contextualizar la necesidad de soluciones tecnológicas específicas para cada perfil de usuario.
+#### 1. Baristas Profesionales
+
+El segmento de baristas profesionales está compuesto por individuos altamente capacitados que participan activamente en múltiples etapas del proceso del café, incluyendo la compra de grano verde, su almacenamiento, tueste, molienda y preparación final. Este perfil se caracteriza por un alto nivel de especialización técnica y un enfoque en la excelencia sensorial y la estandarización de procesos.
+
+Demográficamente, según la **Specialty Coffee Association (SCA)**, este grupo suele estar integrado por personas entre los 25 y 40 años, con una creciente presencia de mujeres (aproximadamente el 34% del total de profesionales certificados por la SCA en América Latina, 2022). Se concentran principalmente en zonas urbanas de alto dinamismo cultural y económico, donde el consumo de café de especialidad ha crecido sostenidamente en los últimos años. En países latinoamericanos como México, Colombia y Perú, se estima que el número de baristas certificados ha aumentado entre un 15% y 20% anual desde 2018 (SCA, 2023).
+
+Desde el punto de vista funcional, estos profesionales requieren registrar curvas de tueste con precisión, ajustar perfiles según el tipo de grano y replicar recetas bajo estándares estrictos de control de calidad. Buscan herramientas que refuercen su propuesta de valor mediante el uso de datos técnicos (temperaturas, tiempos, tasas de desarrollo) y sensoriales (puntajes SCA, notas de cata, intensidad aromática), especialmente en contextos competitivos, consultorías o servicios personalizados a clientes exigentes.
+
+La trazabilidad, la consistencia y la capacidad de documentar procesos son aspectos críticos para este grupo, que actúa como actor clave en la profesionalización y tecnificación del sector cafetalero.
+
+#### 2. Cafeterías de Especialidad (Administradores y Dueños)
+
+El segundo segmento corresponde a administradores y propietarios de cafeterías de especialidad, cuya operación se centra en la oferta de cafés de origen con atributos diferenciados. Este grupo combina un enfoque comercial con una orientación ética hacia la transparencia, la sostenibilidad y la relación directa con productores.
+
+A nivel demográfico, estos actores suelen tener entre 30 y 50 años, con formación en administración, gastronomía o emprendimiento. Según el informe *“Coffee Shops Market in Latin America”* de **Euromonitor International (2023)**, más del 70% de las cafeterías de especialidad en crecimiento se ubican en centros urbanos y están dirigidas por emprendedores que gestionan entre 3 y 10 empleados por unidad de negocio.
+
+En cuanto a tendencias, el crecimiento del mercado de café de especialidad ha sido del 9,4% anual en América Latina entre 2017 y 2022, y se espera que continúe con una tasa superior al 7% anual hasta 2027 (**Allied Market Research, 2022**). Este crecimiento está vinculado a la demanda de consumidores por productos con origen claro, procesos sostenibles y diferenciación sensorial.
+
+Las necesidades de este segmento se enfocan en asegurar la trazabilidad del grano desde su origen hasta la taza, con el fin de fortalecer la fidelización del cliente mediante narrativas de origen verificables y certificaciones como **ORGÁNICO**, **COMERCIO JUSTO** y **MEDIO AMBIENTE**. Asimismo, requieren herramientas que integren gestión de inventario, seguimiento del proceso de tueste y control de calidad en el punto de venta.
+
+Estas cafeterías no solo representan una oportunidad de mercado, sino también un nodo estratégico en la cadena de valor, ya que comunican directamente con el consumidor final, trasladando los valores de sostenibilidad, calidad y origen.
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
@@ -517,7 +541,10 @@ En la presente sección se ilustra el recorrido end-to-end del sistema integral 
 # Video About-the-Team.
 # Bibliografía
 # Anexos
-
+- **Specialty Coffee Association (SCA).** (2022). *Annual Report: Certification and Professional Development Statistics*.
+- **Euromonitor International.** (2023). *Coffee Shops Market in Latin America*.
+- **Allied Market Research.** (2022). *Specialty Coffee Market by Product Type and Distribution Channel: Global Opportunity Analysis and Industry Forecast, 2021–2027*.
+- **International Coffee Organization (ICO).** (2023). *World Coffee Consumption Statistics*.
 
 
 
