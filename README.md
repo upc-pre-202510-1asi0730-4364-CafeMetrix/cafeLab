@@ -329,7 +329,7 @@ Visualmente, el producto debe ser claro, moderno y profesional, con un diseño m
 #### 1.2.2.4. Lean UX Canvas
 <div style="text-align:center;">
     <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <tr style="background-color:rgb(164, 61, 61); color: white; font-weight: bold;">
+        <tr>
             <th style="text-align:center; border: 1px solid #ddd;">Business Problem</th>
             <th style="text-align:center; border: 1px solid #ddd;">Business Outcomes</th>
             <th style="text-align:center; border: 1px solid #ddd;">Users & Customers</th>
@@ -344,7 +344,7 @@ Visualmente, el producto debe ser claro, moderno y profesional, con un diseño m
     </table>
     <br>
     <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <tr style="background-color:rgb(164, 61, 61); color: white; font-weight: bold;">
+        <tr>
             <th style="text-align:center; border: 1px solid #ddd;">Solution Ideas</th>
             <th style="text-align:center; border: 1px solid #ddd;">Hypothesis Statement</th>
             <th style="text-align:center; border: 1px solid #ddd;">What's the Most Important Thing We Need to Learn First?</th>
@@ -478,31 +478,93 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 
 ---
 ### 2.2.2. Registro de entrevistas 
-**Entrevistas - Dueños/Administradores de Cafeterías de Especialidad y Baristas Profesionales**
 
-#### Entrevista a Dueños o Administradores de Cafeterías de Especialidad
+#### Entrevistas a dueños o administradores de cafeterías de especialidad
 
-
-| Campo                         | Información                                                                                          |
-|------------------------------|------------------------------------------------------------------------------------------------------|
-| Entrevistado  1              | Omar Ortiz                                                                                          |
-| Edad                         | 47                                                                                                   |
-| Distrito                     | San Borja                                                                                           |
-| ![Foto de Omar Ortiz](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Entrevistas/EntrevistaOmarOrtiz.png) | Omar cuenta con una certificación internacional como barista por la SCA y actualmente es dueño de una cafetería especializada. Tiene un conocimiento sólido sobre los procesos del café, desde la selección del grano y sus características (como altura, proceso y humedad), hasta el control del tueste y la calibración diaria de las bebidas. Se encarga personalmente del almacenamiento y monitoreo del grano, utilizando herramientas como Excel para llevar registros de peso, rendimiento y trazabilidad. Aunque se maneja bien con herramientas digitales básicas, reconoce que ciertos procesos manuales podrían optimizarse mediante una plataforma digital especializada. Publica contenido educativo sobre café en LinkedIn, lo cual también refuerza su rol como formador dentro del rubro. |
-| Timing:                      |                                                                                                      |
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 1</td>
+    <td>Omar Ortiz</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>47</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Borja</td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Entrevistas\EntrevistaOmarOrtiz.png" alt="Foto de Omar Ortiz"></td>
+    <td>Omar cuenta con una certificación internacional como barista por la SCA y actualmente es dueño de una cafetería especializada. Tiene un conocimiento sólido sobre los procesos del café, desde la selección del grano y sus características (como altura, proceso y humedad), hasta el control del tueste y la calibración diaria de las bebidas. Se encarga personalmente del almacenamiento y monitoreo del grano, utilizando herramientas como Excel para llevar registros de peso, rendimiento y trazabilidad. Aunque se maneja bien con herramientas digitales básicas, reconoce que ciertos procesos manuales podrían optimizarse mediante una plataforma digital especializada. Publica contenido educativo sobre café en LinkedIn, lo cual también refuerza su rol como formador dentro del rubro.</td>
+  </tr>
+  <tr>
+    <td>Timing:</td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 
-#### Entrevista a Baristas Profesionales
+#### Entrevistas a baristas profesionales
 
-| Campo                         | Información                                                                                          |
-|------------------------------|------------------------------------------------------------------------------------------------------|
-| Entrevistado    1            | Alejandra Avellaneda                                                                                 |
-| Edad                         | 27                                                                                                   |
-| Distrito                     | Surco                                                                                                |
-| ![Foto de Alejandra Avellaneda](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Entrevistas/EntrevistaAlejandraAvellaneda.png) | Alejandra trabaja en el área operativa de una cadena de cafeterías, donde se encarga de estandarizar las recetas y asegurar la consistencia en la calidad del café entre tiendas. Tiene conocimientos técnicos sobre calibración, evaluación sensorial y trazabilidad del grano, y maneja protocolos detallados para eventos fuera del entorno habitual. Utiliza balanzas de precisión y máquinas programables como parte de sus herramientas diarias. Si bien reconoce que ciertos datos sensibles no pueden compartirse por temas de confidencialidad, considera que una plataforma digital que integre información de trazabilidad, tueste y calidad sensorial podría ser de gran valor para su operación. |
-| Timing:                      |                                                                                                      |
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 1</td>
+    <td>Alejandra Avellaneda</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Surco</td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Entrevistas\EntrevistaAlejandraAvellaneda.png" alt="Foto de Alejandra Avellaneda"></td>
+    <td>Alejandra trabaja en el área operativa de una cadena de cafeterías, donde se encarga de estandarizar las recetas y asegurar la consistencia en la calidad del café entre tiendas. Tiene conocimientos técnicos sobre calibración, evaluación sensorial y trazabilidad del grano, y maneja protocolos detallados para eventos fuera del entorno habitual. Utiliza balanzas de precisión y máquinas programables como parte de sus herramientas diarias. Si bien reconoce que ciertos datos sensibles no pueden compartirse por temas de confidencialidad, considera que una plataforma digital que integre información de trazabilidad, tueste y calidad sensorial podría ser de gran valor para su operación.</td>
+  </tr>
+  <tr>
+    <td>Timing:</td>
+    <td></td>
+  </tr>
+</table>
 
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 2</td>
+    <td>Anyela Guillermo</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Entrevistas\EntrevistaAngelaGuillermo.png" alt="Foto de Anyela Guillermo" width="3500"></td>
+    <td>Angela es una barista con 3 años de experiencia en café de especialidad y participante en competencias de latte art. Sus principales desafíos incluyen mantener la consistencia entre baristas, documentar recetas, encontrar temperaturas ideales para métodos filtrados, preservar propiedades del café mediante almacenamiento adecuado y lograr precisión en calibraciones. Aunque utiliza registros manuales, identifica la necesidad de herramientas tecnológicas para evaluación del café, análisis de variedades y monitoreo de almacenamiento. Considera valioso implementar una plataforma integral que conecte todo el proceso del café y espacios tipo laboratorio que integren teoría y práctica, desde el cultivo hasta la taza final.</td>
+  </tr>
+  <tr>
+    <td>Timing:</td>
+    <td></td>
+  </tr>
+</table>
 
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
