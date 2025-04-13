@@ -429,6 +429,17 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
+En la presente sección se ilustra el recorrido end-to-end del sistema integral para baristas y cafeterías de especialidad, centrado en el segmento objetivo: dueños y gerentes de cafeterías. El User Journey Mapping describe las distintas etapas por las que atraviesa el usuario, desde el momento en que toma conocimiento de la solución tecnológica, pasando por su decisión de registrarse y configurarla según las necesidades de su operación, su uso activo en el día a día para estandarizar procesos y mejorar la trazabilidad, hasta llegar a la eventual decisión de dejar de utilizarla, ya sea por motivos estratégicos o de presupuesto.
+
+**Dueño de cafeteria:**
+![Journey Map - Fernando Goijman](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/JourneyMap/CustomerjourneymapFernandoGoijman.png)
+
+
+**Barista Profesional:**
+![Journey Map - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/JourneyMap/CustomerjourneymapValeriaRamos.png)
+
+
+
 ### 2.3.4. Empathy Mapping
 **Administradores y dueños de cafeterias de especialidad**
 ![Empathy Mapping - Fernando Goijman](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Empaty%20Mapping/EmpatyMapping_FernandoGoijman.png)
