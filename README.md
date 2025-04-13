@@ -541,10 +541,10 @@ En la presente sección se ilustra el recorrido end-to-end del sistema integral 
 # Video About-the-Team.
 # Bibliografía
 # Anexos
-- **Specialty Coffee Association (SCA).** (2022). *Annual Report: Certification and Professional Development Statistics*.
-- **Euromonitor International.** (2023). *Coffee Shops Market in Latin America*.
-- **Allied Market Research.** (2022). *Specialty Coffee Market by Product Type and Distribution Channel: Global Opportunity Analysis and Industry Forecast, 2021–2027*.
-- **International Coffee Organization (ICO).** (2023). *World Coffee Consumption Statistics*.
+- **Specialty Coffee Association (SCA).** (2022). *Annual Report: Certification and Professional Development Statistics*. [https://sca.coffee](https://sca.coffee)
+- **Euromonitor International.** (2023). *Coffee Shops Market in Latin America*. [https://www.euromonitor.com](https://www.euromonitor.com)
+- **Allied Market Research.** (2022). *Specialty Coffee Market by Product Type and Distribution Channel: Global Opportunity Analysis and Industry Forecast, 2021–2027*. [https://www.alliedmarketresearch.com](https://www.alliedmarketresearch.com)
+- **International Coffee Organization (ICO).** (2023). *World Coffee Consumption Statistics*. [https://www.ico.org](https://www.ico.org)
 
 
 
