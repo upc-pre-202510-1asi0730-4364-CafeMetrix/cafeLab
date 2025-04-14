@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>README.md</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+html,footer,header{
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Custom MD PDF CSS
+ */
+html,footer,header{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+
+ }
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///Users/carlosfredy/Documents/Aplicaciones%20Web/Proyecto/cafeLab/R%3A%5C2.Travail%5C1.Enseignement%5CCours%5C_1.Outils%5C2.Developpement%5C1.SCSS%5Cmain.css" type="text/css"><link rel="stylesheet" href="file:///Users/carlosfredy/Documents/Aplicaciones%20Web/Proyecto/cafeLab/D%3A%5Crdaros%5CCours%5C_1.Outils%5C2.Developpement%5C1.SCSS%5Cmain.css" type="text/css">
+</head>
+
+<body>
+    <h1 align="center">Informe de Trabajo Final</h1>
+<strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+<br><strong>Ingenier&#xED;a de sistemas y Computaci&#xF3;n | Ingenier&#xED;a de software</strong>
+<!--Logo UPC-->
+<p align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png">
+</p>
+<!--Profesor, seccion, etc-->
+<p align="left">
+    <strong>Docente: </strong>Alex Humberto S&#xE1;nchez Ponce<br><!--El br es para el salto de línea-->
+    <strong>Secci&#xF3;n: </strong>4364<br>
+    <strong>Ciclo: </strong>2025 - 1<br>
+    <strong>Startup: </strong>Camafeo<br>
+    <strong>Producto: </strong>Caf&#xE9; Lab
+</p>
+<!--Aplicaciones Web-->
+<h1 align="center">APLICACIONES WEB</h1>
+<!--Nombres de integrantes-->
+<div style="text-align:center;">
+    <h3><p align="center">Integrantes del equipo:</p></h3>
+    <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse;">
+        <tr>
+            <th style="text-align:center; border: 1px solid #ddd;">Nombres y Apellidos</th>
+            <th style="text-align:center; border: 1px solid #ddd;">C&#xF3;digo</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">Renzo Sebastian Uribe Livia</td>
+            <td style="border: 1px solid #ddd;">U202311745</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">Joseph Manuel Chavez Viera</td>
+            <td style="border: 1px solid #ddd;">U202314019</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">Adrian Ricardo Donayre Alvarez</td>
+            <td style="border: 1px solid #ddd;">U202310187</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">Christian Fabrizio Inga Orihuela</td>
+            <td style="border: 1px solid #ddd;">20231C111</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd;">Carlos Fredy Fernandez Camayo</td>
+            <td style="border: 1px solid #ddd;">U202320083</td>
+        </tr>
+    </table>
+</div>
+<!--FECHA QUE SE MODIFICA-->
+<div align="center" style="font-weight: bold;">24 DE ABRIL DE 2025</div><br>
+<!--Registro de versiones-->
+<h1 align="left">Registro de versiones del Informe</h1>
+<br>
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Versi&#xF3;n</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Fecha</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Autores</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripci&#xF3;n</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">TB1</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">24/04/2025</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>Renzo Uribe</li>
+        <li>Joseph Chavez</li>
+        <li>Adrian Donayre</li>
+        <li>Christian Inga</li>
+        <li>Carlos Fernandez</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">            
+      <ul>
+        <li>Cap&#xED;tulo I: Introducci&#xF3;n</li>
+        <li>Cap&#xED;tulo II: Requirements Elicitation &amp; Analysis</li>
+        <li>Cap&#xED;tulo III: Requirements Specification</li>
+        <li>Cap&#xED;tulo IV: Product Design</li>
+        <li>Cap&#xED;tulo V: Product Implementation, Validation &amp; Deployment hasta el primer sprint</li>
+        <li>Avance de Conclusiones, Bibliograf&#xED;a y Anexos</li>
+      </ul>
+    </td>
+  </tr>
+</table><br>
+<!--Link al repositorio en la organización-->
+<h1 id="project-report-collaboration-insights">Project Report Collaboration Insights</h1>
+<p>Link de repositorio del reporte: <a href="https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab">https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab</a></p>
+<h1>TB1</h1>
+<p>Para el desarrollo del informe perteneciente a la entrega TB1, se dividi&#xF3; la implementaci&#xF3;n de secciones de la siguiente forma para cada integrante del equipo:</p>
+<table align="center" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Tareas Asignadas</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Renzo Uribe</td>
+    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Joseph Chavez</td>
+    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Adrian Donayre</td>
+    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Christian Inga</td>
+    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Carlos Fernandez</td>
+    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+  </tr>
+</table>
+<!--ÍNDICE-->
+<h1 id="contenido">Contenido</h1>
+<p><a href="#student-outcome">Student Outcome</a></p>
+<p><a href="#cap%C3%ADtulo-i-introducci%C3%B3n">Capítulo I: Introducción</a></p>
+<ul>
+<li><a href="#11-startup-profile">1.1. Startup Profile</a>
+<ul>
+<li><a href="#111-descripci%C3%B3n-de-la-startup">1.1.1. Descripción de la Startup</a></li>
+<li><a href="#112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</a></li>
+</ul>
+</li>
+<li><a href="#12-solution-profile">1.2. Solution Profile</a>
+<ul>
+<li><a href="#121-antecedentes-y-problem%C3%A1tica">1.2.1 Antecedentes y problemática</a></li>
+<li><a href="#122-lean-ux-process">1.2.2 Lean UX Process</a>
+<ul>
+<li><a href="#1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</a></li>
+<li><a href="#1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</a></li>
+<li><a href="#1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</a></li>
+<li><a href="#1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#13-segmentos-objetivo">1.3. Segmentos objetivo</a></li>
+<li><a href="#cap%C3%ADtulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation &amp; Analysis</a>
+<ul>
+<li><a href="#21-competidores">2.1. Competidores</a>
+<ul>
+<li><a href="#211-an%C3%A1lisis-competitivo">2.1.1. Análisis competitivo</a></li>
+<li><a href="#212-estrategias-y-t%C3%A1cticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</a></li>
+</ul>
+</li>
+<li><a href="#22-entrevistas">2.2. Entrevistas</a>
+<ul>
+<li><a href="#221-dise%C3%B1o-de-entrevistas">2.2.1. Diseño de entrevistas</a></li>
+<li><a href="#222-registro-de-entrevistas">2.2.2. Registro de entrevistas</a></li>
+<li><a href="#223-an%C3%A1lisis-de-entrevistas">2.2.3. Análisis de entrevistas</a></li>
+</ul>
+</li>
+<li><a href="#23-needfinding">2.3. Needfinding</a>
+<ul>
+<li><a href="#231-user-personas">2.3.1. User Personas</a></li>
+<li><a href="#232-user-task-matrix">2.3.2. User Task Matrix</a></li>
+<li><a href="#233-user-journey-mapping">2.3.3. User Journey Mapping</a></li>
+<li><a href="#234-empathy-mapping">2.3.4. Empathy Mapping</a></li>
+<li><a href="#235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping</a></li>
+</ul>
+</li>
+<li><a href="#24-ubiquitous-language">2.4. Ubiquitous Language</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-iii-requirements-specification">Capítulo III: Requirements Specification</a>
+<ul>
+<li><a href="#31-to-be-scenario-mapping">3.1. To-Be Scenario Mapping</a></li>
+<li><a href="#32-user-stories">3.2. User Stories</a></li>
+<li><a href="#33-impact-mapping">3.3. Impact Mapping</a></li>
+<li><a href="#34-product-backlog">3.4. Product Backlog</a></li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-iv-product-design">Capítulo IV: Product Design</a>
+<ul>
+<li><a href="#41-style-guidelines">4.1. Style Guidelines</a>
+<ul>
+<li><a href="#411-general-style-guidelines">4.1.1. General Style Guidelines</a></li>
+<li><a href="#412-web-style-guidelines">4.1.2. Web Style Guidelines</a></li>
+</ul>
+</li>
+<li><a href="#42-information-architecture">4.2. Information Architecture</a>
+<ul>
+<li><a href="#421-organization-systems">4.2.1. Organization Systems</a></li>
+<li><a href="#422-labeling-systems">4.2.2. Labeling Systems</a></li>
+<li><a href="#423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</a></li>
+<li><a href="#424-searching-systems">4.2.4. Searching Systems</a></li>
+<li><a href="#425-navigation-systems">4.2.5. Navigation Systems</a></li>
+</ul>
+</li>
+<li><a href="#43-landing-page-ui-design">4.3. Landing Page UI Design</a>
+<ul>
+<li><a href="#431-landing-page-wireframe">4.3.1. Landing Page Wireframe</a></li>
+<li><a href="#432-landing-page-mock-up">4.3.2. Landing Page Mock-up</a></li>
+</ul>
+</li>
+<li><a href="#44-web-applications-uxui-design">4.4. Web Applications UX/UI Design</a>
+<ul>
+<li><a href="#441-web-applications-wireframes">4.4.1. Web Applications Wireframes</a></li>
+<li><a href="#442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams</a></li>
+<li><a href="#442-web-applications-mock-ups">4.4.2. Web Applications Mock-ups</a></li>
+<li><a href="#443-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams</a></li>
+</ul>
+</li>
+<li><a href="#45-web-applications-prototyping">4.5. Web Applications Prototyping</a></li>
+<li><a href="#46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture</a>
+<ul>
+<li><a href="#461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram</a></li>
+<li><a href="#462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams</a></li>
+<li><a href="#463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams</a></li>
+</ul>
+</li>
+<li><a href="#47-software-object-oriented-design">4.7. Software Object-Oriented Design</a>
+<ul>
+<li><a href="#471-class-diagrams">4.7.1. Class Diagrams</a></li>
+<li><a href="#472-class-dictionary">4.7.2. Class Dictionary</a></li>
+</ul>
+</li>
+<li><a href="#48-database-design">4.8. Database Design</a>
+<ul>
+<li><a href="#481-database-diagram">4.8.1. Database Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#cap%C3%ADtulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation &amp; Deployment</a>
+<ul>
+<li><a href="#51-software-configuration-management">5.1. Software Configuration Management</a>
+<ul>
+<li><a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a></li>
+<li><a href="#512-source-code-management">5.1.2. Source Code Management</a></li>
+<li><a href="#513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide &amp; Conventions</a></li>
+<li><a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration</a></li>
+</ul>
+</li>
+<li><a href="#52-landing-page-services--applications-implementation">5.2. Landing Page, Services &amp; Applications Implementation</a>
+<ul>
+<li><a href="#521-sprint-1">5.2.1. Sprint 1</a>
+<ul>
+<li><a href="#5211-sprint-planning-1">5.2.1.1. Sprint Planning 1</a></li>
+<li><a href="#5212-aspect-leaders-and-collaborators">5.2.1.2. Aspect Leaders and Collaborators</a></li>
+<li><a href="#5213-sprint-backlog-n">5.2.1.3. Sprint Backlog n.</a></li>
+<li><a href="#5214-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review</a></li>
+<li><a href="#5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review</a></li>
+<li><a href="#5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review</a></li>
+<li><a href="#5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review</a></li>
+<li><a href="#5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#53-validation-interviews">5.3. Validation Interviews</a>
+<ul>
+<li><a href="#531-dise%C3%B1o-de-entrevistas">5.3.1. Diseño de Entrevistas</a></li>
+<li><a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas</a></li>
+<li><a href="#533-evaluaciones-seg%C3%BAn-heur%C3%ADsticas">5.3.3. Evaluaciones según heurísticas</a></li>
+</ul>
+</li>
+<li><a href="#54-video-about-the-product">5.4. Video About-the-Product</a></li>
+</ul>
+</li>
+<li><a href="#conclusiones-y-recomendaciones">Conclusiones y recomendaciones</a></li>
+<li><a href="#video-about-the-team">Video About-the-Team</a></li>
+<li><a href="#bibliograf%C3%ADa">Bibliografía</a></li>
+<li><a href="#anexos">Anexos</a></li>
+</ul>
+<!--STUDENT OUTCOME-->
+<h1 id="student-outcome">Student Outcome</h1>
+<div style="text-align:center;">
+    <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+        <tr style="background-color:rgb(164, 61, 61); color: white; font-weight: bold;">
+            <th style="text-align:center; border: 1px solid #ddd;">ABET &#x2013; EAC - Student Outcome 5</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Acciones realizadas</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Conclusiones</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;">
+            La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboraci&#xF3;n e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">
+                <strong>Renzo Uribe</strong><br>
+                TB1: <br><br>
+                <strong>Joseph Chavez</strong><br>
+                TB1: <br><br>
+                <strong>Adrian Donayre</strong><br>
+                TB1: <br><br>
+                <strong>Christian Inga</strong><br>
+                TB1: <br><br>
+                <strong>Carlos Fernandez</strong><br>
+                TB1: 
+        </td>
+        <td style="border: 1px solid #ddd; vertical-align: top;"></td>
+    </tr>
+</table>
+</div>
+<!--TODAS LAS SECCIONES A COMPLETAR-->
+<h1 id="cap%C3%ADtulo-i-introducci%C3%B3n">Capítulo I: Introducción</h1>
+<h2 id="11-startup-profile">1.1. Startup Profile</h2>
+<p>En esta sección se brinda la descripción de nuestra startup, producto y miembros de equipo.</p>
+<h3 id="111-descripci%C3%B3n-de-la-startup">1.1.1. Descripción de la Startup</h3>
+<p><strong>Café Metrix</strong> es una startup enfocada en desarrollar soluciones tecnológicas para la industria del café de especialidad. Nace de la pasión por combinar tecnología accesible con el arte del café.</p>
+<p>Así, nace <strong>Café Lab</strong>, el cual es un sistema integral diseñado para baristas profesionales y cafeterías de especialidad que busca resolver dos problemas fundamentales en la industria: la falta de herramientas integradas para documentar, replicar y compartir procesos clave del café, y la desarticulación entre el tueste del grano y la experiencia final en taza.</p>
+<p>La solución consiste en una plataforma dual que combina software y componentes IoT, proporcionando control total sobre el café desde el grano verde hasta la preparación final. Permite documentar perfiles de tueste, controlar el almacenamiento del café verde, digitalizar procesos de calibración, conectar la forma en que tuestan el café con cómo sabe finalmente (alineando parámetros técnicos del tostado con el perfil en taza) y reforzar la transparencia de la cadena productiva (mostrando de dónde viene el café y cómo se ha procesado en cada etapa).</p>
+<p><strong>Misión</strong>: Elevar la calidad y consistencia del café, documentando cada etapa del proceso para garantizar resultados excepcionales y sostenibles.</p>
+<p><strong>Visión</strong>: Ser líder en el estándar tecnológico que revoluciona la industria del café de especialidad.</p>
+<h4 id="logo-de-caf%C3%A9-metrix">Logo de Café Metrix:</h4>
+<h4 id="logo-de-caf%C3%A9-lab">Logo de Café Lab:</h4>
+<h3 id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</h3>
+<table border="1">
+  <tr>
+    <td><img src="file:///Users/carlosfredy/Documents/Aplicaciones Web/Proyecto/cafeLab/public/assets/images/integrantes/adriand.jpeg" alt="Adrian Donayre" width="150"></td>
+    <td>Mi nombre es <strong>Adrian Donayre</strong>, tengo 19 
+    a&#xF1;os y actualmente estoy cursando el quinto ciclo de la 
+    carrera de Ingenier&#xED;a de Software en la UPC. Tengo habilidad en los lenguajes C++ y javascript. As&#xED; mismo, cuento con experiencia en monitoreo de infraestructura en herramientas como Azure, NR y Kemp. Personalmente, opino que lo que hagamos en la universidad se ver&#xE1; reflejado en nuestra vida profesional. Por ello me esfuerzo en ampliar mis conocimientos y conseguir nuevas experiencias que me sumen para seguir mejorando.</td>
+  </tr>
+  <tr>
+    <td>Fila 2, Columna 1</td>
+    <td>Fila 2, Columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 3, Columna 1</td>
+    <td>Fila 3, Columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 4, Columna 1</td>
+    <td>Fila 4, Columna 2</td>
+  </tr>
+  <tr>
+    <td>Fila 5, Columna 1</td>
+    <td>Fila 5, Columna 2</td>
+  </tr>
+</table>
+<h2 id="12-solution-profile">1.2. Solution Profile</h2>
+<h3 id="121-antecedentes-y-problem%C3%A1tica">1.2.1 Antecedentes y problemática</h3>
+<h3 id="122-lean-ux-process">1.2.2 Lean UX Process</h3>
+<h4 id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</h4>
+<p>Nuestro sistema para baristas y cafeterías de especialidad fue diseñado para lograr que los usuarios puedan documentar, replicar y mejorar procesos como el tueste, la preparación y la cata, además de asegurar trazabilidad y control desde el grano verde hasta la taza.</p>
+<p>Hemos observado que el producto no está cumpliendo completamente con estos objetivos, ya que los procesos están desarticulados, no hay conexión entre etapas como el almacenamiento, el tueste y la extracción, y muchos datos importantes se pierden o no se registran. Esto provoca errores, variabilidad en la calidad, pérdida de información y poca confianza del cliente final.</p>
+<p>¿Cómo podríamos mejorar la plataforma para que los usuarios sean más exitosos mediante una integración real de procesos, alertas en tiempo real sobre el estado del grano, y herramientas que permitan ver y comparar datos técnicos y sensoriales, basándonos en métricas como consistencia en recetas, reducción de pérdidas y mejora en la trazabilidad?</p>
+<h4 id="1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</h4>
+<p><strong>¿Quién es el usuario?</strong></p>
+<p>El usuario principal de este producto son baristas profesionales y cafeterías de especialidad. Los baristas profesionales se encargan de gestionar todo el proceso del café, desde la compra del café verde hasta su preparación en taza. Buscan consistencia, calidad y trazabilidad para ofrecer un café superior, ya sea en competencias, consultorías o para clientes exigentes. Por otro lado, las cafeterías de especialidad se enfocan en ofrecer cafés de origen con características únicas y diferenciadas. Estas cafeterías necesitan herramientas para asegurar la calidad del café, cumplir con certificaciones y fidelizar a sus clientes a través de la transparencia y el seguimiento de cada etapa del proceso.</p>
+<p><strong>¿Dónde encaja nuestro producto en su vida?</strong></p>
+<p>El producto encaja perfectamente en el flujo de trabajo diario de los baristas y las cafeterías, proporcionando una herramienta integral para documentar, estandarizar y optimizar cada uno de los pasos del proceso de preparación del café. Desde el tueste del grano, pasando por la calibración de los molinos, hasta la cata y la preparación final, el producto facilita la replicabilidad de los procesos y mejora la consistencia de la calidad del café. Además, el sistema ayuda a las cafeterías a gestionar la trazabilidad del café, asegurando que cumplan con las normativas de certificación y mantengan un registro detallado desde el origen del grano hasta la taza que llega al cliente.</p>
+<p><strong>¿Qué problemas tiene nuestro producto y cómo se pueden resolver?</strong></p>
+<p>El primer problema que enfrentan los usuarios es la falta de herramientas integradas para la documentación y replicación de procesos. Muchos baristas y cafeterías trabajan con métodos desarticulados y no tienen una forma eficiente de documentar sus procedimientos. Nuestro producto resuelve esto mediante una plataforma que integra el software, permitiendo a los usuarios documentar y comparar perfiles de tueste, calibración de molinos y catas. El segundo problema es la falta de trazabilidad en los procesos, lo que genera inconsistencias y pérdidas de calidad. La plataforma resuelve esto al ofrecer trazabilidad completa desde el grano verde hasta la taza, asegurando que las variables críticas sean controladas y monitorizadas.</p>
+<p><strong>¿Cuándo y cómo se usará nuestro producto?</strong></p>
+<p>El producto se utilizará en todo el ciclo de vida del café. Desde la recepción y almacenamiento del café verde hasta el proceso de tueste, calibración, cata y preparación final. Los baristas y administradores de cafeterías utilizarán la plataforma de manera continua en su jornada diaria, ajustando los parámetros de tueste, calibrando los molinos, y evaluando las catas de café. La herramienta será accesible tanto en plataformas web como móviles, lo que permitirá a los usuarios acceder a los datos y realizar ajustes desde cualquier lugar.</p>
+<p><strong>¿Qué características son importantes?</strong></p>
+<p>Las características clave de nuestro producto incluyen una interfaz intuitiva, que permita a los baristas y administradores navegar y usar la plataforma sin complicaciones. La trazabilidad completa es otra característica esencial, permitiendo que los usuarios rastreen el café desde su origen hasta la taza, asegurando que cada variable crítica sea registrada y controlada. También es crucial que el sistema envíe alertas automáticas sobre el estado del café verde, como cambios en la temperatura o humedad, para prevenir el deterioro del grano. La documentación y comparativa de los diferentes perfiles de tueste y catas permite replicar los procesos exitosos y mejorar la calidad. Además, el producto debe incluir capacitación y soporte, proporcionando guías de uso y recursos educativos para maximizar la efectividad del sistema.</p>
+<p><strong>¿Cómo debe verse nuestro producto y cómo debe comportarse?</strong></p>
+<p>Visualmente, el producto debe ser claro, moderno y profesional, con un diseño minimalista que facilite la comprensión de los datos. La interfaz debe incluir gráficos fáciles de interpretar y una visualización intuitiva de los diferentes parámetros del proceso de café, como las curvas de tueste, los parámetros de extracción y los perfiles sensoriales. En cuanto a su comportamiento, la plataforma debe ser rápida y confiable, con tiempos de respuesta mínimos para que los usuarios puedan tomar decisiones en tiempo real. Las alertas automáticas deben ser precisas y oportunas, mientras que la navegación debe ser fluida tanto en la aplicación web como móvil. Además, el sistema debe permitir una rápida configuración de los perfiles de tueste, calibraciones y ajustes según las necesidades de cada usuario.</p>
+<h4 id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</h4>
+<p><strong>Hypothesis Statement 1:</strong><br>
+<em>Creemos que si</em> CaféLab proporciona a baristas y cafeterías una plataforma digital que permita documentar, replicar y compartir procesos clave como el tueste, la calibración del molino, la cata y la preparación, <em>entonces</em> lograrán estandarizar la calidad del café, mejorando la consistencia en un 40% y aumentando la satisfacción del cliente en un 30%.</p>
+<p><strong>Hypothesis Statement 2:</strong><br>
+<em>Creemos que si</em> CaféLab implementa un módulo que alinee los parámetros técnicos del tueste (como humedad, temperatura de carga y curva de tueste) con el perfil final en taza, <em>entonces</em> los baristas reducirán las inconsistencias en la extracción en un 35% y disminuirán las pérdidas de calidad en un 25%.</p>
+<p><strong>Hypothesis Statement 3:</strong><br>
+<em>Creemos que si</em> CaféLab integra el sensor IoT TrackSilo para monitorear en tiempo real la temperatura (18–22 °C) y la humedad (55–65 %) del café verde, con alertas tempranas y registro por lote, <em>entonces</em> los usuarios reducirán las pérdidas de calidad por mala conservación en un 30% y mejorarán los resultados del tueste en un 20%.</p>
+<h4 id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</h4>
+<div style="text-align:center;">
+    <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+        <tr>
+            <th style="text-align:center; border: 1px solid #ddd;">Business Problem</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Business Outcomes</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Users &amp; Customers</th>
+            <th style="text-align:center; border: 1px solid #ddd;">User Benefits</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;">- Baristas y cafeter&#xED;as carecen de herramientas integradas para documentar, replicar y compartir procesos clave (tueste, calibraci&#xF3;n, cata, preparaci&#xF3;n), impidiendo estandarizar y escalar la calidad del caf&#xE9;.<br><br>- No hay conexi&#xF3;n t&#xE9;cnica documentada entre el tueste y la experiencia en taza; los baristas desconocen variables cr&#xED;ticas (humedad, temperatura, curva de tueste), generando inconsistencias y p&#xE9;rdidas de calidad.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">- Incrementar la adopci&#xF3;n de Caf&#xE9;Lab entre baristas y cafeter&#xED;as de especialidad.<br><br>- Reducir p&#xE9;rdidas de calidad mediante mejor control del almacenamiento y procesos.<br><br>- Aumentar la satisfacci&#xF3;n del cliente con consistencia en la calidad del caf&#xE9;.<br><br>- Generar ingresos recurrentes con planes premium ($29 y $59/mes).<br><br>- Posicionarse como l&#xED;der en trazabilidad y transparencia en la industria del caf&#xE9;.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">- <strong>Baristas Profesionales:</strong> Gestionan todo el proceso del caf&#xE9;, buscan calidad, consistencia y trazabilidad para competencias y clientes exigentes.<br><br>- <strong>Cafeter&#xED;as de Especialidad:</strong> Negocios que ofrecen caf&#xE9;s de origen, priorizan transparencia y sostenibilidad, necesitan cumplir certificaciones.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">- <strong>Baristas:</strong> Mayor consistencia, mejor reputaci&#xF3;n, datos t&#xE9;cnicos y sensoriales para diferenciarse.<br><br>- <strong>Cafeter&#xED;as:</strong> Fidelizaci&#xF3;n de clientes mediante trazabilidad, cumplimiento de certificaciones, optimizaci&#xF3;n de inventario y procesos.</td>
+        </tr>
+    </table>
+    <br>
+    <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+        <tr>
+            <th style="text-align:center; border: 1px solid #ddd;">Solution Ideas</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Hypothesis Statement</th>
+            <th style="text-align:center; border: 1px solid #ddd;">What&apos;s the Most Important Thing We Need to Learn First?</th>
+            <th style="text-align:center; border: 1px solid #ddd;">What&apos;s the Least Amount of Work We Need to Do to Learn the Next Most Important Thing?</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;">- Plataforma dual (software + IoT):<br><br>  - Software con m&#xF3;dulos para gesti&#xF3;n de caf&#xE9; verde, tueste, calibraci&#xF3;n, cata y administraci&#xF3;n.<br><br>  - TrackSilo: Sensor IoT para monitorear temperatura (18&#x2013;22 &#xB0;C) y humedad (55&#x2013;65 %) del caf&#xE9; verde, con alertas y registro por lote.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">- Si proporcionamos a baristas herramientas para registrar curvas de tueste, entonces mejorar&#xE1;n la consistencia.<br><br>- Si ofrecemos trazabilidad a cafeter&#xED;as, entonces cumplir&#xE1;n certificaciones y fidelizar&#xE1;n clientes.<br><br>- Si integramos TrackSilo, entonces reduciremos p&#xE9;rdidas de calidad.<br><br>- Si el software es intuitivo, entonces los baristas lo adoptar&#xE1;n.<br><br>- Si ofrecemos planes premium, entonces los usuarios pagar&#xE1;n $29 o $59/mes.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">- <strong>Riesgo:</strong> Resistencia a la adopci&#xF3;n tecnol&#xF3;gica, costo percibido de planes premium, problemas t&#xE9;cnicos con TrackSilo.<br><br>- <strong>Validar:</strong> Usabilidad, valor percibido y disposici&#xF3;n a pagar mediante pruebas con un MVP.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">- Desarrollar un MVP del software y TrackSilo.<br><br>- Probar con un grupo peque&#xF1;o de baristas y cafeter&#xED;as.<br><br>- Recopilar retroalimentaci&#xF3;n y ajustar la soluci&#xF3;n.</td>
+        </tr>
+    </table>
+</div>
+<h2 id="13-segmentos-objetivo">1.3. Segmentos objetivo</h2>
+<h3 id="segmentaci%C3%B3n-del-dominio-del-problema">Segmentación del Dominio del Problema</h3>
+<p>Esta sección describe a los segmentos clave vinculados al dominio del problema en el contexto del café de especialidad, integrando características demográficas y datos estadísticos de respaldo, a fin de contextualizar la necesidad de soluciones tecnológicas específicas para cada perfil de usuario.</p>
+<h4 id="1-baristas-profesionales">1. Baristas Profesionales</h4>
+<p>El segmento de baristas profesionales está compuesto por individuos altamente capacitados que participan activamente en múltiples etapas del proceso del café, incluyendo la compra de grano verde, su almacenamiento, tueste, molienda y preparación final. Este perfil se caracteriza por un alto nivel de especialización técnica y un enfoque en la excelencia sensorial y la estandarización de procesos.</p>
+<p>Demográficamente, según la <strong>Specialty Coffee Association (SCA)</strong>, este grupo suele estar integrado por personas entre los 25 y 40 años, con una creciente presencia de mujeres (aproximadamente el 34% del total de profesionales certificados por la SCA en América Latina, 2022). Se concentran principalmente en zonas urbanas de alto dinamismo cultural y económico, donde el consumo de café de especialidad ha crecido sostenidamente en los últimos años. En países latinoamericanos como México, Colombia y Perú, se estima que el número de baristas certificados ha aumentado entre un 15% y 20% anual desde 2018 (SCA, 2023).</p>
+<p>Desde el punto de vista funcional, estos profesionales requieren registrar curvas de tueste con precisión, ajustar perfiles según el tipo de grano y replicar recetas bajo estándares estrictos de control de calidad. Buscan herramientas que refuercen su propuesta de valor mediante el uso de datos técnicos (temperaturas, tiempos, tasas de desarrollo) y sensoriales (puntajes SCA, notas de cata, intensidad aromática), especialmente en contextos competitivos, consultorías o servicios personalizados a clientes exigentes.</p>
+<p>La trazabilidad, la consistencia y la capacidad de documentar procesos son aspectos críticos para este grupo, que actúa como actor clave en la profesionalización y tecnificación del sector cafetalero.</p>
+<h4 id="2-cafeter%C3%ADas-de-especialidad-administradores-y-due%C3%B1os">2. Cafeterías de Especialidad (Administradores y Dueños)</h4>
+<p>El segundo segmento corresponde a administradores y propietarios de cafeterías de especialidad, cuya operación se centra en la oferta de cafés de origen con atributos diferenciados. Este grupo combina un enfoque comercial con una orientación ética hacia la transparencia, la sostenibilidad y la relación directa con productores.</p>
+<p>A nivel demográfico, estos actores suelen tener entre 30 y 50 años, con formación en administración, gastronomía o emprendimiento. Según el informe <em>“Coffee Shops Market in Latin America”</em> de <strong>Euromonitor International (2023)</strong>, más del 70% de las cafeterías de especialidad en crecimiento se ubican en centros urbanos y están dirigidas por emprendedores que gestionan entre 3 y 10 empleados por unidad de negocio.</p>
+<p>En cuanto a tendencias, el crecimiento del mercado de café de especialidad ha sido del 9,4% anual en América Latina entre 2017 y 2022, y se espera que continúe con una tasa superior al 7% anual hasta 2027 (<strong>Allied Market Research, 2022</strong>). Este crecimiento está vinculado a la demanda de consumidores por productos con origen claro, procesos sostenibles y diferenciación sensorial.</p>
+<p>Las necesidades de este segmento se enfocan en asegurar la trazabilidad del grano desde su origen hasta la taza, con el fin de fortalecer la fidelización del cliente mediante narrativas de origen verificables y certificaciones como <strong>ORGÁNICO</strong>, <strong>COMERCIO JUSTO</strong> y <strong>MEDIO AMBIENTE</strong>. Asimismo, requieren herramientas que integren gestión de inventario, seguimiento del proceso de tueste y control de calidad en el punto de venta.</p>
+<p>Estas cafeterías no solo representan una oportunidad de mercado, sino también un nodo estratégico en la cadena de valor, ya que comunican directamente con el consumidor final, trasladando los valores de sostenibilidad, calidad y origen.</p>
+<h1 id="cap%C3%ADtulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation &amp; Analysis</h1>
+<h2 id="21-competidores">2.1. Competidores</h2>
+<p><strong>Cropster</strong>: Cropster es una plataforma líder global en la gestión del café de especialidad, con herramientas para tueste, inventario, cata y análisis de datos. Se enfoca en optimizar procesos y facilitar la colaboración en la cadena del café.</p>
+<p><strong>Artisan</strong>: Artisan es un software gratuito y de código abierto para registrar y analizar perfiles de tueste, popular entre tostadores y baristas con presupuestos limitados.</p>
+<p><strong>CoffeeMind</strong>: CoffeeMind combina educación y herramientas digitales para baristas, con un enfoque en cata sensorial y formación profesional, ofreciendo módulos para registrar y analizar perfiles de sabor.</p>
+<h3 id="211-an%C3%A1lisis-competitivo">2.1.1. Análisis competitivo</h3>
+<h4 id="competitive-analysis">Competitive Analysis</h4>
+<p><strong>¿Por qué llevar a cabo este análisis?</strong><br>
+Este análisis busca identificar las fortalezas, debilidades y estrategias de los competidores de CaféLab en el mercado del café de especialidad, para entender cómo posicionar nuestra solución (software + IoT) y destacar frente a competidores establecidos.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>CaféLab</strong></th>
+<th><strong>Cropster</strong></th>
+<th><strong>Artisan</strong></th>
+<th><strong>CoffeeMind</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overview</strong></td>
+<td>Plataforma dual (software + IoT) para baristas y cafeterías, con módulos para tueste, cata, calibración, trazabilidad y monitoreo de almacenamiento (TrackSilo).</td>
+<td>Plataforma líder para la gestión del café, con herramientas para tueste, inventario, cata y análisis de datos.</td>
+<td>Software gratuito y de código abierto para registrar y analizar perfiles de tueste.</td>
+<td>Plataforma enfocada en cata sensorial y educación para baristas, con herramientas para análisis de perfiles de sabor.</td>
+</tr>
+<tr>
+<td><strong>Perfil</strong></td>
+<td>Startup tecnológica enfocada en el café de especialidad, con un sensor IoT (TrackSilo) y un modelo freemium.</td>
+<td>Empresa establecida con presencia global, usada por tostadores y cafeterías grandes.</td>
+<td>Proyecto de código abierto con una comunidad activa de usuarios técnicos.</td>
+<td>Empresa enfocada en educación y cata, con un enfoque en formación profesional.</td>
+</tr>
+<tr>
+<td><strong>Ventaja Competitiva</strong></td>
+<td>Sensor IoT TrackSilo para monitoreo de almacenamiento, trazabilidad completa y precios accesibles.</td>
+<td>Integración con máquinas de tueste, análisis avanzados y colaboración en la cadena de suministro.</td>
+<td>Gratuito y personalizable, ideal para usuarios con presupuestos limitados.</td>
+<td>Especialización en cata sensorial y educación, con herramientas para análisis de sabor.</td>
+</tr>
+<tr>
+<td><strong>¿Qué valor ofrece a los clientes?</strong></td>
+<td>Solución integral que estandariza procesos, mejora la calidad del café y asegura trazabilidad desde el grano hasta la taza.</td>
+<td>Optimización de procesos de tueste y cata, con datos detallados para grandes operaciones.</td>
+<td>Registro técnico de tuestes a costo cero, con flexibilidad para usuarios avanzados.</td>
+<td>Formación y herramientas para mejorar habilidades de cata y análisis sensorial.</td>
+</tr>
+<tr>
+<td><strong>Mercado Objetivo</strong></td>
+<td>Baristas profesionales y cafeterías de especialidad que buscan calidad, consistencia y trazabilidad.</td>
+<td>Tostadores, baristas y cafeterías grandes con presupuestos altos.</td>
+<td>Tostadores y baristas individuales con conocimientos técnicos y presupuestos limitados.</td>
+<td>Baristas y cafeterías enfocadas en cata y formación profesional.</td>
+</tr>
+<tr>
+<td><strong>Estrategias de Marketing</strong></td>
+<td>Campañas educativas sobre trazabilidad y calidad, promoción del plan gratuito y colaboraciones con certificadoras.</td>
+<td>Marketing B2B enfocado en tostadores y cafeterías grandes, presencia en eventos internacionales.</td>
+<td>Comunidad de código abierto, soporte a través de foros y contribuciones de usuarios.</td>
+<td>Marketing educativo con cursos, talleres y contenido sobre cata sensorial.</td>
+</tr>
+<tr>
+<td><strong>Productos &amp; Servicios</strong></td>
+<td>Software con módulos para tueste, cata, calibración, trazabilidad e inventario; sensor IoT TrackSilo.</td>
+<td>Software para tueste, cata, inventario y análisis de datos; integración con equipos de tueste.</td>
+<td>Software para registro de perfiles de tueste, sin módulos adicionales.</td>
+<td>Plataforma para cata digital, análisis sensorial y cursos de formación.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="precios--costos-y-an%C3%A1lisis-swot">Precios &amp; Costos y Análisis SWOT</h4>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>CaféLab</strong></th>
+<th><strong>Cropster</strong></th>
+<th><strong>Artisan</strong></th>
+<th><strong>CoffeeMind</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Precios &amp; Costos</strong></td>
+<td>Modelo freemium (Plan Base Cafetal gratuito) + planes premium ($29/mes Artista del Tueste, $59/mes D’ Especialidad).</td>
+<td>Suscripciones premium (desde $99/mes), sin versión gratuita.</td>
+<td>Gratuito (código abierto).</td>
+<td>Suscripción mensual (aprox. $50/mes), sin versión gratuita.</td>
+</tr>
+<tr>
+<td><strong>Canales de Distribución (Web y/o Móvil)</strong></td>
+<td>Plataforma web y app móvil (iOS/Android) para acceder a módulos y monitorear el sensor TrackSilo.</td>
+<td>Plataforma web y app móvil, con integración directa con equipos de tueste.</td>
+<td>Descarga gratuita desde su sitio web, sin app móvil oficial.</td>
+<td>Plataforma web y app móvil para cata y formación.</td>
+</tr>
+<tr>
+<td><strong>Fortalezas</strong></td>
+<td>Sensor IoT TrackSilo, trazabilidad completa, solución integral, precios accesibles.</td>
+<td>Presencia global, integración con equipos, análisis avanzados.</td>
+<td>Gratuito, personalizable, comunidad activa.</td>
+<td>Especialización en cata y educación, herramientas sensoriales.</td>
+</tr>
+<tr>
+<td><strong>Debilidades</strong></td>
+<td>Requiere conexión a internet, plan freemium con funciones limitadas.</td>
+<td>Costo elevado, sin IoT, interfaz compleja.</td>
+<td>Sin módulos de cata o trazabilidad, requiere conocimientos técnicos.</td>
+<td>Limitada a cata y educación, sin herramientas para tueste o inventario.</td>
+</tr>
+<tr>
+<td><strong>Oportunidades</strong></td>
+<td>Creciente demanda de trazabilidad y sostenibilidad en el café de especialidad, adopción de tecnología por cafeterías pequeñas.</td>
+<td>Expansión a mercados emergentes, integración con más equipos.</td>
+<td>Ampliación de funcionalidades mediante la comunidad de código abierto.</td>
+<td>Expansión a otros aspectos del café, como tueste o calibración.</td>
+</tr>
+<tr>
+<td><strong>Amenazas</strong></td>
+<td>Competencia de soluciones establecidas como Cropster, resistencia a la adopción tecnológica.</td>
+<td>Nuevas startups con soluciones más accesibles, cambios en regulaciones.</td>
+<td>Competencia de soluciones integrales como CaféLab, falta de soporte oficial.</td>
+<td>Competencia de plataformas integrales, saturación en el mercado de cata.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="212-estrategias-y-t%C3%A1cticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</h3>
+<p>Nuestra estrategia se basa en la diferenciación tecnológica y la accesibilidad para baristas y cafeterías de especialidad, ofreciendo una solución integral que combine software y hardware (IoT). Así, nuestras tácticas clave son:</p>
+<p>🟩 <strong>Optimizar la Experiencia del Usuario en la Plataforma</strong><br>
+Garantizar que la interfaz de CaféLab sea intuitiva, visualmente atractiva y fácil de usar para baristas y administradores de cafeterías, con dashboards claros para monitorear almacenamiento, tueste y cata, lo que impulsa la adopción y fideliza a los usuarios frente a competidores más complejos como Cropster.</p>
+<p>🟩 <strong>Colaborar con Certificadoras y Comunidades de Café</strong><br>
+Establecer alianzas con certificadoras (como Rainforest Alliance o Fair Trade) y comunidades de baristas (como asociaciones locales o eventos internacionales) para validar la trazabilidad de CaféLab y facilitar la conexión con cafeterías que buscan cumplir certificaciones, diferenciándose de Artisan y CoffeeMind.</p>
+<p>🟩 <strong>Realizar Campañas Educativas sobre Calidad y Trazabilidad</strong><br>
+Promover buenas prácticas de almacenamiento, tueste y cata a través de contenido digital (blogs, videos, webinars) y redes sociales, destacando cómo CaféLab y el sensor TrackSilo aseguran la calidad del café desde el grano hasta la taza, educando a baristas y cafeterías sobre los beneficios de la trazabilidad frente a métodos manuales.</p>
+<p>🟩 <strong>Fomentar la Adopción de CaféLab</strong><br>
+Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básico de tuestes y catas), e incentivos como acceso a hexágonos sensoriales personalizados o descuentos en los planes premium durante los primeros meses, para atraer a usuarios iniciales, validar el modelo y generar confianza frente a competidores como Cropster y CoffeeMind.</p>
+<h2 id="22-entrevistas">2.2. Entrevistas</h2>
+<h3 id="221-dise%C3%B1o-de-entrevistas">2.2.1. Diseño de entrevistas</h3>
+<h4 id="preguntas-dirigidas-a-baristas-profesionales">Preguntas dirigidas a Baristas Profesionales:</h4>
+<p><strong>Preguntas principales:</strong></p>
+<ol>
+<li>¿Qué aspecto de tu método actual para registrar tus perfiles de tueste y recetas te gustaría que fuera más eficiente o preciso? ¿Hay alguna información valiosa que actualmente sea difícil de capturar o que lleve demasiado tiempo documentar?</li>
+<li>¿Qué sistema has desarrollado para capturar y gestionar toda la información sobre origen, altitud, variedad y procesamiento? ¿Hay algún dato que te gustaría replicar más veces pero es complicado hacerlo con tus métodos actuales?</li>
+<li>¿Qué sistema has empleado para capturar y gestionar toda la información sobre origen, altitud, variedad y procesamiento? ¿Hay algún dato que te gustaría registrar pero es complicado hacerlo con tus métodos actuales?</li>
+<li>¿Qué estrategia has desarrollado para documentar y ajustar los parámetros de molienda para tus diferentes métodos de preparación? ¿Cuál es el desafío más frustrante que enfrentas al intentar mantener esta precisión?</li>
+<li>¿Qué método has encontrado más efectivo para registrar tus evaluaciones sensoriales y conectarlas directamente con tus perfiles de tueste?</li>
+<li>¿Qué tipo de información te han solicitado jueces o clientes sofisticados que te haya costado proporcionar de manera profesional? ¿Cómo has resuelto este desafío?</li>
+<li>¿Qué sistema has desarrollado para transportar todo tu conocimiento técnico y artístico en competencias, consultorías o colaboraciones? ¿Cuál es el punto débil de este proceso que te gustaría resolver?</li>
+<li>¿Qué metodología has implementado para rastrear el estado de tu café verde y tostado a lo largo del tiempo? ¿Qué información adicional sobre tus lotes te ayudaría a tomar decisiones más precisas sobre su uso óptimo?</li>
+<li>¿Cuáles son esos puntos críticos que encuentras más desafiantes al intentar documentar y reproducir una curva de tueste específica? ¿Qué soluciones creativas has desarrollado para superar estas limitaciones?</li>
+<li>¿Qué herramientas digitales has incorporado que realmente han transformado algún aspecto de tu proceso? ¿Dónde sientes que la tecnología actual todavía te deja con necesidades sin resolver?</li>
+<li>Si existiera una plataforma integral que conectara cada fase del proceso —desde la recepción del grano verde hasta la experiencia final en taza—, ¿qué funcionalidades específicas considerarías absolutamente esenciales? Considerando el impacto en tu eficiencia y calidad.</li>
+</ol>
+<hr>
+<h4 id="preguntas-dirigidas-a-due%C3%B1osadministradores-de-cafeter%C3%ADas-de-especialidad">Preguntas dirigidas a Dueños/Administradores de Cafeterías de Especialidad:</h4>
+<p><strong>Preguntas principales:</strong></p>
+<ol>
+<li>¿Qué certificaciones son importantes para tu negocio (orgánico, comercio justo, etc.)? ¿Cómo gestionas actualmente la documentación relacionada?</li>
+<li>¿Cómo comunicas a tus clientes la información sobre las características especiales del café que ofreces? ¿Cuál es la información más solicitada por ellos?</li>
+<li>¿Cómo registras y evalúas a tus proveedores de café verde? ¿Qué datos son cruciales para tu proceso de selección?</li>
+<li>¿Cómo controlas las condiciones de almacenamiento de tus granos de café verde? ¿Has experimentado pérdidas por deterioro y cómo podrías haberlas evitado?</li>
+<li>¿Qué estrategias implementas para mantener la consistencia en la calidad del café servido cuando cuentas con diferentes baristas en tu equipo?</li>
+<li>¿Qué sistema has desarrollado para transportar todo tu conocimiento técnico y artístico en competencias, eventos o colaboraciones? ¿Cuál es el punto débil de este proceso que te gustaría resolver?</li>
+<li>¿Cómo documentas y transmites el conocimiento técnico sobre tus cafés a tu equipo? ¿Qué herramientas utilizas para este proceso?</li>
+<li>¿Cómo calculan actualmente el rendimiento y la rentabilidad por lote de café? ¿Qué métricas te gustaría poder medir con más precisión?</li>
+<li>¿Qué información consideras fundamental para garantizar la trazabilidad completa desde el origen hasta la taza? ¿Cómo la organizas actualmente?</li>
+<li>¿Qué herramientas digitales utilizas actualmente para la gestión de tu cafetería? ¿Qué procesos siguen siendo principalmente manuales o análogos?</li>
+<li>Si existiera una plataforma integral que conectara cada fase del proceso —desde la recepción del grano verde hasta la experiencia final en taza—, ¿qué funcionalidades específicas considerarías absolutamente esenciales? Considerando el impacto en tu eficiencia y calidad.</li>
+</ol>
+<hr>
+<h3 id="222-registro-de-entrevistas">2.2.2. Registro de entrevistas</h3>
+<h4 id="entrevistas-a-due%C3%B1os-o-administradores-de-cafeter%C3%ADas-de-especialidad">Entrevistas a dueños o administradores de cafeterías de especialidad</h4>
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Informaci&#xF3;n</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 1</td>
+    <td>Omar Ortiz</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>47</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Borja</td>
+  </tr>
+  <tr>
+    <td><img src="file:///Users/carlosfredy/Documents/Aplicaciones Web/Proyecto/cafeLab/public/assets/images/Entrevistas/EntrevistaOmarOrtiz.png" alt="Foto de Omar Ortiz"></td>
+    <td>Omar cuenta con una certificaci&#xF3;n internacional como barista por la SCA y actualmente es due&#xF1;o de una cafeter&#xED;a especializada. Tiene un conocimiento s&#xF3;lido sobre los procesos del caf&#xE9;, desde la selecci&#xF3;n del grano y sus caracter&#xED;sticas (como altura, proceso y humedad), hasta el control del tueste y la calibraci&#xF3;n diaria de las bebidas. Se encarga personalmente del almacenamiento y monitoreo del grano, utilizando herramientas como Excel para llevar registros de peso, rendimiento y trazabilidad. Aunque se maneja bien con herramientas digitales b&#xE1;sicas, reconoce que ciertos procesos manuales podr&#xED;an optimizarse mediante una plataforma digital especializada. Publica contenido educativo sobre caf&#xE9; en LinkedIn, lo cual tambi&#xE9;n refuerza su rol como formador dentro del rubro.</td>
+  </tr>
+  <tr>
+    <td>Timing:</td>
+    <td></td>
+  </tr>
+</table>
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Informaci&#xF3;n</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 2</td>
+    <td>Ivo Kalinowski</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Borja</td>
+  </tr>
+  <tr>
+    <td><img src="file:///Users/carlosfredy/Documents/Aplicaciones Web/Proyecto/cafeLab/public/assets/images/Entrevistas/EntrevistaIvoKalinowski.jpg" alt="Foto de Ivo Kalinowski" width="7000"></td>
+    <td>Ivo es due&#xF1;o de una cafeter&#xED;a de especialidad y cuenta con una amplia experiencia en el manejo integral del caf&#xE9;, desde la selecci&#xF3;n del grano hasta la experiencia final en taza. Aunque actualmente no trabaja con caf&#xE9;s certificados, valora su importancia y reconoce la necesidad de herramientas digitales para gestionar mejor la documentaci&#xF3;n relacionada. La comunicaci&#xF3;n de las caracter&#xED;sticas del caf&#xE9; hacia sus clientes es principalmente oral, apoyada en pizarras, y considera &#xFA;til un sistema visual y estandarizado para este fin. Eval&#xFA;a a sus proveedores mediante catas y relaciones de confianza, sin un registro formal, y le interesar&#xED;a contar con una plataforma para organizar esa informaci&#xF3;n. El almacenamiento de caf&#xE9; lo gestiona de forma emp&#xED;rica, pero ha experimentado p&#xE9;rdidas que podr&#xED;an evitarse con monitoreo digital. Para mantener la consistencia entre baristas, implementa protocolos de preparaci&#xF3;n y entrenamiento constante, aunque identifica la necesidad de una herramienta para estandarizar y compartir recetas. Transmite el conocimiento t&#xE9;cnico de manera oral y presencial, y ve valor en una bit&#xE1;cora digital que permita documentar recetas, aprendizajes y procesos. Utiliza Excel y WhatsApp como herramientas principales, pero admite que muchos procesos siguen siendo manuales. Est&#xE1; interesado en una plataforma integral que permita gestionar trazabilidad, control de calidad, inventario, recetas, capacitaci&#xF3;n y costos de forma centralizada, mejorando as&#xED; la eficiencia y la calidad de su operaci&#xF3;n.</td>
+  </tr>
+  <tr>
+    <td>Timing:</td>
+    <td></td>
+  </tr>
+</table>
+<hr>
+<h4 id="entrevistas-a-baristas-profesionales">Entrevistas a baristas profesionales</h4>
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Informaci&#xF3;n</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 1</td>
+    <td>Alejandra Avellaneda</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Surco</td>
+  </tr>
+  <tr>
+    <td><img src="file:///Users/carlosfredy/Documents/Aplicaciones Web/Proyecto/cafeLab/public/assets/images/Entrevistas/EntrevistaAlejandraAvellaneda.png" alt="Foto de Alejandra Avellaneda"></td>
+    <td>Alejandra trabaja en el &#xE1;rea operativa de una cadena de cafeter&#xED;as, donde se encarga de estandarizar las recetas y asegurar la consistencia en la calidad del caf&#xE9; entre tiendas. Tiene conocimientos t&#xE9;cnicos sobre calibraci&#xF3;n, evaluaci&#xF3;n sensorial y trazabilidad del grano, y maneja protocolos detallados para eventos fuera del entorno habitual. Utiliza balanzas de precisi&#xF3;n y m&#xE1;quinas programables como parte de sus herramientas diarias. Si bien reconoce que ciertos datos sensibles no pueden compartirse por temas de confidencialidad, considera que una plataforma digital que integre informaci&#xF3;n de trazabilidad, tueste y calidad sensorial podr&#xED;a ser de gran valor para su operaci&#xF3;n.</td>
+  </tr>
+  <tr>
+    <td>Timing:</td>
+    <td></td>
+  </tr>
+</table>
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Informaci&#xF3;n</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 2</td>
+    <td>Anyela Guillermo</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Borja</td>
+  </tr>
+  <tr>
+    <td><img src="file:///Users/carlosfredy/Documents/Aplicaciones Web/Proyecto/cafeLab/public/assets/images/Entrevistas/EntrevistaAngelaGuillermo.png" alt="Foto de Anyela Guillermo" width="7000"></td>
+    <td>Angela es una barista con 3 a&#xF1;os de experiencia en caf&#xE9; de especialidad y participante en competencias de latte art. Sus principales desaf&#xED;os incluyen mantener la consistencia entre baristas, documentar recetas, encontrar temperaturas ideales para m&#xE9;todos filtrados, preservar propiedades del caf&#xE9; mediante almacenamiento adecuado y lograr precisi&#xF3;n en calibraciones. Aunque utiliza registros manuales, identifica la necesidad de herramientas tecnol&#xF3;gicas para evaluaci&#xF3;n del caf&#xE9;, an&#xE1;lisis de variedades y monitoreo de almacenamiento. Considera valioso implementar una plataforma integral que conecte todo el proceso del caf&#xE9; y espacios tipo laboratorio que integren teor&#xED;a y pr&#xE1;ctica, desde el cultivo hasta la taza final.</td>
+  </tr>
+  <tr>
+    <td>Timing:</td>
+    <td></td>
+  </tr>
+</table>
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Informaci&#xF3;n</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 3</td>
+    <td>Victor Cruz</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Santiago de Surco</td>
+  </tr>
+  <tr>
+    <td><img src="file:///Users/carlosfredy/Documents/Aplicaciones Web/Proyecto/cafeLab/public/assets/images/Entrevistas/EntrevistaVictorCruz.jpg" alt="Foto de Victor Cruz" width="8500"></td>
+    <td>V&#xED;ctor Cruz es un barista autodidacta con experiencia en caf&#xE9; de especialidad, formado a trav&#xE9;s de investigaci&#xF3;n personal, observaci&#xF3;n en cafeter&#xED;as y visitas a fincas productoras de caf&#xE9; como las de Villa Rica. Su enfoque destaca por la curiosidad y el aprendizaje emp&#xED;rico, aunque reconoce limitaciones en la documentaci&#xF3;n de m&#xE9;todos tradicionales como el tueste a le&#xF1;a. Sus principales desaf&#xED;os incluyen la calibraci&#xF3;n precisa de m&#xE1;quinas inestables, la estandarizaci&#xF3;n de recetas entre baristas, y el control del inventario ante la falta de tiempo y recursos. Utiliza m&#xE9;todos como el V60 para evaluaci&#xF3;n sensorial y busca profesionalizar a&#xFA;n m&#xE1;s su pr&#xE1;ctica para aplicar su conocimiento a nivel internacional. Considera clave contar con una plataforma integral que permita rastrear todo el proceso del caf&#xE9;, desde el grano verde hasta la taza de caf&#xE9; final, y destaca el valor de la tecnolog&#xED;a para mejorar consistencia, trazabilidad y eficiencia.</td>
+  </tr>
+  <tr>
+    <td>Timing:</td>
+    <td></td>
+  </tr>
+</table>
+<h3 id="223-an%C3%A1lisis-de-entrevistas">2.2.3. Análisis de entrevistas</h3>
+<h2 id="23-needfinding">2.3. Needfinding</h2>
+<h3 id="231-user-personas">2.3.1. User Personas</h3>
+<p><strong>Administradores y dueños de cafeterias de especialidad</strong><br>
+<img src="https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/User%20Persona/UserPersona_FernandoGoijman.png" alt="User Persona - Fernando Goijman"></p>
+<p><strong>Barista Profesional</strong><br>
+<img src="https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/User%20Persona/UserPersona_ValeriaRamos.png" alt="User Persona - Valeria Ramos"></p>
+<h3 id="232-user-task-matrix">2.3.2. User Task Matrix</h3>
+<h3 id="233-user-journey-mapping">2.3.3. User Journey Mapping</h3>
+<p>En la presente sección se ilustra el recorrido end-to-end del sistema integral para baristas y cafeterías de especialidad, centrado en el segmento objetivo: dueños y gerentes de cafeterías. El User Journey Mapping describe las distintas etapas por las que atraviesa el usuario, desde el momento en que toma conocimiento de la solución tecnológica, pasando por su decisión de registrarse y configurarla según las necesidades de su operación, su uso activo en el día a día para estandarizar procesos y mejorar la trazabilidad, hasta llegar a la eventual decisión de dejar de utilizarla, ya sea por motivos estratégicos o de presupuesto.</p>
+<p><strong>Dueño de cafeteria:</strong><br>
+<img src="https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/JourneyMap/CustomerjourneymapFernandoGoijman.png" alt="Journey Map - Fernando Goijman"></p>
+<p><strong>Barista Profesional:</strong><br>
+<img src="https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/JourneyMap/CustomerjourneymapValeriaRamos.png" alt="Journey Map - Valeria Ramos"></p>
+<h3 id="234-empathy-mapping">2.3.4. Empathy Mapping</h3>
+<p><strong>Administradores y dueños de cafeterias de especialidad</strong><br>
+<img src="https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Empaty%20Mapping/EmpatyMapping_FernandoGoijman.png" alt="Empathy Mapping - Fernando Goijman"></p>
+<p><strong>Barista Profesional</strong><br>
+<img src="https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Empaty%20Mapping/EmpathyMapping_Valeria%20Ramos.png" alt="Empathy Mapping - Valeria Ramos"></p>
+<h3 id="235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping</h3>
+<h2 id="24-ubiquitous-language">2.4. Ubiquitous Language</h2>
+<h1 id="cap%C3%ADtulo-iii-requirements-specification">Capítulo III: Requirements Specification</h1>
+<h2 id="31-to-be-scenario-mapping">3.1. To-Be Scenario Mapping</h2>
+<h2 id="32-user-stories">3.2. User Stories</h2>
+<p>Las user stories son una forma de convertir el lenguaje informal de los usuarios del sistema en requerimientos de software que deben ser considerados durante el desarrollo de la plataforma. Una user story bien construida le permite al desarrollador comprender la funcionalidad requerida, su propósito y el valor que aporta al usuario final. Para el proyecto Café Lab, se presenta un conjunto de user stories que guían el desarrollo de la aplicación web, incluyendo módulos funcionales, vistas especializadas y componentes técnicos orientados a la trazabilidad y estandarización del café de especialidad.</p>
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px;">Tipo</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">ID</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">T&#xED;tulo</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Descripci&#xF3;n</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Criterios de Aceptaci&#xF3;n</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Relacionado con</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP01</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Gesti&#xF3;n de Caf&#xE9; Verde</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Permitir a los administradores registrar y controlar la informaci&#xF3;n de proveedores, lotes y certificaciones de caf&#xE9; verde.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US01</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Registro de proveedores</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administrador, quiero registrar proveedores y sus certificaciones para mantener la trazabilidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given un formulario de registro, When ingreso los datos del proveedor, Then se almacena con su certificaci&#xF3;n para referencia posterior.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP01</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US02</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Control de perfiles por origen de grano</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero registrar la regi&#xF3;n y variedad del caf&#xE9; para adaptar calibraciones y mantener la calidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given un nuevo lote, When se ingresa su origen, variedad y altitud, Then el sistema lo asocia al perfil del grano para uso posterior.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP01</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US03</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Trazabilidad completa</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administradora, quiero una plataforma que conecte desde el grano verde hasta la bebida final para asegurar control de calidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given un lote de caf&#xE9;, When se actualiza su estado en el proceso, Then puedo ver toda la trazabilidad desde su origen hasta la taza.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP01</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">M&#xF3;dulo de Calibraci&#xF3;n y Extracci&#xF3;n</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Permitir registrar recetas, calibraciones y par&#xE1;metros t&#xE9;cnicos por bebida para asegurar consistencia y calidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US04</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Registro t&#xE9;cnico por receta</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero documentar par&#xE1;metros t&#xE9;cnicos por bebida para asegurar consistencia.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given un m&#xE9;todo de preparaci&#xF3;n, When ingreso ratio, molienda y tiempo, Then el sistema guarda la receta asociada al lote y bebida.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US05</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Estandarizaci&#xF3;n de recetas entre sedes</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administradora, quiero estandarizar recetas para asegurar consistencia, minimizar desperdicio y mejorar rentabilidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given m&#xFA;ltiples locales, When se actualiza una receta base, Then las sedes reciben la misma configuraci&#xF3;n para aplicar localmente.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US06</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Registro de mezclas consistentes</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero registrar y seguir mezclas estables para facilitar calibraciones.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given una mezcla definida, When ingreso sus proporciones y fechas, Then el sistema permite usarla como base en calibraciones futuras.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US07</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Visualizaci&#xF3;n de la fecha de tueste</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero conocer la fecha de tueste para ajustar calibraciones con mayor precisi&#xF3;n.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given una bolsa registrada, When reviso su ficha t&#xE9;cnica, Then se muestra la fecha exacta de tueste junto al lote.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP03</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Administraci&#xF3;n e Inventario</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Permitir la gesti&#xF3;n de stock y rentabilidad a trav&#xE9;s de control de peso, fechas, rendimiento y p&#xE9;rdidas.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US08</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Control de inventario tostado</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administrador, quiero controlar el stock para planear compras y evitar desperdicio.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given los lotes tostados, When se actualiza su peso o fecha, Then el inventario refleja autom&#xE1;ticamente los cambios.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP03</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US09</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Gesti&#xF3;n de vida &#xFA;til de caf&#xE9; tostado</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administradora, quiero monitorear la frescura del caf&#xE9; tostado para garantizar calidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given la fecha de tueste, When se cumple el plazo m&#xE1;ximo de frescura, Then el sistema genera una alerta para usar o desechar ese lote.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP03</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP04</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Plataforma y Experiencia Web</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Crear una experiencia educativa y funcional en la p&#xE1;gina web para visitantes, baristas y administradores.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US10</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Landing page informativa</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como visitante, quiero conocer el origen del caf&#xE9; y los m&#xE9;todos de preparaci&#xF3;n para decidir mejor mi compra.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given la p&#xE1;gina de inicio, When accedo como visitante, Then veo secciones con historias, m&#xE9;todos y variedades de caf&#xE9; explicadas de forma clara.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP04</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US11</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Checklist de preparaci&#xF3;n</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero tener un checklist digital para asegurar eficiencia en contextos nuevos.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given una nueva sede o evento, When abro el checklist, Then puedo marcar disponibilidad de elementos esenciales como leche, agua, filtros o jarras.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP04</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US12</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Control de informaci&#xF3;n sensible</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero decidir qu&#xE9; info sobre el caf&#xE9; mostrar para proteger datos sensibles.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given la ficha de un lote, When configuro privacidad, Then el sistema muestra solo la informaci&#xF3;n p&#xFA;blica del caf&#xE9;, ocultando precio y origen si lo deseo.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP04</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP05</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Backend y API REST</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Soporte t&#xE9;cnico para integraci&#xF3;n con sistemas externos y automatizaci&#xF3;n de procesos cr&#xED;ticos (como IoT y trazabilidad digital).</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">&#x2013;</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US13</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Endpoint para registrar lotes</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como developer, quiero un endpoint para registrar lotes y sus certificaciones en el backend.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given una solicitud POST con JSON v&#xE1;lido, When se env&#xED;a con los datos de lote, Then el backend lo guarda correctamente y devuelve una respuesta.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP05</td>
+    </tr>
+</tbody></table>  
+
+<h2 id="33-impact-mapping">3.3. Impact Mapping</h2>
+<h2 id="34-product-backlog">3.4. Product Backlog</h2>
+<h1 id="cap%C3%ADtulo-iv-product-design">Capítulo IV: Product Design</h1>
+<h2 id="41-style-guidelines">4.1. Style Guidelines</h2>
+<h3 id="411-general-style-guidelines">4.1.1. General Style Guidelines</h3>
+<h3 id="412-web-style-guidelines">4.1.2. Web Style Guidelines</h3>
+<h2 id="42-information-architecture">4.2. Information Architecture</h2>
+<h3 id="421-organization-systems">4.2.1. Organization Systems.</h3>
+<h3 id="422-labeling-systems">4.2.2. Labeling Systems.</h3>
+<h3 id="423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</h3>
+<h3 id="424-searching-systems">4.2.4. Searching Systems.</h3>
+<h3 id="425-navigation-systems">4.2.5. Navigation Systems.</h3>
+<h2 id="43-landing-page-ui-design">4.3. Landing Page UI Design.</h2>
+<h3 id="431-landing-page-wireframe">4.3.1. Landing Page Wireframe.</h3>
+<h3 id="432-landing-page-mock-up">4.3.2. Landing Page Mock-up.</h3>
+<h2 id="44-web-applications-uxui-design">4.4. Web Applications UX/UI Design.</h2>
+<h3 id="441-web-applications-wireframes">4.4.1. Web Applications Wireframes.</h3>
+<h3 id="442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</h3>
+<h3 id="442-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</h3>
+<h3 id="443-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams.</h3>
+<h2 id="45-web-applications-prototyping">4.5. Web Applications Prototyping.</h2>
+<h2 id="46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture.</h2>
+<p>El Domain Driven Design (DDD) busca establecer un entendimiento común del dominio que engloba el espacio del problema, fomentando una mejor colaboración entre desarrolladores y expertos del dominio. Este enfoque no se limita a emplear un lenguaje ubicuo, sino que incluye un conjunto de patrones, procesos y diagramas de la arquitectura del sistema, artefactos diseñados para alinear el software con el dominio y fortalecer la perspectiva compartida que promueve DDD.</p>
+<h3 id="461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram.</h3>
+<p><img src="https://github.com/user-attachments/assets/38460830-585d-4833-ae1a-4afa48e16528" alt="image"></p>
+<h3 id="462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams.</h3>
+<p><img src="https://github.com/user-attachments/assets/53a50408-68b1-4db5-bfc8-d0b588a4f9d8" alt="image"></p>
+<h3 id="463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams.</h3>
+<p><strong>Log-In Bounded Context</strong></p>
+<p><img src="https://github.com/user-attachments/assets/d74302e8-31a2-45de-b9a7-44bd5b5aa37d" alt="structurizr-92816-ComponentsDiagram"></p>
+<p><strong>Companies Bounded Context</strong></p>
+<p><img src="https://github.com/user-attachments/assets/eec71779-f7f1-4c00-850b-a76e28dd7ed8" alt="structurizr-92816-ComponentsDiagram (1)"></p>
+<p><strong>Crop Bounded Context</strong></p>
+<p><img src="https://github.com/user-attachments/assets/5b179005-3810-4671-8366-22a662045acf" alt="structurizr-92816-ComponentsDiagram (2)"></p>
+<h2 id="47-software-object-oriented-design">4.7. Software Object-Oriented Design.</h2>
+<h3 id="471-class-diagrams">4.7.1. Class Diagrams.</h3>
+<h3 id="472-class-dictionary">4.7.2. Class Dictionary.</h3>
+<h2 id="48-database-design">4.8. Database Design.</h2>
+<h3 id="481-database-diagram">4.8.1. Database Diagram.</h3>
+<h1 id="cap%C3%ADtulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation &amp; Deployment</h1>
+<h2 id="51-software-configuration-management">5.1. Software Configuration Management.</h2>
+<h3 id="511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration.</h3>
+<h3 id="512-source-code-management">5.1.2. Source Code Management.</h3>
+<h3 id="513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide &amp; Conventions.</h3>
+<h3 id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</h3>
+<h2 id="52-landing-page-services--applications-implementation">5.2. Landing Page, Services &amp; Applications Implementation</h2>
+<h3 id="521-sprint-1">5.2.1. Sprint 1</h3>
+<h4 id="5211-sprint-planning-1">5.2.1.1. Sprint Planning 1</h4>
+<h4 id="5212-aspect-leaders-and-collaborators">5.2.1.2. Aspect Leaders and Collaborators.</h4>
+<h4 id="5213-sprint-backlog-n">5.2.1.3. Sprint Backlog n.</h4>
+<h4 id="5214-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review.</h4>
+<h4 id="5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</h4>
+<h4 id="5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</h4>
+<h4 id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</h4>
+<h4 id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</h4>
+<h2 id="53-validation-interviews">5.3. Validation Interviews.</h2>
+<h3 id="531-dise%C3%B1o-de-entrevistas">5.3.1. Diseño de Entrevistas.</h3>
+<h3 id="532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</h3>
+<h3 id="533-evaluaciones-seg%C3%BAn-heur%C3%ADsticas">5.3.3. Evaluaciones según heurísticas.</h3>
+<h2 id="54-video-about-the-product">5.4. Video About-the-Product.</h2>
+<h1 id="conclusiones">Conclusiones</h1>
+<h2 id="conclusiones-y-recomendaciones">Conclusiones y recomendaciones.</h2>
+<h1 id="video-about-the-team">Video About-the-Team.</h1>
+<h1 id="bibliograf%C3%ADa">Bibliografía</h1>
+<ul>
+<li><strong>Specialty Coffee Association (SCA).</strong> (2022). <em>Annual Report: Certification and Professional Development Statistics</em>. <a href="https://sca.coffee">https://sca.coffee</a></li>
+<li><strong>Euromonitor International.</strong> (2023). <em>Coffee Shops Market in Latin America</em>. <a href="https://www.euromonitor.com">https://www.euromonitor.com</a></li>
+<li><strong>Allied Market Research.</strong> (2022). <em>Specialty Coffee Market by Product Type and Distribution Channel: Global Opportunity Analysis and Industry Forecast, 2021–2027</em>. <a href="https://www.alliedmarketresearch.com">https://www.alliedmarketresearch.com</a></li>
+<li><strong>International Coffee Organization (ICO).</strong> (2023). <em>World Coffee Consumption Statistics</em>. <a href="https://www.ico.org">https://www.ico.org</a></li>
+</ul>
+<h1 id="anexos">Anexos</h1>
+
+</body>
+
+</html>

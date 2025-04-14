@@ -661,6 +661,169 @@ En la presente sección se ilustra el recorrido end-to-end del sistema integral 
 
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
+  Las user stories son una forma de convertir el lenguaje informal de los usuarios del sistema en requerimientos de software que deben ser considerados durante el desarrollo de la plataforma. Una user story bien construida le permite al desarrollador comprender la funcionalidad requerida, su propósito y el valor que aporta al usuario final. Para el proyecto Café Lab, se presenta un conjunto de user stories que guían el desarrollo de la aplicación web, incluyendo módulos funcionales, vistas especializadas y componentes técnicos orientados a la trazabilidad y estandarización del café de especialidad.
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px;">Tipo</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">ID</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Título</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Descripción</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Criterios de Aceptación</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Relacionado con</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP01</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Gestión de Café Verde</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Permitir a los administradores registrar y controlar la información de proveedores, lotes y certificaciones de café verde.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US01</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Registro de proveedores</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administrador, quiero registrar proveedores y sus certificaciones para mantener la trazabilidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given un formulario de registro, When ingreso los datos del proveedor, Then se almacena con su certificación para referencia posterior.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP01</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US02</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Control de perfiles por origen de grano</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero registrar la región y variedad del café para adaptar calibraciones y mantener la calidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given un nuevo lote, When se ingresa su origen, variedad y altitud, Then el sistema lo asocia al perfil del grano para uso posterior.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP01</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US03</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Trazabilidad completa</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administradora, quiero una plataforma que conecte desde el grano verde hasta la bebida final para asegurar control de calidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given un lote de café, When se actualiza su estado en el proceso, Then puedo ver toda la trazabilidad desde su origen hasta la taza.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP01</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Módulo de Calibración y Extracción</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Permitir registrar recetas, calibraciones y parámetros técnicos por bebida para asegurar consistencia y calidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US04</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Registro técnico por receta</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero documentar parámetros técnicos por bebida para asegurar consistencia.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given un método de preparación, When ingreso ratio, molienda y tiempo, Then el sistema guarda la receta asociada al lote y bebida.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US05</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Estandarización de recetas entre sedes</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administradora, quiero estandarizar recetas para asegurar consistencia, minimizar desperdicio y mejorar rentabilidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given múltiples locales, When se actualiza una receta base, Then las sedes reciben la misma configuración para aplicar localmente.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US06</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Registro de mezclas consistentes</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero registrar y seguir mezclas estables para facilitar calibraciones.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given una mezcla definida, When ingreso sus proporciones y fechas, Then el sistema permite usarla como base en calibraciones futuras.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US07</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Visualización de la fecha de tueste</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero conocer la fecha de tueste para ajustar calibraciones con mayor precisión.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given una bolsa registrada, When reviso su ficha técnica, Then se muestra la fecha exacta de tueste junto al lote.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP02</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP03</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Administración e Inventario</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Permitir la gestión de stock y rentabilidad a través de control de peso, fechas, rendimiento y pérdidas.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US08</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Control de inventario tostado</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administrador, quiero controlar el stock para planear compras y evitar desperdicio.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given los lotes tostados, When se actualiza su peso o fecha, Then el inventario refleja automáticamente los cambios.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP03</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US09</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Gestión de vida útil de café tostado</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como administradora, quiero monitorear la frescura del café tostado para garantizar calidad.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given la fecha de tueste, When se cumple el plazo máximo de frescura, Then el sistema genera una alerta para usar o desechar ese lote.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP03</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP04</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Plataforma y Experiencia Web</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Crear una experiencia educativa y funcional en la página web para visitantes, baristas y administradores.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US10</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Landing page informativa</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como visitante, quiero conocer el origen del café y los métodos de preparación para decidir mejor mi compra.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given la página de inicio, When accedo como visitante, Then veo secciones con historias, métodos y variedades de café explicadas de forma clara.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP04</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US11</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Checklist de preparación</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero tener un checklist digital para asegurar eficiencia en contextos nuevos.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given una nueva sede o evento, When abro el checklist, Then puedo marcar disponibilidad de elementos esenciales como leche, agua, filtros o jarras.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP04</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US12</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Control de información sensible</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como barista, quiero decidir qué info sobre el café mostrar para proteger datos sensibles.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given la ficha de un lote, When configuro privacidad, Then el sistema muestra solo la información pública del café, ocultando precio y origen si lo deseo.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP04</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><strong>EPIC</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP05</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Backend y API REST</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Soporte técnico para integración con sistemas externos y automatización de procesos críticos (como IoT y trazabilidad digital).</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">–</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">US</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">US13</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Endpoint para registrar lotes</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Como developer, quiero un endpoint para registrar lotes y sus certificaciones en el backend.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Given una solicitud POST con JSON válido, When se envía con los datos de lote, Then el backend lo guarda correctamente y devuelve una respuesta.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">EP05</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
 
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
