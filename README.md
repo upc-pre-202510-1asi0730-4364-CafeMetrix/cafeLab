@@ -406,8 +406,6 @@ Estas cafeterías no solo representan una oportunidad de mercado, sino también 
 **¿Por qué llevar a cabo este análisis?**  
 Este análisis busca identificar las fortalezas, debilidades y estrategias de los competidores de CaféLab en el mercado del café de especialidad, para entender cómo posicionar nuestra solución (software + IoT) y destacar frente a competidores establecidos.
 
-**¿En la cabeza colocaré por cada competidor su startup, nombre y logo?**  
-En este caso, incluiré el nombre de cada competidor (CaféLab, Cropster, Artisan, CoffeeMind). No incluiré logos ya que no puedo generar imágenes sin confirmación explícita, pero dejaré un espacio donde podrías insertarlos si lo deseas.
 
 |                      | **CaféLab**                              | **Cropster**                                   | **Artisan**                              | **CoffeeMind**                          |
 |----------------------|------------------------------------------|-----------------------------------------------|------------------------------------------|-----------------------------------------|
