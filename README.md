@@ -655,11 +655,27 @@ En la presente sección se ilustra el recorrido end-to-end del sistema integral 
 ![Empathy Mapping - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Empaty%20Mapping/EmpathyMapping_Valeria%20Ramos.png)
 
 ### 2.3.5. As-is Scenario Mapping
+Para llevar a cabo el As-is Scenario Mapping, el equipo realizó un proceso de needfinding con el fin de comprender mejor el negocio y determinar la situación actual de las operaciones en las cafeterías de especialidad y el trabajo de los baristas. Este proceso permitió identificar las diferentes fases correspondientes a cada uno de los segmentos objetivos, brindando un entendimiento más profundo del flujo de trabajo y revelando las limitaciones y desafíos del sistema actual.
+**Administradores y dueños de cafeterias de especialidad**
+![AS-IS - Administradores y dueños de cafeterias de especialidad](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/AS-IS/AS_IS_ADMINISTRADORES_Y_DUE%C3%91OS_DE_CAFETERIAS_DE_ESPECIALIDAD.png)
+
+**Barista Profesional**
+![AS-IS - Barista profesional](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/AS-IS/AS_IS_BARISTA_PROFESIONAL.png)
+
 ## 2.4. Ubiquitous Language
 
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+En el caso del To-be Scenario Mapping, el equipo definió cómo se visualizaría el flujo de trabajo una vez que la solución CaféLab haya sido implementada en los dos segmentos objetivos. El propósito de este artefacto es analizar y mejorar los aspectos negativos identificados en el As-is Scenario, optimizando los procesos de monitoreo, registro y retroalimentación, y elevando la calidad del café, la eficiencia operativa y la capacidad para tomar decisiones informadas.
+
+**Administradores y dueños de cafeterias de especialidad**
+![TO-BE - Administradores y dueños de cafeterias de especialidad](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/TO-BE/TO_BE_ADMINISTRADORES_Y_DUE%C3%91OS_DE_CAFETERIAS_DE_ESPECIALIDAD.png)
+
+**Barista Profesional**
+![TO-BE - Barista profesional](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/TO-BE/TO_BE_BARISTA_PROFESIONAL.png)
+
+
 ## 3.2. User Stories
   Las user stories son una forma de convertir el lenguaje informal de los usuarios del sistema en requerimientos de software que deben ser considerados durante el desarrollo de la plataforma. Una user story bien construida le permite al desarrollador comprender la funcionalidad requerida, su propósito y el valor que aporta al usuario final. Para el proyecto Café Lab, se presenta un conjunto de user stories que guían el desarrollo de la aplicación web, incluyendo módulos funcionales, vistas especializadas y componentes técnicos orientados a la trazabilidad y estandarización del café de especialidad.
 
