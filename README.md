@@ -579,7 +579,7 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
   </tr>
   <tr>
     <td>Edad</td>
-    <td></td>
+    <td>24</td>
   </tr>
   <tr>
     <td>Distrito</td>
