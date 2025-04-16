@@ -406,11 +406,11 @@ Estas cafeterías no solo representan una oportunidad de mercado, sino también 
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
         <tr>
-            <th colspan="5" style="text-align:center; border: 1px solid #000;">Competitive Analysis Landscape</th>
+            <th colspan="6" style="text-align:center; border: 1px solid #000;">Competitive Analysis Landscape</th>
         </tr>
         <tr>
             <th style="text-align:center; border: 1px solid #000;">¿Por qué llevar a cabo este análisis?</th>
-            <td colspan="4" style="border: 1px solid #000;">Este análisis busca identificar las fortalezas, debilidades y estrategias de los competidores de CaféLab en el mercado del café de especialidad, para entender cómo posicionar nuestra solución (software + IoT) y destacar frente a competidores establecidos.</td>
+            <td colspan="5" style="border: 1px solid #000;">Este análisis busca identificar las fortalezas, debilidades y estrategias de los competidores de CaféLab en el mercado del café de especialidad, para entender cómo posicionar nuestra solución (software + IoT) y destacar frente a competidores establecidos.</td>
         </tr>
         <tr>
             <th style="border: 1px solid #000;"></th>
