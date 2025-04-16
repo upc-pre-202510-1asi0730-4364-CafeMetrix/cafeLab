@@ -407,26 +407,98 @@ Estas cafeterías no solo representan una oportunidad de mercado, sino también 
 Este análisis busca identificar las fortalezas, debilidades y estrategias de los competidores de CaféLab en el mercado del café de especialidad, para entender cómo posicionar nuestra solución (software + IoT) y destacar frente a competidores establecidos.
 
 
-|                      | **CaféLab**                              | **Cropster**                                   | **Artisan**                              | **CoffeeMind**                          |
-|----------------------|------------------------------------------|-----------------------------------------------|------------------------------------------|-----------------------------------------|
-| **Overview**         | Plataforma dual (software + IoT) para baristas y cafeterías, con módulos para tueste, cata, calibración, trazabilidad y monitoreo de almacenamiento (TrackSilo). | Plataforma líder para la gestión del café, con herramientas para tueste, inventario, cata y análisis de datos. | Software gratuito y de código abierto para registrar y analizar perfiles de tueste. | Plataforma enfocada en cata sensorial y educación para baristas, con herramientas para análisis de perfiles de sabor. |
-| **Perfil**           | Startup tecnológica enfocada en el café de especialidad, con un sensor IoT (TrackSilo) y un modelo freemium. | Empresa establecida con presencia global, usada por tostadores y cafeterías grandes. | Proyecto de código abierto con una comunidad activa de usuarios técnicos. | Empresa enfocada en educación y cata, con un enfoque en formación profesional. |
-| **Ventaja Competitiva** | Sensor IoT TrackSilo para monitoreo de almacenamiento, trazabilidad completa y precios accesibles. | Integración con máquinas de tueste, análisis avanzados y colaboración en la cadena de suministro. | Gratuito y personalizable, ideal para usuarios con presupuestos limitados. | Especialización en cata sensorial y educación, con herramientas para análisis de sabor. |
-| **¿Qué valor ofrece a los clientes?** | Solución integral que estandariza procesos, mejora la calidad del café y asegura trazabilidad desde el grano hasta la taza. | Optimización de procesos de tueste y cata, con datos detallados para grandes operaciones. | Registro técnico de tuestes a costo cero, con flexibilidad para usuarios avanzados. | Formación y herramientas para mejorar habilidades de cata y análisis sensorial. |
-| **Mercado Objetivo** | Baristas profesionales y cafeterías de especialidad que buscan calidad, consistencia y trazabilidad. | Tostadores, baristas y cafeterías grandes con presupuestos altos. | Tostadores y baristas individuales con conocimientos técnicos y presupuestos limitados. | Baristas y cafeterías enfocadas en cata y formación profesional. |
-| **Estrategias de Marketing** | Campañas educativas sobre trazabilidad y calidad, promoción del plan gratuito y colaboraciones con certificadoras. | Marketing B2B enfocado en tostadores y cafeterías grandes, presencia en eventos internacionales. | Comunidad de código abierto, soporte a través de foros y contribuciones de usuarios. | Marketing educativo con cursos, talleres y contenido sobre cata sensorial. |
-| **Productos & Servicios** | Software con módulos para tueste, cata, calibración, trazabilidad e inventario; sensor IoT TrackSilo. | Software para tueste, cata, inventario y análisis de datos; integración con equipos de tueste. | Software para registro de perfiles de tueste, sin módulos adicionales. | Plataforma para cata digital, análisis sensorial y cursos de formación. |
-
-#### Precios & Costos y Análisis SWOT
-
-|                      | **CaféLab**                              | **Cropster**                                   | **Artisan**                              | **CoffeeMind**                          |
-|----------------------|------------------------------------------|-----------------------------------------------|------------------------------------------|-----------------------------------------|
-| **Precios & Costos** | Modelo freemium (Plan Base Cafetal gratuito) + planes premium ($29/mes Artista del Tueste, $59/mes D’ Especialidad). | Suscripciones premium (desde $99/mes), sin versión gratuita. | Gratuito (código abierto). | Suscripción mensual (aprox. $50/mes), sin versión gratuita. |
-| **Canales de Distribución (Web y/o Móvil)** | Plataforma web y app móvil (iOS/Android) para acceder a módulos y monitorear el sensor TrackSilo. | Plataforma web y app móvil, con integración directa con equipos de tueste. | Descarga gratuita desde su sitio web, sin app móvil oficial. | Plataforma web y app móvil para cata y formación. |
-| **Fortalezas**       | Sensor IoT TrackSilo, trazabilidad completa, solución integral, precios accesibles. | Presencia global, integración con equipos, análisis avanzados. | Gratuito, personalizable, comunidad activa. | Especialización en cata y educación, herramientas sensoriales. |
-| **Debilidades**      | Requiere conexión a internet, plan freemium con funciones limitadas. | Costo elevado, sin IoT, interfaz compleja. | Sin módulos de cata o trazabilidad, requiere conocimientos técnicos. | Limitada a cata y educación, sin herramientas para tueste o inventario. |
-| **Oportunidades**    | Creciente demanda de trazabilidad y sostenibilidad en el café de especialidad, adopción de tecnología por cafeterías pequeñas. | Expansión a mercados emergentes, integración con más equipos. | Ampliación de funcionalidades mediante la comunidad de código abierto. | Expansión a otros aspectos del café, como tueste o calibración. |
-| **Amenazas**         | Competencia de soluciones establecidas como Cropster, resistencia a la adopción tecnológica. | Nuevas startups con soluciones más accesibles, cambios en regulaciones. | Competencia de soluciones integrales como CaféLab, falta de soporte oficial. | Competencia de plataformas integrales, saturación en el mercado de cata. |
+<div style="text-align:center;">
+    <!-- Título y descripción -->
+    <h1 style="font-size: 1.5em; font-weight: bold; margin-bottom: 0.5em;">Análisis de Competencia y FODA - CaféLab</h1>
+    <p style="font-size: 0.9em; margin-bottom: 1em;">Describe en el recuadro la pregunta que busca responder el objetivo de cada costo analizado.</p>
+    <p style="font-size: 0.9em; margin-bottom: 0.5em;">Coloca las cabeceras de cada competidor (su startup, Competitor 1, Competitor 2, Competitor 3) junto con su nombre y logo.</p>
+    <!-- Tabla única -->
+    <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+        <!-- Sección: Perfil del Competidor -->
+        <tr>
+            <th style="text-align:center; border: 1px solid #ddd;" rowspan="5">Perfil del Competidor</th>
+            <th style="text-align:center; border: 1px solid #ddd;">CaféLab (Startup)</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Cropster (Competitor 1)</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Ikawa (Competitor 2)</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Beanconqueror (Competitor 3)</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Overview</strong></td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Plataforma web para baristas y cafeterías, con módulos para tueste, cata, calibración, trazabilidad e IoT (TrackSilo).</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Plataforma líder para tueste, cata y trazabilidad, usada por tostadores profesionales.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Solución para tueste y análisis, con hardware y software integrados.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">App gratuita para baristas, enfocada en cata y calibración de espresso.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Ventaja Competitiva</strong></td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Integración de IoT (TrackSilo) para monitoreo de almacenamiento, y trazabilidad completa.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Amplia experiencia en el mercado y comunidad de usuarios grande.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Hardware de tueste de alta precisión integrado con software.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Gratuita, de código abierto y centrada en la comunidad de baristas.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Clientes</strong></td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Baristas profesionales y cafeterías de especialidad.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Tostadores grandes y cafeterías de especialidad.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Baristas y pequeños tostadores.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Baristas aficionados y profesionales pequeños.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Mercado Objetivo</strong></td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Cafeterías de especialidad en América Latina, con planes de expansión global.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Mercado global, especialmente en Europa y Norteamérica.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Mercado global, con enfoque en pequeños tostadores.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Baristas individuales a nivel global.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Estrategias de Marketing</strong></td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Marketing digital (redes sociales, blogs), alianzas con asociaciones de café y ferias.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Presencia en eventos de café, marketing de contenido y asociaciones con tostadores.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Enfoque en innovación de hardware, demostraciones en ferias de café.</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">Comunidad de código abierto, marketing de boca en boca.</td>
+        </tr>
+        <!-- Separador -->
+        <tr>
+            <td colspan="5" style="border: none; text-align: right; font-size: 0.9em; padding-top: 0.5em;"></td>
+        </tr>
+        <tr>
+            <td colspan="5" style="border: none; padding: 0;"><hr style="border: 1px solid #000; margin: 1em 0;"></td>
+        </tr>
+        <!-- Sección: Perfil de Producto (FODA) -->
+        <tr>
+            <th style="text-align:center; border: 1px solid #ddd;" rowspan="7">Perfil de Producto</th>
+            <th style="text-align:center; border: 1px solid #ddd;" colspan="4">CaféLab (Startup)</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Productos & Servicios</strong></td>
+            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Plataforma web con módulos de tueste, cata, calibración, trazabilidad y sensor IoT (TrackSilo).</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Precios & Costos</strong></td>
+            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Suscripciones escalonadas: Base Cafetal ($50/mes), Artista del Tueste ($100/mes), D’ Especialidad ($200/mes).</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Canales de Distribución (Web y/o Móvil)</strong></td>
+            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Plataforma web (sin app móvil).</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Fortalezas</strong></td>
+            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Integración de IoT para monitoreo de almacenamiento, trazabilidad completa, enfoque en América Latina.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Debilidades</strong></td>
+            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Sin aplicación móvil, equipo pequeño, aún no consolidado en el mercado global.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Oportunidades</strong></td>
+            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Creciente interés en trazabilidad y sostenibilidad en el café, mercado en expansión en América Latina.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Amenazas</strong></td>
+            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Competencia de plataformas establecidas como Cropster, posibles barreras regulatorias para IoT.</td>
+        </tr>
+    </table>
+</div>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 Nuestra estrategia se basa en la diferenciación tecnológica y la accesibilidad para baristas y cafeterías de especialidad, ofreciendo una solución integral que combine software y hardware (IoT). Así, nuestras tácticas clave son:
