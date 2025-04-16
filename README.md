@@ -324,13 +324,25 @@ Las características clave de nuestro producto incluyen una interfaz intuitiva, 
 Visualmente, el producto debe ser claro, moderno y profesional, con un diseño minimalista que facilite la comprensión de los datos. La interfaz debe incluir gráficos fáciles de interpretar y una visualización intuitiva de los diferentes parámetros del proceso de café, como las curvas de tueste, los parámetros de extracción y los perfiles sensoriales. En cuanto a su comportamiento, la plataforma debe ser rápida y confiable, con tiempos de respuesta mínimos para que los usuarios puedan tomar decisiones en tiempo real. Las alertas automáticas deben ser precisas y oportunas, mientras que la navegación debe ser fluida tanto en la aplicación web como móvil. Además, el sistema debe permitir una rápida configuración de los perfiles de tueste, calibraciones y ajustes según las necesidades de cada usuario.
 #### 1.2.2.3. Lean UX Hypothesis Statements
 **Hypothesis Statement 1:**  
-*Creemos que si* CaféLab proporciona a baristas y cafeterías una plataforma digital que permita documentar, replicar y compartir procesos clave como el tueste, la calibración del molino, la cata y la preparación, *entonces* lograrán estandarizar la calidad del café, mejorando la consistencia en un 40% y aumentando la satisfacción del cliente en un 30%.
+**Creemos que si** CaféLab proporciona a baristas y cafeterías una plataforma digital que permita documentar, replicar y compartir procesos clave como el tueste, la calibración del molino, la cata y la preparación.
+
+**Sabremos** que hemos tenido éxito.
+
+**Cuando** la consistencia del café mejore en un 40% y la satisfacción del cliente aumente en un 30%.
 
 **Hypothesis Statement 2:**  
-*Creemos que si* CaféLab implementa un módulo que alinee los parámetros técnicos del tueste (como humedad, temperatura de carga y curva de tueste) con el perfil final en taza, *entonces* los baristas reducirán las inconsistencias en la extracción en un 35% y disminuirán las pérdidas de calidad en un 25%.
+**Creemos que si** CaféLab implementa un módulo que alinee los parámetros técnicos del tueste (como humedad, temperatura de carga y curva de tueste) con el perfil final en taza.
+
+**Sabremos** que hemos tenido éxito.
+
+**Cuando** los baristas reduzcan las inconsistencias en la extracción en un 35% y disminuyan las pérdidas de calidad en un 25%.
 
 **Hypothesis Statement 3:**  
-*Creemos que si* CaféLab integra el sensor IoT TrackSilo para monitorear en tiempo real la temperatura (18–22 °C) y la humedad (55–65 %) del café verde, con alertas tempranas y registro por lote, *entonces* los usuarios reducirán las pérdidas de calidad por mala conservación en un 30% y mejorarán los resultados del tueste en un 20%.
+**Creemos que si** CaféLab integra el sensor IoT TrackSilo para monitorear en tiempo real la temperatura (18-22°C) y la humedad (55-65%) del café verde, con alertas tempranas y registro por lote.
+
+**Sabremos** que hemos tenido éxito.
+
+**Cuando** los usuarios reduzcan las pérdidas de calidad por mala conservación en un 30% y mejoren los resultados del tueste en un 20%.
 #### 1.2.2.4. Lean UX Canvas
 <div style="text-align:center;">
     <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
