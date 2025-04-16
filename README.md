@@ -1072,75 +1072,355 @@ En el caso del To-be Scenario Mapping, el equipo definió cómo se visualizaría
         </tr>
         <tr>
             <td class="center">1</td>
-            <td>US01</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
-            <td class="center"></td><!--Story Points NO EN HORAS-->
+            <td>US22</td>
+            <td>Información del Producto</td>
+            <td>Como visitante de la landing page, quiero encontrar información clara sobre la plataforma para entender sus beneficios y decidir si me interesa</td>
+            <td class="center"></td>
         </tr>
         <tr>
             <td class="center">2</td>
-            <td>US02</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
+            <td>US23</td>
+            <td>Secciones Específicas por Segmento</td>
+            <td>Como visitante de la landing page, quiero encontrar información adaptada a mi perfil profesional para evaluar si la solución responde a mis necesidades específicas</td>
             <td class="center"></td>
         </tr>
         <tr>
             <td class="center">3</td>
-            <td>US03</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
+            <td>US24</td>
+            <td>Contacto con Equipo</td>
+            <td>Como visitante de la landing page, quiero contactar con el equipo del sistema para resolver dudas específicas antes de registrarme</td>
             <td class="center"></td>
         </tr>
         <tr>
             <td class="center">4</td>
-            <td>US04</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
+            <td>US25</td>
+            <td>Acceso directo a plataforma</td>
+            <td>Como visitante de la landing page, quiero redirigirme hacia la aplicación principal desde la landing page para comenzar a usar el sistema inmediatamente</td>
             <td class="center"></td>
         </tr>
         <tr>
             <td class="center">5</td>
             <td>US05</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
+            <td>Gestión de Lotes de Café Verde</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero registrar y hacer seguimiento de cada lote de café verde para mantener control de inventario y trazabilidad</td>
             <td class="center"></td>
         </tr>
         <tr>
             <td class="center">6</td>
-            <td>US06</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
+            <td>US15</td>
+            <td>Creación de Recetas de Preparación</td>
+            <td>Como barista profesional, quiero crear y documentar recetas detalladas para cada método de preparación y tipo de café</td>
             <td class="center"></td>
         </tr>
         <tr>
             <td class="center">7</td>
-            <td>US07</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
+            <td>US11</td>
+            <td>Cata Digital Estructurada</td>
+            <td>Como barista profesional, quiero registrar evaluaciones sensoriales estructuradas para documentar las características de cada lote y tueste</td>
             <td class="center"></td>
         </tr>
         <tr>
             <td class="center">8</td>
-            <td>US08</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
+            <td>US19</td>
+            <td>Control de Inventario Integrado</td>
+            <td>Como dueño de cafetería de especialidad, quiero gestionar el inventario de café verde y tostado de forma integrada para optimizar recursos y prevenir desabastecimiento</td>
             <td class="center"></td>
         </tr>
         <tr>
             <td class="center">9</td>
-            <td>US09</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
+            <td>US07</td>
+            <td>Creación de Perfil de Tueste</td>
+            <td>Como barista profesional, quiero crear perfiles de tueste personalizados para documentar y replicar mis mejores resultados</td>
             <td class="center"></td>
         </tr>
         <tr>
             <td class="center">10</td>
-            <td>US10</td>
-            <td></td>
-            <td>Como... deseo... para...</td>
+            <td>US20</td>
+            <td>Análisis de Costos y Rendimiento</td>
+            <td>Como dueño de cafetería de especialidad, quiero calcular y analizar costos, rendimientos y márgenes por lote para optimizar la rentabilidad</td>
             <td class="center"></td>
         </tr>
-    </table>
+        <tr>
+            <td class="center">11</td>
+            <td>US12</td>
+            <td>Visualización de Perfiles Sensoriales</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero visualizar perfiles sensoriales en formato de hexágono o gráfico de radar para interpretar y comparar cualidades</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">12</td>
+            <td>US08</td>
+            <td>Registro de Sesión de Tueste</td>
+            <td>Como barista profesional, quiero documentar cada sesión de tueste asociada a un lote específico para mantener trazabilidad y control de calidad</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">13</td>
+            <td>US04</td>
+            <td>Registro de Proveedores</td>
+            <td>Como dueño de cafetería de especialidad, quiero registrar y evaluar a mis proveedores para mantener un control de calidad y trazabilidad de origen</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">14</td>
+            <td>US16</td>
+            <td>Calibración de Molienda</td>
+            <td>Como barista profesional, quiero documentar configuraciones de molienda para diferentes equipos y métodos para mantener consistencia entre preparaciones</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">15</td>
+            <td>US13</td>
+            <td>Correlación Tueste-Sabor</td>
+            <td>Como barista profesional, quiero visualizar la correlación entre parámetros de tueste y resultados sensoriales para optimizar mis perfiles</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">16</td>
+            <td>US21</td>
+            <td>Reportes de Trazabilidad</td>
+            <td>Como dueño de cafetería de especialidad, quiero generar reportes de trazabilidad completa para comunicar transparencia y valor agregado</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">17</td>
+            <td>US06</td>
+            <td>Registro de Certificaciones</td>
+            <td>Como dueño de cafetería de especialidad, quiero documentar las certificaciones de mis cafés para validar y comunicar su valor agregado</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">18</td>
+            <td>US17</td>
+            <td>Portafolio de Bebidas</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero crear un portafolio digital de bebidas y recetas para presentar a clientes o eventos</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">19</td>
+            <td>US09</td>
+            <td>Análisis Comparativo de Tuestes</td>
+            <td>Como barista profesional, quiero comparar diferentes sesiones de tueste para identificar patrones y optimizar resultados</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">20</td>
+            <td>US18</td>
+            <td>Compartir Recetas</td>
+            <td>Como barista profesional, quiero compartir mis recetas con mi equipo para mantener consistencia en la preparación</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">21</td>
+            <td>US14</td>
+            <td>Historial de Catas</td>
+            <td>Como barista profesional, quiero acceder al historial de catas por lote, origen o periodo para analizar tendencias y consistencia</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">22</td>
+            <td>US10</td>
+            <td>Biblioteca de Defectos de Tueste</td>
+            <td>Como barista profesional, quiero acceder a una biblioteca de defectos comunes para identificar y corregir problemas en mis tuestes</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">23</td>
+            <td>US01</td>
+            <td>Registro y Autenticación (Usuarios)</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero registrarme y acceder de forma segura para mantener la confidencialidad de mis datos</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">24</td>
+            <td>US02</td>
+            <td>Perfil Personalizado</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero configurar mi perfil profesional para personalizar mi experiencia y mostrar mi identidad dentro del sistema</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">25</td>
+            <td>US03</td>
+            <td>Selección de Plan</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero elegir entre los diferentes planes disponibles para acceder a las funcionalidades que mejor se adapten a mis necesidades</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">26</td>
+            <td>TS01</td>
+            <td>POST HTTPS Usuarios</td>
+            <td>Como desarrollador, quiero registrar nuevos usuarios mediante una API para permitir el acceso al sistema</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">27</td>
+            <td>TS02</td>
+            <td>POST HTTPS Autenticación</td>
+            <td>Como desarrollador, quiero autenticar usuarios mediante una API para validar credenciales y permitir acceso seguro</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">28</td>
+            <td>TS03</td>
+            <td>GET HTTPS Perfil</td>
+            <td>Como desarrollador, quiero obtener datos del perfil de usuario mediante una API para personalizar la experiencia</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">29</td>
+            <td>TS04</td>
+            <td>PUT HTTPS Perfil</td>
+            <td>Como desarrollador, quiero actualizar el perfil de usuario mediante una API para mantener la información actualizada</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">30</td>
+            <td>TS05</td>
+            <td>GET HTTPS Planes</td>
+            <td>Como desarrollador, quiero obtener información sobre planes disponibles mediante una API para mostrar opciones de suscripción</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">31</td>
+            <td>TS09</td>
+            <td>POST HTTPS Lotes</td>
+            <td>Como desarrollador, quiero registrar nuevos lotes de café mediante una API para mantener el inventario actualizado</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">32</td>
+            <td>TS21</td>
+            <td>POST HTTPS Recetas</td>
+            <td>Como desarrollador, quiero registrar recetas de preparación mediante una API para documentar métodos óptimos</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">33</td>
+            <td>TS18</td>
+            <td>POST HTTPS Catas</td>
+            <td>Como desarrollador, quiero registrar evaluaciones sensoriales mediante una API para documentar características del café</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">34</td>
+            <td>TS23</td>
+            <td>GET HTTPS Inventario</td>
+            <td>Como desarrollador, quiero consultar el inventario integrado mediante una API para visualizar existencias</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">35</td>
+            <td>TS13</td>
+            <td>POST HTTPS Perfiles-Tueste</td>
+            <td>Como desarrollador, quiero crear perfiles de tueste mediante una API para estandarizar procesos</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">36</td>
+            <td>TS20</td>
+            <td>GET HTTPS Correlaciones</td>
+            <td>Como desarrollador, quiero obtener correlaciones entre tueste y sabor mediante una API para optimizar procesos</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">37</td>
+            <td>TS14</td>
+            <td>POST HTTPS Sesiones-Tueste</td>
+            <td>Como desarrollador, quiero registrar sesiones de tueste mediante una API para documentar cada proceso</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">38</td>
+            <td>TS07</td>
+            <td>POST HTTPS Proveedores</td>
+            <td>Como desarrollador, quiero registrar nuevos proveedores mediante una API para ampliar la red de suministro</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">39</td>
+            <td>TS22</td>
+            <td>POST HTTPS Calibraciones</td>
+            <td>Como desarrollador, quiero registrar calibraciones de molienda mediante una API para mantener consistencia entre preparaciones</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">40</td>
+            <td>TS19</td>
+            <td>GET HTTPS Perfiles-Sensoriales</td>
+            <td>Como desarrollador, quiero obtener perfiles sensoriales mediante una API para visualizar y comparar cualidades</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">41</td>
+            <td>TS24</td>
+            <td>PATCH HTTPS Inventario</td>
+            <td>Como desarrollador, quiero actualizar el consumo de inventario mediante una API para mantener existencias actualizadas</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">42</td>
+            <td>TS11</td>
+            <td>POST HTTPS Certificaciones</td>
+            <td>Como desarrollador, quiero registrar certificaciones mediante una API para validar la calidad y origen del café</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">43</td>
+            <td>TS25</td>
+            <td>POST HTTPS Contacto</td>
+            <td>Como desarrollador, quiero procesar formularios de contacto mediante una API para gestionar comunicaciones con visitantes</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">44</td>
+            <td>TS16</td>
+            <td>GET HTTPS Análisis-Tueste</td>
+            <td>Como desarrollador, quiero obtener análisis comparativo de tuestes mediante una API para identificar patrones</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">45</td>
+            <td>TS06</td>
+            <td>POST HTTPS Planes</td>
+            <td>Como desarrollador, quiero suscribir usuarios a planes mediante una API para gestionar acceso a funcionalidades</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">46</td>
+            <td>TS08</td>
+            <td>GET HTTPS Proveedores</td>
+            <td>Como desarrollador, quiero consultar proveedores mediante una API para mostrar opciones disponibles</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">47</td>
+            <td>TS10</td>
+            <td>PATCH HTTPS Lotes</td>
+            <td>Como desarrollador, quiero actualizar el estado de lotes mediante una API para reflejar cambios en el ciclo de vida</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">48</td>
+            <td>TS12</td>
+            <td>GET HTTPS Certificaciones</td>
+            <td>Como desarrollador, quiero obtener certificaciones mediante una API para mostrar valor agregado del producto</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">49</td>
+            <td>TS15</td>
+            <td>PATCH HTTPS Sesiones-Tueste</td>
+            <td>Como desarrollador, quiero actualizar lecturas de una sesión de tueste mediante una API para construir la curva real</td>
+            <td class="center"></td>
+        </tr>
+        <tr>
+            <td class="center">50</td>
+            <td>TS17</td>
+            <td>GET HTTPS Defectos-Tueste</td>
+            <td>Como desarrollador, quiero consultar defectos comunes en tueste mediante una API para asistir en diagnóstico de problemas</td>
+            <td class="center"></td>
+        </tr>
+</table>
 
 # Capítulo IV: Product Design
 
