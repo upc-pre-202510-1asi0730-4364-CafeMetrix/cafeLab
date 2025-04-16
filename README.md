@@ -1423,16 +1423,134 @@ En el caso del To-be Scenario Mapping, el equipo definió cómo se visualizaría
 </table>
 
 # Capítulo IV: Product Design
-
-## 4.1. Style Guidelines
+## 4.1. Style Guideline
 ### 4.1.1. General Style Guidelines
+Los "style guideline" son un conjunto de principios visuales y comunicacionales que permite mantener coherencia y claridad en la interfaz del producto. En el caso de **Cafelab**, esta guía busca comunicar profesionalismo, precisión técnica y una identidad cercana al rubro del café de especialidad. 
+
+**Branding:**
+**Nombre de marca:**  
+Cafelab representa un laboratorio digital para baristas y cafeterías de especialidad. El nombre fusiona la precisión técnica ("lab") con la calidez y cultura del café.
+
+**Misión:**  
+Brindar herramientas digitales que profesionalicen el trabajo del barista, integrando tecnología con el arte de la preparación del café.
+
+**Visión:**  
+Ser la plataforma líder en documentación, calibración y trazabilidad para negocios de café de especialidad en Latinoamérica.
+
+**Colores:**
+- Negro Oliva `#414535` 
+- Verde Oliva `#618985`
+- Crema `#F2E3BC` 
+- Gris Ceniza `#96BBBB`
+- Leon`#C19875` 
+
+**Tipografía:**
+
+La tipografía define la jerarquía visual y la legibilidad de la plataforma. Se han definido los siguientes estilos:
+
+- **Heading 01:** Montserrat SemiBold – 52px
+- **Heading 02:** Montserrat Medium – 36px
+- **Heading 03:** Open Sans SemiBold – 24px
+- **Heading 04:** Open Sans Regular – 18px
+- **Texto principal:** Open Sans Regular – 16px
+- **Texto técnico:** Roboto Mono – 14px
+
+**Tono de comunicación:**
+- Profesional pero cercano.
+- Técnico, sin perder accesibilidad.
+- Entusiasta y claro.
 ### 4.1.2. Web Style Guidelines
+El enfoque de diseño web de Cafelab es limpio, moderno y centrado en la eficiencia operativa. El estilo busca balancear datos técnicos complejos con una experiencia visualmente amigable.
+
+**Tarjetas y visualizaciones:**
+
+- Se usan componentes visuales como "cards" para representar lotes, tuestes, recetas y catas.
+- Visualizaciones clave como curvas de tueste y hexágonos sensoriales están integradas con alto contraste y claridad.
+- Cada módulo se presenta con íconos representativos del proceso (tueste, molienda, método, etc.).
+
+**Botones:**
+
+- Botones primarios: Redondeados, fondo color negro oliva, texto blanco.
+- Botones secundarios: Bordeados, fondo transparente, texto café.
+- Uso de color rojo `#D32F2F` para acciones destructivas (eliminar lote, cancelar proceso).
+
+**Tablas:**
+
+- Las tablas muestran listas de lotes, tuestes, recetas o usuarios.
+- Diseño limpio, encabezados destacados, intercalado de filas para facilitar la lectura.
+- Columnas ordenables y con íconos de filtrado.
+
+**Pantallas emergentes:**
+
+- Pop-ups propios (no de navegador) para confirmación de acciones importantes.
+- Fondo oscuro atenuado y foco visual centrado.
+- Botones de acción y cierre claramente visibles.
 ## 4.2. Information Architecture
+La arquitectura de información de Cafelab ha sido diseñada para guiar al usuario de forma lógica, eficiente y contextual a través de todas las funcionalidades de la plataforma. Cada módulo ha sido organizado con el objetivo de representar las etapas del proceso del café desde su estado verde hasta la taza final. Se busca facilitar tanto el registro de información técnica como su posterior análisis para toma de decisiones, con una experiencia fluida, clara y estructurada.
+
+A continuación, se detallan los sistemas de organización, etiquetado, navegación, búsqueda y posicionamiento web considerados para garantizar una experiencia digital de calidad.
+
 ### 4.2.1. Organization Systems.
+La organización del contenido en Cafelab ha sido diseñada teniendo en cuenta las distintas etapas del proceso del café y la variedad de perfiles de usuario. A lo largo de la plataforma, se utilizan diferentes tipos de organización visual para facilitar el acceso, comprensión y uso eficiente de las herramientas disponibles.
+
+#### Organización jerárquica (Visual Hierarchy)
+
+La estructura jerárquica se aplica principalmente en la Landing Page y en los paneles de administración. En estos espacios, se presenta la información de forma descendente según su relevancia, empezando por los valores de la marca, seguido de los beneficios, funcionalidades clave y finalmente los planes disponibles. Los títulos, botones de llamada a la acción y módulos destacados ocupan mayor espacio visual para guiar la atención del usuario. Este tipo de organización también se implementa en vistas como el perfil del barista o administrador, donde los datos personales y funciones de edición están claramente separados, priorizando la información antes que las acciones.
+
+#### Organización secuencial (Step-by-step)
+
+En procesos técnicos como el registro de una curva de tueste, la calibración de una receta o una sesión de cata, la aplicación guía al usuario paso a paso. El flujo está diseñado para que cada acción derive lógicamente en la siguiente, permitiendo una documentación completa y estructurada. Por ejemplo, en el registro de tueste, el usuario primero indica el lote, luego los parámetros técnicos, seguido por la curva de temperatura y finaliza con la comparación o guardado del perfil. Esta secuencia reduce errores y facilita la repetibilidad de procesos complejos.
+
+#### Organización matricial
+
+El panel de inicio (Dashboard) utiliza una organización matricial que permite al usuario tener una vista general del estado actual de su operación. En esta interfaz, se combinan tarjetas interactivas, indicadores visuales, gráficas e hipervínculos que llevan directamente a los módulos de tueste, cata, recetas o inventario. Esta disposición permite acceder rápidamente a áreas específicas sin necesidad de recorrer un camino lineal. La interfaz es especialmente útil para administradores que requieren monitoreo y toma de decisiones rápidas.
+
+#### Categorización del contenido
+
+Según el tipo de información y su propósito dentro de la plataforma, se aplican distintas formas de categorización:
+
+- **Alfabética:** Utilizada en listados de métodos de preparación, variedades de café o recetas personalizadas. Facilita la localización rápida de elementos en bibliotecas extensas.
+- **Cronológica:** Aplicada en historiales de cata, curvas de tueste y registros de inventario. Esta categorización es esencial para el análisis de evolución de lotes y procesos a lo largo del tiempo.
+- **Por tópicos:** Implementada en la segmentación del contenido educativo, artículos técnicos o secciones informativas dentro del dashboard.
+- **Según audiencia:** La plataforma adapta su contenido de inicio según el tipo de usuario. Por ejemplo, un administrador accede directamente al panel general con estadísticas e inventario, mientras que un barista profesional inicia en la vista de tuestes activos o próximas calibraciones.
+
+Esta combinación de sistemas de organización permite que Cafelab ofrezca una experiencia flexible y funcional, respetando tanto la lógica del proceso cafetalero como las necesidades específicas de sus distintos usuarios.
 ### 4.2.2. Labeling Systems.
+El sistema de etiquetado de Cafelab busca maximizar la claridad y minimizar la carga cognitiva del usuario mediante un lenguaje directo, técnico y específico del rubro cafetalero.
+
+ Uso de etiquetas precisas, técnicas y consistentes: "Curva de Tueste", "Perfil Sensorial", "Lote #xxx", "Ratio", "Taza".
+- Etiquetas breves en menús: `Inicio`, `Tueste`, `Cata`, `Recetas`, `Inventario`.
+- Tarjetas y gráficos etiquetados con íconos + texto para facilitar el reconocimiento visual.
 ### 4.2.3. SEO Tags and Meta Tags
+Los meta tags y SEO tags son elementos clave para mejorar el posicionamiento de la aplicación en motores de búsqueda, facilitar la indexación y enriquecer la experiencia en plataformas de redirección o previsualización (como redes sociales y navegadores). En Cafelab, estos elementos están optimizados tanto para la Landing Page como para la Web App una vez iniciada sesión.
+
+**Landing Page:**
+```html
+<title>Cafelab – Dominio total sobre tu café</title>
+<meta charset="utf-8">
+<meta name="description" content="Plataforma integral para baristas y cafeterías que conecta el café verde con la taza final. Documenta, calibra y escala tu calidad.">
+<meta name="keywords" content="café de especialidad, barista, tueste, cata, trazabilidad, calibración, cafelab">
+<meta name="author" content="Equipo Cafelab - CafeMetrix">
+<meta name="copyright" content="cafelab"/>
+
+<title>Cafelab | Panel de Control</title>
+<meta name="description" content="Gestión completa de tus tuestes, recetas y procesos desde un solo lugar.">
+<meta name="keywords" content="panel de tueste, perfil sensorial, barista app, café verde, recetas de café">
+```
 ### 4.2.4. Searching Systems.
+Los sistemas de búsqueda de Cafelab están diseñados para que el usuario pueda encontrar información específica de manera ágil, incluso dentro de grandes volúmenes de datos históricos o múltiples lotes activos.
+- Búsqueda por texto: En tuestes, recetas, catas y lotes.
+- Filtros combinables: Método de preparación, origen del grano, fecha, variedad.
+- Resultados con etiquetas visuales (tipo de café, método, fecha) y opciones para ordenar y comparar.
 ### 4.2.5. Navigation Systems.
+Los sistemas de navegación de Cafelab permiten al usuario recorrer los diferentes módulos y procesos de forma estructurada, intuitiva y adaptativa al dispositivo utilizado.
+
+- Menú lateral fijo (web desktop): Accesos a los principales módulos.
+- Menú hamburguesa (responsive): Versión simplificada para móviles.
+- Barra superior contextual: Con accesos rápidos a perfil, notificaciones, ayuda.
+- Flujo secuencial: Registro paso a paso para tuestes y catas.
+- Breadcrumbs: En vistas de detalle, para mantener contexto.
+- Call To Action claros: “Registrar nuevo tueste”, “Crear receta”, “Ver historial”.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 ### 4.3.2. Landing Page Mock-up.
