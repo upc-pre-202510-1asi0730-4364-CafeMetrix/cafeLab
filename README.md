@@ -704,6 +704,37 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 ![User Persona - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/User%20Persona/UserPersona_ValeriaRamos.png)
 
 ### 2.3.2. User Task Matrix
+
+En esta sección se presentan los **User Task Matrix** correspondientes a los segmentos objetivos del proyecto (barista profesional y dueño de cafetería de especialidad).  
+A continuación, se detallan las tareas que ambos realizan en su rutina profesional, asociadas a la preparación, análisis y gestión de café de especialidad.
+
+| **TASK**                                       | **Barista Profesional** |                   | **Dueño de cafetería de especialidad** |                   |
+|-----------------------------------------------|--------------------------|-------------------|----------------------------------------|-------------------|
+|                                               | **FRECUENCY**            | **IMPORTANCE**    | **FRECUENCY**                          | **IMPORTANCE**    |
+| Calibrar máquina de espresso                  | Always                   | High              | Sometimes                              | Medium            |
+| Registrar parámetros de extracción            | Always                   | High              | Sometimes                              | Medium            |
+| Cata sensorial de cafés                       | Often                    | High              | Often                                  | High              |
+| Registrar recetas de preparación              | Always                   | High              | Sometimes                              | Medium            |
+| Recomendar mejoras en recetas                 | Often                    | Medium            | Sometimes                              | High              |
+| Registrar consumo de café molido/tostado      | Often                    | High              | Always                                 | High              |
+| Compartir información con el equipo           | Always                   | Medium            | Always                                 | High              |
+| Documentar perfiles de tueste                 | Sometimes                | Medium            | Always                                 | High              |
+| Supervisar procesos de calidad                | Rarely                   | Medium            | Always                                 | High              |
+| Realizar pedidos o gestionar inventario       | Sometimes                | Medium            | Always                                 | High              |
+| Analizar datos para mejorar procesos          | Sometimes                | Medium            | Often                                  | High              |
+| Buscar registros antiguos                     | Sometimes                | Medium            | Often                                  | Medium            |
+| Coordinar con proveedores de café             | Never                    | Low               | Often                                  | High              |
+| Usar herramientas digitales de control        | Often                    | Medium            | Often                                  | High              |
+| Capacitarse o aprender sobre café             | Always                   | High              | Sometimes                              | Medium            |
+
+---
+
+El análisis de las tareas de baristas profesionales y dueños de cafeterías de especialidad revela diferentes enfoques en el negocio del café: los baristas se concentran en tareas técnicas diarias como calibrar la máquina de espresso, registrar parámetros de extracción y preparación, y realizar catas sensoriales, todas orientadas a la consistencia y perfeccionamiento en taza, con interés en formación continua; mientras que los dueños priorizan aspectos estratégicos como documentar perfiles de tueste, supervisar calidad, gestionar inventarios, analizar datos para decisiones estratégicas y capacitar al equipo, enfocándose en control, trazabilidad y eficiencia operativa.
+
+Coinciden en valorar las catas sensoriales, el registro de información para mejorar procesos y el uso de WhatsApp y Google Sheets como herramientas, pero difieren principalmente en que los baristas ejecutan tareas técnicas relacionadas con el café en barra, mientras los dueños administran procesos más amplios abarcando calidad, compras, capacitación y toma de decisiones.
+ abarcan calidad, compras, capacitación y toma de decisiones estratégicas.
+
+
 ### 2.3.3. User Journey Mapping
 En la presente sección se ilustra el recorrido end-to-end del sistema integral para baristas y cafeterías de especialidad, centrado en el segmento objetivo: dueños y gerentes de cafeterías. El User Journey Mapping describe las distintas etapas por las que atraviesa el usuario, desde el momento en que toma conocimiento de la solución tecnológica, pasando por su decisión de registrarse y configurarla según las necesidades de su operación, su uso activo en el día a día para estandarizar procesos y mejorar la trazabilidad, hasta llegar a la eventual decisión de dejar de utilizarla, ya sea por motivos estratégicos o de presupuesto.
 
@@ -909,6 +940,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
 
 
 # Anexos
+
+
 
 
 
