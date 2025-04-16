@@ -12,7 +12,7 @@
     <strong>Docente: </strong>Alex Humberto Sánchez Ponce<br><!--El br es para el salto de línea-->
     <strong>Sección: </strong>4364<br>
     <strong>Ciclo: </strong>2025 - 1<br>
-    <strong>Startup: </strong>Camafeo<br>
+    <strong>Startup: </strong>Café Metrix<br>
     <strong>Producto: </strong>Café Lab
 </p>
 
