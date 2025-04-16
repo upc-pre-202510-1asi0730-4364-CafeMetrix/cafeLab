@@ -732,24 +732,124 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 En esta sección se presentan los **User Task Matrix** correspondientes a los segmentos objetivos del proyecto (barista profesional y dueño de cafetería de especialidad).  
 A continuación, se detallan las tareas que ambos realizan en su rutina profesional, asociadas a la preparación, análisis y gestión de café de especialidad.
 
-| **TASK**                                       | **Barista Profesional** |                   | **Dueño de cafetería de especialidad** |                   |
-|-----------------------------------------------|--------------------------|-------------------|----------------------------------------|-------------------|
-|                                               | **FRECUENCY**            | **IMPORTANCE**    | **FRECUENCY**                          | **IMPORTANCE**    |
-| Calibrar máquina de espresso                  | Always                   | High              | Sometimes                              | Medium            |
-| Registrar parámetros de extracción            | Always                   | High              | Sometimes                              | Medium            |
-| Cata sensorial de cafés                       | Often                    | High              | Often                                  | High              |
-| Registrar recetas de preparación              | Always                   | High              | Sometimes                              | Medium            |
-| Recomendar mejoras en recetas                 | Often                    | Medium            | Sometimes                              | High              |
-| Registrar consumo de café molido/tostado      | Often                    | High              | Always                                 | High              |
-| Compartir información con el equipo           | Always                   | Medium            | Always                                 | High              |
-| Documentar perfiles de tueste                 | Sometimes                | Medium            | Always                                 | High              |
-| Supervisar procesos de calidad                | Rarely                   | Medium            | Always                                 | High              |
-| Realizar pedidos o gestionar inventario       | Sometimes                | Medium            | Always                                 | High              |
-| Analizar datos para mejorar procesos          | Sometimes                | Medium            | Often                                  | High              |
-| Buscar registros antiguos                     | Sometimes                | Medium            | Often                                  | Medium            |
-| Coordinar con proveedores de café             | Never                    | Low               | Often                                  | High              |
-| Usar herramientas digitales de control        | Often                    | Medium            | Often                                  | High              |
-| Capacitarse o aprender sobre café             | Always                   | High              | Sometimes                              | Medium            |
+<table>
+        <tr>
+            <th rowspan="2">TASK</th>
+            <th colspan="2" class="main-header">Barista Profesional</th>
+            <th colspan="2" class="main-header">Dueño de cafetería de especialidad</th>
+        </tr>
+        <tr>
+            <th class="sub-header">FRECUENCY</th>
+            <th class="sub-header">IMPORTANCE</th>
+            <th class="sub-header">FRECUENCY</th>
+            <th class="sub-header">IMPORTANCE</th>
+        </tr>
+        <tr>
+            <td>Calibrar máquina de espresso</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Registrar parámetros de extracción</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Cata sensorial de cafés</td>
+            <td>Often</td>
+            <td>High</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Registrar recetas de preparación</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Recomendar mejoras en recetas</td>
+            <td>Often</td>
+            <td>Medium</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Registrar consumo de café molido/tostado</td>
+            <td>Often</td>
+            <td>High</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Compartir información con el equipo</td>
+            <td>Always</td>
+            <td>Medium</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Documentar perfiles de tueste</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Supervisar procesos de calidad</td>
+            <td>Rarely</td>
+            <td>Medium</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Realizar pedidos o gestionar inventario</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Analizar datos para mejorar procesos</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Buscar registros antiguos</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+            <td>Often</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Coordinar con proveedores de café</td>
+            <td>Never</td>
+            <td>Low</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Usar herramientas digitales de control</td>
+            <td>Often</td>
+            <td>Medium</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Capacitarse o aprender sobre café</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+    </table>
 
 ---
 
