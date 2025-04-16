@@ -324,13 +324,25 @@ Las características clave de nuestro producto incluyen una interfaz intuitiva, 
 Visualmente, el producto debe ser claro, moderno y profesional, con un diseño minimalista que facilite la comprensión de los datos. La interfaz debe incluir gráficos fáciles de interpretar y una visualización intuitiva de los diferentes parámetros del proceso de café, como las curvas de tueste, los parámetros de extracción y los perfiles sensoriales. En cuanto a su comportamiento, la plataforma debe ser rápida y confiable, con tiempos de respuesta mínimos para que los usuarios puedan tomar decisiones en tiempo real. Las alertas automáticas deben ser precisas y oportunas, mientras que la navegación debe ser fluida tanto en la aplicación web como móvil. Además, el sistema debe permitir una rápida configuración de los perfiles de tueste, calibraciones y ajustes según las necesidades de cada usuario.
 #### 1.2.2.3. Lean UX Hypothesis Statements
 **Hypothesis Statement 1:**  
-*Creemos que si* CaféLab proporciona a baristas y cafeterías una plataforma digital que permita documentar, replicar y compartir procesos clave como el tueste, la calibración del molino, la cata y la preparación, *entonces* lograrán estandarizar la calidad del café, mejorando la consistencia en un 40% y aumentando la satisfacción del cliente en un 30%.
+**Creemos que si** CaféLab proporciona a baristas y cafeterías una plataforma digital que permita documentar, replicar y compartir procesos clave como el tueste, la calibración del molino, la cata y la preparación.
+
+**Sabremos** que hemos tenido éxito.
+
+**Cuando** la consistencia del café mejore en un 40% y la satisfacción del cliente aumente en un 30%.
 
 **Hypothesis Statement 2:**  
-*Creemos que si* CaféLab implementa un módulo que alinee los parámetros técnicos del tueste (como humedad, temperatura de carga y curva de tueste) con el perfil final en taza, *entonces* los baristas reducirán las inconsistencias en la extracción en un 35% y disminuirán las pérdidas de calidad en un 25%.
+**Creemos que si** CaféLab implementa un módulo que alinee los parámetros técnicos del tueste (como humedad, temperatura de carga y curva de tueste) con el perfil final en taza.
+
+**Sabremos** que hemos tenido éxito.
+
+**Cuando** los baristas reduzcan las inconsistencias en la extracción en un 35% y disminuyan las pérdidas de calidad en un 25%.
 
 **Hypothesis Statement 3:**  
-*Creemos que si* CaféLab integra el sensor IoT TrackSilo para monitorear en tiempo real la temperatura (18–22 °C) y la humedad (55–65 %) del café verde, con alertas tempranas y registro por lote, *entonces* los usuarios reducirán las pérdidas de calidad por mala conservación en un 30% y mejorarán los resultados del tueste en un 20%.
+**Creemos que si** CaféLab integra el sensor IoT TrackSilo para monitorear en tiempo real la temperatura (18-22°C) y la humedad (55-65%) del café verde, con alertas tempranas y registro por lote.
+
+**Sabremos** que hemos tenido éxito.
+
+**Cuando** los usuarios reduzcan las pérdidas de calidad por mala conservación en un 30% y mejoren los resultados del tueste en un 20%.
 #### 1.2.2.4. Lean UX Canvas
 <div style="text-align:center;">
     <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
@@ -403,100 +415,112 @@ Estas cafeterías no solo representan una oportunidad de mercado, sino también 
 
 #### Competitive Analysis
 
-**¿Por qué llevar a cabo este análisis?**  
-Este análisis busca identificar las fortalezas, debilidades y estrategias de los competidores de CaféLab en el mercado del café de especialidad, para entender cómo posicionar nuestra solución (software + IoT) y destacar frente a competidores establecidos.
 
-
-<div style="text-align:center;">
-    <!-- Título y descripción -->
-    <h1 style="font-size: 1.5em; font-weight: bold; margin-bottom: 0.5em;">Análisis de Competencia y FODA - CaféLab</h1>
-    <!-- Tabla única -->
-    <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <!-- Sección: Perfil del Competidor -->
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
         <tr>
-            <th style="text-align:center; border: 1px solid #ddd;" rowspan="5">Perfil del Competidor</th>
-            <th style="text-align:center; border: 1px solid #ddd;">CaféLab (Startup)</th>
-            <th style="text-align:center; border: 1px solid #ddd;">Cropster (Competitor 1)</th>
-            <th style="text-align:center; border: 1px solid #ddd;">Ikawa (Competitor 2)</th>
-            <th style="text-align:center; border: 1px solid #ddd;">Beanconqueror (Competitor 3)</th>
+            <th colspan="6" style="text-align:center; border: 1px solid #000;">Competitive Analysis Landscape</th>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Overview</strong></td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Plataforma web para baristas y cafeterías, con módulos para tueste, cata, calibración, trazabilidad e IoT (TrackSilo).</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Plataforma líder para tueste, cata y trazabilidad, usada por tostadores profesionales.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Solución para tueste y análisis, con hardware y software integrados.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">App gratuita para baristas, enfocada en cata y calibración de espresso.</td>
+            <th style="text-align:center; border: 1px solid #000;">¿Por qué llevar a cabo este análisis?</th>
+            <td colspan="5" style="border: 1px solid #000;">Este análisis busca identificar las fortalezas, debilidades y estrategias de los competidores de CaféLab en el mercado del café de especialidad, para entender cómo posicionar nuestra solución (software + IoT) y destacar frente a competidores establecidos.</td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Ventaja Competitiva</strong></td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Integración de IoT (TrackSilo) para monitoreo de almacenamiento, y trazabilidad completa.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Amplia experiencia en el mercado y comunidad de usuarios grande.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Hardware de tueste de alta precisión integrado con software.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Gratuita, de código abierto y centrada en la comunidad de baristas.</td>
+            <th style="border: 1px solid #000;"></th>
+            <th style="text-align:center; border: 1px solid #000;"></th>
+            <th style="text-align:center; border: 1px solid #000;">CaféLab<img src="CUANDO TENGAMOS EL LOGO.jpeg" alt="Aqui va nuestro logooo" width="150"></th>
+            <th style="text-align:center; border: 1px solid #000;">Cropster<img src="public\assets\images\Competidores\cropster.jpg" alt="Logo Crospter" width="150"></th>
+            <th style="text-align:center; border: 1px solid #000;">Ikawa<img src="public\assets\images\Competidores\ikawa.png" alt="Logo Ikawa" width="150"></th>
+            <th style="text-align:center; border: 1px solid #000;">Beanconqueror<img src="public\assets\images\Competidores\conqueror.jpg" alt="Logo Beanconqueror" width="150"></th>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Clientes</strong></td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Baristas profesionales y cafeterías de especialidad.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Tostadores grandes y cafeterías de especialidad.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Baristas y pequeños tostadores.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Baristas aficionados y profesionales pequeños.</td>
+            <th rowspan="3" style="text-align:center; border: 1px solid #000;">Perfil</th>
+            <td style="border: 1px solid #000;"><strong>Overview</strong></td>
+            <td style="border: 1px solid #000;">Plataforma web para baristas y cafeterías, con módulos para tueste, cata, calibración, trazabilidad e IoT (TrackSilo).</td>
+            <td style="border: 1px solid #000;">Plataforma líder para tueste, cata y trazabilidad, usada por tostadores profesionales.</td>
+            <td style="border: 1px solid #000;">Solución para tueste y análisis, con hardware y software integrados.</td>
+            <td style="border: 1px solid #000;">App gratuita para baristas, enfocada en cata y calibración de espresso.</td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Mercado Objetivo</strong></td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Cafeterías de especialidad en América Latina, con planes de expansión global.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Mercado global, especialmente en Europa y Norteamérica.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Mercado global, con enfoque en pequeños tostadores.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Baristas individuales a nivel global.</td>
+            <td style="border: 1px solid #000;"><strong>Ventaja competitiva ¿Qué valor ofrece a los clientes?</strong></td>
+            <td style="border: 1px solid #000;">Integración de IoT (TrackSilo) para monitoreo de almacenamiento, y trazabilidad completa.</td>
+            <td style="border: 1px solid #000;">Amplia experiencia en el mercado y comunidad de usuarios grande.</td>
+            <td style="border: 1px solid #000;">Hardware de tueste de alta precisión integrado con software.</td>
+            <td style="border: 1px solid #000;">Gratuita, de código abierto y centrada en la comunidad de baristas.</td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Estrategias de Marketing</strong></td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Marketing digital (redes sociales, blogs), alianzas con asociaciones de café y ferias.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Presencia en eventos de café, marketing de contenido y asociaciones con tostadores.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Enfoque en innovación de hardware, demostraciones en ferias de café.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">Comunidad de código abierto, marketing de boca en boca.</td>
-        </tr>
-        <!-- Separador -->
-        <tr>
-            <td colspan="5" style="border: none; text-align: right; font-size: 0.9em; padding-top: 0.5em;"></td>
+            <td style="border: 1px solid #000;"><strong>Clientes</strong></td>
+            <td style="border: 1px solid #000;">Baristas profesionales y cafeterías de especialidad.</td>
+            <td style="border: 1px solid #000;">Tostadores grandes y cafeterías de especialidad.</td>
+            <td style="border: 1px solid #000;">Baristas y pequeños tostadores.</td>
+            <td style="border: 1px solid #000;">Baristas aficionados y profesionales pequeños.</td>
         </tr>
         <tr>
-            <td colspan="5" style="border: none; padding: 0;"><hr style="border: 1px solid #000; margin: 1em 0;"></td>
-        </tr>
-        <!-- Sección: Perfil de Producto (FODA) -->
-        <tr>
-            <th style="text-align:center; border: 1px solid #ddd;" rowspan="7">Perfil de Producto</th>
-            <th style="text-align:center; border: 1px solid #ddd;" colspan="4">CaféLab (Startup)</th>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Productos & Servicios</strong></td>
-            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Plataforma web con módulos de tueste, cata, calibración, trazabilidad y sensor IoT (TrackSilo).</td>
+            <th rowspan="2" style="text-align:center; border: 1px solid #000;">Perfil de Marketing</th>
+            <td style="border: 1px solid #000;"><strong>Mercado objetivo</strong></td>
+            <td style="border: 1px solid #000;">Cafeterías de especialidad en América Latina, con planes de expansión global.</td>
+            <td style="border: 1px solid #000;">Mercado global, especialmente en Europa y Norteamérica.</td>
+            <td style="border: 1px solid #000;">Mercado global, con enfoque en pequeños tostadores.</td>
+            <td style="border: 1px solid #000;">Baristas individuales a nivel global.</td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Precios & Costos</strong></td>
-            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Suscripciones escalonadas: Base Cafetal ($50/mes), Artista del Tueste ($100/mes), D’ Especialidad ($200/mes).</td>
+            <td style="border: 1px solid #000;"><strong>Estrategias de marketing</strong></td>
+            <td style="border: 1px solid #000;">Marketing digital (redes sociales, blogs), alianzas con asociaciones de café y ferias.</td>
+            <td style="border: 1px solid #000;">Presencia en eventos de café, marketing de contenido y asociaciones con tostadores.</td>
+            <td style="border: 1px solid #000;">Enfoque en innovación de hardware, demostraciones en ferias de café.</td>
+            <td style="border: 1px solid #000;">Comunidad de código abierto, marketing de boca en boca.</td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Canales de Distribución (Web y/o Móvil)</strong></td>
-            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Plataforma web (sin app móvil).</td>
+            <th rowspan="3" style="text-align:center; border: 1px solid #000;">Perfil de Producto</th>
+            <td style="border: 1px solid #000;"><strong>Productos & Servicios</strong></td>
+            <td style="border: 1px solid #000;">Plataforma web con módulos de tueste, cata, calibración, trazabilidad y sensor IoT (TrackSilo).</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Fortalezas</strong></td>
-            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Integración de IoT para monitoreo de almacenamiento, trazabilidad completa, enfoque en América Latina.</td>
+            <td style="border: 1px solid #000;"><strong>Precios & Costos</strong></td>
+            <td style="border: 1px solid #000;">Suscripciones escalonadas: Base Cafetal ($50/mes), Artista del Tueste ($100/mes), D' Especialidad ($200/mes).</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Debilidades</strong></td>
-            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Sin aplicación móvil, equipo pequeño, aún no consolidado en el mercado global.</td>
+            <td style="border: 1px solid #000;"><strong>Canales de distribución (web/móvil)</strong></td>
+            <td style="border: 1px solid #000;">Plataforma web (sin app móvil).</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Oportunidades</strong></td>
-            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Creciente interés en trazabilidad y sostenibilidad en el café, mercado en expansión en América Latina.</td>
+            <th rowspan="4" style="text-align:center; border: 1px solid #000;">ANÁLISIS SWOT</th>
+            <td style="border: 1px solid #000;"><strong>Fortalezas</strong></td>
+            <td style="border: 1px solid #000;">Integración de IoT para monitoreo de almacenamiento, trazabilidad completa, enfoque en América Latina.</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
         </tr>
         <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;"><strong>Amenazas</strong></td>
-            <td colspan="3" style="border: 1px solid #ddd; vertical-align: top;">Competencia de plataformas establecidas como Cropster, posibles barreras regulatorias para IoT.</td>
+            <td style="border: 1px solid #000;"><strong>Debilidades</strong></td>
+            <td style="border: 1px solid #000;">Sin aplicación móvil, equipo pequeño, aún no consolidado en el mercado global.</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;"><strong>Oportunidades</strong></td>
+            <td style="border: 1px solid #000;">Creciente interés en trazabilidad y sostenibilidad en el café, mercado en expansión en América Latina.</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;"><strong>Amenazas</strong></td>
+            <td style="border: 1px solid #000;">Competencia de plataformas establecidas como Cropster, posibles barreras regulatorias para IoT.</td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
+            <td style="border: 1px solid #000;"></td>
         </tr>
     </table>
-</div>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 Nuestra estrategia se basa en la diferenciación tecnológica y la accesibilidad para baristas y cafeterías de especialidad, ofreciendo una solución integral que combine software y hardware (IoT). Así, nuestras tácticas clave son:
@@ -698,34 +722,134 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 **Administradores y dueños de cafeterias de especialidad**
-![User Persona - Fernando Goijman](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/User%20Persona/UserPersona_FernandoGoijman.png)
+<td><img src="public\assets\images\User Persona\UserPersona_FernandoGoijman.png" alt="Fernando Goijman"></td>
 
 **Barista Profesional**
-![User Persona - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/User%20Persona/UserPersona_ValeriaRamos.png)
+<td><img src="public\assets\images\User Persona\UserPersona_ValeriaRamos.png" alt="Valeria Ramos"></td>
 
 ### 2.3.2. User Task Matrix
 
 En esta sección se presentan los **User Task Matrix** correspondientes a los segmentos objetivos del proyecto (barista profesional y dueño de cafetería de especialidad).  
 A continuación, se detallan las tareas que ambos realizan en su rutina profesional, asociadas a la preparación, análisis y gestión de café de especialidad.
 
-| **TASK**                                       | **Barista Profesional** |                   | **Dueño de cafetería de especialidad** |                   |
-|-----------------------------------------------|--------------------------|-------------------|----------------------------------------|-------------------|
-|                                               | **FRECUENCY**            | **IMPORTANCE**    | **FRECUENCY**                          | **IMPORTANCE**    |
-| Calibrar máquina de espresso                  | Always                   | High              | Sometimes                              | Medium            |
-| Registrar parámetros de extracción            | Always                   | High              | Sometimes                              | Medium            |
-| Cata sensorial de cafés                       | Often                    | High              | Often                                  | High              |
-| Registrar recetas de preparación              | Always                   | High              | Sometimes                              | Medium            |
-| Recomendar mejoras en recetas                 | Often                    | Medium            | Sometimes                              | High              |
-| Registrar consumo de café molido/tostado      | Often                    | High              | Always                                 | High              |
-| Compartir información con el equipo           | Always                   | Medium            | Always                                 | High              |
-| Documentar perfiles de tueste                 | Sometimes                | Medium            | Always                                 | High              |
-| Supervisar procesos de calidad                | Rarely                   | Medium            | Always                                 | High              |
-| Realizar pedidos o gestionar inventario       | Sometimes                | Medium            | Always                                 | High              |
-| Analizar datos para mejorar procesos          | Sometimes                | Medium            | Often                                  | High              |
-| Buscar registros antiguos                     | Sometimes                | Medium            | Often                                  | Medium            |
-| Coordinar con proveedores de café             | Never                    | Low               | Often                                  | High              |
-| Usar herramientas digitales de control        | Often                    | Medium            | Often                                  | High              |
-| Capacitarse o aprender sobre café             | Always                   | High              | Sometimes                              | Medium            |
+<table>
+        <tr>
+            <th rowspan="2">TASK</th>
+            <th colspan="2" class="main-header">Barista Profesional</th>
+            <th colspan="2" class="main-header">Dueño de cafetería de especialidad</th>
+        </tr>
+        <tr>
+            <th class="sub-header">FRECUENCY</th>
+            <th class="sub-header">IMPORTANCE</th>
+            <th class="sub-header">FRECUENCY</th>
+            <th class="sub-header">IMPORTANCE</th>
+        </tr>
+        <tr>
+            <td>Calibrar máquina de espresso</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Registrar parámetros de extracción</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Cata sensorial de cafés</td>
+            <td>Often</td>
+            <td>High</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Registrar recetas de preparación</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Recomendar mejoras en recetas</td>
+            <td>Often</td>
+            <td>Medium</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Registrar consumo de café molido/tostado</td>
+            <td>Often</td>
+            <td>High</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Compartir información con el equipo</td>
+            <td>Always</td>
+            <td>Medium</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Documentar perfiles de tueste</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Supervisar procesos de calidad</td>
+            <td>Rarely</td>
+            <td>Medium</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Realizar pedidos o gestionar inventario</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Analizar datos para mejorar procesos</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Buscar registros antiguos</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+            <td>Often</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Coordinar con proveedores de café</td>
+            <td>Never</td>
+            <td>Low</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Usar herramientas digitales de control</td>
+            <td>Often</td>
+            <td>Medium</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Capacitarse o aprender sobre café</td>
+            <td>Always</td>
+            <td>High</td>
+            <td>Sometimes</td>
+            <td>Medium</td>
+        </tr>
+    </table>
 
 ---
 
@@ -739,29 +863,31 @@ Coinciden en valorar las catas sensoriales, el registro de información para mej
 En la presente sección se ilustra el recorrido end-to-end del sistema integral para baristas y cafeterías de especialidad, centrado en el segmento objetivo: dueños y gerentes de cafeterías. El User Journey Mapping describe las distintas etapas por las que atraviesa el usuario, desde el momento en que toma conocimiento de la solución tecnológica, pasando por su decisión de registrarse y configurarla según las necesidades de su operación, su uso activo en el día a día para estandarizar procesos y mejorar la trazabilidad, hasta llegar a la eventual decisión de dejar de utilizarla, ya sea por motivos estratégicos o de presupuesto.
 
 **Dueño de cafeteria:**
-![Journey Map - Fernando Goijman](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/JourneyMap/CustomerjourneymapFernandoGoijman.png)
+<td><img src="public\assets\images\JourneyMap\CustomerjourneymapFernandoGoijman.png" alt="Fernando Goijman"></td>
 
 
 **Barista Profesional:**
-![Journey Map - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/JourneyMap/CustomerjourneymapValeriaRamos.png)
+<td><img src="public\assets\images\JourneyMap\CustomerjourneymapValeriaRamos.png" alt="Valeria Ramos"></td>
 
 
 
 ### 2.3.4. Empathy Mapping
 **Administradores y dueños de cafeterias de especialidad**
-![Empathy Mapping - Fernando Goijman](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Empaty%20Mapping/EmpatyMapping_FernandoGoijman.png)
+<td><img src="public\assets\images\Empaty Mapping\EmpatyMapping_FernandoGoijman.png" alt="Fernando Goijman"></td>
 
 
 **Barista Profesional**
-![Empathy Mapping - Valeria Ramos](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/raw/feature/informe-readme/public/assets/images/Empaty%20Mapping/EmpathyMapping_Valeria%20Ramos.png)
+<td><img src="public\assets\images\Empaty Mapping\EmpathyMapping_Valeria Ramos.png" alt="Valeria Ramos"></td>
 
 ### 2.3.5. As-is Scenario Mapping
 Para llevar a cabo el As-is Scenario Mapping, el equipo realizó un proceso de needfinding con el fin de comprender mejor el negocio y determinar la situación actual de las operaciones en las cafeterías de especialidad y el trabajo de los baristas. Este proceso permitió identificar las diferentes fases correspondientes a cada uno de los segmentos objetivos, brindando un entendimiento más profundo del flujo de trabajo y revelando las limitaciones y desafíos del sistema actual.
-**Administradores y dueños de cafeterias de especialidad**
-![AS-IS - Administradores y dueños de cafeterias de especialidad](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/AS-IS/AS_IS_ADMINISTRADORES_Y_DUE%C3%91OS_DE_CAFETERIAS_DE_ESPECIALIDAD.png)
+
+**Administradores y dueños de cafeterías de especialidad**
+<td><img src="public\assets\images\As-Is\AS_IS_ADMINISTRADORES_Y_DUEÑOS_DE_CAFETERIAS_DE_ESPECIALIDAD.png" alt="Administradores y dueños de cafeterías de especialidad"></td>
+
 
 **Barista Profesional**
-![AS-IS - Barista profesional](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/AS-IS/AS_IS_BARISTA_PROFESIONAL.png)
+<td><img src="public\assets\images\As-Is\AS_IS_BARISTA_PROFESIONAL.png" alt="Barista profesional"></td>
 
 ## 2.4. Ubiquitous Language
 En este proyecto, el uso de **Domain-Driven Design (DDD)** permite alinear el desarrollo de software con la realidad del negocio del café de especialidad. Uno de los pilares de DDD es el Lenguaje Ubicuo (Ubiquitous Language), el cual es un conjunto de términos compartidos que se construyen en colaboración entre desarrolladores, diseñadores y expertos del dominio, en nuestro caso, entre los desarrolladores, baristas y administradores de cafeterías.
@@ -857,10 +983,10 @@ En este proyecto, el uso de **Domain-Driven Design (DDD)** permite alinear el de
 En el caso del To-be Scenario Mapping, el equipo definió cómo se visualizaría el flujo de trabajo una vez que la solución CaféLab haya sido implementada en los dos segmentos objetivos. El propósito de este artefacto es analizar y mejorar los aspectos negativos identificados en el As-is Scenario, optimizando los procesos de monitoreo, registro y retroalimentación, y elevando la calidad del café, la eficiencia operativa y la capacidad para tomar decisiones informadas.
 
 **Administradores y dueños de cafeterias de especialidad**
-![TO-BE - Administradores y dueños de cafeterias de especialidad](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/TO-BE/TO_BE_ADMINISTRADORES_Y_DUE%C3%91OS_DE_CAFETERIAS_DE_ESPECIALIDAD.png)
+<td><img src="public\assets\images\To-Be\TO_BE_ADMINISTRADORES_Y_DUEÑOS_DE_CAFETERIAS_DE_ESPECIALIDAD.png" alt="Administradores y dueños de cafeterías de especialidad"></td>
 
 **Barista Profesional**
-![TO-BE - Barista profesional](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/TO-BE/TO_BE_BARISTA_PROFESIONAL.png)
+<td><img src="public\assets\images\To-Be\TO_BE_BARISTA_PROFESIONAL.png" alt="Barista profesional"></td>
 
 
 ## 3.2. User Stories
