@@ -41,7 +41,7 @@
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Christian Fabrizio Inga Orihuela</td>
-            <td style="border: 1px solid #ddd;">20231C111</td>
+            <td style="border: 1px solid #ddd;">U20231C111</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd;">Carlos Fredy Fernandez Camayo</td>
