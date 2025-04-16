@@ -410,8 +410,6 @@ Este análisis busca identificar las fortalezas, debilidades y estrategias de lo
 <div style="text-align:center;">
     <!-- Título y descripción -->
     <h1 style="font-size: 1.5em; font-weight: bold; margin-bottom: 0.5em;">Análisis de Competencia y FODA - CaféLab</h1>
-    <p style="font-size: 0.9em; margin-bottom: 1em;">Describe en el recuadro la pregunta que busca responder el objetivo de cada costo analizado.</p>
-    <p style="font-size: 0.9em; margin-bottom: 0.5em;">Coloca las cabeceras de cada competidor (su startup, Competitor 1, Competitor 2, Competitor 3) junto con su nombre y logo.</p>
     <!-- Tabla única -->
     <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
         <!-- Sección: Perfil del Competidor -->
