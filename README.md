@@ -1047,38 +1047,37 @@ En el caso del To-be Scenario Mapping, el equipo definió cómo se visualizaría
 | US18 | Compartir Recetas | Como barista profesional, quiero compartir mis recetas con mi equipo para mantener consistencia en la preparación | **Escenario 1:** Compartir con equipo interno.<br>**Dado que** el usuario desarrolla una receta exitosa que debe estandarizarse<br>**Cuando** la marca como "compartida con equipo" y define permisos<br>**Entonces** el sistema la pone a disposición de todos los miembros autorizados.<br><br>**Escenario 2:** Sugerencia de mejoras.<br>**Dado que** un miembro del equipo prueba una receta compartida<br>**Cuando** implementa variaciones y propone ajustes documentados<br>**Entonces** el sistema notifica al creador original y registra las sugerencias manteniendo la versión original. | EP05 |
 | EP06 | Administración y Reportes | Como sistema, necesito proporcionar herramientas de gestión, análisis y reportes que conecten los aspectos técnicos con los operativos y financieros para optimizar la operación integral | N/A | N/A |
 | US19 | Control de Inventario Integrado | Como dueño de cafetería de especialidad, quiero gestionar el inventario de café verde y tostado de forma integrada para optimizar recursos y prevenir desabastecimiento | **Escenario 1:** Seguimiento centralizado de stock.<br>**Dado que** el usuario maneja múltiples productos y estados del café<br>**Cuando** accede al panel central de inventario<br>**Entonces** el sistema muestra niveles actuales, movimientos recientes y alertas activas.<br><br>**Escenario 2:** Registro de consumo con trazabilidad.<br>**Dado que** el usuario utiliza café para producción diaria<br>**Cuando** registra el consumo vinculándolo a lotes específicos y productos finales<br>**Entonces** el sistema actualiza automáticamente las existencias y mantiene la trazabilidad. | EP06 |
-| US20 | Análisis de Costos y Rendimiento | Como dueño de cafetería de especialidad, quiero calcular y analizar costos, rendimientos y márgenes por lote para optimizar la rentabilidad | **Escenario 1:** Cálculo detallado de costo por lote.<br>**Dado que** el usuario procesa un lote específico de café<br>**Cuando** registra todos los costos asociados (materia prima, mano de obra, procesamiento, merma)<br>**Entonces** el sistema calcula el costo unitario preciso por kg procesado y por taza estándar.<br><br>**Escenario 2:** Análisis comparativo de rendimiento.<br>**Dado que** el usuario evalúa la eficiencia productiva entre lotes<br>**Cuando** compara la pérdida de peso en tueste entre lotes de origen y características similares<br>**Entonces** el sistema identifica y resalta desviaciones y oportunidades cuantificables de optimización. | EP06 |
-| US21 | Reportes de Trazabilidad | Como dueño de cafetería de especialidad, quiero generar reportes de trazabilidad completa para comunicar transparencia y valor agregado | **Escenario 1:** Generación de reporte integral por lote.<br>**Dado que** el usuario necesita documentar la trazabilidad completa<br>**Cuando** selecciona un lote específico que ha sido procesado<br>**Entonces** el sistema genera un informe detallado con toda la cadena documentada desde origen.<br><br>**Escenario 2:** Ficha técnica comercial para cliente.<br>**Dado que** el usuario necesita comunicar el valor diferencial de su producto<br>**Cuando** solicita generar una ficha para un producto específico de su catálogo<br>**Entonces** el sistema produce un documento que incluye origen, procesamiento, tueste y perfil sensorial. | EP06 |
+| US20 | Gestión de Costos de Producción | Como dueño de cafetería de especialidad, quiero registrar y analizar los costos de producción de cada lote para optimizar mi estructura de precios y rentabilidad | **Escenario 1:** Registro completo de estructura de costos.<br>**Dado que** el usuario necesita documentar todos los costos de un lote<br>**Cuando** ingresa al módulo de costos y selecciona un lote procesado<br>**Entonces** el sistema presenta un formulario con categorías predefinidas para cada tipo de costo (compra, transporte, almacenamiento, mano de obra, procesamiento).<br><br>**Escenario 2:** Visualización de indicadores económicos.<br>**Dado que** el usuario ha completado el registro de costos<br>**Cuando** accede al dashboard económico del lote<br>**Entonces** el sistema muestra automáticamente indicadores clave como costo por kilo, costo por taza y margen potencial según precios de mercado. | EP06 |
+| US21 | Análisis de Eficiencia y Rendimiento | Como dueño de cafetería de especialidad, quiero monitorear y comparar el rendimiento productivo entre distintos lotes para identificar factores que afectan la eficiencia | **Escenario 1:** Registro automático de indicadores de rendimiento.<br>**Dado que** un lote ha sido procesado completamente<br>**Cuando** el usuario finaliza el registro de tueste y producción<br>**Entonces** el sistema calcula automáticamente métricas de rendimiento (% de merma, tiempo efectivo, productividad por hora).<br><br>**Escenario 2:** Comparativa avanzada entre lotes.<br>**Dado que** el usuario busca optimizar su producción<br>**Cuando** accede a la herramienta de análisis y selecciona múltiples lotes con atributos similares<br>**Entonces** el sistema genera una tabla comparativa que resalta variaciones significativas en rendimiento y señala posibles causas basadas en parámetros registrados. | EP06 |
+| US22 | Reportes de Trazabilidad | Como dueño de cafetería de especialidad, quiero generar reportes de trazabilidad completa para comunicar transparencia y valor agregado | **Escenario 1:** Generación de reporte integral por lote.<br>**Dado que** el usuario necesita documentar la trazabilidad completa<br>**Cuando** selecciona un lote específico que ha sido procesado<br>**Entonces** el sistema genera un informe detallado con toda la cadena documentada desde origen.<br><br>**Escenario 2:** Ficha técnica comercial para cliente.<br>**Dado que** el usuario necesita comunicar el valor diferencial de su producto<br>**Cuando** solicita generar una ficha para un producto específico de su catálogo<br>**Entonces** el sistema produce un documento que incluye origen, procesamiento, tueste y perfil sensorial. | EP06 |
 | EP07 | Landing Page y Sitio Web Estático | Como sistema, necesito proporcionar un sitio web informativo y atractivo que comunique el valor de la plataforma a diferentes segmentos objetivo | N/A | N/A |
-| US22 | Información del Producto | Como visitante de la landing page, quiero encontrar información clara sobre la plataforma para entender sus beneficios y decidir si me interesa | **Escenario 1:** Primera visita al sitio.<br>**Dado que** el visitante accede por primera vez al sitio web<br>**Cuando** carga la página de inicio<br>**Entonces** visualiza el mensaje principal (value proposition) y beneficios clave.<br><br>**Escenario 2:** Exploración de características.<br>**Dado que** el visitante desea conocer las funcionalidades<br>**Cuando** navega por la sección de características destacadas<br>**Entonces** encuentra información clara con ilustraciones visuales de cada funcionalidad. | EP07 |
-| US23 | Secciones Específicas por Segmento | Como visitante de la landing page, quiero encontrar información adaptada a mi perfil profesional para evaluar si la solución responde a mis necesidades específicas | **Escenario 1:** Sección para baristas.<br>**Dado que** el visitante se identifica como barista profesional<br>**Cuando** accede a la sección "Para Baristas"<br>**Entonces** encuentra contenido adaptado a sus desafíos específicos y testimonios relevantes.<br><br>**Escenario 2:** Sección para cafeterías.<br>**Dado que** el visitante administra o es dueño de una cafetería<br>**Cuando** accede a la sección "Para Cafeterías"<br>**Entonces** encuentra contenido enfocado en gestión de negocios, trazabilidad y certificaciones. | EP07 |
-| US24 | Contacto con Equipo | Como visitante de la landing page, quiero contactar con el equipo del sistema para resolver dudas específicas antes de registrarme | **Escenario 1:** Envío de consulta.<br>**Dado que** el visitante tiene preguntas sobre la plataforma<br>**Cuando** completa el formulario de contacto con sus datos y consulta<br>**Entonces** el sistema envía la información al equipo y muestra confirmación.<br><br>**Escenario 2:** Solicitud de demostración.<br>**Dado que** el visitante quiere ver el sistema en funcionamiento<br>**Cuando** solicita una demostración personalizada mediante el formulario específico<br>**Entonces** el sistema agenda la cita y envía confirmación con los detalles de conexión. | EP07 |
-| US25 | Acceso directo a plataforma | Como visitante de la landing page, quiero redirigirme hacia la aplicación principal desde la landing page para comenzar a usar el sistema inmediatamente | **Escenario 1:** Navegación exitosa<br>**Dado que** el visitante quiere empezar a usar el sistema<br>**Cuando** navegue por la landing page y pulse el botón de acceso a la plataforma<br>**Entonces** será transferido correctamente a la interfaz principal del sistema.<br><br>**Escenario 2:** Error de conexión<br>**Dado que** el visitante intenta ingresar al sistema<br>**Cuando** pulse el botón de acceso en la landing page y exista un problema de conexión o disponibilidad del servidor<br>**Entonces** visualizará una notificación clara explicando el problema. | EP07 |
+| US23 | Información del Producto | Como visitante de la landing page, quiero encontrar información clara sobre la plataforma para entender sus beneficios y decidir si me interesa | **Escenario 1:** Primera visita al sitio.<br>**Dado que** el visitante accede por primera vez al sitio web<br>**Cuando** carga la página de inicio<br>**Entonces** visualiza el mensaje principal (value proposition) y beneficios clave.<br><br>**Escenario 2:** Exploración de características.<br>**Dado que** el visitante desea conocer las funcionalidades<br>**Cuando** navega por la sección de características destacadas<br>**Entonces** encuentra información clara con ilustraciones visuales de cada funcionalidad. | EP07 |
+| US24 | Secciones Específicas por Segmento | Como visitante de la landing page, quiero encontrar información adaptada a mi perfil profesional para evaluar si la solución responde a mis necesidades específicas | **Escenario 1:** Sección para baristas.<br>**Dado que** el visitante se identifica como barista profesional<br>**Cuando** accede a la sección "Para Baristas"<br>**Entonces** encuentra contenido adaptado a sus desafíos específicos y testimonios relevantes.<br><br>**Escenario 2:** Sección para cafeterías.<br>**Dado que** el visitante administra o es dueño de una cafetería<br>**Cuando** accede a la sección "Para Cafeterías"<br>**Entonces** encuentra contenido enfocado en gestión de negocios, trazabilidad y certificaciones. | EP07 |
+| US25 | Contacto con Equipo | Como visitante de la landing page, quiero contactar con el equipo del sistema para resolver dudas específicas antes de registrarme | **Escenario 1:** Envío de consulta.<br>**Dado que** el visitante tiene preguntas sobre la plataforma<br>**Cuando** completa el formulario de contacto con sus datos y consulta<br>**Entonces** el sistema envía la información al equipo y muestra confirmación.<br><br>**Escenario 2:** Solicitud de demostración.<br>**Dado que** el visitante quiere ver el sistema en funcionamiento<br>**Cuando** solicita una demostración personalizada mediante el formulario específico<br>**Entonces** el sistema agenda la cita y envía confirmación con los detalles de conexión. | EP07 |
+| US26 | Acceso directo a plataforma | Como visitante de la landing page, quiero redirigirme hacia la aplicación principal desde la landing page para comenzar a usar el sistema inmediatamente | **Escenario 1:** Navegación exitosa<br>**Dado que** el visitante quiere empezar a usar el sistema<br>**Cuando** navegue por la landing page y pulse el botón de acceso a la plataforma<br>**Entonces** será transferido correctamente a la interfaz principal del sistema.<br><br>**Escenario 2:** Error de conexión<br>**Dado que** el visitante intenta ingresar al sistema<br>**Cuando** pulse el botón de acceso en la landing page y exista un problema de conexión o disponibilidad del servidor<br>**Entonces** visualizará una notificación clara explicando el problema. | EP07 |
 | TS01 | POST HTTPS Usuarios | Como desarrollador, quiero registrar nuevos usuarios mediante una API para permitir el acceso al sistema | **Escenario 1:**<br>**Dado que** tengo acceso a la API de registro de usuarios<br>**Cuando** solicito registrar un usuario con datos válidos<br>**Entonces** recibo confirmación de usuario creado con su identificador.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de registro de usuarios<br>**Cuando** solicito registrar un usuario con email ya existente<br>**Entonces** recibo un mensaje indicando que el email ya está registrado. | N/A |
 | TS02 | POST HTTPS Autenticación | Como desarrollador, quiero autenticar usuarios mediante una API para validar credenciales y permitir acceso seguro | **Escenario 1:**<br>**Dado que** tengo acceso a la API de autenticación<br>**Cuando** envío credenciales válidas de un usuario<br>**Entonces** recibo confirmación de acceso autorizado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de autenticación<br>**Cuando** envío credenciales incorrectas<br>**Entonces** recibo un mensaje indicando error de autenticación. | N/A |
-| TS03 | GET HTTPS Perfil | Como desarrollador, quiero obtener datos del perfil de usuario mediante una API para personalizar la experiencia | **Escenario 1:**<br>**Dado que** tengo acceso a la API de perfiles<br>**Cuando** solicito los datos del perfil de un usuario autenticado<br>**Entonces** recibo la información completa del perfil.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de perfiles<br>**Cuando** solicito los datos con una sesión expirada<br>**Entonces** recibo un mensaje indicando que debo iniciar sesión nuevamente. | N/A |
-| TS04 | PUT HTTPS Perfil | Como desarrollador, quiero actualizar el perfil de usuario mediante una API para mantener la información actualizada | **Escenario 1:**<br>**Dado que** tengo acceso a la API de perfiles<br>**Cuando** envío nuevos datos válidos para un perfil<br>**Entonces** recibo el perfil actualizado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de perfiles<br>**Cuando** envío datos en formato incorrecto<br>**Entonces** recibo un mensaje con los errores de validación. | N/A |
-| TS05 | GET HTTPS Planes | Como desarrollador, quiero obtener información sobre planes disponibles mediante una API para mostrar opciones de suscripción | **Escenario 1:**<br>**Dado que** tengo acceso a la API de planes<br>**Cuando** solicito la lista de planes disponibles<br>**Entonces** recibo todos los planes con sus características y precios.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de planes<br>**Cuando** solicito los planes y hay un problema técnico<br>**Entonces** recibo un mensaje indicando que el servicio no está disponible. | N/A |
-| TS06 | POST HTTPS Planes | Como desarrollador, quiero suscribir usuarios a planes mediante una API para gestionar acceso a funcionalidades | **Escenario 1:**<br>**Dado que** tengo acceso a la API de suscripciones<br>**Cuando** solicito una suscripción con plan y pago válidos<br>**Entonces** recibo confirmación de la suscripción activada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de suscripciones<br>**Cuando** solicito una suscripción con método de pago rechazado<br>**Entonces** recibo un mensaje sobre el problema de pago. | N/A |
-| TS07 | POST HTTPS Proveedores | Como desarrollador, quiero registrar nuevos proveedores mediante una API para ampliar la red de suministro | **Escenario 1:**<br>**Dado que** tengo acceso a la API de proveedores<br>**Cuando** solicito registrar un proveedor con datos completos<br>**Entonces** recibo confirmación del proveedor creado con su identificador.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de proveedores<br>**Cuando** solicito registrar un proveedor con datos incompletos<br>**Entonces** recibo un mensaje con los campos requeridos faltantes. | N/A |
-| TS08 | GET HTTPS Proveedores | Como desarrollador, quiero consultar proveedores mediante una API para mostrar opciones disponibles | **Escenario 1:**<br>**Dado que** tengo acceso a la API de proveedores<br>**Cuando** solicito la lista de proveedores con filtros<br>**Entonces** recibo los proveedores que cumplen los criterios.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de proveedores<br>**Cuando** solicito proveedores con parámetros incorrectos<br>**Entonces** recibo un mensaje indicando los parámetros inválidos. | N/A |
-| TS09 | POST HTTPS Lotes | Como desarrollador, quiero registrar nuevos lotes de café mediante una API para mantener el inventario actualizado | **Escenario 1:**<br>**Dado que** tengo acceso a la API de lotes<br>**Cuando** solicito registrar un lote con datos completos<br>**Entonces** recibo confirmación del lote creado con su código de trazabilidad.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de lotes<br>**Cuando** solicito registrar un lote con un proveedor inexistente<br>**Entonces** recibo un mensaje indicando que el proveedor no existe. | N/A |
-| TS10 | PATCH HTTPS Lotes | Como desarrollador, quiero actualizar el estado de lotes mediante una API para reflejar cambios en el ciclo de vida | **Escenario 1:**<br>**Dado que** tengo acceso a la API de lotes<br>**Cuando** solicito cambiar el estado de un lote a un valor válido<br>**Entonces** recibo el lote con su estado actualizado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de lotes<br>**Cuando** solicito un cambio de estado no permitido<br>**Entonces** recibo un mensaje con los cambios de estado permitidos. | N/A |
-| TS11 | POST HTTPS Certificaciones | Como desarrollador, quiero registrar certificaciones mediante una API para validar la calidad y origen del café | **Escenario 1:**<br>**Dado que** tengo acceso a la API de certificaciones<br>**Cuando** solicito registrar una certificación válida para un lote<br>**Entonces** recibo confirmación de la certificación registrada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de certificaciones<br>**Cuando** solicito registrar un tipo de certificación no soportado<br>**Entonces** recibo un mensaje con los tipos de certificación válidos. | N/A |
-| TS12 | GET HTTPS Certificaciones | Como desarrollador, quiero obtener certificaciones mediante una API para mostrar valor agregado del producto | **Escenario 1:**<br>**Dado que** tengo acceso a la API de certificaciones<br>**Cuando** solicito las certificaciones de un lote existente<br>**Entonces** recibo todas las certificaciones asociadas al lote.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de certificaciones<br>**Cuando** solicito certificaciones de un lote que no existe<br>**Entonces** recibo un mensaje indicando que el lote no existe. | N/A |
-| TS13 | POST HTTPS Perfiles-Tueste | Como desarrollador, quiero crear perfiles de tueste mediante una API para estandarizar procesos | **Escenario 1:**<br>**Dado que** tengo acceso a la API de perfiles de tueste<br>**Cuando** solicito crear un perfil con parámetros completos<br>**Entonces** recibo confirmación del perfil creado en la biblioteca.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de perfiles de tueste<br>**Cuando** solicito crear un perfil con temperaturas fuera de rango<br>**Entonces** recibo un mensaje con los rangos permitidos. | N/A |
-| TS14 | POST HTTPS Sesiones-Tueste | Como desarrollador, quiero registrar sesiones de tueste mediante una API para documentar cada proceso | **Escenario 1:**<br>**Dado que** tengo acceso a la API de sesiones de tueste<br>**Cuando** solicito iniciar una sesión con lote y perfil válidos<br>**Entonces** recibo confirmación de la sesión iniciada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de sesiones de tueste<br>**Cuando** solicito iniciar sesión con un lote ya agotado<br>**Entonces** recibo un mensaje indicando que el lote no está disponible. | N/A |
-| TS15 | PATCH HTTPS Sesiones-Tueste | Como desarrollador, quiero actualizar lecturas de una sesión de tueste mediante una API para construir la curva real | **Escenario 1:**<br>**Dado que** tengo acceso a la API de sesiones de tueste<br>**Cuando** envío nuevas lecturas de tiempo y temperatura<br>**Entonces** recibo confirmación de la lectura registrada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de sesiones de tueste<br>**Cuando** envío lecturas a una sesión ya finalizada<br>**Entonces** recibo un mensaje indicando que la sesión está cerrada. | N/A |
-| TS16 | GET HTTPS Análisis-Tueste | Como desarrollador, quiero obtener análisis comparativo de tuestes mediante una API para identificar patrones | **Escenario 1:**<br>**Dado que** tengo acceso a la API de análisis<br>**Cuando** solicito comparar varias sesiones de tueste<br>**Entonces** recibo las curvas comparativas y correlaciones.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de análisis<br>**Cuando** solicito comparar demasiadas sesiones<br>**Entonces** recibo un mensaje indicando el límite máximo permitido. | N/A |
-| TS17 | GET HTTPS Defectos-Tueste | Como desarrollador, quiero consultar defectos comunes en tueste mediante una API para asistir en diagnóstico de problemas | **Escenario 1:**<br>**Dado que** tengo acceso a la API de defectos<br>**Cuando** busco defectos con criterios específicos<br>**Entonces** recibo los defectos coincidentes y sus soluciones.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de defectos<br>**Cuando** busco sin especificar ningún criterio<br>**Entonces** recibo un mensaje solicitando al menos un parámetro de búsqueda. | N/A |
-| TS18 | POST HTTPS Catas | Como desarrollador, quiero registrar evaluaciones sensoriales mediante una API para documentar características del café | **Escenario 1:**<br>**Dado que** tengo acceso a la API de catas<br>**Cuando** envío una evaluación completa de un café<br>**Entonces** recibo confirmación de la cata registrada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de catas<br>**Cuando** envío una cata sin identificar el lote o tueste<br>**Entonces** recibo un mensaje indicando que se requiere identificar el café. | N/A |
-| TS19 | GET HTTPS Perfiles-Sensoriales | Como desarrollador, quiero obtener perfiles sensoriales mediante una API para visualizar y comparar cualidades | **Escenario 1:**<br>**Dado que** tengo acceso a la API de perfiles sensoriales<br>**Cuando** solicito un perfil sensorial existente<br>**Entonces** recibo los datos para generar el hexágono sensorial.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de perfiles sensoriales<br>**Cuando** solicito un perfil que no existe<br>**Entonces** recibo un mensaje indicando que el perfil no se encontró. | N/A |
-| TS20 | GET HTTPS Correlaciones | Como desarrollador, quiero obtener correlaciones entre tueste y sabor mediante una API para optimizar procesos | **Escenario 1:**<br>**Dado que** tengo acceso a la API de análisis<br>**Cuando** solicito correlaciones entre parámetros específicos<br>**Entonces** recibo los datos de correlación estadística.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de análisis<br>**Cuando** solicito correlacionar parámetros incompatibles<br>**Entonces** recibo un mensaje con los parámetros que pueden correlacionarse. | N/A |
-| TS21 | POST HTTPS Recetas | Como desarrollador, quiero registrar recetas de preparación mediante una API para documentar métodos óptimos | **Escenario 1:**<br>**Dado que** tengo acceso a la API de recetas<br>**Cuando** envío una receta completa de preparación<br>**Entonces** recibo confirmación de la receta guardada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de recetas<br>**Cuando** envío una receta con método de preparación inválido<br>**Entonces** recibo un mensaje con los métodos válidos. | N/A |
-| TS22 | POST HTTPS Calibraciones | Como desarrollador, quiero registrar calibraciones de molienda mediante una API para mantener consistencia entre preparaciones | **Escenario 1:**<br>**Dado que** tengo acceso a la API de calibraciones<br>**Cuando** envío una nueva calibración con todos los datos<br>**Entonces** recibo confirmación de la calibración registrada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de calibraciones<br>**Cuando** envío una imagen en formato no soportado<br>**Entonces** recibo un mensaje con los formatos de imagen permitidos. | N/A |
-| TS23 | GET HTTPS Inventario | Como desarrollador, quiero consultar el inventario integrado mediante una API para visualizar existencias | **Escenario 1:**<br>**Dado que** tengo acceso a la API de inventario<br>**Cuando** solicito el inventario con filtros específicos<br>**Entonces** recibo el listado de existencias actualizado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de inventario<br>**Cuando** solicito información sin tener permisos suficientes<br>**Entonces** recibo un mensaje indicando acceso denegado. | N/A |
-| TS24 | PATCH HTTPS Inventario | Como desarrollador, quiero actualizar el consumo de inventario mediante una API para mantener existencias actualizadas | **Escenario 1:**<br>**Dado que** tengo acceso a la API de inventario<br>**Cuando** registro el consumo de un producto con cantidad válida<br>**Entonces** recibo confirmación del inventario actualizado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de inventario<br>**Cuando** registro un consumo mayor al disponible<br>**Entonces** recibo un mensaje indicando stock insuficiente. | N/A |
-| TS25 | POST HTTPS Contacto | Como desarrollador, quiero procesar formularios de contacto mediante una API para gestionar comunicaciones con visitantes | **Escenario 1:**<br>**Dado que** tengo acceso a la API pública<br>**Cuando** envío un formulario de contacto completo<br>**Entonces** recibo confirmación del mensaje enviado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API pública<br>**Cuando** envío un formulario sin email de contacto<br>**Entonces** recibo un mensaje indicando que el email es obligatorio. | N/A | para comparar<br>**Entonces** recibo código 400 indicando el límite máximo de sesiones comparables.
+| TS03 | GET HTTPS Planes | Como desarrollador, quiero obtener información sobre planes disponibles mediante una API para mostrar opciones de suscripción | **Escenario 1:**<br>**Dado que** tengo acceso a la API de planes<br>**Cuando** solicito la lista de planes disponibles<br>**Entonces** recibo todos los planes con sus características y precios.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de planes<br>**Cuando** solicito los planes y hay un problema técnico<br>**Entonces** recibo un mensaje indicando que el servicio no está disponible. | N/A |
+| TS04 | POST HTTPS Planes | Como desarrollador, quiero suscribir usuarios a planes mediante una API para gestionar acceso a funcionalidades | **Escenario 1:**<br>**Dado que** tengo acceso a la API de suscripciones<br>**Cuando** solicito una suscripción con plan y pago válidos<br>**Entonces** recibo confirmación de la suscripción activada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de suscripciones<br>**Cuando** solicito una suscripción con método de pago rechazado<br>**Entonces** recibo un mensaje sobre el problema de pago. | N/A |
+| TS05 | POST HTTPS Proveedores | Como desarrollador, quiero registrar nuevos proveedores mediante una API para ampliar la red de suministro | **Escenario 1:**<br>**Dado que** tengo acceso a la API de proveedores<br>**Cuando** solicito registrar un proveedor con datos completos<br>**Entonces** recibo confirmación del proveedor creado con su identificador.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de proveedores<br>**Cuando** solicito registrar un proveedor con datos incompletos<br>**Entonces** recibo un mensaje con los campos requeridos faltantes. | N/A |
+| TS06 | GET HTTPS Proveedores | Como desarrollador, quiero consultar proveedores mediante una API para mostrar opciones disponibles | **Escenario 1:**<br>**Dado que** tengo acceso a la API de proveedores<br>**Cuando** solicito la lista de proveedores con filtros<br>**Entonces** recibo los proveedores que cumplen los criterios.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de proveedores<br>**Cuando** solicito proveedores con parámetros incorrectos<br>**Entonces** recibo un mensaje indicando los parámetros inválidos. | N/A |
+| TS07 | POST HTTPS Lotes | Como desarrollador, quiero registrar nuevos lotes de café mediante una API para mantener el inventario actualizado | **Escenario 1:**<br>**Dado que** tengo acceso a la API de lotes<br>**Cuando** solicito registrar un lote con datos completos<br>**Entonces** recibo confirmación del lote creado con su código de trazabilidad.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de lotes<br>**Cuando** solicito registrar un lote con un proveedor inexistente<br>**Entonces** recibo un mensaje indicando que el proveedor no existe. | N/A |
+| TS08 | PATCH HTTPS Lotes | Como desarrollador, quiero actualizar el estado de lotes mediante una API para reflejar cambios en el ciclo de vida | **Escenario 1:**<br>**Dado que** tengo acceso a la API de lotes<br>**Cuando** solicito cambiar el estado de un lote a un valor válido<br>**Entonces** recibo el lote con su estado actualizado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de lotes<br>**Cuando** solicito un cambio de estado no permitido<br>**Entonces** recibo un mensaje con los cambios de estado permitidos. | N/A |
+| TS09 | POST HTTPS Certificaciones | Como desarrollador, quiero registrar certificaciones mediante una API para validar la calidad y origen del café | **Escenario 1:**<br>**Dado que** tengo acceso a la API de certificaciones<br>**Cuando** solicito registrar una certificación válida para un lote<br>**Entonces** recibo confirmación de la certificación registrada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de certificaciones<br>**Cuando** solicito registrar un tipo de certificación no soportado<br>**Entonces** recibo un mensaje con los tipos de certificación válidos. | N/A |
+| TS10 | GET HTTPS Certificaciones | Como desarrollador, quiero obtener certificaciones mediante una API para mostrar valor agregado del producto | **Escenario 1:**<br>**Dado que** tengo acceso a la API de certificaciones<br>**Cuando** solicito las certificaciones de un lote existente<br>**Entonces** recibo todas las certificaciones asociadas al lote.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de certificaciones<br>**Cuando** solicito certificaciones de un lote que no existe<br>**Entonces** recibo un mensaje indicando que el lote no existe. | N/A |
+| TS11 | POST HTTPS Perfiles-Tueste | Como desarrollador, quiero crear perfiles de tueste mediante una API para estandarizar procesos | **Escenario 1:**<br>**Dado que** tengo acceso a la API de perfiles de tueste<br>**Cuando** solicito crear un perfil con parámetros completos<br>**Entonces** recibo confirmación del perfil creado en la biblioteca.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de perfiles de tueste<br>**Cuando** solicito crear un perfil con temperaturas fuera de rango<br>**Entonces** recibo un mensaje con los rangos permitidos. | N/A |
+| TS12 | POST HTTPS Sesiones-Tueste | Como desarrollador, quiero registrar sesiones de tueste mediante una API para documentar cada proceso | **Escenario 1:**<br>**Dado que** tengo acceso a la API de sesiones de tueste<br>**Cuando** solicito iniciar una sesión con lote y perfil válidos<br>**Entonces** recibo confirmación de la sesión iniciada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de sesiones de tueste<br>**Cuando** solicito iniciar sesión con un lote ya agotado<br>**Entonces** recibo un mensaje indicando que el lote no está disponible. | N/A |
+| TS13 | PATCH HTTPS Sesiones-Tueste | Como desarrollador, quiero actualizar lecturas de una sesión de tueste mediante una API para construir la curva real | **Escenario 1:**<br>**Dado que** tengo acceso a la API de sesiones de tueste<br>**Cuando** envío nuevas lecturas de tiempo y temperatura<br>**Entonces** recibo confirmación de la lectura registrada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de sesiones de tueste<br>**Cuando** envío lecturas a una sesión ya finalizada<br>**Entonces** recibo un mensaje indicando que la sesión está cerrada. | N/A |
+| TS14 | GET HTTPS Análisis-Tueste | Como desarrollador, quiero obtener análisis comparativo de tuestes mediante una API para identificar patrones | **Escenario 1:**<br>**Dado que** tengo acceso a la API de análisis<br>**Cuando** solicito comparar varias sesiones de tueste<br>**Entonces** recibo las curvas comparativas y correlaciones.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de análisis<br>**Cuando** solicito comparar demasiadas sesiones<br>**Entonces** recibo un mensaje indicando el límite máximo permitido. | N/A |
+| TS15 | GET HTTPS Defectos-Tueste | Como desarrollador, quiero consultar defectos comunes en tueste mediante una API para asistir en diagnóstico de problemas | **Escenario 1:**<br>**Dado que** tengo acceso a la API de defectos<br>**Cuando** busco defectos con criterios específicos<br>**Entonces** recibo los defectos coincidentes y sus soluciones.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de defectos<br>**Cuando** busco sin especificar ningún criterio<br>**Entonces** recibo un mensaje solicitando al menos un parámetro de búsqueda. | N/A |
+| TS16 | POST HTTPS Catas | Como desarrollador, quiero registrar evaluaciones sensoriales mediante una API para documentar características del café | **Escenario 1:**<br>**Dado que** tengo acceso a la API de catas<br>**Cuando** envío una evaluación completa de un café<br>**Entonces** recibo confirmación de la cata registrada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de catas<br>**Cuando** envío una cata sin identificar el lote o tueste<br>**Entonces** recibo un mensaje indicando que se requiere identificar el café. | N/A |
+| TS17 | GET HTTPS Perfiles-Sensoriales | Como desarrollador, quiero obtener perfiles sensoriales mediante una API para visualizar y comparar cualidades | **Escenario 1:**<br>**Dado que** tengo acceso a la API de perfiles sensoriales<br>**Cuando** solicito un perfil sensorial existente<br>**Entonces** recibo los datos para generar el hexágono sensorial.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de perfiles sensoriales<br>**Cuando** solicito un perfil que no existe<br>**Entonces** recibo un mensaje indicando que el perfil no se encontró. | N/A |
+| TS18 | GET HTTPS Correlaciones | Como desarrollador, quiero obtener correlaciones entre tueste y sabor mediante una API para optimizar procesos | **Escenario 1:**<br>**Dado que** tengo acceso a la API de análisis<br>**Cuando** solicito correlaciones entre parámetros específicos<br>**Entonces** recibo los datos de correlación estadística.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de análisis<br>**Cuando** solicito correlacionar parámetros incompatibles<br>**Entonces** recibo un mensaje con los parámetros que pueden correlacionarse. | N/A |
+| TS19 | POST HTTPS Recetas | Como desarrollador, quiero registrar recetas de preparación mediante una API para documentar métodos óptimos | **Escenario 1:**<br>**Dado que** tengo acceso a la API de recetas<br>**Cuando** envío una receta completa de preparación<br>**Entonces** recibo confirmación de la receta guardada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de recetas<br>**Cuando** envío una receta con método de preparación inválido<br>**Entonces** recibo un mensaje con los métodos válidos. | N/A |
+| TS20 | POST HTTPS Calibraciones | Como desarrollador, quiero registrar calibraciones de molienda mediante una API para mantener consistencia entre preparaciones | **Escenario 1:**<br>**Dado que** tengo acceso a la API de calibraciones<br>**Cuando** envío una nueva calibración con todos los datos<br>**Entonces** recibo confirmación de la calibración registrada.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de calibraciones<br>**Cuando** envío una imagen en formato no soportado<br>**Entonces** recibo un mensaje con los formatos de imagen permitidos. | N/A |
+| TS21 | GET HTTPS Inventario | Como desarrollador, quiero consultar el inventario integrado mediante una API para visualizar existencias | **Escenario 1:**<br>**Dado que** tengo acceso a la API de inventario<br>**Cuando** solicito el inventario con filtros específicos<br>**Entonces** recibo el listado de existencias actualizado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de inventario<br>**Cuando** solicito información sin tener permisos suficientes<br>**Entonces** recibo un mensaje indicando acceso denegado. | N/A |
+| TS22 | PATCH HTTPS Inventario | Como desarrollador, quiero actualizar el consumo de inventario mediante una API para mantener existencias actualizadas | **Escenario 1:**<br>**Dado que** tengo acceso a la API de inventario<br>**Cuando** registro el consumo de un producto con cantidad válida<br>**Entonces** recibo confirmación del inventario actualizado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API de inventario<br>**Cuando** registro un consumo mayor al disponible<br>**Entonces** recibo un mensaje indicando stock insuficiente. | N/A |
+| TS23 | POST HTTPS Contacto | Como desarrollador, quiero procesar formularios de contacto mediante una API para gestionar comunicaciones con visitantes | **Escenario 1:**<br>**Dado que** tengo acceso a la API pública<br>**Cuando** envío un formulario de contacto completo<br>**Entonces** recibo confirmación del mensaje enviado.<br><br>**Escenario 2:**<br>**Dado que** tengo acceso a la API pública<br>**Cuando** envío un formulario sin email de contacto<br>**Entonces** recibo un mensaje indicando que el email es obligatorio. | N/A | para comparar<br>**Entonces** recibo código 400 indicando el límite máximo de sesiones comparables.
 
 
 ## 3.3. Impact Mapping
@@ -1103,350 +1102,343 @@ En el caso del To-be Scenario Mapping, el equipo definió cómo se visualizaría
             <td>US22</td>
             <td>Información del Producto</td>
             <td>Como visitante de la landing page, quiero encontrar información clara sobre la plataforma para entender sus beneficios y decidir si me interesa</td>
-            <td class="center"></td>
+            <td class="center">1</td>
         </tr>
         <tr>
             <td class="center">2</td>
             <td>US23</td>
             <td>Secciones Específicas por Segmento</td>
             <td>Como visitante de la landing page, quiero encontrar información adaptada a mi perfil profesional para evaluar si la solución responde a mis necesidades específicas</td>
-            <td class="center"></td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">3</td>
             <td>US24</td>
             <td>Contacto con Equipo</td>
             <td>Como visitante de la landing page, quiero contactar con el equipo del sistema para resolver dudas específicas antes de registrarme</td>
-            <td class="center"></td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">4</td>
             <td>US25</td>
             <td>Acceso directo a plataforma</td>
             <td>Como visitante de la landing page, quiero redirigirme hacia la aplicación principal desde la landing page para comenzar a usar el sistema inmediatamente</td>
-            <td class="center"></td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">5</td>
             <td>US05</td>
             <td>Gestión de Lotes de Café Verde</td>
             <td>Como barista profesional o dueño de cafetería de especialidad, quiero registrar y hacer seguimiento de cada lote de café verde para mantener control de inventario y trazabilidad</td>
-            <td class="center"></td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">6</td>
             <td>US15</td>
             <td>Creación de Recetas de Preparación</td>
             <td>Como barista profesional, quiero crear y documentar recetas detalladas para cada método de preparación y tipo de café</td>
-            <td class="center"></td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">7</td>
             <td>US11</td>
             <td>Cata Digital Estructurada</td>
             <td>Como barista profesional, quiero registrar evaluaciones sensoriales estructuradas para documentar las características de cada lote y tueste</td>
-            <td class="center"></td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">8</td>
             <td>US19</td>
             <td>Control de Inventario Integrado</td>
             <td>Como dueño de cafetería de especialidad, quiero gestionar el inventario de café verde y tostado de forma integrada para optimizar recursos y prevenir desabastecimiento</td>
-            <td class="center"></td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">9</td>
             <td>US07</td>
             <td>Creación de Perfil de Tueste</td>
             <td>Como barista profesional, quiero crear perfiles de tueste personalizados para documentar y replicar mis mejores resultados</td>
-            <td class="center"></td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">10</td>
             <td>US20</td>
-            <td>Análisis de Costos y Rendimiento</td>
-            <td>Como dueño de cafetería de especialidad, quiero calcular y analizar costos, rendimientos y márgenes por lote para optimizar la rentabilidad</td>
-            <td class="center"></td>
+            <td>Gestión de Costos de Producción</td>
+            <td>Como dueño de cafetería de especialidad, quiero registrar y analizar los costos de producción de cada lote para optimizar mi estructura de precios y rentabilidad</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">11</td>
-            <td>US12</td>
-            <td>Visualización de Perfiles Sensoriales</td>
-            <td>Como barista profesional o dueño de cafetería de especialidad, quiero visualizar perfiles sensoriales en formato de hexágono o gráfico de radar para interpretar y comparar cualidades</td>
-            <td class="center"></td>
+            <td>US21</td>
+            <td>Análisis de Eficiencia y Rendimiento</td>
+            <td>Como dueño de cafetería de especialidad, quiero monitorear y comparar el rendimiento productivo entre distintos lotes para identificar factores que afectan la eficiencia</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">12</td>
-            <td>US08</td>
-            <td>Registro de Sesión de Tueste</td>
-            <td>Como barista profesional, quiero documentar cada sesión de tueste asociada a un lote específico para mantener trazabilidad y control de calidad</td>
-            <td class="center"></td>
+            <td>US12</td>
+            <td>Visualización de Perfiles Sensoriales</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero visualizar perfiles sensoriales en formato de hexágono o gráfico de radar para interpretar y comparar cualidades</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">13</td>
-            <td>US04</td>
-            <td>Registro de Proveedores</td>
-            <td>Como dueño de cafetería de especialidad, quiero registrar y evaluar a mis proveedores para mantener un control de calidad y trazabilidad de origen</td>
-            <td class="center"></td>
+            <td>US08</td>
+            <td>Registro de Sesión de Tueste</td>
+            <td>Como barista profesional, quiero documentar cada sesión de tueste asociada a un lote específico para mantener trazabilidad y control de calidad</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">14</td>
-            <td>US16</td>
-            <td>Calibración de Molienda</td>
-            <td>Como barista profesional, quiero documentar configuraciones de molienda para diferentes equipos y métodos para mantener consistencia entre preparaciones</td>
-            <td class="center"></td>
+            <td>US04</td>
+            <td>Registro de Proveedores</td>
+            <td>Como dueño de cafetería de especialidad, quiero registrar y evaluar a mis proveedores para mantener un control de calidad y trazabilidad de origen</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">15</td>
-            <td>US13</td>
-            <td>Correlación Tueste-Sabor</td>
-            <td>Como barista profesional, quiero visualizar la correlación entre parámetros de tueste y resultados sensoriales para optimizar mis perfiles</td>
-            <td class="center"></td>
+            <td>US16</td>
+            <td>Calibración de Molienda</td>
+            <td>Como barista profesional, quiero documentar configuraciones de molienda para diferentes equipos y métodos para mantener consistencia entre preparaciones</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">16</td>
-            <td>US21</td>
-            <td>Reportes de Trazabilidad</td>
-            <td>Como dueño de cafetería de especialidad, quiero generar reportes de trazabilidad completa para comunicar transparencia y valor agregado</td>
-            <td class="center"></td>
+            <td>US13</td>
+            <td>Correlación Tueste-Sabor</td>
+            <td>Como barista profesional, quiero visualizar la correlación entre parámetros de tueste y resultados sensoriales para optimizar mis perfiles</td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">17</td>
-            <td>US06</td>
-            <td>Registro de Certificaciones</td>
-            <td>Como dueño de cafetería de especialidad, quiero documentar las certificaciones de mis cafés para validar y comunicar su valor agregado</td>
-            <td class="center"></td>
+            <td>US21</td>
+            <td>Reportes de Trazabilidad</td>
+            <td>Como dueño de cafetería de especialidad, quiero generar reportes de trazabilidad completa para comunicar transparencia y valor agregado</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">18</td>
-            <td>US17</td>
-            <td>Portafolio de Bebidas</td>
-            <td>Como barista profesional o dueño de cafetería de especialidad, quiero crear un portafolio digital de bebidas y recetas para presentar a clientes o eventos</td>
-            <td class="center"></td>
+            <td>US06</td>
+            <td>Registro de Certificaciones</td>
+            <td>Como dueño de cafetería de especialidad, quiero documentar las certificaciones de mis cafés para validar y comunicar su valor agregado</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">19</td>
-            <td>US09</td>
-            <td>Análisis Comparativo de Tuestes</td>
-            <td>Como barista profesional, quiero comparar diferentes sesiones de tueste para identificar patrones y optimizar resultados</td>
-            <td class="center"></td>
+            <td>US17</td>
+            <td>Portafolio de Bebidas</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero crear un portafolio digital de bebidas y recetas para presentar a clientes o eventos</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">20</td>
-            <td>US18</td>
-            <td>Compartir Recetas</td>
-            <td>Como barista profesional, quiero compartir mis recetas con mi equipo para mantener consistencia en la preparación</td>
-            <td class="center"></td>
+            <td>US09</td>
+            <td>Análisis Comparativo de Tuestes</td>
+            <td>Como barista profesional, quiero comparar diferentes sesiones de tueste para identificar patrones y optimizar resultados</td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">21</td>
-            <td>US14</td>
-            <td>Historial de Catas</td>
-            <td>Como barista profesional, quiero acceder al historial de catas por lote, origen o periodo para analizar tendencias y consistencia</td>
-            <td class="center"></td>
+            <td>US18</td>
+            <td>Compartir Recetas</td>
+            <td>Como barista profesional, quiero compartir mis recetas con mi equipo para mantener consistencia en la preparación</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">22</td>
-            <td>US10</td>
-            <td>Biblioteca de Defectos de Tueste</td>
-            <td>Como barista profesional, quiero acceder a una biblioteca de defectos comunes para identificar y corregir problemas en mis tuestes</td>
-            <td class="center"></td>
+            <td>US14</td>
+            <td>Historial de Catas</td>
+            <td>Como barista profesional, quiero acceder al historial de catas por lote, origen o periodo para analizar tendencias y consistencia</td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">23</td>
-            <td>US01</td>
-            <td>Registro y Autenticación (Usuarios)</td>
-            <td>Como barista profesional o dueño de cafetería de especialidad, quiero registrarme y acceder de forma segura para mantener la confidencialidad de mis datos</td>
-            <td class="center"></td>
+            <td>US10</td>
+            <td>Biblioteca de Defectos de Tueste</td>
+            <td>Como barista profesional, quiero acceder a una biblioteca de defectos comunes para identificar y corregir problemas en mis tuestes</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">24</td>
-            <td>US02</td>
-            <td>Perfil Personalizado</td>
-            <td>Como barista profesional o dueño de cafetería de especialidad, quiero configurar mi perfil profesional para personalizar mi experiencia y mostrar mi identidad dentro del sistema</td>
-            <td class="center"></td>
+            <td>US01</td>
+            <td>Registro y Autenticación (Usuarios)</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero registrarme y acceder de forma segura para mantener la confidencialidad de mis datos</td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">25</td>
-            <td>US03</td>
-            <td>Selección de Plan</td>
-            <td>Como barista profesional o dueño de cafetería de especialidad, quiero elegir entre los diferentes planes disponibles para acceder a las funcionalidades que mejor se adapten a mis necesidades</td>
-            <td class="center"></td>
+            <td>US02</td>
+            <td>Perfil Personalizado</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero configurar mi perfil profesional para personalizar mi experiencia y mostrar mi identidad dentro del sistema</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">26</td>
-            <td>TS01</td>
-            <td>POST HTTPS Usuarios</td>
-            <td>Como desarrollador, quiero registrar nuevos usuarios mediante una API para permitir el acceso al sistema</td>
-            <td class="center"></td>
+            <td>US03</td>
+            <td>Selección de Plan</td>
+            <td>Como barista profesional o dueño de cafetería de especialidad, quiero elegir entre los diferentes planes disponibles para acceder a las funcionalidades que mejor se adapten a mis necesidades</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">27</td>
-            <td>TS02</td>
-            <td>POST HTTPS Autenticación</td>
-            <td>Como desarrollador, quiero autenticar usuarios mediante una API para validar credenciales y permitir acceso seguro</td>
-            <td class="center"></td>
+            <td>TS01</td>
+            <td>POST HTTPS Usuarios</td>
+            <td>Como desarrollador, quiero registrar nuevos usuarios mediante una API para permitir el acceso al sistema</td>
+            <td class="center">1</td>
         </tr>
         <tr>
             <td class="center">28</td>
-            <td>TS03</td>
-            <td>GET HTTPS Perfil</td>
-            <td>Como desarrollador, quiero obtener datos del perfil de usuario mediante una API para personalizar la experiencia</td>
-            <td class="center"></td>
+            <td>TS02</td>
+            <td>POST HTTPS Autenticación</td>
+            <td>Como desarrollador, quiero autenticar usuarios mediante una API para validar credenciales y permitir acceso seguro</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">29</td>
-            <td>TS04</td>
-            <td>PUT HTTPS Perfil</td>
-            <td>Como desarrollador, quiero actualizar el perfil de usuario mediante una API para mantener la información actualizada</td>
-            <td class="center"></td>
+            <td>TS03</td>
+            <td>GET HTTPS Planes</td>
+            <td>Como desarrollador, quiero obtener información sobre planes disponibles mediante una API para mostrar opciones de suscripción</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">30</td>
-            <td>TS05</td>
-            <td>GET HTTPS Planes</td>
-            <td>Como desarrollador, quiero obtener información sobre planes disponibles mediante una API para mostrar opciones de suscripción</td>
-            <td class="center"></td>
+            <td>TS07</td>
+            <td>POST HTTPS Lotes</td>
+            <td>Como desarrollador, quiero registrar nuevos lotes de café mediante una API para mantener el inventario actualizado</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">31</td>
-            <td>TS09</td>
-            <td>POST HTTPS Lotes</td>
-            <td>Como desarrollador, quiero registrar nuevos lotes de café mediante una API para mantener el inventario actualizado</td>
-            <td class="center"></td>
+            <td>TS19</td>
+            <td>POST HTTPS Recetas</td>
+            <td>Como desarrollador, quiero registrar recetas de preparación mediante una API para documentar métodos óptimos</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">32</td>
-            <td>TS21</td>
-            <td>POST HTTPS Recetas</td>
-            <td>Como desarrollador, quiero registrar recetas de preparación mediante una API para documentar métodos óptimos</td>
-            <td class="center"></td>
+            <td>TS16</td>
+            <td>POST HTTPS Catas</td>
+            <td>Como desarrollador, quiero registrar evaluaciones sensoriales mediante una API para documentar características del café</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">33</td>
-            <td>TS18</td>
-            <td>POST HTTPS Catas</td>
-            <td>Como desarrollador, quiero registrar evaluaciones sensoriales mediante una API para documentar características del café</td>
-            <td class="center"></td>
+            <td>TS21</td>
+            <td>GET HTTPS Inventario</td>
+            <td>Como desarrollador, quiero consultar el inventario integrado mediante una API para visualizar existencias</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">34</td>
-            <td>TS23</td>
-            <td>GET HTTPS Inventario</td>
-            <td>Como desarrollador, quiero consultar el inventario integrado mediante una API para visualizar existencias</td>
-            <td class="center"></td>
+            <td>TS11</td>
+            <td>POST HTTPS Perfiles-Tueste</td>
+            <td>Como desarrollador, quiero crear perfiles de tueste mediante una API para estandarizar procesos</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">35</td>
-            <td>TS13</td>
-            <td>POST HTTPS Perfiles-Tueste</td>
-            <td>Como desarrollador, quiero crear perfiles de tueste mediante una API para estandarizar procesos</td>
-            <td class="center"></td>
+            <td>TS18</td>
+            <td>GET HTTPS Correlaciones</td>
+            <td>Como desarrollador, quiero obtener correlaciones entre tueste y sabor mediante una API para optimizar procesos</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">36</td>
-            <td>TS20</td>
-            <td>GET HTTPS Correlaciones</td>
-            <td>Como desarrollador, quiero obtener correlaciones entre tueste y sabor mediante una API para optimizar procesos</td>
-            <td class="center"></td>
+            <td>TS12</td>
+            <td>POST HTTPS Sesiones-Tueste</td>
+            <td>Como desarrollador, quiero registrar sesiones de tueste mediante una API para documentar cada proceso</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">37</td>
-            <td>TS14</td>
-            <td>POST HTTPS Sesiones-Tueste</td>
-            <td>Como desarrollador, quiero registrar sesiones de tueste mediante una API para documentar cada proceso</td>
-            <td class="center"></td>
+            <td>TS05</td>
+            <td>POST HTTPS Proveedores</td>
+            <td>Como desarrollador, quiero registrar nuevos proveedores mediante una API para ampliar la red de suministro</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">38</td>
-            <td>TS07</td>
-            <td>POST HTTPS Proveedores</td>
-            <td>Como desarrollador, quiero registrar nuevos proveedores mediante una API para ampliar la red de suministro</td>
-            <td class="center"></td>
+            <td>TS20</td>
+            <td>POST HTTPS Calibraciones</td>
+            <td>Como desarrollador, quiero registrar calibraciones de molienda mediante una API para mantener consistencia entre preparaciones</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">39</td>
-            <td>TS22</td>
-            <td>POST HTTPS Calibraciones</td>
-            <td>Como desarrollador, quiero registrar calibraciones de molienda mediante una API para mantener consistencia entre preparaciones</td>
-            <td class="center"></td>
+            <td>TS17</td>
+            <td>GET HTTPS Perfiles-Sensoriales</td>
+            <td>Como desarrollador, quiero obtener perfiles sensoriales mediante una API para visualizar y comparar cualidades</td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">40</td>
-            <td>TS19</td>
-            <td>GET HTTPS Perfiles-Sensoriales</td>
-            <td>Como desarrollador, quiero obtener perfiles sensoriales mediante una API para visualizar y comparar cualidades</td>
-            <td class="center"></td>
+            <td>TS22</td>
+            <td>PATCH HTTPS Inventario</td>
+            <td>Como desarrollador, quiero actualizar el consumo de inventario mediante una API para mantener existencias actualizadas</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">41</td>
-            <td>TS24</td>
-            <td>PATCH HTTPS Inventario</td>
-            <td>Como desarrollador, quiero actualizar el consumo de inventario mediante una API para mantener existencias actualizadas</td>
-            <td class="center"></td>
+            <td>TS09</td>
+            <td>POST HTTPS Certificaciones</td>
+            <td>Como desarrollador, quiero registrar certificaciones mediante una API para validar la calidad y origen del café</td>
+            <td class="center">3</td>
         </tr>
         <tr>
             <td class="center">42</td>
-            <td>TS11</td>
-            <td>POST HTTPS Certificaciones</td>
-            <td>Como desarrollador, quiero registrar certificaciones mediante una API para validar la calidad y origen del café</td>
-            <td class="center"></td>
+            <td>TS23</td>
+            <td>POST HTTPS Contacto</td>
+            <td>Como desarrollador, quiero procesar formularios de contacto mediante una API para gestionar comunicaciones con visitantes</td>
+            <td class="center">1</td>
         </tr>
         <tr>
             <td class="center">43</td>
-            <td>TS25</td>
-            <td>POST HTTPS Contacto</td>
-            <td>Como desarrollador, quiero procesar formularios de contacto mediante una API para gestionar comunicaciones con visitantes</td>
-            <td class="center"></td>
+            <td>TS14</td>
+            <td>GET HTTPS Análisis-Tueste</td>
+            <td>Como desarrollador, quiero obtener análisis comparativo de tuestes mediante una API para identificar patrones</td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">44</td>
-            <td>TS16</td>
-            <td>GET HTTPS Análisis-Tueste</td>
-            <td>Como desarrollador, quiero obtener análisis comparativo de tuestes mediante una API para identificar patrones</td>
-            <td class="center"></td>
+            <td>TS04</td>
+            <td>POST HTTPS Planes</td>
+            <td>Como desarrollador, quiero suscribir usuarios a planes mediante una API para gestionar acceso a funcionalidades</td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">45</td>
             <td>TS06</td>
-            <td>POST HTTPS Planes</td>
-            <td>Como desarrollador, quiero suscribir usuarios a planes mediante una API para gestionar acceso a funcionalidades</td>
-            <td class="center"></td>
+            <td>GET HTTPS Proveedores</td>
+            <td>Como desarrollador, quiero consultar proveedores mediante una API para mostrar opciones disponibles</td>
+            <td class="center">1</td>
         </tr>
         <tr>
             <td class="center">46</td>
             <td>TS08</td>
-            <td>GET HTTPS Proveedores</td>
-            <td>Como desarrollador, quiero consultar proveedores mediante una API para mostrar opciones disponibles</td>
-            <td class="center"></td>
+            <td>PATCH HTTPS Lotes</td>
+            <td>Como desarrollador, quiero actualizar el estado de lotes mediante una API para reflejar cambios en el ciclo de vida</td>
+            <td class="center">2</td>
         </tr>
         <tr>
             <td class="center">47</td>
             <td>TS10</td>
-            <td>PATCH HTTPS Lotes</td>
-            <td>Como desarrollador, quiero actualizar el estado de lotes mediante una API para reflejar cambios en el ciclo de vida</td>
-            <td class="center"></td>
+            <td>GET HTTPS Certificaciones</td>
+            <td>Como desarrollador, quiero obtener certificaciones mediante una API para mostrar valor agregado del producto</td>
+            <td class="center">1</td>
         </tr>
         <tr>
             <td class="center">48</td>
-            <td>TS12</td>
-            <td>GET HTTPS Certificaciones</td>
-            <td>Como desarrollador, quiero obtener certificaciones mediante una API para mostrar valor agregado del producto</td>
-            <td class="center"></td>
+            <td>TS13</td>
+            <td>PATCH HTTPS Sesiones-Tueste</td>
+            <td>Como desarrollador, quiero actualizar lecturas de una sesión de tueste mediante una API para construir la curva real</td>
+            <td class="center">5</td>
         </tr>
         <tr>
             <td class="center">49</td>
             <td>TS15</td>
-            <td>PATCH HTTPS Sesiones-Tueste</td>
-            <td>Como desarrollador, quiero actualizar lecturas de una sesión de tueste mediante una API para construir la curva real</td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">50</td>
-            <td>TS17</td>
             <td>GET HTTPS Defectos-Tueste</td>
             <td>Como desarrollador, quiero consultar defectos comunes en tueste mediante una API para asistir en diagnóstico de problemas</td>
-            <td class="center"></td>
+            <td class="center">1</td>
         </tr>
 </table>
 
