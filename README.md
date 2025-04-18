@@ -911,7 +911,7 @@ En la presente sección se ilustra el recorrido end-to-end del sistema integral 
 Para llevar a cabo el As-is Scenario Mapping, el equipo realizó un proceso de needfinding con el fin de comprender mejor el negocio y determinar la situación actual de las operaciones en las cafeterías de especialidad y el trabajo de los baristas. Este proceso permitió identificar las diferentes fases correspondientes a cada uno de los segmentos objetivos, brindando un entendimiento más profundo del flujo de trabajo y revelando las limitaciones y desafíos del sistema actual.
 
 **Administradores y dueños de cafeterías de especialidad**
-<td><img src="public/assets/images/As-Is/AS_IS_ADMINISTRADORES_Y_DUEÑOS_DE_CAFETERIAS_DE_ESPECIALIDAD.png" alt="As-Is Administradores y dueños de cafeterías de especialidad"></td>
+<td><img src="public/assets/images/AS-IS/AS_IS_ADMINISTRADORES_Y_DUEÑOS_DE_CAFETERIAS_DE_ESPECIALIDAD.png" alt="As-Is Administradores y dueños de cafeterías de especialidad"></td>
 
 
 **Barista Profesional**
