@@ -915,7 +915,7 @@ Para llevar a cabo el As-is Scenario Mapping, el equipo realizó un proceso de n
 
 
 **Barista Profesional**
-<td><img src="[public\assets\images\As-Is\AS_IS_BARISTA_PROFESIONAL.png" alt="Barista profesional](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/AS-IS/AS_IS_BARISTA_PROFESIONAL.png)"></td>
+<td><img src="public/assets/images/AS-IS/AS_IS_BARISTA_PROFESIONAL.png" alt="As-Is Baristas profesionales"></td>
 
 ## 2.4. Ubiquitous Language
 En este proyecto, el uso de **Domain-Driven Design (DDD)** permite alinear el desarrollo de software con la realidad del negocio del café de especialidad. Uno de los pilares de DDD es el Lenguaje Ubicuo (Ubiquitous Language), el cual es un conjunto de términos compartidos que se construyen en colaboración entre desarrolladores, diseñadores y expertos del dominio, en nuestro caso, entre los desarrolladores, baristas y administradores de cafeterías.
@@ -1011,10 +1011,10 @@ En este proyecto, el uso de **Domain-Driven Design (DDD)** permite alinear el de
 En el caso del To-be Scenario Mapping, el equipo definió cómo se visualizaría el flujo de trabajo una vez que la solución CaféLab haya sido implementada en los dos segmentos objetivos. El propósito de este artefacto es analizar y mejorar los aspectos negativos identificados en el As-is Scenario, optimizando los procesos de monitoreo, registro y retroalimentación, y elevando la calidad del café, la eficiencia operativa y la capacidad para tomar decisiones informadas.
 
 **Administradores y dueños de cafeterias de especialidad**
-<td><img src="[public\assets\images\To-Be\TO_BE_ADMINISTRADORES_Y_DUEÑOS_DE_CAFETERIAS_DE_ESPECIALIDAD.png" alt="Administradores y dueños de cafeterías de especialidad](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/TO-BE/TO_BE_ADMINISTRADORES_Y_DUE%C3%91OS_DE_CAFETERIAS_DE_ESPECIALIDAD.png)"></td>
+<td><img src="public\assets\images\TO-BE\TO_BE_ADMINISTRADORES_Y_DUEÑOS_DE_CAFETERIAS_DE_ESPECIALIDAD.png" alt="To-Be Administradores y dueños de cafeterías de especialidad"></td>
 
 **Barista Profesional**
-<td><img src="[public\assets\images\To-Be\TO_BE_BARISTA_PROFESIONAL.png" alt="Barista profesional](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/TO-BE/TO_BE_BARISTA_PROFESIONAL.png)"></td>
+<td><img src="public\assets\images\TO-BE\TO_BE_BARISTA_PROFESIONAL.png" alt="To-Be Baristas profesionales"></td>
 
 
 ## 3.2. User Stories
