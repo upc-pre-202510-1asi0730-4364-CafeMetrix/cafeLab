@@ -220,13 +220,13 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
 <div style="text-align:center;">
     <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
         <tr style="background-color:rgb(164, 61, 61); color: white; font-weight: bold;">
-            <th style="text-align:center; border: 1px solid #ddd;">ABET – EAC - Student Outcome 5</th>
+            <th style="text-align:center; border: 1px solid #ddd;">Student Outcomes</th>
             <th style="text-align:center; border: 1px solid #ddd;">Acciones realizadas</th>
             <th style="text-align:center; border: 1px solid #ddd;">Conclusiones</th>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; vertical-align: top;">
-            La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.</td>
+            5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
                 <strong>Renzo Uribe</strong><br>
                 TB1: <br><br>
@@ -240,7 +240,24 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 TB1: 
         </td>
         <td style="border: 1px solid #ddd; vertical-align: top;"></td>
-    </tr>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; vertical-align: top;">
+            5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+            <td style="border: 1px solid #ddd; vertical-align: top;">
+                <strong>Renzo Uribe</strong><br>
+                TB1: <br><br>
+                <strong>Joseph Chavez</strong><br>
+                TB1: <br><br>
+                <strong>Adrian Donayre</strong><br>
+                TB1: <br><br>
+                <strong>Christian Inga</strong><br>
+                TB1: <br><br>
+                <strong>Carlos Fernandez</strong><br>
+                TB1: 
+        </td>
+        <td style="border: 1px solid #ddd; vertical-align: top;"></td>
+        </tr>
 </table>
 </div>
 <!--TODAS LAS SECCIONES A COMPLETAR-->
