@@ -276,9 +276,8 @@ La solución consiste en una plataforma dual que combina software y componentes 
 
 **Visión**: Ser líder en el estándar tecnológico que revoluciona la industria del café de especialidad.
 
-#### Logo de Café Metrix:
-
-#### Logo de Café Lab:
+#### Logo, isotipo y logotipo de Café Lab:
+<img src="public\assets\images\styleGuidelines\Branding.png" alt="Imagen de logo y variaciones" width="7000">
 
 ### 1.1.2. Perfiles de integrantes del equipo
 <table border="1">
