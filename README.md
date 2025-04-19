@@ -1467,6 +1467,8 @@ Los "style guideline" son un conjunto de principios visuales y comunicacionales 
 **Nombre de marca:**  
 Cafelab representa un laboratorio digital para baristas y cafeterías de especialidad. El nombre fusiona la precisión técnica ("lab") con la calidez y cultura del café.
 
+<img src="public/assets/images/styleGuidelines/Branding.png" alt="Imagen de logo y variaciones" width="7000">
+
 **Misión:**  
 Brindar herramientas digitales que profesionalicen el trabajo del barista, integrando tecnología con el arte de la preparación del café.
 
@@ -1474,11 +1476,28 @@ Brindar herramientas digitales que profesionalicen el trabajo del barista, integ
 Ser la plataforma líder en documentación, calibración y trazabilidad para negocios de café de especialidad en Latinoamérica.
 
 **Colores:**
-- Negro Oliva `#414535` 
-- Verde Oliva `#618985`
-- Crema `#F2E3BC` 
-- Gris Ceniza `#96BBBB`
-- Leon`#C19875` 
+- **Primario:**
+Verde Oliva `#618985`
+- **Secundarios:** 
+Negro Oliva `#414535` 
+Leon`#C19875` 
+- **Terciarios:** 
+Hueso `#f8f7f2`  - Fondo 
+Gris Ceniza `#96BBBB`
+
+Color de Texto: 
+- Sobre fondo oscuro: `#FFFFFF`
+- Sobre fondo claro: `#414535`
+
+<img src="public/assets/images/styleGuidelines/Colors.png" alt="Distribucion de paleta de colores" width="7000">
+
+- Color de Botones: 
+Oscuro:
+`#414535` 
+Claro:
+`#F8F8F8` 
+
+<img src="public/assets/images/styleGuidelines/Buttons.png" alt="Distribucion de botones" width="7000">
 
 **Tipografía:**
 
@@ -1486,10 +1505,14 @@ La tipografía define la jerarquía visual y la legibilidad de la plataforma. Se
 
 - **Heading 01:** Montserrat SemiBold – 52px
 - **Heading 02:** Montserrat Medium – 36px
-- **Heading 03:** Open Sans SemiBold – 24px
-- **Heading 04:** Open Sans Regular – 18px
-- **Texto principal:** Open Sans Regular – 16px
+- **Heading 03:** Arial Nova Bold – 24px
+- **Heading 04:** Arial Nova Regular – 18px
+- **Texto principal:** Arial Nova Regular – 16px
 - **Texto técnico:** Roboto Mono – 14px
+
+<img src="public/assets/images/styleGuidelines/Heading.png" alt="Tipofrafía principal" width="7000">
+
+<img src="public/assets/images/styleGuidelines/Body.png" alt="Tipografía secundaria" width="7000">
 
 **Tono de comunicación:**
 - Profesional pero cercano.
@@ -1561,18 +1584,46 @@ El sistema de etiquetado de Cafelab busca maximizar la claridad y minimizar la c
 Los meta tags y SEO tags son elementos clave para mejorar el posicionamiento de la aplicación en motores de búsqueda, facilitar la indexación y enriquecer la experiencia en plataformas de redirección o previsualización (como redes sociales y navegadores). En Cafelab, estos elementos están optimizados tanto para la Landing Page como para la Web App una vez iniciada sesión.
 
 **Landing Page:**
+- Etiqueta de título: 
+Utilizada para la lectura de los motores de búsqueda en los encabezados de las distintas páginas.
 ```html
 <title>Cafelab – Dominio total sobre tu café</title>
-<meta charset="utf-8">
-<meta name="description" content="Plataforma integral para baristas y cafeterías que conecta el café verde con la taza final. Documenta, calibra y escala tu calidad.">
-<meta name="keywords" content="café de especialidad, barista, tueste, cata, trazabilidad, calibración, cafelab">
-<meta name="author" content="Equipo Cafelab - CafeMetrix">
-<meta name="copyright" content="cafelab"/>
-
+```
+```html
 <title>Cafelab | Panel de Control</title>
+```
+- Etiqueta configuración de caracteres: 
+Muestra correctamente los caracteres del alfabeto castellano.
+```html
+<meta charset="utf-8">
+```
+- Etiqueta de descripción: 
+Nos sirve para que el motor de búsqueda tenga un resumen del contenido de la página. 
+
+```html
+<meta name="description" content="Plataforma integral para baristas y cafeterías que conecta el café verde con la taza final. Documenta, calibra y escala tu calidad.">
+```
+```html
 <meta name="description" content="Gestión completa de tus tuestes, recetas y procesos desde un solo lugar.">
+
+```
+- Etiqueta de palabras clave: 
+Utilizada para la lectura de los motores de búsqueda en los encabezados de las distintas páginas.
+```html
+<meta name="keywords" content="café de especialidad, barista, tueste, cata, trazabilidad, calibración, cafelab">
+```
+```html
 <meta name="keywords" content="panel de tueste, perfil sensorial, barista app, café verde, recetas de café">
 ```
+-  Etiqueta de autor y derechos de autor: 
+Etiqueta que nos permite registrar la autoría de la página.
+```html
+<meta name="author" content="Equipo Cafelab - CafeMetrix">
+<meta name="copyright" content="cafelab"/>
+```
+
+
+
 ### 4.2.4. Searching Systems.
 Los sistemas de búsqueda de Cafelab están diseñados para que el usuario pueda encontrar información específica de manera ágil, incluso dentro de grandes volúmenes de datos históricos o múltiples lotes activos.
 - Búsqueda por texto: En tuestes, recetas, catas y lotes.
