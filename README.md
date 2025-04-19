@@ -471,7 +471,7 @@ Estas cafeterías no solo representan una oportunidad de mercado, sino también 
     <tr>
         <th style="border: 1px solid #000;"></th>
         <th style="text-align:center; border: 1px solid #000;"></th>
-        <th style="text-align:center; border: 1px solid #000;">CaféLab<img src="CUANDO TENGAMOS EL LOGO.jpeg" alt="Aqui va nuestro logooo" width="150"></th>
+        <th style="text-align:center; border: 1px solid #000;">CaféLab<img src="public\assets\images\styleGuidelines\Logo.jpg" alt="Logo Café Lab" width="150"></th>
         <th style="text-align:center; border: 1px solid #000;">Cropster<img src="public\assets\images\Competidores\cropster.jpg" alt="Logo Crospter" width="150"></th>
         <th style="text-align:center; border: 1px solid #000;">Ikawa<img src="public\assets\images\Competidores\ikawa.png" alt="Logo Ikawa" width="150"></th>
         <th style="text-align:center; border: 1px solid #000;">Beanconqueror<img src="public\assets\images\Competidores\conqueror.jpg" alt="Logo Beanconqueror" width="150"></th>
