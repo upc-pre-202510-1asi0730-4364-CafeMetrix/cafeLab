@@ -1678,7 +1678,394 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+
+![image](https://github.com/user-attachments/assets/bef17e3c-f46d-44ba-bd89-2ee8ed8a64fd)
+
+
 ### 4.7.2. Class Dictionary.
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <tr>
+        <th colspan="5" style="text-align:center; border: 1px solid #000;">CaféLab Class Dictionary</th>
+    </tr>
+    <tr>
+        <th style="text-align:center; border: 1px solid #000;">Class</th>
+        <th style="text-align:center; border: 1px solid #000;">Description</th>
+        <th style="text-align:center; border: 1px solid #000;">Attributes</th>
+        <th style="text-align:center; border: 1px solid #000;">Methods</th>
+        <th style="text-align:center; border: 1px solid #000;">Relationships</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>User</strong></td>
+        <td style="border: 1px solid #000;">Represents a user of the CaféLab system (barista or café owner).</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the user.<br>
+            - email: String - User's email for login.<br>
+            - password: String - Encrypted password for authentication.<br>
+            - name: String - User's full name.<br>
+            - role: String - User's role (e.g., "barista", "cafe_owner").<br>
+            - experience: String - User's experience level or description.<br>
+            - plan: Plan - The subscription plan the user is enrolled in.
+        </td>
+        <td style="border: 1px solid #000;">
+            - register() - Registers a new user with email and password.<br>
+            - authenticate() - Validates user credentials for login.<br>
+            - updateProfile() - Updates user profile details (name, role, experience).
+        </td>
+        <td style="border: 1px solid #000;">
+            - 1 to 0..1 Plan: A user subscribes to one plan.<br>
+            - 1 to 0..* Supplier: A user can manage multiple suppliers.<br>
+            - 1 to 0..* RoastProfile: A user can create multiple roast profiles.<br>
+            - 1 to 0..* Recipe: A user can create multiple recipes.<br>
+            - 1 to 0..* GrindCalibration: A user can document multiple grind calibrations.<br>
+            - 1 to 0..* Beverage: A user can create multiple beverages.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Plan</strong></td>
+        <td style="border: 1px solid #000;">Represents a subscription plan for CaféLab users.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the plan.<br>
+            - name: String - Plan name (e.g., "Base Cafetal").<br>
+            - price: Float - Monthly cost of the plan.<br>
+            - features: List<String> - List of features available in the plan.
+        </td>
+        <td style="border: 1px solid #000;">
+            - getFeatures() - Retrieves the list of features for the plan.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..1 to 1 User: A plan is subscribed by a user.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Supplier</strong></td>
+        <td style="border: 1px solid #000;">Represents a supplier of green coffee for CaféLab users.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the supplier.<br>
+            - name: String - Supplier's name.<br>
+            - location: String - Supplier's location.<br>
+            - contact: String - Contact information.<br>
+            - coffeeTypes: List<String> - Types of coffee provided.<br>
+            - evaluations: List<Float> - Evaluation scores for the supplier.
+        </td>
+        <td style="border: 1px solid #000;">
+            - addEvaluation(score: Float) - Adds an evaluation score for the supplier.<br>
+            - getAverageEvaluation() - Calculates the average evaluation score.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 User: A supplier is managed by a user.<br>
+            - 1 to 0..* CoffeeLot: A supplier can provide multiple coffee lots.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>CoffeeLot</strong></td>
+        <td style="border: 1px solid #000;">Represents a batch of green coffee in the CaféLab system.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the coffee lot.<br>
+            - traceabilityCode: String - Unique code for traceability.<br>
+            - origin: String - Origin of the coffee.<br>
+            - variety: String - Coffee variety.<br>
+            - process: String - Processing method.<br>
+            - altitude: Float - Altitude where the coffee was grown.<br>
+            - weight: Float - Weight of the lot in kilograms.<br>
+            - status: String - Current status (e.g., "stored", "roasting", "depleted").<br>
+            - statusUpdates: List<StatusUpdate> - History of status changes.
+        </td>
+        <td style="border: 1px solid #000;">
+            - updateStatus(newStatus: String, user: User) - Updates the lot's status.<br>
+            - generateTraceabilityCode() - Generates a unique traceability code.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 Supplier: A coffee lot is provided by a supplier.<br>
+            - 1 to 0..* Certification: A coffee lot can have multiple certifications.<br>
+            - 1 to 0..* RoastSession: A coffee lot can be used in multiple roast sessions.<br>
+            - 1 to 0..* SensoryEvaluation: A coffee lot can be evaluated multiple times.<br>
+            - 1 to 0..1 Cost: A coffee lot can have associated costs.<br>
+            - 1 to 0..1 PerformanceAnalysis: A coffee lot can have a performance analysis.<br>
+            - 1 to 0..1 TraceabilityReport: A coffee lot can have a traceability report.<br>
+            - 1 to 0..* Recipe: A coffee lot can be associated with multiple recipes.<br>
+            - 0..* to 1 Inventory: A coffee lot is tracked by an inventory.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>StatusUpdate</strong></td>
+        <td style="border: 1px solid #000;">Represents a status change event for a coffee lot.</td>
+        <td style="border: 1px solid #000;">
+            - timestamp: DateTime - Date and time of the status update.<br>
+            - status: String - New status value.<br>
+            - responsible: User - User responsible for the update.
+        </td>
+        <td style="border: 1px solid #000;">
+            - None.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 CoffeeLot: A status update belongs to a coffee lot.<br>
+            - 0..* to 1 User: A status update is performed by a user.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Certification</strong></td>
+        <td style="border: 1px solid #000;">Represents a certification associated with a coffee lot.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the certification.<br>
+            - type: String - Type of certification (e.g., "organic", "fair trade").<br>
+            - documentation: String - Certification documentation.<br>
+            - lotId: String - ID of the associated coffee lot.
+        </td>
+        <td style="border: 1px solid #000;">
+            - validate() - Validates the certification documentation.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 CoffeeLot: A certification is linked to a coffee lot.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>RoastProfile</strong></td>
+        <td style="border: 1px solid #000;">Represents a roasting profile created by a user.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the roast profile.<br>
+            - userId: String - ID of the user who created the profile.<br>
+            - name: String - Profile name.<br>
+            - initialTemperature: Float - Starting temperature.<br>
+            - curve: String - Roast curve description.<br>
+            - time: Float - Total roast time.<br>
+            - development: Float - Development time percentage.
+        </td>
+        <td style="border: 1px solid #000;">
+            - duplicate() - Creates a copy of the roast profile for modification.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 User: A roast profile is created by a user.<br>
+            - 1 to 0..* RoastSession: A roast profile can be used in multiple roast sessions.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>RoastSession</strong></td>
+        <td style="border: 1px solid #000;">Represents a single roasting session for a coffee lot using a roast profile.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the roast session.<br>
+            - lotId: String - ID of the coffee lot being roasted.<br>
+            - profileId: String - ID of the roast profile used.<br>
+            - startTimestamp: DateTime - Start time of the session.<br>
+            - temperatureReadings: List<Float> - Temperature readings during the session.<br>
+            - timeReadings: List<Float> - Time points for temperature readings.<br>
+            - realCurve: String - Actual roast curve constructed from readings.
+        </td>
+        <td style="border: 1px solid #000;">
+            - addReading(temperature: Float, time: Float) - Adds a temperature reading.<br>
+            - constructCurve() - Builds the real roast curve from readings.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 CoffeeLot: A roast session uses a coffee lot.<br>
+            - 0..* to 1 RoastProfile: A roast session uses a roast profile.<br>
+            - 1 to 0..* SensoryEvaluation: A roast session can be evaluated multiple times.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>RoastDefect</strong></td>
+        <td style="border: 1px solid #000;">Represents a common defect in coffee roasting, used as a reference library.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the defect.<br>
+            - name: String - Defect name.<br>
+            - description: String - Defect description.<br>
+            - visualCharacteristics: String - Visual traits of the defect.<br>
+            - causes: List<String> - Possible causes of the defect.<br>
+            - solutions: List<String> - Recommended solutions.
+        </td>
+        <td style="border: 1px solid #000;">
+            - search(criteria: String) - Searches for defects matching the criteria.
+        </td>
+        <td style="border: 1px solid #000;">
+            - None (standalone reference library).
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>SensoryEvaluation</strong></td>
+        <td style="border: 1px solid #000;">Represents a sensory evaluation (tasting) of a roasted coffee lot.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the evaluation.<br>
+            - lotId: String - ID of the coffee lot.<br>
+            - roastSessionId: String - ID of the roast session.<br>
+            - attributes: Map<String, Float> - Sensory attributes (e.g., acidity, body).<br>
+            - scores: Map<String, Float> - Scores for each attribute.<br>
+            - timestamp: DateTime - Date and time of the evaluation.
+        </td>
+        <td style="border: 1px solid #000;">
+            - generateProfile() - Generates a sensory profile (e.g., radar chart).<br>
+            - compare(other: SensoryEvaluation) - Compares with another evaluation.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 CoffeeLot: An evaluation is linked to a coffee lot.<br>
+            - 0..* to 1 RoastSession: An evaluation is linked to a roast session.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Recipe</strong></td>
+        <td style="border: 1px solid #000;">Represents a coffee preparation recipe created by a user.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the recipe.<br>
+            - userId: String - ID of the user who created the recipe.<br>
+            - name: String - Recipe name.<br>
+            - method: String - Preparation method (e.g., "espresso", "pour-over").<br>
+            - ratio: Float - Coffee-to-water ratio.<br>
+            - temperature: Float - Water temperature.<br>
+            - time: Float - Extraction time.<br>
+            - grindSetting: String - Grind setting used.<br>
+            - lotId: String - ID of the associated coffee lot.<br>
+            - permissions: List<String> - Permissions for sharing with the team.
+        </td>
+        <td style="border: 1px solid #000;">
+            - shareWithTeam(permissions: List<String>) - Shares the recipe with the team.<br>
+            - suggestImprovement(changes: String) - Suggests improvements to the recipe.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 User: A recipe is created by a user.<br>
+            - 0..* to 1 CoffeeLot: A recipe is associated with a coffee lot.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>GrindCalibration</strong></td>
+        <td style="border: 1px solid #000;">Represents a grind calibration for coffee preparation.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the calibration.<br>
+            - userId: String - ID of the user who documented it.<br>
+            - equipment: String - Grinder equipment used.<br>
+            - grindSetting: String - Grind setting value.<br>
+            - timestamp: DateTime - Date and time of the calibration.<br>
+            - image: String - Image of the grind (optional).<br>
+            - extractionTime: Float - Resulting extraction time.
+        </td>
+        <td style="border: 1px solid #000;">
+            - compareWith(other: GrindCalibration) - Compares with another calibration.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 User: A calibration is documented by a user.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Beverage</strong></td>
+        <td style="border: 1px solid #000;">Represents a beverage in a user's digital portfolio.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the beverage.<br>
+            - userId: String - ID of the user who created it.<br>
+            - name: String - Beverage name.<br>
+            - category: String - Category (e.g., "espresso", "signature").<br>
+            - ingredients: List<String> - List of ingredients.<br>
+            - method: String - Preparation method.<br>
+            - presentation: String - Presentation description.<br>
+            - photo: String - Photo of the beverage.
+        </td>
+        <td style="border: 1px solid #000;">
+            - categorize(category: String) - Assigns a category to the beverage.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 User: A beverage is created by a user.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Inventory</strong></td>
+        <td style="border: 1px solid #000;">Represents the inventory of green and roasted coffee.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the inventory.<br>
+            - items: Map<CoffeeLot, Float> - Coffee lots and their quantities.<br>
+            - movements: List<Movement> - History of inventory movements.<br>
+            - alerts: List<String> - Active alerts for low stock or issues.
+        </td>
+        <td style="border: 1px solid #000;">
+            - updateStock(lot: CoffeeLot, quantity: Float) - Updates inventory stock.<br>
+            - generateAlert() - Generates alerts for low stock.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 1 to 0..* CoffeeLot: An inventory tracks multiple coffee lots.<br>
+            - 0..* to 1 Movement: An inventory has multiple movements.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Movement</strong></td>
+        <td style="border: 1px solid #000;">Represents a movement (addition or subtraction) in the inventory.</td>
+        <td style="border: 1px solid #000;">
+            - timestamp: DateTime - Date and time of the movement.<br>
+            - lotId: String - ID of the affected coffee lot.<br>
+            - quantity: Float - Quantity added or subtracted.<br>
+            - type: String - Type of movement (e.g., "consumption", "addition").
+        </td>
+        <td style="border: 1px solid #000;">
+            - None.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 Inventory: A movement belongs to an inventory.<br>
+            - 0..* to 1 CoffeeLot: A movement affects a coffee lot.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Cost</strong></td>
+        <td style="border: 1px solid #000;">Represents the production costs associated with a coffee lot.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the cost record.<br>
+            - lotId: String - ID of the associated coffee lot.<br>
+            - categories: Map<String, Float> - Cost categories (e.g., purchase, transport).<br>
+            - totalCost: Float - Total production cost.<br>
+            - costPerKilo: Float - Cost per kilogram.<br>
+            - costPerCup: Float - Cost per cup.<br>
+            - margin: Float - Profit margin based on market price.
+        </td>
+        <td style="border: 1px solid #000;">
+            - calculateMetrics() - Calculates cost per kilo, cost per cup, and margin.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..1 to 1 CoffeeLot: A cost is associated with a coffee lot.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>PerformanceAnalysis</strong></td>
+        <td style="border: 1px solid #000;">Represents the performance analysis of a coffee lot's production.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the analysis.<br>
+            - lotId: String - ID of the associated coffee lot.<br>
+            - metrics: Map<String, Float> - Metrics (e.g., waste percentage, productivity).
+        </td>
+        <td style="border: 1px solid #000;">
+            - compareWith(other: PerformanceAnalysis) - Compares with another analysis.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..1 to 1 CoffeeLot: An analysis is linked to a coffee lot.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>TraceabilityReport</strong></td>
+        <td style="border: 1px solid #000;">Represents a traceability report for a coffee lot.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the report.<br>
+            - lotId: String - ID of the associated coffee lot.<br>
+            - chainDetails: String - Full traceability chain (origin to cup).<br>
+            - commercialSheet: String - Commercial sheet for clients.
+        </td>
+        <td style="border: 1px solid #000;">
+            - generateCommercialSheet() - Generates a commercial sheet for the report.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..1 to 1 CoffeeLot: A report is linked to a coffee lot.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>ContactForm</strong></td>
+        <td style="border: 1px solid #000;">Represents a contact form submission from the landing page.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the form submission.<br>
+            - name: String - Submitter's name.<br>
+            - email: String - Submitter's email.<br>
+            - message: String - Message content.<br>
+            - timestamp: DateTime - Submission date and time.
+        </td>
+        <td style="border: 1px solid #000;">
+            - sendConfirmation() - Sends a confirmation email to the submitter.
+        </td>
+        <td style="border: 1px solid #000;">
+            - None (standalone entity for landing page).
+        </td>
+    </tr>
+</table>
+
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
 
