@@ -1679,17 +1679,18 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-![image](https://github.com/user-attachments/assets/bef17e3c-f46d-44ba-bd89-2ee8ed8a64fd)
-
+![image](https://github.com/user-attachments/assets/45493989-a4a2-4998-813c-73547a794ec9)
 
 ### 4.7.2. Class Dictionary.
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
     <tr>
-        <th colspan="5" style="text-align:center; border: 1px solid #000;">CaféLab Class Dictionary</th>
+        <th colspan="7" style="text-align:center; border: 1px solid #000;">CaféLab Class Dictionary</th>
     </tr>
     <tr>
         <th style="text-align:center; border: 1px solid #000;">Class</th>
+        <th style="text-align:center; border: 1px solid #000;">Bounded Context</th>
+        <th style="text-align:center; border: 1px solid #000;">Entity/Value Object</th>
         <th style="text-align:center; border: 1px solid #000;">Description</th>
         <th style="text-align:center; border: 1px solid #000;">Attributes</th>
         <th style="text-align:center; border: 1px solid #000;">Methods</th>
@@ -1697,6 +1698,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>User</strong></td>
+        <td style="border: 1px solid #000;">User Management</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a user of the CaféLab system (barista or café owner).</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the user.<br>
@@ -1718,11 +1721,14 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
             - 1 to 0..* RoastProfile: A user can create multiple roast profiles.<br>
             - 1 to 0..* Recipe: A user can create multiple recipes.<br>
             - 1 to 0..* GrindCalibration: A user can document multiple grind calibrations.<br>
-            - 1 to 0..* Beverage: A user can create multiple beverages.
+            - 1 to 0..* Beverage: A user can create multiple beverages.<br>
+            - 1 to 0..* Customer: A user can manage multiple customers.
         </td>
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>Plan</strong></td>
+        <td style="border: 1px solid #000;">User Management</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a subscription plan for CaféLab users.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the plan.<br>
@@ -1739,6 +1745,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>Supplier</strong></td>
+        <td style="border: 1px solid #000;">Green Coffee Management</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a supplier of green coffee for CaféLab users.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the supplier.<br>
@@ -1759,6 +1767,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>CoffeeLot</strong></td>
+        <td style="border: 1px solid #000;">Green Coffee Management</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a batch of green coffee in the CaféLab system.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the coffee lot.<br>
@@ -1784,11 +1794,14 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
             - 1 to 0..1 PerformanceAnalysis: A coffee lot can have a performance analysis.<br>
             - 1 to 0..1 TraceabilityReport: A coffee lot can have a traceability report.<br>
             - 1 to 0..* Recipe: A coffee lot can be associated with multiple recipes.<br>
-            - 0..* to 1 Inventory: A coffee lot is tracked by an inventory.
+            - 0..* to 1 Inventory: A coffee lot is tracked by an inventory.<br>
+            - 1 to 0..* SaleItem: A coffee lot can be referenced in multiple sale items.
         </td>
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>StatusUpdate</strong></td>
+        <td style="border: 1px solid #000;">Green Coffee Management</td>
+        <td style="border: 1px solid #000;">Value Object</td>
         <td style="border: 1px solid #000;">Represents a status change event for a coffee lot.</td>
         <td style="border: 1px solid #000;">
             - timestamp: DateTime - Date and time of the status update.<br>
@@ -1805,6 +1818,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>Certification</strong></td>
+        <td style="border: 1px solid #000;">Green Coffee Management</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a certification associated with a coffee lot.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the certification.<br>
@@ -1821,6 +1836,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>RoastProfile</strong></td>
+        <td style="border: 1px solid #000;">Roasting</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a roasting profile created by a user.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the roast profile.<br>
@@ -1841,6 +1858,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>RoastSession</strong></td>
+        <td style="border: 1px solid #000;">Roasting</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a single roasting session for a coffee lot using a roast profile.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the roast session.<br>
@@ -1863,6 +1882,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>RoastDefect</strong></td>
+        <td style="border: 1px solid #000;">Roasting</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a common defect in coffee roasting, used as a reference library.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the defect.<br>
@@ -1881,6 +1902,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>SensoryEvaluation</strong></td>
+        <td style="border: 1px solid #000;">Sensory Evaluation</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a sensory evaluation (tasting) of a roasted coffee lot.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the evaluation.<br>
@@ -1901,6 +1924,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>Recipe</strong></td>
+        <td style="border: 1px solid #000;">Preparation</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a coffee preparation recipe created by a user.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the recipe.<br>
@@ -1925,6 +1950,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>GrindCalibration</strong></td>
+        <td style="border: 1px solid #000;">Preparation</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a grind calibration for coffee preparation.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the calibration.<br>
@@ -1944,6 +1971,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>Beverage</strong></td>
+        <td style="border: 1px solid #000;">Preparation</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a beverage in a user's digital portfolio.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the beverage.<br>
@@ -1964,6 +1993,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>Inventory</strong></td>
+        <td style="border: 1px solid #000;">Administration</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents the inventory of green and roasted coffee.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the inventory.<br>
@@ -1982,6 +2013,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>Movement</strong></td>
+        <td style="border: 1px solid #000;">Administration</td>
+        <td style="border: 1px solid #000;">Value Object</td>
         <td style="border: 1px solid #000;">Represents a movement (addition or subtraction) in the inventory.</td>
         <td style="border: 1px solid #000;">
             - timestamp: DateTime - Date and time of the movement.<br>
@@ -1999,6 +2032,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>Cost</strong></td>
+        <td style="border: 1px solid #000;">Administration</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents the production costs associated with a coffee lot.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the cost record.<br>
@@ -2018,6 +2053,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>PerformanceAnalysis</strong></td>
+        <td style="border: 1px solid #000;">Administration</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents the performance analysis of a coffee lot's production.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the analysis.<br>
@@ -2033,6 +2070,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>TraceabilityReport</strong></td>
+        <td style="border: 1px solid #000;">Administration</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a traceability report for a coffee lot.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the report.<br>
@@ -2044,11 +2083,14 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
             - generateCommercialSheet() - Generates a commercial sheet for the report.
         </td>
         <td style="border: 1px solid #000;">
-            - 0..1 to 1 CoffeeLot: A report is linked to a coffee lot.
+            - 0..1 to 1 CoffeeLot: A report is linked to a coffee lot.<br>
+            - 0..* to 1 Customer: A report can be delivered to a customer.
         </td>
     </tr>
     <tr>
         <td style="border: 1px solid #000;"><strong>ContactForm</strong></td>
+        <td style="border: 1px solid #000;">Landing Page</td>
+        <td style="border: 1px solid #000;">Entity</td>
         <td style="border: 1px solid #000;">Represents a contact form submission from the landing page.</td>
         <td style="border: 1px solid #000;">
             - id: String - Unique identifier for the form submission.<br>
@@ -2062,6 +2104,83 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
         </td>
         <td style="border: 1px solid #000;">
             - None (standalone entity for landing page).
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Customer</strong></td>
+        <td style="border: 1px solid #000;">CRM Context</td>
+        <td style="border: 1px solid #000;">Entity</td>
+        <td style="border: 1px solid #000;">Represents a customer who purchases roasted coffee from CaféLab.</td>
+        <td style="border: 1px solid #000;">
+            - id: CustomerId - Unique identifier for the customer.<br>
+            - name: String - Customer's name.<br>
+            - email: String - Customer's email.<br>
+            - address: Address - Customer's address.
+        </td>
+        <td style="border: 1px solid #000;">
+            - updateContactInfo(email: String, address: Address) - Updates the customer's contact information.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 User: A customer is managed by a user.<br>
+            - 1 to 0..* TraceabilityReport: A customer can receive multiple traceability reports.<br>
+            - 1 to 0..* Sale: A customer can have multiple sales.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>Sale</strong></td>
+        <td style="border: 1px solid #000;">Sales Context</td>
+        <td style="border: 1px solid #000;">Entity (Aggregate Root)</td>
+        <td style="border: 1px solid #000;">Represents a sale of roasted coffee to a customer, acting as the root of the Sale Aggregate.</td>
+        <td style="border: 1px solid #000;">
+            - id: String - Unique identifier for the sale.<br>
+            - saleDate: DateTime - Date and time of the sale.<br>
+            - customerId: String - ID of the customer who made the purchase.<br>
+            - deliveryAddress: DeliveryAddress - Address where the coffee will be delivered.<br>
+            - saleItems: List<SaleItem> - List of items sold in this sale.
+        </td>
+        <td style="border: 1px solid #000;">
+            - addSaleItem(item: SaleItem) - Adds a sale item to the sale.<br>
+            - setDeliveryAddress(address: DeliveryAddress) - Sets the delivery address for the sale.<br>
+            - calculateTotal(): Float - Calculates the total cost of the sale.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 Customer: A sale is made to a customer.<br>
+            - 1 to 1 DeliveryAddress: A sale contains one delivery address.<br>
+            - 1 to 0..* SaleItem: A sale contains multiple sale items.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>DeliveryAddress</strong></td>
+        <td style="border: 1px solid #000;">Sales Context</td>
+        <td style="border: 1px solid #000;">Value Object</td>
+        <td style="border: 1px solid #000;">Represents the delivery address for a sale, with no identity of its own.</td>
+        <td style="border: 1px solid #000;">
+            - street: String - Street name and number.<br>
+            - city: String - City name.
+        </td>
+        <td style="border: 1px solid #000;">
+            - None.
+        </td>
+        <td style="border: 1px solid #000;">
+            - 1 to 1 Sale: A delivery address belongs to a sale.
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;"><strong>SaleItem</strong></td>
+        <td style="border: 1px solid #000;">Sales Context</td>
+        <td style="border: 1px solid #000;">Entity (Child Entity)</td>
+        <td style="border: 1px solid #000;">Represents an item sold within a sale, such as a quantity of coffee from a specific lot.</td>
+        <td style="border: 1px solid #000;">
+            - lotId: String - ID of the coffee lot being sold.<br>
+            - quantity: Float - Quantity of coffee sold (in kilograms).<br>
+            - price: Float - Price per unit for this item.
+        </td>
+        <td style="border: 1px solid #000;">
+            - calculateSubtotal(): Float - Calculates the subtotal for this item (quantity * price).
+        </td>
+        <td style="border: 1px solid #000;">
+            - 0..* to 1 Sale: A sale item belongs to a sale.<br>
+            - 0..* to 1 CoffeeLot: A sale item references a coffee lot.
         </td>
     </tr>
 </table>
