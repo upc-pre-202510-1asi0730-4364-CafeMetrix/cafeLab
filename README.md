@@ -1679,7 +1679,8 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-![image](https://github.com/user-attachments/assets/45493989-a4a2-4998-813c-73547a794ec9)
+![image](https://github.com/user-attachments/assets/fe79919c-616e-412f-8596-ae312a44d55b)
+
 
 ### 4.7.2. Class Dictionary.
 
