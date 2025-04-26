@@ -644,8 +644,10 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
     <td>Omar cuenta con una certificación internacional como barista por la SCA y actualmente es dueño de una cafetería especializada. Tiene un conocimiento sólido sobre los procesos del café, desde la selección del grano y sus características (como altura, proceso y humedad), hasta el control del tueste y la calibración diaria de las bebidas. Se encarga personalmente del almacenamiento y monitoreo del grano, utilizando herramientas como Excel para llevar registros de peso, rendimiento y trazabilidad. Aunque se maneja bien con herramientas digitales básicas, reconoce que ciertos procesos manuales podrían optimizarse mediante una plataforma digital especializada. Publica contenido educativo sobre café en LinkedIn, lo cual también refuerza su rol como formador dentro del rubro.</td>
   </tr>
   <tr>
-    <td>Timing:</td>
-    <td></td>
+    <td>Timing:26:13-32:40</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación</td>
+   
   </tr>
 </table>
 
@@ -671,8 +673,9 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
     <td>Ivo es dueño de una cafetería de especialidad y cuenta con una amplia experiencia en el manejo integral del café, desde la selección del grano hasta la experiencia final en taza. Aunque actualmente no trabaja con cafés certificados, valora su importancia y reconoce la necesidad de herramientas digitales para gestionar mejor la documentación relacionada. La comunicación de las características del café hacia sus clientes es principalmente oral, apoyada en pizarras, y considera útil un sistema visual y estandarizado para este fin. Evalúa a sus proveedores mediante catas y relaciones de confianza, sin un registro formal, y le interesaría contar con una plataforma para organizar esa información. El almacenamiento de café lo gestiona de forma empírica, pero ha experimentado pérdidas que podrían evitarse con monitoreo digital. Para mantener la consistencia entre baristas, implementa protocolos de preparación y entrenamiento constante, aunque identifica la necesidad de una herramienta para estandarizar y compartir recetas. Transmite el conocimiento técnico de manera oral y presencial, y ve valor en una bitácora digital que permita documentar recetas, aprendizajes y procesos. Utiliza Excel y WhatsApp como herramientas principales, pero admite que muchos procesos siguen siendo manuales. Está interesado en una plataforma integral que permita gestionar trazabilidad, control de calidad, inventario, recetas, capacitación y costos de forma centralizada, mejorando así la eficiencia y la calidad de su operación.</td>
   </tr>
   <tr>
-    <td>Timing:</td>
-    <td></td>
+    <td>Timing:32:40-40:46</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación</td>
   </tr>
 </table>
 
@@ -698,8 +701,9 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
     <td>Raul describió sus principales desafíos operativos y necesidades tecnológicas. Actualmente maneja de forma manual y desorganizada aspectos cruciales como certificaciones, información de proveedores y trazabilidad del café, lo que dificulta responder ágilmente a los clientes. Utiliza métodos básicos para comunicar las características especiales del café, incluyendo tarjetas informativas, aunque reconoce que necesita algo más visual y atractivo. Para mantener la consistencia entre baristas, implementa un sistema de mentoría y reuniones semanales de cata, pero admite que su documentación y capacitación necesitan actualización. En cuanto a tecnología, usa principalmente Excel, una caja registradora digital y aplicaciones básicas de tueste, pero carece de un sistema integral. Su principal necesidad es una plataforma que mejore la eficiencia operativa y la experiencia del cliente, permitiendo mostrar el valor agregado de sus productos para justificar precios más altos y aumentar la rentabilidad del negocio. El dueño enfatiza que cualquier solución debe ser tangible y visible para los clientes, ayudando a gestionar todo el proceso desde la recepción del grano hasta la taza final.</td>
   </tr>
   <tr>
-    <td>Timing:</td>
-    <td></td>
+    <td>Timing:19:48-26:13</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación</td>
   </tr>
 </table>
 
@@ -728,8 +732,9 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
     <td>Alejandra trabaja en el área operativa de una cadena de cafeterías, donde se encarga de estandarizar las recetas y asegurar la consistencia en la calidad del café entre tiendas. Tiene conocimientos técnicos sobre calibración, evaluación sensorial y trazabilidad del grano, y maneja protocolos detallados para eventos fuera del entorno habitual. Utiliza balanzas de precisión y máquinas programables como parte de sus herramientas diarias. Si bien reconoce que ciertos datos sensibles no pueden compartirse por temas de confidencialidad, considera que una plataforma digital que integre información de trazabilidad, tueste y calidad sensorial podría ser de gran valor para su operación.</td>
   </tr>
   <tr>
-    <td>Timing:</td>
-    <td></td>
+    <td>Timing:00:00-06:55</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación</td>
   </tr>
 </table>
 
@@ -752,11 +757,12 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
   </tr>
   <tr>
     <td><img src="public\assets\images\Entrevistas\EntrevistaAngelaGuillermo.png" alt="Foto de Anyela Guillermo" width="7000"></td>
-    <td>Angela es una barista con 3 años de experiencia en café de especialidad y participante en competencias de latte art. Sus principales desafíos incluyen mantener la consistencia entre baristas, documentar recetas, encontrar temperaturas ideales para métodos filtrados, preservar propiedades del café mediante almacenamiento adecuado y lograr precisión en calibraciones. Aunque utiliza registros manuales, identifica la necesidad de herramientas tecnológicas para evaluación del café, análisis de variedades y monitoreo de almacenamiento. Considera valioso implementar una plataforma integral que conecte todo el proceso del café y espacios tipo laboratorio que integren teoría y práctica, desde el cultivo hasta la taza final.</td>
+    <td>Anyela es una barista con 3 años de experiencia en café de especialidad y participante en competencias de latte art. Sus principales desafíos incluyen mantener la consistencia entre baristas, documentar recetas, encontrar temperaturas ideales para métodos filtrados, preservar propiedades del café mediante almacenamiento adecuado y lograr precisión en calibraciones. Aunque utiliza registros manuales, identifica la necesidad de herramientas tecnológicas para evaluación del café, análisis de variedades y monitoreo de almacenamiento. Considera valioso implementar una plataforma integral que conecte todo el proceso del café y espacios tipo laboratorio que integren teoría y práctica, desde el cultivo hasta la taza final.</td>
   </tr>
   <tr>
-    <td>Timing:</td>
-    <td></td>
+    <td>Timing:13:27-19:48</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación</td>
   </tr>
 </table>
 
@@ -782,14 +788,51 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
     <td>Víctor Cruz es un barista autodidacta con experiencia en café de especialidad, formado a través de investigación personal, observación en cafeterías y visitas a fincas productoras de café como las de Villa Rica. Su enfoque destaca por la curiosidad y el aprendizaje empírico, aunque reconoce limitaciones en la documentación de métodos tradicionales como el tueste a leña. Sus principales desafíos incluyen la calibración precisa de máquinas inestables, la estandarización de recetas entre baristas, y el control del inventario ante la falta de tiempo y recursos. Utiliza métodos como el V60 para evaluación sensorial y busca profesionalizar aún más su práctica para aplicar su conocimiento a nivel internacional. Considera clave contar con una plataforma integral que permita rastrear todo el proceso del café, desde el grano verde hasta la taza de café final, y destaca el valor de la tecnología para mejorar consistencia, trazabilidad y eficiencia.</td>
   </tr>
   <tr>
-    <td>Timing:</td>
-    <td></td>
+    <td>Timing:06:55-13:27</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación</td>
   </tr>
 </table>
 
 
 
 ### 2.2.3. Análisis de entrevistas
+<h3>2.2.3. Análisis de entrevistas</h3>
+<h4>Análisis del segmento de administradores o dueños de cafeterías de especialidad</h4>
+
+<p>
+Los entrevistados de este segmento presentan un perfil técnico-operativo consolidado, con experiencia directa en todos los procesos del café de especialidad. El 100% de ellos manifestó dominar aspectos como la selección del grano, el control del tueste y la calibración de bebidas, realizando estas tareas de forma personal o supervisada. Asimismo, todos coincidieron en que si bien utilizan herramientas como Excel y WhatsApp para registrar información clave (peso, rendimiento, trazabilidad, recetas y comunicación interna), muchos de estos procesos siguen siendo manuales, desorganizados y propensos a errores o pérdida de información.
+</p>
+
+<p>
+En cuanto a la gestión de proveedores, se evidencia que no existe un sistema formal de evaluación ni documentación; esta suele hacerse por medio de relaciones de confianza y catas, lo cual limita la trazabilidad y dificulta la toma de decisiones. Además, dos de cada tres entrevistados indicaron que han sufrido pérdidas en la calidad del grano debido a malas condiciones de almacenamiento, y reconocen que un sistema digital con alertas podría evitar dichos inconvenientes.
+</p>
+
+<p>
+Otro punto crítico identificado fue la transmisión del conocimiento técnico dentro del equipo. Aunque se aplican métodos como reuniones de cata o mentorías internas, se destacó la falta de documentación estructurada que permita estandarizar procesos, capacitar al personal y mantener la consistencia entre baristas. También se detectó que la comunicación con el cliente sobre el valor agregado del café (origen, procesos, certificaciones) es limitada y poco visual, lo que afecta la percepción de calidad y dificulta justificar precios diferenciados.
+</p>
+
+<p>
+Finalmente, el 100% de los entrevistados expresó interés en implementar una plataforma integral que les permita gestionar de forma centralizada la trazabilidad, el control de calidad, el inventario, las recetas y la capacitación del personal. Se valora especialmente la posibilidad de contar con herramientas visuales, módulos intuitivos y registros estructurados para mejorar la eficiencia operativa, elevar la calidad del producto final y fortalecer la experiencia del cliente.
+</p>
+<h4>Análisis del segmento de baristas profesionales</h4>
+
+<p>
+Los baristas entrevistados comparten un alto nivel de compromiso con la calidad y la estandarización de procesos, aunque sus perfiles son diversos en cuanto a formación y experiencia. Todos ellos demostraron conocimientos técnicos sobre calibración, evaluación sensorial y trazabilidad del grano, además de aplicar metodologías específicas para mantener la consistencia del café en sus espacios de trabajo, ya sea en cadenas, cafeterías independientes o a través de prácticas autodidactas.
+</p>
+
+<p>
+Uno de los retos comunes identificados es la dificultad para estandarizar recetas entre baristas, especialmente cuando se utilizan métodos de preparación variados o cuando las máquinas presentan inestabilidad. A ello se suma la necesidad de documentar procesos como curvas de tueste, temperaturas ideales o ajustes de molienda, tareas que actualmente se hacen de forma manual o informal. Esta situación incrementa el riesgo de variabilidad en la calidad del café y limita la posibilidad de replicar resultados exitosos.
+</p>
+
+<p>
+Asimismo, los entrevistados señalaron que la gestión del almacenamiento del café no siempre se realiza en condiciones óptimas, lo que puede afectar las propiedades del grano. También se evidenció un interés claro en herramientas que faciliten el análisis de variedades, la evaluación sensorial detallada y la integración de datos técnicos con perfiles de sabor, en especial en contextos de competencias o eventos formativos.
+</p>
+
+<p>
+El 100% de los baristas entrevistados manifestó la necesidad de contar con una plataforma digital integral que conecte todas las etapas del proceso, desde el grano verde hasta la taza final. Este sistema debería permitir la documentación estructurada de recetas, perfiles de tueste, calibraciones y resultados sensoriales, además de facilitar el trabajo colaborativo entre miembros del equipo. Se valoran especialmente los entornos tipo laboratorio, que integren teoría y práctica, y que permitan profesionalizar aún más la labor del barista mediante el uso eficiente de la tecnología.
+</p>
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 **Administradores y dueños de cafeterias de especialidad**
