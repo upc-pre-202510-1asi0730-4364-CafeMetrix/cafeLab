@@ -2372,6 +2372,24 @@ El diseño de base de datos es el proceso de organizar y estructurar los datos e
 
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
+# Project Management
+1. Trello: Para gestión general los sprints, tareas del equipo, etc.
+  - Link: [Trello](https://trello.com/b/diGtoNBa/sprint-1)
+
+# Product UX/UI Design:
+1. Figma: Para diseños como Wireframes, Mockups, Prototypes, etc) relacionados a archivos como
+  - Link: [Figma](https://www.figma.com/design/ac0fpdPl6fqEDpJxCEYlY0/CafeLab?node-id=140-178&t=fprZU86nz2ahB2Bi-1)
+2. Vertabelo: Para diagramas de base de datos (ERD, diagramas de clases, etc.)
+  - Link: [Vertabelo](Vertabelo)
+
+# Software Development:
+1. Visual Studio Code: Para el desarrollo de la Landing Page del proyecto.
+  - Link: [LandingPage](LandingPage)
+
+# Software Documentation:
+1. Visual Studio Code: Para la documentación de CaféLab se utilizó Visual Studio Code para el desarrollo de los capítulos en formato Markdown.
+  - Link: [Documentation](Documentation)
+
 ### 5.1.2. Source Code Management.
 Para todo el desarrollo de CaféLab se usará el flujo de trabajo de Gitflow. Landing Page Repository: [Landing Page Repository](Landing Page Repository)
 
