@@ -1957,6 +1957,129 @@ Select Suscription - US03
 ![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Select%20Suscription%20US03.png)
 Select Payment - US?
 ![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Select%20Payment.png)
+Sing Up - Bar US01
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Sing%20Up%20Bar%20US01.png)
+Message after correct Sign Up - US01
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Message%20after%20correct%20Sign%20In%20US01.png)
+Sign In - US01
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Sing%20In%20US01.png)
+Message after correct Sign In - US01
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Message%20after%20correct%20Sign%20In%20US01.png)
+Message after incorrect Sign In - US01
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Message%20after%20incorrect%20Sign%20In%20US01.png)
+Sign Up - Owner - US01
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Sing%20Up%20Owner%20US01.png)
+Message after correct Sign Up - US01
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Message%20after%20correct%20Sign%20Up%20US01%20Owner%20.png)
+Sing in - Owner
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Sing%20In%20Owner%20.png)
+Message after incorrect Sign In - US01
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Message%20after%20incorrect%20Sign%20In%20US01%20Owner.png)
+Message after correct Sign In - US01
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Message%20after%20correct%20Sign%20Up%20US01%20Owner%20.png)
+
+User Profile - US02
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/User%20Profile.png)
+
+Welcome - US?
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Welcome.png)
+Suppliers - US04
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Suppliers%20.png)
+Supplier Registration - US04
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Supplier%20Registration.png)
+Supplier Edition - US04
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Supplier%20Edition.png)
+Supplier Information - US04
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Supplier%20Information.png)
+
+Coffee Lot - US05 y US06
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Coffe%20Lot.png)
+Coffee Lot Registration - US05 y US06
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Coffe%20Lot%20Registration.png)
+Coffee Lot Edition - US05 y US06
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Coffe%20Lot%20Edition.png)
+Coffee Lot Information - US04
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Coffe%20Lot%20Information.png)
+
+Roast Profiles - US07
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Roast%20Profiles.png)
+Roast Profiles - US07
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Roast%20Profiles%202.png)
+Roast Profiles Registration - US07
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Roast%20Profiles%20Registration.png)
+Roast Edition - US07
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Roast%20Edition.png)
+Favorite Profiles Filter - US07
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Favorite%20Profiles%20Filter.png)
+Visualize a Roast Profile - US07
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Visualizer%20a%20Roast%20Profile.png)
+Roast Comparison - US09
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Roast%20Comparison.png)
+
+
+Cupping Sessions - US11
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Cupping%20Sessions.png)
+Cupping Sessions Filters - US11
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Cupping%20Sessions%20Filters.png)
+Cupping Sessions Registration - US11
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Cupping%20Sessions%20Registration.png)
+Cupping Session Sensory Hexagon - US12
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Cupping%20Session%20Sensory%20Hexagon.png)
+Compare multiple Cupping Sessions 1 - US12
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Compare%20Multiple%20Cupping%20Sessions.png)
+Compare multiple Cupping Sessions 2 - US12
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Compare%20Multiple%20Cupping%20Sessions%202.png)
+
+
+Library Defect Consultation - US10
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Library%20Defect%20Consultation.png)
+Defect Information - US10
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Defect%20Information.png)
+Defect Information - US10
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Defect%20Information%20b.png)
+
+
+Patterns of Roast with Cupping - US13
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Patterns%20of%20Roast%20With%20cupping%20.png)
+Library Relation of Roast with Cupping - US13
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Library%20Relation%20of%20Roast%20with%20Cupping%20.png)
+
+
+Portfolio and recipies - US15 and 18
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Portafolio%20and%20recipies.png)
+Portfolio and recipies - US15 and 19
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Portafolio%20and%20recipies%20b.png)
+Portfolio and recipies - US15 and 20
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Portafolio%20and%20recipies%20c.png)
+Recipes - US17
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Recipes.png)
+Recipe Registration - US15
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Recipe%20Registration.png)
+Recipe Registration - US15
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Recipe%20Registration%20b%20.png)
+Recipe Information coffee extraction - US18
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Recipe%20Information%20Coffee%20Extraction.png)
+Recipe Information espresso method - US18
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Recipe%20Information%20espresso%20method.png)
+
+
+Inventary - US19
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Inventary.png)
+Inventary - US19
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Inventary%20b.png)
+
+Register Production Cost Management 1 - US20
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Register%20Production%20Cost%20Management.png)
+Production Cost Management 2 - US20
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Production%20Cost%20Management%202.png)
+Production Cost Management 3 - US20
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Production%20Cost%20Managament%203.png)
+Production Cost Management 4 - US20
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Production%20Cost%20Managament%204.png)
+Production Cost Management 5 - US20
+![image](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/blob/feature/informe-readme/public/assets/images/Web%20App%20Mockup/Production%20Cost%20Managament%205.png)
+
+
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
