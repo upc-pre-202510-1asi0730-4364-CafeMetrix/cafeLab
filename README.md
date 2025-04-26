@@ -1952,15 +1952,18 @@ Production Cost Management 5 - US20
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
  
- User Goal: Registrarse.
+ **User Goal: Registrarse y elegir suscripción**
+ <br>El usuario elegirá si es un barista o un dueño de cafetería, en base a esto el formulario de registro mostrará más o menos campos a completar, una vez registrados podrán elegir el plan que más deseen, luego, procederán a la pantalla de pago. Confirmado el pago, podrán acceder a las herramientas disponibles según su plan.
  
  ![image](public/assets/images/Wireflows/Register.png)
  
- User Goal: Iniciar Sesión.
+ **User Goal: Iniciar Sesión.**
+ <br>El usuario de la aplicación ya cuenta con una cuenta, sea de barista o dueño de cafetería, si ingresa mal sus datos, se le pedirá que los ingrese nuevamente, una vez los datos sean correctos, podrá acceder a las herramientas según su plan.
  
  ![image](public/assets/images/Wireflows/InicioSesion.png)
  
- User Goal: Editar su Perfil.
+ **User Goal: Editar su Perfil.**
+ <br>
  
  ![image](public/assets/images/Wireflows/Perfil.png)
  
