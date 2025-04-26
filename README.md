@@ -292,8 +292,8 @@ La solución consiste en una plataforma dual que combina software y componentes 
     <td>Mi nombre es <strong>Carlos Fernandez</strong>, tengo 21 años y estudio la carrera de Ingenieria de Software, me encuentro preparando en algunas areas como desarrollo de aplicaciones moviles con Flutter y desarrollo de videojuegos como Unity y Godot, considero que un desempeño adecuado en la universidad me ayudara a mejorar mis habilidades y conocimiento en el desarrollo de proyectos.</td>
   </tr>
   <tr>
-    <td>Fila 3, Columna 1</td>
-    <td>Fila 3, Columna 2</td>
+    <td><img src="public/assets/images/integrantes/Renzo.png" alt="Renzo Uribe" width="150"></td>
+    <td>Mi nombre es <strong>Renzo Uribe</strong>, tengo 19 años y estudio la carrera de Ingenieria de Software en el quinto ciclo, actualmente me encuentro trabajando en proyectos personales relacionados con paginas web, tengo experiencia en el rubro del frontend de desarrollo web, ademas poseo habilidad en C++ junto con MYSQL para el desarrollo de base de datos, me comprometo a trabajar de manera responsable, asertiva y puntual en cada uno de los avances del proyecto, así como a colaborar con los miembros del equipo para alcanzar acuerdos que sean beneficiosos para todos. </td>
   </tr>
   <tr>
     <td>Fila 4, Columna 1</td>
