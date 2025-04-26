@@ -107,7 +107,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Joseph Chavez</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Creacion del AS-IS, TO-BE, algunos web aplplication mockups, databases diagram</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Adrian Donayre</td>
@@ -115,7 +115,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Christian Inga</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">Registro de entrevistas, ubiquitous language, Web application wireframes, web application wireflows, web application mockups, web application prototyping.</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Apoyo con el diseño de entrevistas, registro de entrevistas, ubiquitous language, Web application wireframes, web application wireflows, web application mockups, web application prototyping.</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Carlos Fernandez</td>
@@ -231,13 +231,13 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Renzo Uribe</strong><br>
                 TB1: <br>Proporcioné liderazgo conjunto al dirigir los aspectos estratégicos y técnicos del proyecto, desarrollando el Lean UX Canvas. Aedmás, compartí la toma de decisiones en la arquitectura Domain-Driven y el diseño orientado a objetos.<br>
                 <strong>Joseph Chavez</strong><br>
-                TB1: <br><br>
+                TB1: Colabore con en las reuniones para el planteamiento del proyecto, además de estar en contacto con mis compañeros para poder realizar correctamente el databasese diagrama, además contribuyendo para una sana relación entre el equipo, para entregar un buen trabajo<br><br>
                 <strong>Adrian Donayre</strong><br>
                 TB1: Proporcioné liderazgo conjunto al colaborar coordinando con mis team members en la planificación del sprint backlog, facilitando la creación colaborativa de user stories y product backlog, compartiendo responsabilidades en el diseño de entrevistas y wireframes, y trabajando en equipo para establecer prioridades y distribuir tareas, logrando consenso en las decisiones importantes del proyecto.<br><br>
                 <strong>Christian Inga</strong><br>
-                TB1: <br><br>
+                TB1: Colaboré de manera proactiva en las reuniones grupales hechas para realizar el proyecto, como estar coordinando con todos los team members aspectos de importancia común, como entrevistas,el diseño de los wireframes, mockups, o el ubiquitous language que es importante para que todos podamos entendernos. De esta forma se logró entregar un buen trabajo con la coordinación conjunta de todos los miembros. <br><br>
                 <strong>Carlos Fernandez</strong><br>
-                TB1: Colabore en las reuniones realizadas para plantear el proyecto presentado, asi como una continua coordinacion para completar secciones como User Stories, emphaty Mapping, User Persona, entrevistas. Ademas de un desarrollo colaborativo de la landing page y web app, donde la comunicacion fue clave para evitar confusiones y desacuerdos sobre los diseños, asi como el despliegue de la landing page, donde la adecuada distribucion de las secciones nos permitio resolver facilmente conflictos
+                TB1: Colaboré en las reuniones realizadas para plantear el proyecto presentado, asi como una continua coordinacion para completar secciones como User Stories, emphaty Mapping, User Persona, entrevistas. Ademas de un desarrollo colaborativo de la landing page y web app, donde la comunicacion fue clave para evitar confusiones y desacuerdos sobre los diseños, asi como el despliegue de la landing page, donde la adecuada distribucion de las secciones nos permitio resolver facilmente conflictos. <br><br>
         </td>
         <td style="border: 1px solid #ddd; vertical-align: top;"></td>
         </tr>
@@ -248,11 +248,13 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Renzo Uribe</strong><br>
                 TB1: <br>Fomenté un entorno colaborativo al establecer metas claras a través del Lean UX Canvas y análisis competitivo, planificando tareas que complementaban el trabajo de investigación de mi compañero. Integré sus user stories y wireframes en mi arquitectura de software, asegurando que las decisiones técnicas reflejaran las necesidades del usuario.<br>
                 <strong>Joseph Chavez</strong><br>
-                TB1: <br><br>
+                TB1: Definí metas utilizando el product backlog y las user stories, organizando las tareas en el sprint backlog para su seguimiento. Alcancé objetivos específicos, como el diseño de wireframes para la landing page y la aplicación web, garantizando que todos los miembros del equipo participaran de manera equitativa. <br><br>
                 <strong>Adrian Donayre</strong><br>
                 TB1: Creé un entorno colaborativo e inclusivo al establecer roles claros, planifiqué entrevistas que incluyeran diversas perspectivas de usuarios, definí metas mediante el product backlog y user stories, organicé tareas específicas en el sprint backlog 1 y logré objetivos concretos como la finalización de wireframes para landing page y aplicación web, asegurando la participación equitativa de todos los miembros del equipo.<br><br>
                 <strong>Christian Inga</strong><br>
-                TB1: <br><br>
+                TB1:
+                Apoyé en la creación del entorno colaborativo e inclusivo, de modo que se establecieron roles para cada miembro del equipo, así como en reuniones grupales para discutir temas del proyecto, se logró que todos estuvieramos presentes, aportando nuestras ideas y opiniones, de modo que todos estemos de acuerdo y alineados con una meta fija.
+                <br><br>
                 <strong>Carlos Fernandez</strong><br>
                 TB1: Colabore y apoye en la inclusion de todos los integrantes para un mejor avance, asi como el establecimiento de fechas de manera organizada para evitar problemas de entrega o complicaciones, las cuales serian resultas entre varios integrantes, con el desarollo de las User Stories comprendi a mayor alcance las capacidades del equipo, ademas de otros elementos que nos permitiron conocer sobre nuestros segmentos objetivos y contribuir en la investigacion grupal del tema. Asimismo coordine adecuadamente el diseño de landing page y app web, donde los wireframes y mock up tuvieron la aprobacion del equipo.
         </td>
@@ -296,12 +298,12 @@ La solución consiste en una plataforma dual que combina software y componentes 
     <td>Mi nombre es <strong>Renzo Uribe</strong>, tengo 19 años y estudio la carrera de Ingenieria de Software en el quinto ciclo, actualmente me encuentro trabajando en proyectos personales relacionados con paginas web, tengo experiencia en el rubro del frontend de desarrollo web, ademas poseo habilidad en C++ junto con MYSQL para el desarrollo de base de datos, me comprometo a trabajar de manera responsable, asertiva y puntual en cada uno de los avances del proyecto, así como a colaborar con los miembros del equipo para alcanzar acuerdos que sean beneficiosos para todos. </td>
   </tr>
   <tr>
-    <td>Fila 4, Columna 1</td>
-    <td>Fila 4, Columna 2</td>
+    <td><img src="public/assets/images/integrantes/Chris.jpeg"alt="Christian Inga" width="200"></td>
+    <td> Mi nombre es <strong>Christian Inga</strong>, tengo 19 años y actualmente estoy estudiando la carrera de Ingenieria de Software. Tengo conocimientos en los lenguajes de programación de C++, Python y Javascript. Considero que puedo adaptarme a diferentes formas de trabajo para alcanzar un objetivo. Me considero una persona responsable y confiable. </td>
   </tr>
-  <tr>
-    <td>Fila 5, Columna 1</td>
-    <td>Fila 5, Columna 2</td>
+   <tr>
+    <td><img src="public/assets/images/integrantes/Joseph.jpg"alt="Christian Inga" width="200"></td>
+   <td>Mi nombre es <strong> Joseph Chavez </strong>, tengo 18 años y actualmente estoy cursando el quinto ciclo de la  carrera de Ingeniería de Software en la UPC. Tengo habilidad en los lenguajes C++ y un poco de JavaScript. En mi opinion la universidad nos sera reflejado en lo profesional, es por eso, que trato de conseguir todas las experiencias necesarias. </td>
   </tr>
 </table>
 
