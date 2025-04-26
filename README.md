@@ -103,7 +103,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Renzo Uribe</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Lean UX Hypothesis Statements, Lean UX Canvas, Competidores, Análisis competitivo, Estrategias y tácticas frente a competidores, Domain-Driven Software Architecture, Software Object-Oriented Design.</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Joseph Chavez</td>
@@ -229,7 +229,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
             5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
                 <strong>Renzo Uribe</strong><br>
-                TB1: <br><br>
+                TB1: <br>Proporcioné liderazgo conjunto al dirigir los aspectos estratégicos y técnicos del proyecto, desarrollando el Lean UX Canvas. Aedmás, compartí la toma de decisiones en la arquitectura Domain-Driven y el diseño orientado a objetos.<br>
                 <strong>Joseph Chavez</strong><br>
                 TB1: Colabore con en las reuniones para el planteamiento del proyecto, además de estar en contacto con mis compañeros para poder realizar correctamente el databasese diagrama, además contribuyendo para una sana relación entre el equipo, para entregar un buen trabajo<br><br>
                 <strong>Adrian Donayre</strong><br>
@@ -239,14 +239,14 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Carlos Fernandez</strong><br>
                 TB1: Colaboré en las reuniones realizadas para plantear el proyecto presentado, asi como una continua coordinacion para completar secciones como User Stories, emphaty Mapping, User Persona, entrevistas. Ademas de un desarrollo colaborativo de la landing page y web app, donde la comunicacion fue clave para evitar confusiones y desacuerdos sobre los diseños, asi como el despliegue de la landing page, donde la adecuada distribucion de las secciones nos permitio resolver facilmente conflictos. <br><br>
         </td>
-        <td style="border: 1px solid #ddd; vertical-align: top;"></td>
+        <td style="border: 1px solid #ddd; vertical-align: top;">El equipo demostró un efectivo liderazgo conjunto durante el TB1, donde cada miembro asumió responsabilidades compartidas de coordinación y toma de decisiones. Se evidenció una colaboración fluida que abarcó desde aspectos estratégicos y técnicos del proyecto hasta la planificación operativa y distribución de tareas. La comunicación continua, las reuniones regulares y el trabajo colaborativo en el desarrollo de componentes clave como wireframes, mockups, database diagrams y landing page fueron fundamentales. El compromiso colectivo por mantener una sana relación de equipo y la capacidad para resolver conflictos de manera conjunta permitieron lograr consensos efectivos y entregar un trabajo cohesivo y de calidad, demostrando que el liderazgo fue verdaderamente compartido y distribuido entre todos los integrantes.</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; vertical-align: top;">
             5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
                 <strong>Renzo Uribe</strong><br>
-                TB1: <br><br>
+                TB1: <br>Fomenté un entorno colaborativo al establecer metas claras a través del Lean UX Canvas y análisis competitivo, planificando tareas que complementaban el trabajo de investigación de mi compañero. Integré sus user stories y wireframes en mi arquitectura de software, asegurando que las decisiones técnicas reflejaran las necesidades del usuario.<br>
                 <strong>Joseph Chavez</strong><br>
                 TB1: Definí metas utilizando el product backlog y las user stories, organizando las tareas en el sprint backlog para su seguimiento. Alcancé objetivos específicos, como el diseño de wireframes para la landing page y la aplicación web, garantizando que todos los miembros del equipo participaran de manera equitativa. <br><br>
                 <strong>Adrian Donayre</strong><br>
@@ -258,7 +258,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Carlos Fernandez</strong><br>
                 TB1: Colabore y apoye en la inclusion de todos los integrantes para un mejor avance, asi como el establecimiento de fechas de manera organizada para evitar problemas de entrega o complicaciones, las cuales serian resultas entre varios integrantes, con el desarollo de las User Stories comprendi a mayor alcance las capacidades del equipo, ademas de otros elementos que nos permitiron conocer sobre nuestros segmentos objetivos y contribuir en la investigacion grupal del tema. Asimismo coordine adecuadamente el diseño de landing page y app web, donde los wireframes y mock up tuvieron la aprobacion del equipo.
         </td>
-        <td style="border: 1px solid #ddd; vertical-align: top;"></td>
+        <td style="border: 1px solid #ddd; vertical-align: top;">El equipo evidenció una notable capacidad para crear y mantener un entorno colaborativo e inclusivo durante el TB1, donde todos los miembros contribuimos activamente al establecimiento de metas, planificación y cumplimiento de objetivos. Se destacó la asignación clara de roles, la organización sistemática de tareas mediante herramientas como el product backlog y sprint backlog, y la promoción de la participación equitativa de todos los integrantes. Las reuniones grupales permitieron que cada miembro aportara ideas y opiniones, logrando consensos en decisiones clave como, por ejemplo, el diseño de wireframes y mockups.</td>
         </tr>
 </table>
 </div>
@@ -301,9 +301,9 @@ La solución consiste en una plataforma dual que combina software y componentes 
     <td><img src="public/assets/images/integrantes/Chris.jpeg"alt="Christian Inga" width="200"></td>
     <td> Mi nombre es <strong>Christian Inga</strong>, tengo 19 años y actualmente estoy estudiando la carrera de Ingenieria de Software. Tengo conocimientos en los lenguajes de programación de C++, Python y Javascript. Considero que puedo adaptarme a diferentes formas de trabajo para alcanzar un objetivo. Me considero una persona responsable y confiable. </td>
   </tr>
-  <tr>
-    <td>Fila 5, Columna 1</td>
-    <td>Fila 5, Columna 2</td>
+   <tr>
+    <td><img src="public/assets/images/integrantes/Joseph.jpg"alt="Christian Inga" width="200"></td>
+   <td>Mi nombre es <strong> Joseph Chavez </strong>, tengo 18 años y actualmente estoy cursando el quinto ciclo de la  carrera de Ingeniería de Software en la UPC. Tengo habilidad en los lenguajes C++ y un poco de JavaScript. En mi opinion la universidad nos sera reflejado en lo profesional, es por eso, que trato de conseguir todas las experiencias necesarias. </td>
   </tr>
 </table>
 
@@ -2751,7 +2751,7 @@ Posteriormente, iniciamos sesión en [Netlify](https://www.netlify.com/) y conec
             </tr>
         </tbody>
     </table>
-    
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 | Team Member (Last Name, First Name) | GitHub Username | Información del Producto (US23) | Secciones Específicas por Segmento (US24) | Contacto con Equipo (US25) | Acceso directo a plataforma (US26) |
 |-------------------------------------|-----------------|--------------------------------|------------------------------------------|---------------------------|----------------------------------|
