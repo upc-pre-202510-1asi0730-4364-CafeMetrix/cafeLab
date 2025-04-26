@@ -301,9 +301,9 @@ La solución consiste en una plataforma dual que combina software y componentes 
     <td><img src="public/assets/images/integrantes/Chris.jpeg"alt="Christian Inga" width="200"></td>
     <td> Mi nombre es <strong>Christian Inga</strong>, tengo 19 años y actualmente estoy estudiando la carrera de Ingenieria de Software. Tengo conocimientos en los lenguajes de programación de C++, Python y Javascript. Considero que puedo adaptarme a diferentes formas de trabajo para alcanzar un objetivo. Me considero una persona responsable y confiable. </td>
   </tr>
-  <tr>
-    <td>Fila 5, Columna 1</td>
-    <td>Fila 5, Columna 2</td>
+   <tr>
+    <td><img src="public/assets/images/integrantes/Joseph.jpg"alt="Christian Inga" width="200"></td>
+   <td>Mi nombre es <strong> Joseph Chavez </strong>, tengo 18 años y actualmente estoy cursando el quinto ciclo de la  carrera de Ingeniería de Software en la UPC. Tengo habilidad en los lenguajes C++ y un poco de JavaScript. En mi opinion la universidad nos sera reflejado en lo profesional, es por eso, que trato de conseguir todas las experiencias necesarias. </td>
   </tr>
 </table>
 
