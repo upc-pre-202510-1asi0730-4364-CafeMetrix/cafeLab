@@ -103,7 +103,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Renzo Uribe</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Lean UX Hypothesis Statements, Lean UX Canvas, Competidores, Análisis competitivo, Estrategias y tácticas frente a competidores, Domain-Driven Software Architecture, Software Object-Oriented Design.</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Joseph Chavez</td>
@@ -229,7 +229,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
             5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
                 <strong>Renzo Uribe</strong><br>
-                TB1: <br><br>
+                TB1: <br>Proporcioné liderazgo conjunto al dirigir los aspectos estratégicos y técnicos del proyecto, desarrollando el Lean UX Canvas. Aedmás, compartí la toma de decisiones en la arquitectura Domain-Driven y el diseño orientado a objetos.<br>
                 <strong>Joseph Chavez</strong><br>
                 TB1: <br><br>
                 <strong>Adrian Donayre</strong><br>
@@ -246,7 +246,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
             5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
                 <strong>Renzo Uribe</strong><br>
-                TB1: <br><br>
+                TB1: <br>Fomenté un entorno colaborativo al establecer metas claras a través del Lean UX Canvas y análisis competitivo, planificando tareas que complementaban el trabajo de investigación de mi compañero. Integré sus user stories y wireframes en mi arquitectura de software, asegurando que las decisiones técnicas reflejaran las necesidades del usuario.<br>
                 <strong>Joseph Chavez</strong><br>
                 TB1: <br><br>
                 <strong>Adrian Donayre</strong><br>
@@ -2749,7 +2749,7 @@ Posteriormente, iniciamos sesión en [Netlify](https://www.netlify.com/) y conec
             </tr>
         </tbody>
     </table>
-    
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 | Team Member (Last Name, First Name) | GitHub Username | Información del Producto (US23) | Secciones Específicas por Segmento (US24) | Contacto con Equipo (US25) | Acceso directo a plataforma (US26) |
 |-------------------------------------|-----------------|--------------------------------|------------------------------------------|---------------------------|----------------------------------|
