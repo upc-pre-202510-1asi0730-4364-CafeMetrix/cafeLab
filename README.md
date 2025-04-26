@@ -111,15 +111,15 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Adrian Donayre</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Descripción de la startup, diseño de entrevistas, registro de entrevistas, user stories, product backlog, landing page wireframes, web aplication wireframes, Aspect Leaders and Collaborators, sprint backlog 1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Christian Inga</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Registro de entrevistas, ubiquitous language, Web application wireframes, web application wireflows, web application mockups, web application prototyping.</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Carlos Fernandez</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Desarrollo de Entrevistas, user personas, User journey Mapping, Empathy mapping, Impact Mapping,Carlos Fredy Fenandez Camayo Desarrollo de Entrevistas, user personas, User journey Mapping, Empathy mapping, Impact Mapping Desarrollo de User Stories. landing page wireframe, mock up y web application, Despliegue de Landing page en Netlify</td>
   </tr>
 </table>
 
@@ -233,7 +233,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Joseph Chavez</strong><br>
                 TB1: <br><br>
                 <strong>Adrian Donayre</strong><br>
-                TB1: <br><br>
+                TB1: Proporcioné liderazgo conjunto al colaborar coordinando con mis team members en la planificación del sprint backlog, facilitando la creación colaborativa de user stories y product backlog, compartiendo responsabilidades en el diseño de entrevistas y wireframes, y trabajando en equipo para establecer prioridades y distribuir tareas, logrando consenso en las decisiones importantes del proyecto.<br><br>
                 <strong>Christian Inga</strong><br>
                 TB1: <br><br>
                 <strong>Carlos Fernandez</strong><br>
@@ -250,7 +250,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Joseph Chavez</strong><br>
                 TB1: <br><br>
                 <strong>Adrian Donayre</strong><br>
-                TB1: <br><br>
+                TB1: Creé un entorno colaborativo e inclusivo al establecer roles claros, planifiqué entrevistas que incluyeran diversas perspectivas de usuarios, definí metas mediante el product backlog y user stories, organicé tareas específicas en el sprint backlog 1 y logré objetivos concretos como la finalización de wireframes para landing page y aplicación web, asegurando la participación equitativa de todos los miembros del equipo.<br><br>
                 <strong>Christian Inga</strong><br>
                 TB1: <br><br>
                 <strong>Carlos Fernandez</strong><br>
