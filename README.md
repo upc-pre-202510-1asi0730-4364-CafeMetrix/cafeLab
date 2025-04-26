@@ -1973,7 +1973,7 @@ Production Cost Management 5 - US20
  ![image](public/assets/images/Wireflows/Proveedores.png)
  
  **User Goal: Registrar, Editar y Observar sus Lotes de Café.**
- 
+ <br>Desde el inicio, el usuario selecciona la herramienta de Lotes de Café accediendo a una lista con sus lotes registrados, del mismo modo puede registrar nuevos lotes de café, editar los existentes o simplemente ver la información de alguno que elija.
 
  ![image](public/assets/images/Wireflows/LoteCafe.png)
  
