@@ -92,6 +92,24 @@
 # Project Report Collaboration Insights
 Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab)
 
+**TB1 Network Graph**
+<figure style="text-align: center;">
+    <img src="public\assets\images\Insights\Networkgraph.png" alt="TB1 Network Graph">
+    <figcaption>Network Graph perteneciente al TB1</figcaption>
+</figure>
+
+**TB1 Contributors**
+<figure style="text-align: center;">
+    <img src="public\assets\images\Insights\Contributors.png" alt="TB1 Contributors">
+    <figcaption>Contributors stats perteneciente al TB1</figcaption>
+</figure>
+
+**TB1 Pulse**
+<figure style="text-align: center;">
+    <img src="public\assets\images\Insights\Pulse.png" alt="TB1 Pulse">
+    <figcaption>Pulse stats perteneciente al TB1</figcaption>
+</figure>
+
 <h1>TB1</h1>
 
 <p>Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:</p>
@@ -2207,7 +2225,43 @@ Production Cost Management 5 - US20
 
 
 ### 4.4.3. Web Applications User Flow Diagrams.
+USER GOAL: Registrar bebida
+Como usuario, puedo ingresar a la herramienta de registrar bebida, una vez dentro se puede agregar recetas de bebidas y portafolios, el cual es usa para almacenar agrupadamente para diferentes fines como participacion en concursos. Al registrar la bebida se puede contar con multiples campos para poder registrar adecuadamente valores que me importan para los detalles.
+![Registrar Bebida](public/assets/images/UserFlowDiagram/BebidasPortafolio.png)
+
+USER GOAL: Calibracion
+Como usuario, puedo registrar las calibraciones registradas en las maquinas y herramientas que uso, de esta forma puedo replicar mis procesos en otros sitios, contando con la opcion de editar si en caso quiero modificar un valor. Esta herramienta tambien contribuye en la movilidad de mis calibraciones.
+![Registrar Bebida](public/assets/images/UserFlowDiagram/Calibracion.png)
+
+USER GOAL: Registrar Lotes de cafe
+Como usuario, puedo registrar los lotes que agregue a la tienda, asi como contar con espacios que me ayuden a tener un resumen general de la informacion de los lotes, ya que puedo agregar varios lotes sin confunsiones sobre su informacion, asi como poder editar campos que considere necesarios.
+![Registrar Bebida](public/assets/images/UserFlowDiagram/LoteCafe.png)
+
+USER GOAL: Registrar Costo por Lotes de cafe
+Como usuario, puedo registrar los costes de cada lote, como la materia prima, la mano de obra involucrada, luego de completar otros costos como transporte y gastos adicionales que se pueden generar ocasionalmente. De esta forma se genra un resumen didactico facil de entender, asi como poder imprimirlo. Esta herrramienta ayuda a mejorar la trazabilidad de los costos y una mejora en la administracion de la empresa.
+![Registrar Bebida](public/assets/images/UserFlowDiagram/RegistroLoteCoste.png)
+
+USER GOAL: Registrar Perfil de Tueste
+Como usuario, puedo registrar perfiles de tueste que logre desarrollar mediante datos que tome en cuenta en el tueste, ademas de contar con una herramienta que genere curvas de tueste del perfil creado, asimismo poder comparar con otros perfiles, con el fin de encontrar patrones y mejorar la calidad sensorial
+![Registrar Bebida](public/assets/images/UserFlowDiagram/RegitrarPerfilTueste.png)
+
+
+USER GOAL: Registro de Sesion de cata
+Como usuario, puedo registrar sesiones de cata, las cuales puedo vincular a lotes y perfiles, para tener una mejor descripcion de sabores y comparaciones, de esta forma mejorar la calidad del producto final, ademas se puede generar un hexagono sensorial con el que peuda comparar resultados de otras sesiones de cata, finalmente puedo contar con un filtro de busqueda para proximamente buscar de forma rapida y directa.
+![Registrar Bebida](public/assets/images/UserFlowDiagram/SesionCata.png)
+
+
 ## 4.5. Web Applications Prototyping.
+En el desarrollo de prototipos, se tomo en cuenta los style guides, tanto como para desktop y mobile, asi mismo para sus versiones en landing page y web app. Se tomaron en cuenta lo siguiente: 
+
+### Facilidad de reconocimiento
+Se cuenta con campos que los usuarios puedan reconocer para completar sus datos, asi como elementos conocidos como iconos e imagenes, de esta forma el usuario reconoce facilmente la seccion donde se encuentra
+### Diseño responsive
+Se toma un diseño que pueda adaptarse a los dispositivos del usuario, de esta forma puede contar con mayor portabilidad, sin perder los estilos y organizacion de los elementos
+### Informacion clara
+Los mensajes mostrados son claros, entendibles y universales en la pagina, de esta forma el usuario no tiene que procesar mayo informacion de forma irrelevante para su experiencia en la plataforma
+![Prototipo](public/assets/images/UserFlowDiagram/prototipoCafe.png)
+
 
 ## 4.6. Domain-Driven Software Architecture.
 
