@@ -2374,13 +2374,65 @@ El diseño de base de datos es el proceso de organizar y estructurar los datos e
 ### 5.1.1. Software Development Environment Configuration.
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
-### 5.1.4. Software Deployment Configuration.
+
+### 5.1.4. Software Deployment Configuration
+
+#### Landing Page Deployment
+
+Para desplegar la landing page, debemos contar con una cuenta de GitHub, así como tener acceso como administrador del repositorio del proyecto. De esta forma, podemos cargar los documentos trabajados localmente al repositorio y posteriormente desplegarlos. A continuación, se muestran los pasos realizados:
+
+1. **Crear ramas** donde los miembros del proyecto puedan subir sus respectivas secciones.
+2. **Organizar la estructura del proyecto** para una adecuada administración de los documentos y mejor visualización:
+   - `index.html`: contiene el código principal.
+   - Carpeta `assets/css`: para los estilos.
+   - Carpeta `img`: para las imágenes adecuadamente enlazadas en `index.html`.
+   - Archivos `.js`: para funcionalidades JavaScript si el proyecto lo requiere.
+3. **Subir los archivos al repositorio**:
+   - Instalar Git.
+   - Configurar el repositorio remoto.
+   - Ejecutar los comandos necesarios para realizar commits y push de los cambios a la rama correspondiente.
+4. **Configurar la página de despliegue**:
+   - Realizar un pull request sin errores hacia la rama `main`.
+   - Garantizar que el despliegue pueda modificarse adecuadamente si es necesario.
+5. **Resolver conflictos**:
+   - En caso de conflictos, corregirlos usando herramientas como Visual Studio Code.
+   - Verificar que todos los conflictos hayan sido solucionados correctamente.
+
+Una vez cumplidos estos pasos, iniciamos sesión en [Netlify](https://www.netlify.com/), plataforma que utilizaremos para el despliegue de la landing page, conectando el repositorio de GitHub para un despliegue seguro y que permita futuras actualizaciones sin afectar el Front End.
+
+🔗 **Landing Page en Netlify**: [https://cafelab-landingpage-appweb-upc.netlify.app/](https://cafelab-landingpage-appweb-upc.netlify.app/)
+
+---
+
+#### Front End Web Application Deployment
+
+1. Iniciamos sesión en Netlify y vinculamos nuestro repositorio.  
+   ![Imagen 1](public/assets/images/SoftwareDeploymentConfiguration/Imagen1.png)
+2. Verificamos que se haya permitido el acceso y seleccionamos el proyecto que deseamos desplegar.  
+   ![Imagen 2](public/assets/images/SoftwareDeploymentConfiguration/Imagen2.png)
+3. Completamos los campos requeridos:
+   - Nombre del equipo.
+   - Rama donde se encuentran los archivos.
+   - Asignamos el nombre de la página.  
+   ![Imagen 3](public/assets/images/SoftwareDeploymentConfiguration/Imagen3.png)
+4. Procedemos a desplegar la página.  
+   ![Imagen 4](public/assets/images/SoftwareDeploymentConfiguration/Imagen4.png)
+5. Verificamos que el despliegue se haya realizado correctamente en la sección de sitios desplegados de Netlify.  
+   ![Imagen 5](public/assets/images/SoftwareDeploymentConfiguration/Imagen5.png)
+
+🔗 **Página desplegada en Netlify**: [https://cafelab-landingpage-appweb-upc.netlify.app/](https://cafelab-landingpage-appweb-upc.netlify.app/)
+
+
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 #### 5.2.1.3. Sprint Backlog n.
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
