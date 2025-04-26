@@ -107,7 +107,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Joseph Chavez</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Creacion del AS-IS, TO-BE, algunos web aplplication mockups, databases diagram</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Adrian Donayre</td>
@@ -231,7 +231,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Renzo Uribe</strong><br>
                 TB1: <br><br>
                 <strong>Joseph Chavez</strong><br>
-                TB1: <br><br>
+                TB1: Colabore con en las reuniones para el planteamiento del proyecto, además de estar en contacto con mis compañeros para poder realizar correctamente el databasese diagrama, además contribuyendo para una sana relación entre el equipo, para entregar un buen trabajo<br><br>
                 <strong>Adrian Donayre</strong><br>
                 TB1: Proporcioné liderazgo conjunto al colaborar coordinando con mis team members en la planificación del sprint backlog, facilitando la creación colaborativa de user stories y product backlog, compartiendo responsabilidades en el diseño de entrevistas y wireframes, y trabajando en equipo para establecer prioridades y distribuir tareas, logrando consenso en las decisiones importantes del proyecto.<br><br>
                 <strong>Christian Inga</strong><br>
@@ -248,7 +248,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Renzo Uribe</strong><br>
                 TB1: <br><br>
                 <strong>Joseph Chavez</strong><br>
-                TB1: <br><br>
+                TB1: Definí metas utilizando el product backlog y las user stories, organizando las tareas en el sprint backlog para su seguimiento. Alcancé objetivos específicos, como el diseño de wireframes para la landing page y la aplicación web, garantizando que todos los miembros del equipo participaran de manera equitativa. <br><br>
                 <strong>Adrian Donayre</strong><br>
                 TB1: Creé un entorno colaborativo e inclusivo al establecer roles claros, planifiqué entrevistas que incluyeran diversas perspectivas de usuarios, definí metas mediante el product backlog y user stories, organicé tareas específicas en el sprint backlog 1 y logré objetivos concretos como la finalización de wireframes para landing page y aplicación web, asegurando la participación equitativa de todos los miembros del equipo.<br><br>
                 <strong>Christian Inga</strong><br>
