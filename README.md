@@ -1963,16 +1963,18 @@ Production Cost Management 5 - US20
  ![image](public/assets/images/Wireflows/InicioSesion.png)
  
  **User Goal: Editar su Perfil.**
- <br>
+ <br>Una vez el usuario haya entrado a la app web, puede ver su perfil mediante el botón de "Perfil", de este modo puede editar los datos que le gusten.
  
  ![image](public/assets/images/Wireflows/Perfil.png)
  
- User Goal: Registrar, Editar y Observar sus Proveedores.
- 
+ **User Goal: Registrar, Editar y Observar sus Proveedores.**
+ <br>El usuario desde la pantalla de inicio donde aparecen las herramientas, selecciona "Proveedores" accediendo a la pantalla de "Proveedores" el cuál tiene las funciones de registrar proveedores, editar los que ya están registrados y observar los datos del proveedor que gusten.
+
  ![image](public/assets/images/Wireflows/Proveedores.png)
  
- User Goal: Registrar, Editar y Observar sus Lotes de Café.
+ **User Goal: Registrar, Editar y Observar sus Lotes de Café.**
  
+
  ![image](public/assets/images/Wireflows/LoteCafe.png)
  
  User Goal: Registrar, Editar y Visualizar sus perfiles de tueste, también comparar entre 2 de ellos.
