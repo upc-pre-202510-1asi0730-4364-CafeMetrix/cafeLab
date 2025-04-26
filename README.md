@@ -2447,8 +2447,158 @@ Todo el código de la solución deberá ser escrito completamente en inglés par
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 #### 5.2.1.2. Aspect Leaders and Collaborators.
-#### 5.2.1.3. Sprint Backlog n.
+#### 5.2.1.3. Sprint Backlog 1.
+Durante el primer sprint, el equipo se propuso iniciar y finalizar la landing page. Para la organización y gestión de sus integrantes, se empleó Trello, lo que facilitó la división de las historias de usuario en tareas más pequeñas y su asignación según las habilidades de cada miembro. A pesar de ello, debido a las limitaciones de tiempo y la acumulación de tareas, no tuvimos la oportunidad de probar al
+completo todas las historias definidas.
+
+<figure style="text-align: center;">
+    <img src="public\assets\images\Trello\trello.png" alt="Organización en la herramienta Trello">
+    <figcaption>Organización en la herramienta Trello</figcaption>
+</figure>
+
+Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
+
+<table>
+        <thead>
+            <tr>
+                <th colspan="2">User Story</th>
+                <th colspan="6">Work-Item/Task</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Estimation (Hours)</th>
+                <th>Assigned To</th>
+                <th>Status (To-do / In Process / To Review / Done)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>US23</td>
+                <td>Información del Producto</td>
+                <td>TK01</td>
+                <td>Configurar proyecto y estructura base</td>
+                <td>Crear estructura inicial del proyecto e implementar header con navegación y hero banner principal</td>
+                <td>4</td>
+                <td>Renzo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK02</td>
+                <td>Desarrollar sección "Enfoque en beneficios claros"</td>
+                <td>Implementar sección con título y áreas diferenciadas para baristas y cafeterías</td>
+                <td>3</td>
+                <td>Joseph</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td>US24</td>
+                <td>Secciones Específicas por Segmento</td>
+                <td>TK03</td>
+                <td>Implementar secciones para baristas y cafeterías</td>
+                <td>Crear las áreas "Soy barista" y "Tengo una cafetería" con descripciones y CTAs</td>
+                <td>4</td>
+                <td>Christian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK04</td>
+                <td>Desarrollar sección de datos y gráficos</td>
+                <td>Implementar área "Datos que respaldan tus decisiones" con gráficos de dashboard y curvas</td>
+                <td>5</td>
+                <td>Adrian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK05</td>
+                <td>Crear sección de planes y características</td>
+                <td>Implementar la comparativa de los 4 planes con precios y listas de características</td>
+                <td>5</td>
+                <td>Fredy</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td>US25</td>
+                <td>Contacto con Equipo</td>
+                <td>TK06</td>
+                <td>Desarrollar sección de testimonios</td>
+                <td>Crear área de testimonios con fotos y citas de usuarios actuales</td>
+                <td>3</td>
+                <td>Kalet</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK07</td>
+                <td>Implementar sección FAQ y contacto</td>
+                <td>Crear área combinada con preguntas frecuentes y formulario de contacto con validación básica</td>
+                <td>4</td>
+                <td>Guillermo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td>US26</td>
+                <td>Acceso directo a plataforma</td>
+                <td>TK08</td>
+                <td>Crear footer y enlaces</td>
+                <td>Implementar pie de página con navegación, recursos y contacto</td>
+                <td>4</td>
+                <td>Joseph</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK09</td>
+                <td>Optimizar responsive y realizar pruebas</td>
+                <td>Asegurar compatibilidad con dispositivos móviles y ejecutar pruebas de funcionamiento</td>
+                <td>5</td>
+                <td>Adrian</td>
+                <td>To-do</td>
+            </tr>
+        </tbody>
+</table>
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| upc-pre-202510-1asi0730-4364-CafeMetrix | main | d83b119 | Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Apr 26, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 52f8c02 | Cambios del footer | Cambios del footer | Apr 26, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | main | 88b0054 | Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 8b1ce23 | Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas | Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 5d8e923 | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 028ff5b | add section plans-features and testimonials | add section plans-features and testimonials | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 012ba1a | add section plans-features and testimonials | add section plans-features and testimonials | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | b7c7cc4 | add section plans-features and testimonials | add section plans-features and testimonials | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 8791f03 | add section plans-features and testimonials" | add section plans-features and testimonials" | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK06-faq-contacto | 47e4882 | Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto | Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK06-faq-contacto | db22b02 | feat (landing): join section faq to the rest of sections | feat (landing): join section faq to the rest of sections | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK06-faq-contacto | b5d8c31 | fix: sections visualization | fix: sections visualization | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 3dc985b | Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 752afd8 | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 52749d7 | feat: join sections | feat: join sections | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | ee480ec | Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria | Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | bbe8843 | feat: add data and graphics section | feat: add data and graphics section | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | 59b8d36 | style: increase benefits section size on style.css | style: increase benefits section size on style.css | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | 1dd5638 | Feat: Add benefits section to style.css | Feat: Add benefits section to style.css | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | 79799eb | Feat: Add benefits section to index.html | Feat: Add benefits section to index.html | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | c6108c7 | Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Apr 23, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | b00f2ac | Fix: Add active button corner | Fix: Add active button corner | Apr 23, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 4f51736 | style: change hover view | style: change hover view | Apr 23, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 4945634 | style: change files position and fix conflicts of this restructure | style: change files position and fix conflicts of this restructure | Apr 22, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK01-estructura-base | 1093b41 | Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base | Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base | Apr 22, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK01-estructura-base | 19f91f6 | Feat: Add banner, logo header and hero section | Feat: Add banner, logo header and hero section | Apr 21, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 0f4531b | chore: initial structure of folders and files | chore: initial structure of folders and files | Apr 21, 2025 |
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
