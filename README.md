@@ -237,7 +237,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Christian Inga</strong><br>
                 TB1: <br><br>
                 <strong>Carlos Fernandez</strong><br>
-                TB1: 
+                TB1: Colabore en las reuniones realizadas para plantear el proyecto presentado, asi como una continua coordinacion para completar secciones como User Stories, emphaty Mapping, User Persona, entrevistas. Ademas de un desarrollo colaborativo de la landing page y web app, donde la comunicacion fue clave para evitar confusiones y desacuerdos sobre los diseños, asi como el despliegue de la landing page, donde la adecuada distribucion de las secciones nos permitio resolver facilmente conflictos
         </td>
         <td style="border: 1px solid #ddd; vertical-align: top;"></td>
         </tr>
@@ -254,7 +254,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Christian Inga</strong><br>
                 TB1: <br><br>
                 <strong>Carlos Fernandez</strong><br>
-                TB1: 
+                TB1: Colabore y apoye en la inclusion de todos los integrantes para un mejor avance, asi como el establecimiento de fechas de manera organizada para evitar problemas de entrega o complicaciones, las cuales serian resultas entre varios integrantes, con el desarollo de las User Stories comprendi a mayor alcance las capacidades del equipo, ademas de otros elementos que nos permitiron conocer sobre nuestros segmentos objetivos y contribuir en la investigacion grupal del tema. Asimismo coordine adecuadamente el diseño de landing page y app web, donde los wireframes y mock up tuvieron la aprobacion del equipo.
         </td>
         <td style="border: 1px solid #ddd; vertical-align: top;"></td>
         </tr>
