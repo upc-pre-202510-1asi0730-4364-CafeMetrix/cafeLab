@@ -296,8 +296,8 @@ La solución consiste en una plataforma dual que combina software y componentes 
     <td>Mi nombre es <strong>Renzo Uribe</strong>, tengo 19 años y estudio la carrera de Ingenieria de Software en el quinto ciclo, actualmente me encuentro trabajando en proyectos personales relacionados con paginas web, tengo experiencia en el rubro del frontend de desarrollo web, ademas poseo habilidad en C++ junto con MYSQL para el desarrollo de base de datos, me comprometo a trabajar de manera responsable, asertiva y puntual en cada uno de los avances del proyecto, así como a colaborar con los miembros del equipo para alcanzar acuerdos que sean beneficiosos para todos. </td>
   </tr>
   <tr>
-    <td>Fila 4, Columna 1</td>
-    <td>Fila 4, Columna 2</td>
+<td><img src="public/assets/images/integrantes/Joseph.jpeg" alt="Joseph Chavez" width="150"></td>
+      <td>Mi Nombre es <strong> Joseph Chavez </strong> ,18 años y estudio Ingeniería de Software en el quinto ciclo. Actualmente, me encuentro analizando proyectos web y videojuegos. Considero que emplear el tiempo adecuado en los cursos es necesario para una buena comprensión y desarrollo de los mismos. Tengo un buen conocimiento sobre C++. En conclusión, me comprometo con la puntualidad y el apoyo en los avances del proyecto, además de colaborar con mis compañeros  </td>
   </tr>
   <tr>
     <td>Fila 5, Columna 1</td>
