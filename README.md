@@ -103,11 +103,11 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Renzo Uribe</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Lean UX Hypothesis Statements, Lean UX Canvas, Competidores, Análisis competitivo, Estrategias y tácticas frente a competidores, Domain-Driven Software Architecture, Software Object-Oriented Design.</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Joseph Chavez</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Creacion del AS-IS, TO-BE, algunos web aplplication mockups, databases diagram</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Adrian Donayre</td>
@@ -115,7 +115,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Christian Inga</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">Registro de entrevistas, ubiquitous language, Web application wireframes, web application wireflows, web application mockups, web application prototyping.</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Apoyo con el diseño de entrevistas, registro de entrevistas, ubiquitous language, Web application wireframes, web application wireflows, web application mockups, web application prototyping.</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Carlos Fernandez</td>
@@ -197,7 +197,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
       - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
@@ -229,34 +229,36 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
             5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
                 <strong>Renzo Uribe</strong><br>
-                TB1: <br><br>
+                TB1: <br>Proporcioné liderazgo conjunto al dirigir los aspectos estratégicos y técnicos del proyecto, desarrollando el Lean UX Canvas. Aedmás, compartí la toma de decisiones en la arquitectura Domain-Driven y el diseño orientado a objetos.<br>
                 <strong>Joseph Chavez</strong><br>
-                TB1: <br><br>
+                TB1: Colabore con en las reuniones para el planteamiento del proyecto, además de estar en contacto con mis compañeros para poder realizar correctamente el databasese diagrama, además contribuyendo para una sana relación entre el equipo, para entregar un buen trabajo<br><br>
                 <strong>Adrian Donayre</strong><br>
                 TB1: Proporcioné liderazgo conjunto al colaborar coordinando con mis team members en la planificación del sprint backlog, facilitando la creación colaborativa de user stories y product backlog, compartiendo responsabilidades en el diseño de entrevistas y wireframes, y trabajando en equipo para establecer prioridades y distribuir tareas, logrando consenso en las decisiones importantes del proyecto.<br><br>
                 <strong>Christian Inga</strong><br>
-                TB1: <br><br>
+                TB1: Colaboré de manera proactiva en las reuniones grupales hechas para realizar el proyecto, como estar coordinando con todos los team members aspectos de importancia común, como entrevistas,el diseño de los wireframes, mockups, o el ubiquitous language que es importante para que todos podamos entendernos. De esta forma se logró entregar un buen trabajo con la coordinación conjunta de todos los miembros. <br><br>
                 <strong>Carlos Fernandez</strong><br>
-                TB1: Colabore en las reuniones realizadas para plantear el proyecto presentado, asi como una continua coordinacion para completar secciones como User Stories, emphaty Mapping, User Persona, entrevistas. Ademas de un desarrollo colaborativo de la landing page y web app, donde la comunicacion fue clave para evitar confusiones y desacuerdos sobre los diseños, asi como el despliegue de la landing page, donde la adecuada distribucion de las secciones nos permitio resolver facilmente conflictos
+                TB1: Colaboré en las reuniones realizadas para plantear el proyecto presentado, asi como una continua coordinacion para completar secciones como User Stories, emphaty Mapping, User Persona, entrevistas. Ademas de un desarrollo colaborativo de la landing page y web app, donde la comunicacion fue clave para evitar confusiones y desacuerdos sobre los diseños, asi como el despliegue de la landing page, donde la adecuada distribucion de las secciones nos permitio resolver facilmente conflictos. <br><br>
         </td>
-        <td style="border: 1px solid #ddd; vertical-align: top;"></td>
+        <td style="border: 1px solid #ddd; vertical-align: top;">El equipo demostró un efectivo liderazgo conjunto durante el TB1, donde cada miembro asumió responsabilidades compartidas de coordinación y toma de decisiones. Se evidenció una colaboración fluida que abarcó desde aspectos estratégicos y técnicos del proyecto hasta la planificación operativa y distribución de tareas. La comunicación continua, las reuniones regulares y el trabajo colaborativo en el desarrollo de componentes clave como wireframes, mockups, database diagrams y landing page fueron fundamentales. El compromiso colectivo por mantener una sana relación de equipo y la capacidad para resolver conflictos de manera conjunta permitieron lograr consensos efectivos y entregar un trabajo cohesivo y de calidad, demostrando que el liderazgo fue verdaderamente compartido y distribuido entre todos los integrantes.</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; vertical-align: top;">
             5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
                 <strong>Renzo Uribe</strong><br>
-                TB1: <br><br>
+                TB1: <br>Fomenté un entorno colaborativo al establecer metas claras a través del Lean UX Canvas y análisis competitivo, planificando tareas que complementaban el trabajo de investigación de mi compañero. Integré sus user stories y wireframes en mi arquitectura de software, asegurando que las decisiones técnicas reflejaran las necesidades del usuario.<br>
                 <strong>Joseph Chavez</strong><br>
-                TB1: <br><br>
+                TB1: Definí metas utilizando el product backlog y las user stories, organizando las tareas en el sprint backlog para su seguimiento. Alcancé objetivos específicos, como el diseño de wireframes para la landing page y la aplicación web, garantizando que todos los miembros del equipo participaran de manera equitativa. <br><br>
                 <strong>Adrian Donayre</strong><br>
                 TB1: Creé un entorno colaborativo e inclusivo al establecer roles claros, planifiqué entrevistas que incluyeran diversas perspectivas de usuarios, definí metas mediante el product backlog y user stories, organicé tareas específicas en el sprint backlog 1 y logré objetivos concretos como la finalización de wireframes para landing page y aplicación web, asegurando la participación equitativa de todos los miembros del equipo.<br><br>
                 <strong>Christian Inga</strong><br>
-                TB1: <br><br>
+                TB1:
+                Apoyé en la creación del entorno colaborativo e inclusivo, de modo que se establecieron roles para cada miembro del equipo, así como en reuniones grupales para discutir temas del proyecto, se logró que todos estuvieramos presentes, aportando nuestras ideas y opiniones, de modo que todos estemos de acuerdo y alineados con una meta fija.
+                <br><br>
                 <strong>Carlos Fernandez</strong><br>
                 TB1: Colabore y apoye en la inclusion de todos los integrantes para un mejor avance, asi como el establecimiento de fechas de manera organizada para evitar problemas de entrega o complicaciones, las cuales serian resultas entre varios integrantes, con el desarollo de las User Stories comprendi a mayor alcance las capacidades del equipo, ademas de otros elementos que nos permitiron conocer sobre nuestros segmentos objetivos y contribuir en la investigacion grupal del tema. Asimismo coordine adecuadamente el diseño de landing page y app web, donde los wireframes y mock up tuvieron la aprobacion del equipo.
         </td>
-        <td style="border: 1px solid #ddd; vertical-align: top;"></td>
+        <td style="border: 1px solid #ddd; vertical-align: top;">El equipo evidenció una notable capacidad para crear y mantener un entorno colaborativo e inclusivo durante el TB1, donde todos los miembros contribuimos activamente al establecimiento de metas, planificación y cumplimiento de objetivos. Se destacó la asignación clara de roles, la organización sistemática de tareas mediante herramientas como el product backlog y sprint backlog, y la promoción de la participación equitativa de todos los integrantes. Las reuniones grupales permitieron que cada miembro aportara ideas y opiniones, logrando consensos en decisiones clave como, por ejemplo, el diseño de wireframes y mockups.</td>
         </tr>
 </table>
 </div>
@@ -296,12 +298,12 @@ La solución consiste en una plataforma dual que combina software y componentes 
     <td>Mi nombre es <strong>Renzo Uribe</strong>, tengo 19 años y estudio la carrera de Ingenieria de Software en el quinto ciclo, actualmente me encuentro trabajando en proyectos personales relacionados con paginas web, tengo experiencia en el rubro del frontend de desarrollo web, ademas poseo habilidad en C++ junto con MYSQL para el desarrollo de base de datos, me comprometo a trabajar de manera responsable, asertiva y puntual en cada uno de los avances del proyecto, así como a colaborar con los miembros del equipo para alcanzar acuerdos que sean beneficiosos para todos. </td>
   </tr>
   <tr>
-    <td>Fila 4, Columna 1</td>
-    <td>Fila 4, Columna 2</td>
+    <td><img src="public/assets/images/integrantes/Chris.jpeg"alt="Christian Inga" width="200"></td>
+    <td> Mi nombre es <strong>Christian Inga</strong>, tengo 19 años y actualmente estoy estudiando la carrera de Ingenieria de Software. Tengo conocimientos en los lenguajes de programación de C++, Python y Javascript. Considero que puedo adaptarme a diferentes formas de trabajo para alcanzar un objetivo. Me considero una persona responsable y confiable. </td>
   </tr>
-  <tr>
-    <td>Fila 5, Columna 1</td>
-    <td>Fila 5, Columna 2</td>
+   <tr>
+    <td><img src="public/assets/images/integrantes/Joseph.jpg"alt="Christian Inga" width="200"></td>
+   <td>Mi nombre es <strong> Joseph Chavez </strong>, tengo 18 años y actualmente estoy cursando el quinto ciclo de la  carrera de Ingeniería de Software en la UPC. Tengo habilidad en los lenguajes C++ y un poco de JavaScript. En mi opinion la universidad nos sera reflejado en lo profesional, es por eso, que trato de conseguir todas las experiencias necesarias. </td>
   </tr>
 </table>
 
@@ -1952,55 +1954,68 @@ Production Cost Management 5 - US20
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
  
- User Goal: Registrarse.
+ **User Goal: Registrarse y elegir suscripción**
+ <br>El usuario elegirá si es un barista o un dueño de cafetería, en base a esto el formulario de registro mostrará más o menos campos a completar, una vez registrados podrán elegir el plan que más deseen, luego, procederán a la pantalla de pago. Confirmado el pago, podrán acceder a las herramientas disponibles según su plan.
  
  ![image](public/assets/images/Wireflows/Register.png)
  
- User Goal: Iniciar Sesión.
+ **User Goal: Iniciar Sesión.**
+ <br>El usuario de la aplicación ya cuenta con una cuenta, sea de barista o dueño de cafetería, si ingresa mal sus datos, se le pedirá que los ingrese nuevamente, una vez los datos sean correctos, podrá acceder a las herramientas según su plan.
  
  ![image](public/assets/images/Wireflows/InicioSesion.png)
  
- User Goal: Editar su Perfil.
+ **User Goal: Editar su Perfil.**
+ <br>Una vez el usuario haya entrado a la app web, puede ver su perfil mediante el botón de "Perfil", de este modo puede editar los datos que le gusten.
  
  ![image](public/assets/images/Wireflows/Perfil.png)
  
- User Goal: Registrar, Editar y Observar sus Proveedores.
- 
+ **User Goal: Registrar, Editar y Observar sus Proveedores.**
+ <br>El usuario desde la pantalla de inicio donde aparecen las herramientas, selecciona "Proveedores" accediendo a la pantalla de "Proveedores" el cuál tiene las funciones de registrar proveedores, editar los que ya están registrados y observar los datos del proveedor que gusten.
+
  ![image](public/assets/images/Wireflows/Proveedores.png)
  
- User Goal: Registrar, Editar y Observar sus Lotes de Café.
- 
+ **User Goal: Registrar, Editar y Observar sus Lotes de Café.**
+ <br>Desde el inicio, el usuario selecciona la herramienta de "Lotes de Café" accediendo a una lista con sus lotes registrados, del mismo modo puede registrar nuevos lotes de café, editar los existentes o simplemente ver la información de alguno que elija.
+
  ![image](public/assets/images/Wireflows/LoteCafe.png)
  
- User Goal: Registrar, Editar y Visualizar sus perfiles de tueste, también comparar entre 2 de ellos.
+ **User Goal: Registrar, Editar y Visualizar sus perfiles de tueste, también comparar entre dos de ellos.**
+ <br>Desde el apartado de herramientas, selecciona "Perfiles de Tueste", de este modo puede observar en una tabla sus perfiles registrados, así como registrar uno nuevo, editar un existente, visualizar los datos y curva de tueste del que seleccione y también comparar las curvas de tueste entre dos perfiles.
  
  ![image](public/assets/images/Wireflows/PerfilTueste.png)
  
- User Goal: Registrar, Editar y Observar sus Catas con su hexágono sensorial.
+ **User Goal: Registrar, Editar y Observar sus Catas con su hexágono sensorial.**
+ <br>Desde el apartado de herramientas, selecciona "Catas", accediendo a la tabla que contiene sus catas registradas, desde esta pantalla puede registrar una cata, editar una existente, visualizar sus catas registradas junto con su hexágono sensorial si lo requiere. Por otro lado, también puede comparar los hexágonos sensoriales entre dos catas.
  
  ![image](public/assets/images/Wireflows/Catas.png)
  
- User Goal: Observar la biblioteca de defectos, con posibles causas y soluciones.
+ **User Goal: Observar la biblioteca de defectos, con posibles causas y soluciones.**
+ <br>Desde el apartado de herramientas, selecciona "Biblioteca de defectos", teniendo una lista con los defectos, si selecciones alguno puede observar sus posibles causas y las soluciones recomendadas.
  
  ![image](public/assets/images/Wireflows/Defectos.png)
  
- User Goal: Identificar la relación entre el tueste y los sabores del café.
+ **User Goal: Identificar la relación entre el tueste y los sabores del café.**
+ <br>Desde el apartado de herramientas, selecciona la "Relación tueste - sabor", donde puede seleccionar las catas que se visualizarán en el gráfico mostrando la concentración de tuestes exitosos de color morado, en términos de temperatura y tiempo. También desde este apartado, pueden acceder a la biblioteca que muestra las variables en el tostado que pueden influir en la taza final de café.
  
  ![image](public/assets/images/Wireflows/Relacion.png)
  
- User Goal: Poder registrar, editar y visualizar sus recetas, así como portafolios con las recetas especiales.
+ **User Goal: Poder registrar, editar y visualizar sus recetas, así como portafolios con las recetas especiales.**
+ <br>Desde el apartado de herramientas, selecciona "Recetas", de este modo accediendo a una pantalla que le muestra los portafolios que tiene y las recetas que están fuera de este portafolio, puede crear un nuevo portafolio o visualizar los ya creados con sus recetas asociadas, también puede asignar nuevas recetas a un portafolio. Puede crear una receta, al crear una debería seleccionar si está hecho por extracción o por método de espresso. Por otro lado, al visualizar las recetas hechas se le mostrará toda la información asociada.
  
  ![image](public/assets/images/Wireflows/Recetas.png)
  
- User Goal: Tener un registro de las calibraciones de sus moliendas para un mejor resultado.
+ **User Goal: Tener un registro de las calibraciones de sus moliendas para un mejor resultado.**
+ <br>Desde el apartado de herramientas, selecciona "Calibración de Molienda", en este apartado puede registrar o editar las calibraciones de las moliendas, de este modo teniendo un acabado igual para sus recetas.
  
  ![image](public/assets/images/Wireflows/Calibracion.png)
  
- User Goal: Tener un adecuado manejo de su inventario, pudiendo registrar lotes y visualizar información importante.
+ **User Goal: Tener un adecuado manejo de su inventario, pudiendo registrar lotes y visualizar información importante.**
+ <br>Desde el apartado de herramientas, selecciona "Inventario", en el cual se puede observar la cantidad restante del lote seleccionado, puede registrar el consumo que se haga para las recetas, de esta forma teniendo un buen manejo de su inventario y stock.
  
  ![image](public/assets/images/Wireflows/Inventario.png)
  
- User Goal: Poder gestionar sus costos de una manera eficiente, para optimizar sus ganancias y rentabilidad.
+ **User Goal: Poder gestionar sus costos de una manera eficiente, para optimizar sus ganancias y rentabilidad.**
+ <br>Desde el apartado de herramientas, selecciona "Gestión de Costos", accediendo al proceso en el que puede registrar todos sus costos, como de materia prima, mano de obra, costos de transporte, etc., de este modo calculará su margen potencial y el precio sugerido por kg.
  
  ![image](public/assets/images/Wireflows/GestorCostos.png)
 
@@ -2704,6 +2719,39 @@ Posteriormente, iniciamos sesión en [Netlify](https://www.netlify.com/) y conec
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
+<table>
+        <thead>
+            <tr>
+                <th>Sprint #</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Location</th>
+                <th>Prepared By</th>
+                <th>Attendees</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="centered">1</td>
+                <td class="centered">26/04/2025</td>
+                <td class="centered">09:00 AM</td>
+                <td>Reunión virtual mediante la aplicación Discord</td>
+                <td>Adrian Donayre</td>
+                <td>Fredy Fernández, Christian Inga, Renzo Uribe, Joseph Chavez, Adrian Donayre</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="section-header">Sprint 1 Goal</td>
+                <td class="section-header">Sprint 1 Velocity</td>
+                <td class="section-header">Sum of Story Points</td>
+            </tr>
+            <tr>
+                <td colspan="4">Desarrollar y desplegar la landing page de nuestra startup Café Metrix</td>
+                <td class="centered">8</td>
+                <td class="centered">8</td>
+            </tr>
+        </tbody>
+    </table>
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 | Team Member (Last Name, First Name) | GitHub Username | Información del Producto (US23) | Secciones Específicas por Segmento (US24) | Contacto con Equipo (US25) | Acceso directo a plataforma (US26) |
 |-------------------------------------|-----------------|--------------------------------|------------------------------------------|---------------------------|----------------------------------|
