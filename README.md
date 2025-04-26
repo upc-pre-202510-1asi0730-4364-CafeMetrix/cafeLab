@@ -2447,6 +2447,14 @@ Todo el código de la solución deberá ser escrito completamente en inglés par
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+| Team Member (Last Name, First Name) | GitHub Username | Información del Producto (US23) | Secciones Específicas por Segmento (US24) | Contacto con Equipo (US25) | Acceso directo a plataforma (US26) |
+|-------------------------------------|-----------------|--------------------------------|------------------------------------------|---------------------------|----------------------------------|
+| Donayre, Adrian                     | adriandonayredev | C                              | L                                        | C                         | L                                |
+| Tantaleán, Guillermo                | guillermotantalean1 | C                              | C                                        | L                         | C                                |
+| Esteban, Henry                      | kalet123-commit | C                              | C                                        | L                         | C                                |
+| Fernández, Fredy                    | u202320083      | C                              | L                                        | C                         | C                                |
+| Inga, Christian                     | Christian1905   | C                              | L                                        | C                         | C                                |
+
 #### 5.2.1.3. Sprint Backlog 1.
 Durante el primer sprint, el equipo se propuso iniciar y finalizar la landing page. Para la organización y gestión de sus integrantes, se empleó Trello, lo que facilitó la división de las historias de usuario en tareas más pequeñas y su asignación según las habilidades de cada miembro. A pesar de ello, debido a las limitaciones de tiempo y la acumulación de tareas, no tuvimos la oportunidad de probar al
 completo todas las historias definidas.
@@ -2652,7 +2660,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 
 - **Ampliación del ecosistema**  
   Evaluar la posibilidad de integrar la plataforma con otros sistemas existentes en cafeterías (puntos de venta, gestión de inventario, CRM) para ofrecer una solución más completa y eliminar silos de información.
-  
+
 # Video About-the-Team.
 # Bibliografía
 - **Specialty Coffee Association (SCA).** (2022). *Annual Report: Certification and Professional Development Statistics*. [https://sca.coffee](https://sca.coffee)
