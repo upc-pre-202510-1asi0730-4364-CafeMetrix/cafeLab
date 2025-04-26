@@ -3082,7 +3082,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 
 # Anexos
 
-
+[Video exposición de TB1](https://youtu.be/uChmUJqKPL0)
 
 
 
