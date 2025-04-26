@@ -111,15 +111,15 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Adrian Donayre</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Descripción de la startup, diseño de entrevistas, registro de entrevistas, user stories, product backlog, landing page wireframes, web aplication wireframes, Aspect Leaders and Collaborators, sprint backlog 1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Christian Inga</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Registro de entrevistas, ubiquitous language, Web application wireframes, web application wireflows, web application mockups, web application prototyping.</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Carlos Fernandez</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Desarrollo de Entrevistas, user personas, User journey Mapping, Empathy mapping, Impact Mapping,Carlos Fredy Fenandez Camayo Desarrollo de Entrevistas, user personas, User journey Mapping, Empathy mapping, Impact Mapping Desarrollo de User Stories. landing page wireframe, mock up y web application, Despliegue de Landing page en Netlify</td>
   </tr>
 </table>
 
@@ -219,7 +219,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
 # Student Outcome
 <div style="text-align:center;">
     <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <tr style="background-color:rgb(164, 61, 61); color: white; font-weight: bold;">
+        <tr>
             <th style="text-align:center; border: 1px solid #ddd;">Student Outcomes</th>
             <th style="text-align:center; border: 1px solid #ddd;">Acciones realizadas</th>
             <th style="text-align:center; border: 1px solid #ddd;">Conclusiones</th>
@@ -1951,6 +1951,59 @@ Production Cost Management 5 - US20
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+ 
+ User Goal: Registrarse.
+ 
+ ![image](public/assets/images/Wireflows/Register.png)
+ 
+ User Goal: Iniciar Sesión.
+ 
+ ![image](public/assets/images/Wireflows/InicioSesion.png)
+ 
+ User Goal: Editar su Perfil.
+ 
+ ![image](public/assets/images/Wireflows/Perfil.png)
+ 
+ User Goal: Registrar, Editar y Observar sus Proveedores.
+ 
+ ![image](public/assets/images/Wireflows/Proveedores.png)
+ 
+ User Goal: Registrar, Editar y Observar sus Lotes de Café.
+ 
+ ![image](public/assets/images/Wireflows/LoteCafe.png)
+ 
+ User Goal: Registrar, Editar y Visualizar sus perfiles de tueste, también comparar entre 2 de ellos.
+ 
+ ![image](public/assets/images/Wireflows/PerfilTueste.png)
+ 
+ User Goal: Registrar, Editar y Observar sus Catas con su hexágono sensorial.
+ 
+ ![image](public/assets/images/Wireflows/Catas.png)
+ 
+ User Goal: Observar la biblioteca de defectos, con posibles causas y soluciones.
+ 
+ ![image](public/assets/images/Wireflows/Defectos.png)
+ 
+ User Goal: Identificar la relación entre el tueste y los sabores del café.
+ 
+ ![image](public/assets/images/Wireflows/Relacion.png)
+ 
+ User Goal: Poder registrar, editar y visualizar sus recetas, así como portafolios con las recetas especiales.
+ 
+ ![image](public/assets/images/Wireflows/Recetas.png)
+ 
+ User Goal: Tener un registro de las calibraciones de sus moliendas para un mejor resultado.
+ 
+ ![image](public/assets/images/Wireflows/Calibracion.png)
+ 
+ User Goal: Tener un adecuado manejo de su inventario, pudiendo registrar lotes y visualizar información importante.
+ 
+ ![image](public/assets/images/Wireflows/Inventario.png)
+ 
+ User Goal: Poder gestionar sus costos de una manera eficiente, para optimizar sus ganancias y rentabilidad.
+ 
+ ![image](public/assets/images/Wireflows/GestorCostos.png)
+
 ### 4.4.2. Web Applications Mock-ups.
 Select Suscription - US03
 ![SelectSuscription](public/assets/images/WebAppMockup/SelectSuscriptionUS03.png)
@@ -2091,6 +2144,7 @@ Production Cost Management 5 - US20
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
+
 ## 4.6. Domain-Driven Software Architecture.
 
 El Domain Driven Design (DDD) busca establecer un entendimiento común del dominio que engloba el espacio del problema, fomentando una mejor colaboración entre desarrolladores y expertos del dominio. Este enfoque no se limita a emplear un lenguaje ubicuo, sino que incluye un conjunto de patrones, procesos y diagramas de la arquitectura del sistema, artefactos diseñados para alinear el software con el dominio y fortalecer la perspectiva compartida que promueve DDD.
@@ -2509,6 +2563,24 @@ El diseño de base de datos es el proceso de organizar y estructurar los datos e
 
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
+# Project Management
+1. Trello: Para gestión general los sprints, tareas del equipo, etc.
+  - Link: [Trello](https://trello.com/b/diGtoNBa/sprint-1)
+
+# Product UX/UI Design:
+1. Figma: Para diseños como Wireframes, Mockups, Prototypes, etc) relacionados a archivos como
+  - Link: [Figma](https://www.figma.com/design/ac0fpdPl6fqEDpJxCEYlY0/CafeLab?node-id=140-178&t=fprZU86nz2ahB2Bi-1)
+2. Vertabelo: Para diagramas de base de datos (ERD, diagramas de clases, etc.)
+  - Link: [Vertabelo](Vertabelo)
+
+# Software Development:
+1. Visual Studio Code: Para el desarrollo de la Landing Page del proyecto.
+  - Link: [LandingPage](https://cafelab-landingpage-appweb.netlify.app/)
+
+# Software Documentation:
+1. Visual Studio Code: Para la documentación de CaféLab se utilizó Visual Studio Code para el desarrollo de los capítulos en formato Markdown.
+  - Link: [Documentation](Documentation)
+
 ### 5.1.2. Source Code Management.
 Para todo el desarrollo de CaféLab se usará el flujo de trabajo de Gitflow. Landing Page Repository: [Landing Page Repository](Landing Page Repository)
 
@@ -2580,19 +2652,275 @@ Todo el código de la solución deberá ser escrito completamente en inglés par
 - Agregar comentarios cuando se requiera contexto o explicaciones adicionales.
 
 ### 5.1.4. Software Deployment Configuration.
+#### Landing Page Deployment
+Para desplegar la landing page, es necesario contar con una cuenta de GitHub y tener acceso como administrador al repositorio del proyecto. A partir de ahí, se pueden cargar los documentos desde un entorno local al repositorio y proceder con el despliegue. A continuación, se describen los pasos seguidos:
+
+1. **Creación de ramas**: Se crean ramas para que cada miembro del proyecto pueda subir sus respectivas secciones de forma organizada.
+2. **Estructura del proyecto**: Se define una estructura clara:
+   - `index.html`: contiene el código principal de la landing.
+   - Carpeta `assets/css`: para los estilos.
+   - Carpeta `img`: para las imágenes usadas en el `index.html`.
+   - Archivos `.js`: para funcionalidades JavaScript necesarias.
+3. **Subida de archivos al repositorio**:
+   - Instalación de Git.
+   - Configuración del repositorio remoto.
+   - Uso de comandos Git para hacer commit y push de los cambios.
+4. **Configuración para despliegue**:
+   - Se realiza un pull request hacia la rama `main`.
+   - Verificación de que no haya errores para un despliegue limpio.
+5. **Resolución de conflictos**:
+   - En caso de conflictos, se resuelven con herramientas como Visual Studio Code.
+   - Se verifica que los conflictos hayan sido solucionados correctamente.
+
+Posteriormente, iniciamos sesión en [Netlify](https://www.netlify.com/) y conectamos el repositorio de GitHub para un despliegue seguro y que permita futuras actualizaciones sin afectar las funcionalidades del Front End.
+
+🔗 **Landing Page en Netlify**: [https://cafe-lab-landing-opensource.netlify.app/](https://cafe-lab-landing-opensource.netlify.app/)
+
+---
+
+#### Front End Web Application Deployment
+
+1. Iniciamos sesión en Netlify y vinculamos el repositorio correspondiente.  
+   ![Imagen 1](public/assets/images/SoftwareDeploymentConfiguration/Imagen1.png)
+
+2. Seleccionamos el proyecto adecuado desde la lista de repositorios.  
+   ![Imagen 2](public/assets/images/SoftwareDeploymentConfiguration/Imagen2.png)
+
+3. Completamos los campos necesarios:
+   - Equipo.
+   - Rama donde están los archivos.
+   - Nombre de la página a desplegar.  
+   ![Imagen 3](public/assets/images/SoftwareDeploymentConfiguration/Imagen3.png)  
+   ![Imagen 4](public/assets/images/SoftwareDeploymentConfiguration/Imagen4.png)
+
+4. Procedemos con el despliegue del sitio.  
+   ![Imagen 5](public/assets/images/SoftwareDeploymentConfiguration/Imagen5.png)
+
+5. Verificamos que el despliegue haya sido exitoso desde la sección de sitios activos en Netlify.  
+   ![Imagen 6](public/assets/images/SoftwareDeploymentConfiguration/Imagen6.png)  
+   ![Imagen 7](public/assets/images/SoftwareDeploymentConfiguration/Imagen7.png)
+
+🔗 **Página desplegada en Netlify**: [https://cafe-lab-landing-opensource.netlify.app/](https://cafe-lab-landing-opensource.netlify.app/)
+
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 #### 5.2.1.2. Aspect Leaders and Collaborators.
-#### 5.2.1.3. Sprint Backlog n.
+| Team Member (Last Name, First Name) | GitHub Username | Información del Producto (US23) | Secciones Específicas por Segmento (US24) | Contacto con Equipo (US25) | Acceso directo a plataforma (US26) |
+|-------------------------------------|-----------------|--------------------------------|------------------------------------------|---------------------------|----------------------------------|
+| Donayre, Adrian                     | adriandonayredev | C                              | L                                        | C                         | L                                |
+| Tantaleán, Guillermo                | guillermotantalean1 | C                              | C                                        | L                         | C                                |
+| Esteban, Henry                      | kalet123-commit | C                              | C                                        | L                         | C                                |
+| Fernández, Fredy                    | u202320083      | C                              | L                                        | C                         | C                                |
+| Inga, Christian                     | Christian1905   | C                              | L                                        | C                         | C                                |
+
+#### 5.2.1.3. Sprint Backlog 1.
+Durante el primer sprint, el equipo se propuso iniciar y finalizar la landing page. Para la organización y gestión de sus integrantes, se empleó Trello, lo que facilitó la división de las historias de usuario en tareas más pequeñas y su asignación según las habilidades de cada miembro. A pesar de ello, debido a las limitaciones de tiempo y la acumulación de tareas, no tuvimos la oportunidad de probar al
+completo todas las historias definidas.
+
+<figure style="text-align: center;">
+    <img src="public\assets\images\Trello\trello.png" alt="Organización en la herramienta Trello">
+    <figcaption>Organización en la herramienta Trello</figcaption>
+</figure>
+
+Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
+
+<table>
+        <thead>
+            <tr>
+                <th colspan="2">User Story</th>
+                <th colspan="6">Work-Item/Task</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Estimation (Hours)</th>
+                <th>Assigned To</th>
+                <th>Status (To-do / In Process / To Review / Done)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>US23</td>
+                <td>Información del Producto</td>
+                <td>TK01</td>
+                <td>Configurar proyecto y estructura base</td>
+                <td>Crear estructura inicial del proyecto e implementar header con navegación y hero banner principal</td>
+                <td>4</td>
+                <td>Renzo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK02</td>
+                <td>Desarrollar sección "Enfoque en beneficios claros"</td>
+                <td>Implementar sección con título y áreas diferenciadas para baristas y cafeterías</td>
+                <td>3</td>
+                <td>Joseph</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td>US24</td>
+                <td>Secciones Específicas por Segmento</td>
+                <td>TK03</td>
+                <td>Implementar secciones para baristas y cafeterías</td>
+                <td>Crear las áreas "Soy barista" y "Tengo una cafetería" con descripciones y CTAs</td>
+                <td>4</td>
+                <td>Christian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK04</td>
+                <td>Desarrollar sección de datos y gráficos</td>
+                <td>Implementar área "Datos que respaldan tus decisiones" con gráficos de dashboard y curvas</td>
+                <td>5</td>
+                <td>Adrian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK05</td>
+                <td>Crear sección de planes y características</td>
+                <td>Implementar la comparativa de los 4 planes con precios y listas de características</td>
+                <td>5</td>
+                <td>Fredy</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td>US25</td>
+                <td>Contacto con Equipo</td>
+                <td>TK06</td>
+                <td>Desarrollar sección de testimonios</td>
+                <td>Crear área de testimonios con fotos y citas de usuarios actuales</td>
+                <td>3</td>
+                <td>Kalet</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK07</td>
+                <td>Implementar sección FAQ y contacto</td>
+                <td>Crear área combinada con preguntas frecuentes y formulario de contacto con validación básica</td>
+                <td>4</td>
+                <td>Guillermo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td>US26</td>
+                <td>Acceso directo a plataforma</td>
+                <td>TK08</td>
+                <td>Crear footer y enlaces</td>
+                <td>Implementar pie de página con navegación, recursos y contacto</td>
+                <td>4</td>
+                <td>Joseph</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK09</td>
+                <td>Optimizar responsive y realizar pruebas</td>
+                <td>Asegurar compatibilidad con dispositivos móviles y ejecutar pruebas de funcionamiento</td>
+                <td>5</td>
+                <td>Adrian</td>
+                <td>To-do</td>
+            </tr>
+        </tbody>
+</table>
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| upc-pre-202510-1asi0730-4364-CafeMetrix | main | d83b119 | Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Apr 26, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 52f8c02 | Cambios del footer | Cambios del footer | Apr 26, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | main | 88b0054 | Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 8b1ce23 | Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas | Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 5d8e923 | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 028ff5b | add section plans-features and testimonials | add section plans-features and testimonials | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 012ba1a | add section plans-features and testimonials | add section plans-features and testimonials | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | b7c7cc4 | add section plans-features and testimonials | add section plans-features and testimonials | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 8791f03 | add section plans-features and testimonials" | add section plans-features and testimonials" | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK06-faq-contacto | 47e4882 | Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto | Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK06-faq-contacto | db22b02 | feat (landing): join section faq to the rest of sections | feat (landing): join section faq to the rest of sections | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK06-faq-contacto | b5d8c31 | fix: sections visualization | fix: sections visualization | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 3dc985b | Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 752afd8 | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 52749d7 | feat: join sections | feat: join sections | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | ee480ec | Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria | Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | bbe8843 | feat: add data and graphics section | feat: add data and graphics section | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | 59b8d36 | style: increase benefits section size on style.css | style: increase benefits section size on style.css | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | 1dd5638 | Feat: Add benefits section to style.css | Feat: Add benefits section to style.css | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | 79799eb | Feat: Add benefits section to index.html | Feat: Add benefits section to index.html | Apr 25, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | c6108c7 | Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Apr 23, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | b00f2ac | Fix: Add active button corner | Fix: Add active button corner | Apr 23, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 4f51736 | style: change hover view | style: change hover view | Apr 23, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 4945634 | style: change files position and fix conflicts of this restructure | style: change files position and fix conflicts of this restructure | Apr 22, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK01-estructura-base | 1093b41 | Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base | Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base | Apr 22, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK01-estructura-base | 19f91f6 | Feat: Add banner, logo header and hero section | Feat: Add banner, logo header and hero section | Apr 21, 2025 |
+| upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 0f4531b | chore: initial structure of folders and files | chore: initial structure of folders and files | Apr 21, 2025 |
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
+## Sección diferenciación de segmentos objetivo
+<figure style="text-align: center;">
+    <img src="public\assets\images\Evidences\1.png" alt="Evidencia 1">
+    <figcaption>Evidencia 1</figcaption>
+</figure>
+
+## Sección módulos a ofrecer
+<figure style="text-align: center;">
+    <img src="public\assets\images\Evidences\2.png" alt="Evidencia 2">
+    <figcaption>Evidencia 2</figcaption>
+</figure>
+
+## Sección elección de suscripción
+<figure style="text-align: center;">
+    <img src="public\assets\images\Evidences\3.png" alt="Evidencia 3">
+    <figcaption>Evidencia 3</figcaption>
+</figure>
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
+## Conclusiones
+
+- **Identificación precisa del problema y usuario objetivo**  
+  El proyecto ha logrado identificar claramente dos segmentos clave (baristas profesionales y cafeterías de especialidad) con necesidades específicas en la cadena de valor del café de especialidad. La definición del problema basada en la metodología _Who, What, When, Where, Why, How_ muestra un análisis profundo de las necesidades del mercado.
+
+- **Propuesta de valor diferenciada**  
+  CaféLab ha desarrollado una solución dual (software + IoT) que aborda directamente los puntos de dolor identificados: la falta de integración entre procesos, la documentación inadecuada y la dificultad para replicar estándares de calidad.
+
+- **Enfoque metodológico sólido**  
+  La implementación de la metodología Lean UX con declaraciones de hipótesis claras y métricas de éxito cuantificables (mejora de consistencia en 40%, aumento de satisfacción del cliente en 30%, reducción de inconsistencias en extracción en 35%) demuestra un enfoque basado en datos.
+
+- **Integración tecnológica innovadora**  
+  La incorporación del sensor IoT _TrackSilo_ para monitorear en tiempo real la temperatura y humedad del café verde representa una innovación tecnológica alineada con las necesidades específicas del sector.
+
+- **Modelo de negocio claro**  
+  El proyecto contempla la generación de ingresos recurrentes mediante planes premium ($29 y $59/mes), lo que sugiere una estrategia de monetización viable.
+
+## Recomendaciones
+
+- **Estrategia de adopción gradual**  
+  Considerando la posible resistencia a la tecnología mencionada como riesgo, se recomienda desarrollar un plan de onboarding que permita a los usuarios migrar gradualmente de sus sistemas manuales/tradicionales a la plataforma digital CaféLab.
+
+- **Programa de embajadores**  
+  Identificar baristas de alto perfil o cafeterías reconocidas para que actúen como primeros adoptantes y embajadores de la solución, creando casos de éxito documentados que demuestren el valor tangible de la plataforma.
+
+- **Ampliación del ecosistema**  
+  Evaluar la posibilidad de integrar la plataforma con otros sistemas existentes en cafeterías (puntos de venta, gestión de inventario, CRM) para ofrecer una solución más completa y eliminar silos de información.
+
 # Video About-the-Team.
 # Bibliografía
 - **Specialty Coffee Association (SCA).** (2022). *Annual Report: Certification and Professional Development Statistics*. [https://sca.coffee](https://sca.coffee)
