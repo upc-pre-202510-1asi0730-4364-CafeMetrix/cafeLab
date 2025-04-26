@@ -2005,6 +2005,141 @@ Production Cost Management 5 - US20
  ![image](public/assets/images/Wireflows/GestorCostos.png)
 
 ### 4.4.2. Web Applications Mock-ups.
+Select Suscription - US03
+![SelectSuscription](public/assets/images/WebAppMockup/SelectSuscriptionUS03.png)
+
+Select Payment - US?
+![SelectPayment](public/assets/images/WebAppMockup/SelectPayment.png)
+
+Sing Up - Bar US01
+![Sing Up](public/assets/images/WebAppMockup/SingUpBarUS01.png)
+
+Message after correct Sign Up - US01
+![Message after correct Sign Up](public/assets/images/WebAppMockup/MessageaftercorrectSignUpUS01.png)
+
+Sign In - US01
+![Sign In](public/assets/images/WebAppMockup/SingInUS01.png)
+
+Message after correct Sign In - US01
+![Message after correct Sign Ip](public/assets/images/WebAppMockup/MessageaftercorrectSignInUS01.png)
+
+Message after incorrect Sign In - US01
+![Message after incorrect Sign In](public/assets/images/WebAppMockup/MessageafterincorrectSignInUS01.png)
+Sign Up - Owner - US01
+![Sign Up](public/assets/images/WebAppMockup/SingUpOwnerUS01.png)
+Message after correct Sign Up - US01
+![Message after correct Sign Up](public/assets/images/WebAppMockup/MessageaftercorrectSignInUS01Owner.png)
+Sing in - Owner
+![Sing in](public/assets/images/WebAppMockup/SingInOwner.png)
+
+Message after incorrect Sign In - US01
+![Message after incorrect Sign In](public/assets/images/WebAppMockup/MessageafterincorrectSignInUS01Owner.png)
+
+Message after correct Sign In - US01
+![Message after correct Sign In](public/assets/images/WebAppMockup/MessageaftercorrectSignInUS01Owner.png)
+
+User Profile - US02
+![User Profile](public/assets/images/WebAppMockup/UserProfile.png)
+
+Welcome - US?
+![Welcome](public/assets/images/WebAppMockup/Welcome.png)
+Suppliers - US04
+![Suppliers](public/assets/images/WebAppMockup/Suppliers.png)
+Supplier Registration - US04
+![Supplier Registration](public/assets/images/WebAppMockup/SupplierRegistration.png)
+Supplier Edition - US04
+![Supplier Edition](public/assets/images/WebAppMockup/SupplierEdition.png)
+Supplier Information - US04
+![Supplier Information](public/assets/images/WebAppMockup/SupplierInformation.png)
+
+Coffee Lot - US05 y US06
+![Coffee Lot](public/assets/images/WebAppMockup/CoffeLot.png)
+Coffee Lot Registration - US05 y US06
+![Coffee Lot Registration](public/assets/images/WebAppMockup/CoffeLotRegistration.png)
+Coffee Lot Edition - US05 y US06
+![Coffee Lot Edition](public/assets/images/WebAppMockup/CoffeLotEdition.png)
+Coffee Lot Information - US04
+![Coffee Lot Information](public/assets/images/WebAppMockup/CoffeLotInformation.png)
+
+Roast Profiles - US07
+![Roast Profiles](public/assets/images/WebAppMockup/RoastProfiles.png)
+Roast Profiles - US07
+![Roast Profiles](public/assets/images/WebAppMockup/RoastProfiles2.png)
+Roast Profiles Registration - US07
+![Roast Profiles Registration](public/assets/images/WebAppMockup/RoastProfilesRegistration.png)
+Roast Edition - US07
+![Roast Edition](public/assets/images/WebAppMockup/RoastEdition.png)
+Favorite Profiles Filter - US07
+![Favorite Profiles Filter](public/assets/images/WebAppMockup/FavoriteProfilesFilter.png)
+Visualize a Roast Profile - US07
+![Visualize a Roast Profile](public/assets/images/WebAppMockup/VisualizeraRoastProfile.png)
+Roast Comparison - US09
+![Roast Comparison](public/assets/images/WebAppMockup/RoastComparison.png)
+
+
+Cupping Sessions - US11
+![Cupping Sessions](public/assets/images/WebAppMockup/CuppingSessions.png)
+
+Cupping Sessions Filters - US11
+![Cupping Sessions Filters](public/assets/images/WebAppMockup/CuppingSessionsFilters.png)
+Cupping Sessions Registration - US11
+![Cupping Sessions Registration](public/assets/images/WebAppMockup/CuppingSessionsRegistration.png)
+Cupping Session Sensory Hexagon - US12
+![Cupping Session Sensory Hexagon](public/assets/images/WebAppMockup/CuppingSessionSensoryHexagon.png)
+Compare multiple Cupping Sessions 1 - US12
+![compare multiple Cupping Sessions 1](public/assets/images/WebAppMockup/CompareMultipleCuppingSessions.png)
+Compare multiple Cupping Sessions 2 - US12
+![Compare multiple Cupping Sessions 2](public/assets/images/WebAppMockup/CompareMultipleCuppingSessions2.png)
+
+
+Library Defect Consultation - US10
+![Library Defect Consultation](public/assets/images/WebAppMockup/LibraryDefectConsultation.png)
+Defect Information - US10
+![Defect Information](public/assets/images/WebAppMockup/DefectInformation.png)
+Defect Information - US10
+![Defect Information](public/assets/images/WebAppMockup/DefectInformationb.png)
+
+
+Patterns of Roast with Cupping - US13
+![Patterns of Roast with Cupping](public/assets/images/WebAppMockup/PatternsofRoastWithcupping.png)
+Library Relation of Roast with Cupping - US13
+![Library Relation of Roast with Cupping](public/assets/images/WebAppMockup/LibraryRelationofRoastwithCupping.png)
+
+
+Portfolio and recipies - US15 and 18
+![Portfolio and recipies](public/assets/images/WebAppMockup/Portafolioandrecipies.png)
+Portfolio and recipies - US15 and 19
+![Portfolio and recipies](public/assets/images/WebAppMockup/Portafolioandrecipiesb.png)
+Portfolio and recipies - US15 and 20
+![Portfolio and recipies](public/assets/images/WebAppMockup/Portafolioandrecipiesc.png)
+Recipes - US17
+![Recipes](public/assets/images/WebAppMockup/Recipes.png)
+Recipe Registration - US15
+![Recipe Registration](public/assets/images/WebAppMockup/RecipeRegistration.png)
+Recipe Registration - US15
+![Recipe Registration](public/assets/images/WebAppMockup/RecipeRegistrationb.png)
+Recipe Information coffee extraction - US18
+![Recipe Information coffee extraction](public/assets/images/WebAppMockup/RecipeInformationCoffeeExtraction.png)
+Recipe Information espresso method - US18
+![Recipe Information espresso method](public/assets/images/WebAppMockup/RecipeInformationespressomethod.png)
+
+
+Inventary - US19
+![Inventary](public/assets/images/WebAppMockup/Inventary.png)
+Inventary - US19
+![Inventary ](public/assets/images/WebAppMockup/Inventaryb.png)
+
+Register Production Cost Management 1 - US20
+![Register Production Cost Management 1](public/assets/images/WebAppMockup/RegisterProductionCostManagement.png)
+Production Cost Management 2 - US20
+![Production Cost Management 2](public/assets/images/WebAppMockup/ProductionCostManagement2.png)
+Production Cost Management 3 - US20
+![Production Cost Management 3](public/assets/images/WebAppMockup/ProductionCostManagament3.png)
+Production Cost Management 4 - US20
+![Production Cost Management 4](public/assets/images/WebAppMockup/ProductionCostManagament4.png)
+Production Cost Management 5 - US20
+![Production Cost Management 5](public/assets/images/WebAppMockup/ProductionCostManagament5.png)
+
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
 
