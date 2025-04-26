@@ -219,7 +219,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
 # Student Outcome
 <div style="text-align:center;">
     <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <tr style="background-color:rgb(164, 61, 61); color: white; font-weight: bold;">
+        <tr>
             <th style="text-align:center; border: 1px solid #ddd;">Student Outcomes</th>
             <th style="text-align:center; border: 1px solid #ddd;">Acciones realizadas</th>
             <th style="text-align:center; border: 1px solid #ddd;">Conclusiones</th>
@@ -2007,6 +2007,7 @@ Production Cost Management 5 - US20
 ### 4.4.2. Web Applications Mock-ups.
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
+
 ## 4.6. Domain-Driven Software Architecture.
 
 El Domain Driven Design (DDD) busca establecer un entendimiento común del dominio que engloba el espacio del problema, fomentando una mejor colaboración entre desarrolladores y expertos del dominio. Este enfoque no se limita a emplear un lenguaje ubicuo, sino que incluye un conjunto de patrones, procesos y diagramas de la arquitectura del sistema, artefactos diseñados para alinear el software con el dominio y fortalecer la perspectiva compartida que promueve DDD.
@@ -2514,6 +2515,57 @@ Todo el código de la solución deberá ser escrito completamente en inglés par
 - Agregar comentarios cuando se requiera contexto o explicaciones adicionales.
 
 ### 5.1.4. Software Deployment Configuration.
+#### Landing Page Deployment
+Para desplegar la landing page, es necesario contar con una cuenta de GitHub y tener acceso como administrador al repositorio del proyecto. A partir de ahí, se pueden cargar los documentos desde un entorno local al repositorio y proceder con el despliegue. A continuación, se describen los pasos seguidos:
+
+1. **Creación de ramas**: Se crean ramas para que cada miembro del proyecto pueda subir sus respectivas secciones de forma organizada.
+2. **Estructura del proyecto**: Se define una estructura clara:
+   - `index.html`: contiene el código principal de la landing.
+   - Carpeta `assets/css`: para los estilos.
+   - Carpeta `img`: para las imágenes usadas en el `index.html`.
+   - Archivos `.js`: para funcionalidades JavaScript necesarias.
+3. **Subida de archivos al repositorio**:
+   - Instalación de Git.
+   - Configuración del repositorio remoto.
+   - Uso de comandos Git para hacer commit y push de los cambios.
+4. **Configuración para despliegue**:
+   - Se realiza un pull request hacia la rama `main`.
+   - Verificación de que no haya errores para un despliegue limpio.
+5. **Resolución de conflictos**:
+   - En caso de conflictos, se resuelven con herramientas como Visual Studio Code.
+   - Se verifica que los conflictos hayan sido solucionados correctamente.
+
+Posteriormente, iniciamos sesión en [Netlify](https://www.netlify.com/) y conectamos el repositorio de GitHub para un despliegue seguro y que permita futuras actualizaciones sin afectar las funcionalidades del Front End.
+
+🔗 **Landing Page en Netlify**: [https://cafe-lab-landing-opensource.netlify.app/](https://cafe-lab-landing-opensource.netlify.app/)
+
+---
+
+#### Front End Web Application Deployment
+
+1. Iniciamos sesión en Netlify y vinculamos el repositorio correspondiente.  
+   ![Imagen 1](public/assets/images/SoftwareDeploymentConfiguration/Imagen1.png)
+
+2. Seleccionamos el proyecto adecuado desde la lista de repositorios.  
+   ![Imagen 2](public/assets/images/SoftwareDeploymentConfiguration/Imagen2.png)
+
+3. Completamos los campos necesarios:
+   - Equipo.
+   - Rama donde están los archivos.
+   - Nombre de la página a desplegar.  
+   ![Imagen 3](public/assets/images/SoftwareDeploymentConfiguration/Imagen3.png)  
+   ![Imagen 4](public/assets/images/SoftwareDeploymentConfiguration/Imagen4.png)
+
+4. Procedemos con el despliegue del sitio.  
+   ![Imagen 5](public/assets/images/SoftwareDeploymentConfiguration/Imagen5.png)
+
+5. Verificamos que el despliegue haya sido exitoso desde la sección de sitios activos en Netlify.  
+   ![Imagen 6](public/assets/images/SoftwareDeploymentConfiguration/Imagen6.png)  
+   ![Imagen 7](public/assets/images/SoftwareDeploymentConfiguration/Imagen7.png)
+
+🔗 **Página desplegada en Netlify**: [https://cafe-lab-landing-opensource.netlify.app/](https://cafe-lab-landing-opensource.netlify.app/)
+
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
