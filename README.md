@@ -1970,6 +1970,7 @@ Production Cost Management 5 - US20
 ![image](https://github.com/user-attachments/assets/b14e3691-0b52-4f36-9b16-00b2651ebeb9)
 
 
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
  
  **User Goal: Registrarse y elegir suscripción**
@@ -2172,6 +2173,56 @@ Production Cost Management 4 - US20
 ![Production Cost Management 4](public/assets/images/WebAppMockup/ProductionCostManagament4.png)
 Production Cost Management 5 - US20
 ![Production Cost Management 5](public/assets/images/WebAppMockup/ProductionCostManagament5.png)
+
+ **Register Mobile Mockups and Tools**
+
+ ![image](public/assets/images/MobileWireframes/Register.png)
+
+  **Sign in Mockups and Profile**
+
+ ![image](public/assets/images/MobileWireframes/Signin.png)
+ 
+  **Suppliers Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Suppliers.png)
+
+**CoffeeLot Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Coffeelot.png)
+
+**Roast Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Roast.png)
+
+ **Cupping Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Cupping.png)
+
+  **Recipes Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Recipes.png)
+
+  **Patterns Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Patterns.png)
+
+  **Defect Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Defect.png)
+
+  **Calibration Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Calibration.png)
+
+  **Inventory Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Inventory.png)
+
+  **Costs Managament Mockups**
+
+ ![image](public/assets/images/MobileWireframes/Cost.png)
+
+
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 USER GOAL: Registrar bebida
@@ -3031,7 +3082,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 
 # Anexos
 
-
+[Video exposición de TB1](https://youtu.be/uChmUJqKPL0)
 
 
 
