@@ -2704,7 +2704,39 @@ Posteriormente, iniciamos sesión en [Netlify](https://www.netlify.com/) y conec
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
-
+<table>
+        <thead>
+            <tr>
+                <th>Sprint #</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Location</th>
+                <th>Prepared By</th>
+                <th>Attendees</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="centered">1</td>
+                <td class="centered">26/04/2025</td>
+                <td class="centered">09:00 AM</td>
+                <td>Reunión virtual mediante la aplicación Discord</td>
+                <td>Adrian Donayre</td>
+                <td>Fredy Fernández, Christian Inga, Renzo Uribe, Joseph Chavez, Adrian Donayre</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="section-header">Sprint 1 Goal</td>
+                <td class="section-header">Sprint 1 Velocity</td>
+                <td class="section-header">Sum of Story Points</td>
+            </tr>
+            <tr>
+                <td colspan="4">Desarrollar y desplegar la landing page de nuestra startup Café Metrix</td>
+                <td class="centered">8</td>
+                <td class="centered">8</td>
+            </tr>
+        </tbody>
+    </table>
+    
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 | Team Member (Last Name, First Name) | GitHub Username | Información del Producto (US23) | Secciones Específicas por Segmento (US24) | Contacto con Equipo (US25) | Acceso directo a plataforma (US26) |
 |-------------------------------------|-----------------|--------------------------------|------------------------------------------|---------------------------|----------------------------------|
