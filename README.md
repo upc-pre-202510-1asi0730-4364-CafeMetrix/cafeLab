@@ -1667,7 +1667,35 @@ Los sistemas de navegación de Cafelab permiten al usuario recorrer los diferent
 - Call To Action claros: “Registrar nuevo tueste”, “Crear receta”, “Ver historial”.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+**Landing Page para Desktop Web Browser**
+La versión wireframe de nuestra landing page presenta una estructura básica compuesta por diversos elementos fundamentales. En la parte superior se ubica la navegación principal representada mediante bloques simples que indican secciones como Beneficios, Planes, Contáctanos, Iniciar sesión y el selector de idioma. Las visualizaciones de datos se representan mediante áreas designadas para dashboards y gráficos, utilizando rectángulos con líneas básicas en su interior. Asimismo, los planes de suscripción se organizan en una cuadrícula de cuatro tarjetas, cada una como un rectángulo con espacios para encabezados y listas de características. Finalmente, la sección de testimonios se muestra con bloques para imágenes de perfil y áreas de texto para citas.
+
+![Hero](public/assets/images/LandingWireframes/1.png)
+![Segmentacion de usuarios](public/assets/images/LandingWireframes/2.png)
+![Visualizaciones](public/assets/images/LandingWireframes/3.png)
+![Planes](public/assets/images/LandingWireframes/4.png)
+![Testimonios](public/assets/images/LandingWireframes/5.png)
+![FAQ](public/assets/images/LandingWireframes/6.png)
+![Footer](public/assets/images/LandingWireframes/7.png)
+
+**Landing Page para Mobile Web Browser**
+![MobileWireframes](public/assets/images/LandingWireframes/8.png)
 ### 4.3.2. Landing Page Mock-up.
+**Landing Page para Desktop Web Browser**
+En nuestra versión mock-up se evidencia la implementación de los elementos de diseño específicos de Café Lab. Se aplicó la paleta de colores característica, que incluye tonos tierra y marrones cálidos como color primario, junto con verdes oscuros como color secundario, creando una estética que evoca la naturaleza del café y su proceso artesanal. La tipografía seleccionada se implementó de manera consistente en todos los elementos de texto, desde los encabezados principales hasta los párrafos descriptivos y botones de acción.
+
+![Hero](public/assets/images/LandingMockUps/1.png)
+![Segmentacion de usuarios](public/assets/images/LandingMockUps/2.png)
+![Visualizaciones](public/assets/images/LandingMockUps/3.png)
+![Planes](public/assets/images/LandingMockUps/4.png)
+![Testimonios](public/assets/images/LandingMockUps/5.png)
+![FAQ](public/assets/images/LandingMockUps/6.png)
+![Footer](public/assets/images/LandingMockUps/7.png)
+
+**Landing Page para Mobile Web Browser**
+![Inicio, menu, visualizaciones, planes](public/assets/images/LandingMockUps/8.png)
+![testimonios, FAQ, footer](public/assets/images/LandingMockUps/9.png)
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ### 4.4.2. Web Applications Wireflow Diagrams.
