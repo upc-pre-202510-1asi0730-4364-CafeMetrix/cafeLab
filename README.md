@@ -1740,6 +1740,216 @@ En nuestra versión mock-up se evidencia la implementación de los elementos de 
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
+
+Sign Up - Bar - US01
+
+![image](https://github.com/user-attachments/assets/d4f02b31-6134-42a4-b40e-6b51220217c1)
+
+Sign Up - Owner - US01
+
+![image](https://github.com/user-attachments/assets/bdcd182b-5895-4f30-bb46-fe0098c2b249)
+
+Message after correct Sign Up - US01
+
+![image](https://github.com/user-attachments/assets/4dbe1ebb-851e-43c2-b26a-ff66c75a116d)
+
+Message after correct Sign Up - US01
+
+![image](https://github.com/user-attachments/assets/6dde8004-ab5b-4f19-86f5-a5d34e1c8474)
+
+Sign In - US01
+
+![image](https://github.com/user-attachments/assets/8f30711a-b26a-46f7-ba04-ef33d2809b58)
+
+Message after incorrect Sign In - US01
+
+![image](https://github.com/user-attachments/assets/1ef88d30-20a0-4942-8144-086ed99dcf67)
+
+Message after correct Sign In - US01
+
+![image](https://github.com/user-attachments/assets/2377381e-629a-45eb-a2d6-1a4c1ebbe3ba)
+
+Select Suscription - US03
+
+![image](https://github.com/user-attachments/assets/b9de893a-696d-404f-bad6-0def9e1b888d)
+
+Payment - US?
+
+![image](https://github.com/user-attachments/assets/16e2e17d-05ad-40ae-8a48-162ecbc0f3bd)
+
+User Profile - US02
+
+![image](https://github.com/user-attachments/assets/5209406b-28b6-4f8c-91fe-cc4a2b168780)
+
+Welcome - US?
+
+![image](https://github.com/user-attachments/assets/14a7cf2c-b48e-496d-8365-605b8b283d60)
+
+Suppliers - US04
+
+![image](https://github.com/user-attachments/assets/ddd53c60-ce21-4cd9-94c5-3840a49763e3)
+
+Supplier Registration - US04
+
+![image](https://github.com/user-attachments/assets/97d1dca7-15cb-491c-b51e-761a29181049)
+
+Supplier Edition - US04
+
+![image](https://github.com/user-attachments/assets/a677207a-6e27-479f-8b7f-10b4fe337cdb)
+
+Supplier Information - US04
+
+![image](https://github.com/user-attachments/assets/b104d522-7a0e-4a60-aaa8-896a923a83a7)
+
+Coffee Lot - US05 y US06
+
+![image](https://github.com/user-attachments/assets/73195746-5583-4862-8eb6-de22d8367a59)
+
+Coffee Lot Registration - US05 y US06
+
+![image](https://github.com/user-attachments/assets/d8ae3e27-7df9-4c8d-9794-bc314c1bbab2)
+
+Coffee Lot Edition - US05 y US06
+
+![image](https://github.com/user-attachments/assets/c3227a83-e312-4e6f-9307-0f1116cab377)
+
+Coffee Lot Information - US04
+
+![image](https://github.com/user-attachments/assets/5497b45b-e00d-4e75-b73e-3231e86edd2c)
+
+Roast Profiles - US07
+
+![image](https://github.com/user-attachments/assets/6965b63d-ccc1-45a0-a033-2c760109e001)
+
+Roast Profiles - US07
+
+![image](https://github.com/user-attachments/assets/0cb820d8-1c97-4dfa-97d1-cb188d16d651)
+
+Roast Profiles Registration - US07
+
+![image](https://github.com/user-attachments/assets/c80e6d39-3f2a-4418-9352-b82161f2c501)
+
+Roast Edition - US07
+
+![image](https://github.com/user-attachments/assets/ce7a9940-5c45-49f1-bb34-4d0a38690703)
+
+Favorite Profiles Filter - US07
+
+![image](https://github.com/user-attachments/assets/ef0c54a7-4d12-4fe3-b2a8-8c7d6811a695)
+
+Visualize a Roast Profile - US07
+
+![image](https://github.com/user-attachments/assets/1d07264a-76cc-4e3b-84d0-729dca75d416)
+
+Roast Comparison - US09
+
+![image](https://github.com/user-attachments/assets/4361a472-496b-44e3-a060-d92a70149fa2)
+
+Cupping Sesions
+
+![image](https://github.com/user-attachments/assets/1798a5bc-d2e0-4fd0-b8df-2155efaa31a9)
+
+Cupping Sessions Filters - US11
+
+![image](https://github.com/user-attachments/assets/267dd974-65ec-4b5a-8119-69d355f89ab0)
+
+Cupping Sessions Registration - US11
+
+![image](https://github.com/user-attachments/assets/f7a4e261-2397-47e3-ae85-a760fa4ae1f7)
+
+Cupping Session Sensory Hexagon - US12
+
+![image](https://github.com/user-attachments/assets/f0aa8cea-52f3-49c0-b7a4-9da6a18159ce)
+
+Compare multiple Cupping Sessions 1 - US12
+
+![image](https://github.com/user-attachments/assets/b5921134-5ab2-49ef-a855-6e5861e51aa3)
+
+Compare multiple Cupping Sessions 2 - US12
+
+![image](https://github.com/user-attachments/assets/ef21b269-003a-49db-8a6d-9cbb229f104e)
+
+Library Defect Consultation - US10
+
+![image](https://github.com/user-attachments/assets/f6c20a8e-85f0-493c-b031-3e8d06d6a0b2)
+
+Defect Information - US10
+
+![image](https://github.com/user-attachments/assets/9430e309-861d-41a0-99a9-88d7e7389155)
+
+Patterns of Roast with Cupping - US13
+
+![image](https://github.com/user-attachments/assets/38b2f140-3f1f-4d09-8ab3-e9bb365d5d49)
+
+Library Relation of Roast with Cupping - US13
+
+![image](https://github.com/user-attachments/assets/de4c4604-3a11-423b-a64a-47bc5851e430)
+
+Portfolio and recipies - US15 and 17
+
+![image](https://github.com/user-attachments/assets/b23119f6-9ea0-479c-af27-a7b1661aa768)
+
+Recipes - US17
+
+![image](https://github.com/user-attachments/assets/83f74403-3095-4148-873f-8ed033cc9716)
+
+Recipe Registration coffee extraction - US15
+
+![image](https://github.com/user-attachments/assets/4d11dd0b-7ed1-40bc-9442-b5ecdd4cb7cf)
+
+Recipe Registration espresso method - US15
+
+![image](https://github.com/user-attachments/assets/950026bd-a81f-4f96-bc5f-770fc80df29d)
+
+Recipe Information coffee extraction - US18
+
+![image](https://github.com/user-attachments/assets/ff9a4474-202a-4c4b-aca5-f6404cbf6099)
+
+Recipe Information espresso method - US18
+
+![image](https://github.com/user-attachments/assets/75f42bda-0bc5-4329-a906-24d4120115f4)
+
+Record Grind Calibration - US16
+
+![image](https://github.com/user-attachments/assets/bc6fc3a5-caf7-44a3-8955-5b4406f3fbbc)
+
+Calibration record
+
+![image](https://github.com/user-attachments/assets/c619df4c-ca31-4f4c-89db-d2d294f07a7f)
+
+edit calibration
+
+![image](https://github.com/user-attachments/assets/97d950ad-70cf-48fd-8b23-eb27eb35c3fb)
+
+Inventary - US19
+
+![image](https://github.com/user-attachments/assets/5dfed7e1-ecb9-49df-b956-a413ced9769a)
+
+Inventary - US19
+
+![image](https://github.com/user-attachments/assets/5222c2dd-e694-4072-8709-8a876c2235b1)
+
+Register Production Cost Management 1 - US20
+
+![image](https://github.com/user-attachments/assets/ba550bab-5dd0-4e0f-abea-8048d1a3f571)
+
+Production Cost Management 2 - US20
+
+![image](https://github.com/user-attachments/assets/9d3971e3-e71f-466a-9fea-eae4a97b7388)
+
+Production Cost Management 3 - US20
+
+![image](https://github.com/user-attachments/assets/f9a08a11-3368-42f7-a59c-2b303b76895e)
+
+Production Cost Management 4 - US20
+
+![image](https://github.com/user-attachments/assets/30d29421-6452-49c7-832b-ef3ec05670c9)
+
+Production Cost Management 5 - US20
+
+![image](https://github.com/user-attachments/assets/b14e3691-0b52-4f36-9b16-00b2651ebeb9)
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 ### 4.4.2. Web Applications Mock-ups.
 ### 4.4.3. Web Applications User Flow Diagrams.
