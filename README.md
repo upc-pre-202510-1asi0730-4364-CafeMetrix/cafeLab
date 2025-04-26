@@ -2384,7 +2384,7 @@ El diseño de base de datos es el proceso de organizar y estructurar los datos e
 
 # Software Development:
 1. Visual Studio Code: Para el desarrollo de la Landing Page del proyecto.
-  - Link: [LandingPage](LandingPage)
+  - Link: [LandingPage](https://cafelab-landingpage-appweb.netlify.app/)
 
 # Software Documentation:
 1. Visual Studio Code: Para la documentación de CaféLab se utilizó Visual Studio Code para el desarrollo de los capítulos en formato Markdown.
