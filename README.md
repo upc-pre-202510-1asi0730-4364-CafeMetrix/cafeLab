@@ -2372,8 +2372,117 @@ El diseño de base de datos es el proceso de organizar y estructurar los datos e
 
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
+
+#### Project Management
+
+1. Trello: Para gestión general los sprints, tareas del equipo, etc.
+- Link: [Trello](https://trello.com/b/diGtoNBa/sprint-1)
+
+#### Product UX/UI Design:
+
+1. Figma: Para diseños como Wireframes, Mockups, Prototypes, etc) relacionados a archivos como 
+- Link: [Figma](https://www.figma.com/design/ac0fpdPl6fqEDpJxCEYlY0/CafeLab?node-id=0-1&t=lA86yZwaDqrxsCcw-1)
+
+
+2. Vertabelo: Para diagramas de base de datos (ERD, diagramas de clases, etc.)
+- Link: [Vertabelo](https://my.vertabelo.com/doc/G0Q82VsUEPCKHm23nIWxEd2E7wvZqifm)
+
+#### Software Development:
+1. Visual Studio Code: Para el desarrollo de la Landing Page del proyecto.
+- **Link:** [LandingPage]()
+
+#### Software Documentation:
+
+1. Visual Studio Code: Para la documentación de CaféLab se utilizó Visual Studio Code para el desarrollo de los capítulos en formato Markdown.
+- **Link:** [Documentation](https://github.com/upc-pre-202510-1asi0729-4307-CafeMetrix/cafeLab)
+
+
 ### 5.1.2. Source Code Management.
+Para todo el desarrollo de CaféLab se usará el flujo de trabajo de Gitflow.
+Landing Page Repository: [Landing Page Repository](https://github.com/1ASI0730-2510-4370-G2-Youper/Landing-Page)
+
+
+**Flujo de trabajo GitFlow:** El flujo de trabajo Git Flow fue  planteado por Vincent Driessen en "A successful Git branching model".
+
+### Main branch
+La rama principal (main) es donde se mantiene el código más estable y desplegado.
+
+### **Develop branch**
+La rama develop actúa como el área principal donde se integran los últimos avances y correcciones antes de hacerles merge a master.
+
+### **Release branch**
+Las ramas release facilitan la preparación para una nueva versión del producto. Nos permiten aplicar correcciones menores en caso de imprevistos mientras develop sigue recibiendo nuevas funcionalidades.
+- Deriva de: develop
+- Se fusiona en: develop y master
+
+
+### **Feature branch**
+Las ramas feature son utilizadas para desarrollar nuevas funcionalidades o mejoras específicas. Cada característica se desarrolla de forma aislada hasta estar lista para integrarse.
+- Deriva de: develop
+- Se fusiona de regreso a: develop
+
+
+
+### **Hotfix branch**
+Las ramas hotfix se crean para corregir errores críticos detectados en producción, asegurando una reacción rápida sin interrumpir el trabajo de desarrollo continuo.
+- Deriva de: master.
+- Se fusiona en: master y develop.
+
+
+
+### **Conventional Commits**
+Aplicamos la convención **Conventional Commits** para redactar mensajes de commit claros, consistentes y semánticos. Esta práctica facilita el rastreo de cambios, la generación automática de registros de cambios y mejora la colaboración en equipo.
+
+La estructura recomendada para los mensajes es:
+
+~~~
+git commit -m “<type>[optional scope]: <title>“ -m “<description”
+~~~
+**Tipos De Conventional Commits**
+~~~
+1. feat: Para introducir una nueva funcionalidad.
+2. fix: Para corregir un error existente.
+3. docs: Cambios relacionados a la documentación.
+4. style: Modificaciones de formato que no afectan el comportamiento del código.
+5. refactor: Reestructuraciones internas sin cambios funcionales o correcciones de errores.
+6. test: Agregado o modificación de pruebas.
+7.chore: Tareas de mantenimiento o cambios que no afectan el código de producción.
+8. perf: Mejoras de rendimiento.
+~~~
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+Todo el código de la solución deberá ser escrito completamente en inglés para mantener la consistencia internacional y facilitar su mantenimiento.
+
+**HTML**
+
+- Emplear nombres de etiquetas y atributos en minúscula.
+- Cerrar correctamente todas las etiquetas HTML.
+- Especificar siempre los atributos `alt`, `width`, y `height` para imágenes para mejorar la accesibilidad.
+- Evitar espacios innecesarios en los atributos HTML.
+
+**CSS**
+
+- Asignar nombres de IDs y clases descriptivos que reflejen el propósito del elemento.
+- Utilizar nombres cortos pero claros para IDs y clases.
+- Aplicar propiedades abreviadas cuando sea posible para optimizar el código.
+- Evitar el uso de unidades después de valores de cero (`0`).
+- Ordenar las declaraciones CSS en orden alfabético para facilitar su lectura.
+
+**JavaScript**
+
+- Mantener una sintaxis expandida: llaves de apertura en la misma línea de la declaración, cierre en línea nueva.
+- Aplicar `lowerCamelCase` en el nombramiento de variables y funciones.
+- Usar `let` y `const` para declarar variables en lugar de `var`.
+- Asegurar que los nombres de las funciones sean descriptivos y en `lowerCamelCase`.
+
+**Lenguaje Gherkin**
+
+- Redactar títulos descriptivos y concisos para escenarios (`Feature`, `Scenario`).
+- Respetar estrictamente la estructura `Given-When-Then`.
+- Usar un lenguaje orientado al negocio, entendible para todos los stakeholders, evitando detalles técnicos.
+- Implementar `Scenario Outline` cuando existan múltiples casos similares.
+- Agregar comentarios cuando se requiera contexto o explicaciones adicionales.
 
 ### 5.1.4. Software Deployment Configuration
 
