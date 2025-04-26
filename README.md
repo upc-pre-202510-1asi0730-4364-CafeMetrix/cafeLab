@@ -1952,55 +1952,68 @@ Production Cost Management 5 - US20
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
  
- User Goal: Registrarse.
+ **User Goal: Registrarse y elegir suscripción**
+ <br>El usuario elegirá si es un barista o un dueño de cafetería, en base a esto el formulario de registro mostrará más o menos campos a completar, una vez registrados podrán elegir el plan que más deseen, luego, procederán a la pantalla de pago. Confirmado el pago, podrán acceder a las herramientas disponibles según su plan.
  
  ![image](public/assets/images/Wireflows/Register.png)
  
- User Goal: Iniciar Sesión.
+ **User Goal: Iniciar Sesión.**
+ <br>El usuario de la aplicación ya cuenta con una cuenta, sea de barista o dueño de cafetería, si ingresa mal sus datos, se le pedirá que los ingrese nuevamente, una vez los datos sean correctos, podrá acceder a las herramientas según su plan.
  
  ![image](public/assets/images/Wireflows/InicioSesion.png)
  
- User Goal: Editar su Perfil.
+ **User Goal: Editar su Perfil.**
+ <br>Una vez el usuario haya entrado a la app web, puede ver su perfil mediante el botón de "Perfil", de este modo puede editar los datos que le gusten.
  
  ![image](public/assets/images/Wireflows/Perfil.png)
  
- User Goal: Registrar, Editar y Observar sus Proveedores.
- 
+ **User Goal: Registrar, Editar y Observar sus Proveedores.**
+ <br>El usuario desde la pantalla de inicio donde aparecen las herramientas, selecciona "Proveedores" accediendo a la pantalla de "Proveedores" el cuál tiene las funciones de registrar proveedores, editar los que ya están registrados y observar los datos del proveedor que gusten.
+
  ![image](public/assets/images/Wireflows/Proveedores.png)
  
- User Goal: Registrar, Editar y Observar sus Lotes de Café.
- 
+ **User Goal: Registrar, Editar y Observar sus Lotes de Café.**
+ <br>Desde el inicio, el usuario selecciona la herramienta de "Lotes de Café" accediendo a una lista con sus lotes registrados, del mismo modo puede registrar nuevos lotes de café, editar los existentes o simplemente ver la información de alguno que elija.
+
  ![image](public/assets/images/Wireflows/LoteCafe.png)
  
- User Goal: Registrar, Editar y Visualizar sus perfiles de tueste, también comparar entre 2 de ellos.
+ **User Goal: Registrar, Editar y Visualizar sus perfiles de tueste, también comparar entre dos de ellos.**
+ <br>Desde el apartado de herramientas, selecciona "Perfiles de Tueste", de este modo puede observar en una tabla sus perfiles registrados, así como registrar uno nuevo, editar un existente, visualizar los datos y curva de tueste del que seleccione y también comparar las curvas de tueste entre dos perfiles.
  
  ![image](public/assets/images/Wireflows/PerfilTueste.png)
  
- User Goal: Registrar, Editar y Observar sus Catas con su hexágono sensorial.
+ **User Goal: Registrar, Editar y Observar sus Catas con su hexágono sensorial.**
+ <br>Desde el apartado de herramientas, selecciona "Catas", accediendo a la tabla que contiene sus catas registradas, desde esta pantalla puede registrar una cata, editar una existente, visualizar sus catas registradas junto con su hexágono sensorial si lo requiere. Por otro lado, también puede comparar los hexágonos sensoriales entre dos catas.
  
  ![image](public/assets/images/Wireflows/Catas.png)
  
- User Goal: Observar la biblioteca de defectos, con posibles causas y soluciones.
+ **User Goal: Observar la biblioteca de defectos, con posibles causas y soluciones.**
+ <br>Desde el apartado de herramientas, selecciona "Biblioteca de defectos", teniendo una lista con los defectos, si selecciones alguno puede observar sus posibles causas y las soluciones recomendadas.
  
  ![image](public/assets/images/Wireflows/Defectos.png)
  
- User Goal: Identificar la relación entre el tueste y los sabores del café.
+ **User Goal: Identificar la relación entre el tueste y los sabores del café.**
+ <br>Desde el apartado de herramientas, selecciona la "Relación tueste - sabor", donde puede seleccionar las catas que se visualizarán en el gráfico mostrando la concentración de tuestes exitosos de color morado, en términos de temperatura y tiempo. También desde este apartado, pueden acceder a la biblioteca que muestra las variables en el tostado que pueden influir en la taza final de café.
  
  ![image](public/assets/images/Wireflows/Relacion.png)
  
- User Goal: Poder registrar, editar y visualizar sus recetas, así como portafolios con las recetas especiales.
+ **User Goal: Poder registrar, editar y visualizar sus recetas, así como portafolios con las recetas especiales.**
+ <br>Desde el apartado de herramientas, selecciona "Recetas", de este modo accediendo a una pantalla que le muestra los portafolios que tiene y las recetas que están fuera de este portafolio, puede crear un nuevo portafolio o visualizar los ya creados con sus recetas asociadas, también puede asignar nuevas recetas a un portafolio. Puede crear una receta, al crear una debería seleccionar si está hecho por extracción o por método de espresso. Por otro lado, al visualizar las recetas hechas se le mostrará toda la información asociada.
  
  ![image](public/assets/images/Wireflows/Recetas.png)
  
- User Goal: Tener un registro de las calibraciones de sus moliendas para un mejor resultado.
+ **User Goal: Tener un registro de las calibraciones de sus moliendas para un mejor resultado.**
+ <br>Desde el apartado de herramientas, selecciona "Calibración de Molienda", en este apartado puede registrar o editar las calibraciones de las moliendas, de este modo teniendo un acabado igual para sus recetas.
  
  ![image](public/assets/images/Wireflows/Calibracion.png)
  
- User Goal: Tener un adecuado manejo de su inventario, pudiendo registrar lotes y visualizar información importante.
+ **User Goal: Tener un adecuado manejo de su inventario, pudiendo registrar lotes y visualizar información importante.**
+ <br>Desde el apartado de herramientas, selecciona "Inventario", en el cual se puede observar la cantidad restante del lote seleccionado, puede registrar el consumo que se haga para las recetas, de esta forma teniendo un buen manejo de su inventario y stock.
  
  ![image](public/assets/images/Wireflows/Inventario.png)
  
- User Goal: Poder gestionar sus costos de una manera eficiente, para optimizar sus ganancias y rentabilidad.
+ **User Goal: Poder gestionar sus costos de una manera eficiente, para optimizar sus ganancias y rentabilidad.**
+ <br>Desde el apartado de herramientas, selecciona "Gestión de Costos", accediendo al proceso en el que puede registrar todos sus costos, como de materia prima, mano de obra, costos de transporte, etc., de este modo calculará su margen potencial y el precio sugerido por kg.
  
  ![image](public/assets/images/Wireflows/GestorCostos.png)
 
