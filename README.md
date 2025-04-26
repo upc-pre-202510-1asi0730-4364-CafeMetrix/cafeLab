@@ -797,7 +797,6 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 
 
 ### 2.2.3. Análisis de entrevistas
-<h3>2.2.3. Análisis de entrevistas</h3>
 <h4>Análisis del segmento de administradores o dueños de cafeterías de especialidad</h4>
 
 <p>
