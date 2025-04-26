@@ -239,7 +239,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Carlos Fernandez</strong><br>
                 TB1: Colaboré en las reuniones realizadas para plantear el proyecto presentado, asi como una continua coordinacion para completar secciones como User Stories, emphaty Mapping, User Persona, entrevistas. Ademas de un desarrollo colaborativo de la landing page y web app, donde la comunicacion fue clave para evitar confusiones y desacuerdos sobre los diseños, asi como el despliegue de la landing page, donde la adecuada distribucion de las secciones nos permitio resolver facilmente conflictos. <br><br>
         </td>
-        <td style="border: 1px solid #ddd; vertical-align: top;"></td>
+        <td style="border: 1px solid #ddd; vertical-align: top;">El equipo demostró un efectivo liderazgo conjunto durante el TB1, donde cada miembro asumió responsabilidades compartidas de coordinación y toma de decisiones. Se evidenció una colaboración fluida que abarcó desde aspectos estratégicos y técnicos del proyecto hasta la planificación operativa y distribución de tareas. La comunicación continua, las reuniones regulares y el trabajo colaborativo en el desarrollo de componentes clave como wireframes, mockups, database diagrams y landing page fueron fundamentales. El compromiso colectivo por mantener una sana relación de equipo y la capacidad para resolver conflictos de manera conjunta permitieron lograr consensos efectivos y entregar un trabajo cohesivo y de calidad, demostrando que el liderazgo fue verdaderamente compartido y distribuido entre todos los integrantes.</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; vertical-align: top;">
@@ -258,7 +258,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
                 <strong>Carlos Fernandez</strong><br>
                 TB1: Colabore y apoye en la inclusion de todos los integrantes para un mejor avance, asi como el establecimiento de fechas de manera organizada para evitar problemas de entrega o complicaciones, las cuales serian resultas entre varios integrantes, con el desarollo de las User Stories comprendi a mayor alcance las capacidades del equipo, ademas de otros elementos que nos permitiron conocer sobre nuestros segmentos objetivos y contribuir en la investigacion grupal del tema. Asimismo coordine adecuadamente el diseño de landing page y app web, donde los wireframes y mock up tuvieron la aprobacion del equipo.
         </td>
-        <td style="border: 1px solid #ddd; vertical-align: top;"></td>
+        <td style="border: 1px solid #ddd; vertical-align: top;">El equipo evidenció una notable capacidad para crear y mantener un entorno colaborativo e inclusivo durante el TB1, donde todos los miembros contribuimos activamente al establecimiento de metas, planificación y cumplimiento de objetivos. Se destacó la asignación clara de roles, la organización sistemática de tareas mediante herramientas como el product backlog y sprint backlog, y la promoción de la participación equitativa de todos los integrantes. Las reuniones grupales permitieron que cada miembro aportara ideas y opiniones, logrando consensos en decisiones clave como, por ejemplo, el diseño de wireframes y mockups.</td>
         </tr>
 </table>
 </div>
