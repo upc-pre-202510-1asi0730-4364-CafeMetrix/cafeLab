@@ -247,7 +247,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
             5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
                 <strong>Renzo Uribe</strong><br>
-                TB1: <br>Proporcioné liderazgo conjunto al dirigir los aspectos estratégicos y técnicos del proyecto, desarrollando el Lean UX Canvas. Aedmás, compartí la toma de decisiones en la arquitectura Domain-Driven y el diseño orientado a objetos.<br>
+                TB1: Proporcioné liderazgo conjunto al dirigir los aspectos estratégicos y técnicos del proyecto, desarrollando el Lean UX Canvas. Aedmás, compartí la toma de decisiones en la arquitectura Domain-Driven y el diseño orientado a objetos.<br><br>
                 <strong>Joseph Chavez</strong><br>
                 TB1: Colabore con en las reuniones para el planteamiento del proyecto, además de estar en contacto con mis compañeros para poder realizar correctamente el databasese diagrama, además contribuyendo para una sana relación entre el equipo, para entregar un buen trabajo<br><br>
                 <strong>Adrian Donayre</strong><br>
@@ -264,7 +264,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
             5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
                 <strong>Renzo Uribe</strong><br>
-                TB1: <br>Fomenté un entorno colaborativo al establecer metas claras a través del Lean UX Canvas y análisis competitivo, planificando tareas que complementaban el trabajo de investigación de mi compañero. Integré sus user stories y wireframes en mi arquitectura de software, asegurando que las decisiones técnicas reflejaran las necesidades del usuario.<br>
+                TB1: Fomenté un entorno colaborativo al establecer metas claras a través del Lean UX Canvas y análisis competitivo, planificando tareas que complementaban el trabajo de investigación de mi compañero. Integré sus user stories y wireframes en mi arquitectura de software, asegurando que las decisiones técnicas reflejaran las necesidades del usuario.<br><br>
                 <strong>Joseph Chavez</strong><br>
                 TB1: Definí metas utilizando el product backlog y las user stories, organizando las tareas en el sprint backlog para su seguimiento. Alcancé objetivos específicos, como el diseño de wireframes para la landing page y la aplicación web, garantizando que todos los miembros del equipo participaran de manera equitativa. <br><br>
                 <strong>Adrian Donayre</strong><br>
@@ -2686,7 +2686,7 @@ El diseño de base de datos es el proceso de organizar y estructurar los datos e
   - Link: [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 
 # Product UX/UI Design:
-1. Figma: Para diseños como Wireframes, Mockups, Prototypes, etc) relacionados a archivos como
+1. Figma: Para diseños como Wireframes, Mockups, Prototypes, etc. relacionados a archivos como
   - Link: [Figma](https://www.figma.com/design/ac0fpdPl6fqEDpJxCEYlY0/CafeLab?node-id=140-178&t=fprZU86nz2ahB2Bi-1)
 2. Vertabelo: Para diagramas de base de datos (ERD, diagramas de clases, etc.)
   - Link: [Vertabelo](Vertabelo)
@@ -3083,10 +3083,3 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 # Anexos
 
 [Video exposición de TB1](https://youtu.be/uChmUJqKPL0)
-
-
-
-
-
-
-
