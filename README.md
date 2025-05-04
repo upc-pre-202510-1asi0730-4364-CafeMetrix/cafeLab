@@ -3036,10 +3036,36 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 </figure>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-Para la entrega de nuestro primer sprint no se  la documentación de servicios
+Para la entrega de nuestro primer sprint no se contempló la documentación de servicios.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+<table border="1">
+  <tr>
+    <th>Alumno</th>
+    <th>Actividad</th>
+  </tr>
+  <tr>
+    <td>Renzo Sebastian Uribe Livia</td>
+    <td>Creación de estructura inicial del proyecto e implementación de header con navegación y hero banner principal</td>
+  </tr>
+  <tr>
+    <td>Joseph Manuel Chavez Viera</td>
+    <td>Implementación de sección con título y áreas diferenciadas para baristas y cafeterías</td>
+  </tr>
+  <tr>
+    <td>Adrian Ricardo Donayre Alvarez</td>
+    <td>Implementación de área "Datos que respaldan tus decisiones" con gráficos de dashboard y curvas</td>
+  </tr>
+  <tr>
+    <td>Christian Fabrizio Inga Orihuela</td>
+    <td>Creación de las áreas "Soy barista" y "Tengo una cafetería" con descripciones y CTAs</td>
+  </tr>
+  <tr>
+    <td>Carlos Fredy Fernandez Camayo</td>
+    <td>Implementación de la comparativa de los 4 planes con precios y listas de características</td>
+  </tr>
+</table>
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
