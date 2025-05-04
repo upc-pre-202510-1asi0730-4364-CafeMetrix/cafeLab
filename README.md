@@ -95,19 +95,16 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
 **TB1 Network Graph**
 <figure style="text-align: center;">
     <img src="public\assets\images\Insights\Networkgraph.png" alt="TB1 Network Graph">
-    <figcaption>Network Graph perteneciente al TB1</figcaption>
 </figure>
 
 **TB1 Contributors**
 <figure style="text-align: center;">
     <img src="public\assets\images\Insights\Contributors.png" alt="TB1 Contributors">
-    <figcaption>Contributors stats perteneciente al TB1</figcaption>
 </figure>
 
 **TB1 Pulse**
 <figure style="text-align: center;">
     <img src="public\assets\images\Insights\Pulse.png" alt="TB1 Pulse">
-    <figcaption>Pulse stats perteneciente al TB1</figcaption>
 </figure>
 
 <h1>TB1</h1>
@@ -303,7 +300,7 @@ La solución consiste en una plataforma dual que combina software y componentes 
 <table border="1">
   <tr>
     <td><img src="public/assets/images/integrantes/adriand.jpeg" alt="Adrian Donayre" width="150"></td>
-    <td>Mi nombre es <strong>Adrian Donayre</strong>, tengo 19 
+    <td>Mi nombre es <strong>Adrian Donayre</strong>, tengo 20 
     años y actualmente estoy cursando el quinto ciclo de la 
     carrera de Ingeniería de Software en la UPC. Tengo habilidad en los lenguajes C++ y javascript. Así mismo, cuento con experiencia en monitoreo de infraestructura en herramientas como Azure, NR y Kemp. Personalmente, opino que lo que hagamos en la universidad se verá reflejado en nuestra vida profesional. Por ello me esfuerzo en ampliar mis conocimientos y conseguir nuevas experiencias que me sumen para seguir mejorando.</td>
   </tr>
@@ -2262,6 +2259,9 @@ Se toma un diseño que pueda adaptarse a los dispositivos del usuario, de esta f
 Los mensajes mostrados son claros, entendibles y universales en la pagina, de esta forma el usuario no tiene que procesar mayo informacion de forma irrelevante para su experiencia en la plataforma
 ![Prototipo](public/assets/images/UserFlowDiagram/prototipoCafe.png)
 
+Enlace para acceder al video del [Web Applications Prototyping] ().
+
+Enlace del prototipo [Figma](https://www.figma.com/proto/ac0fpdPl6fqEDpJxCEYlY0/CafeLab?page-id=140%3A178&node-id=642-1700&p=f&viewport=-12071%2C-1480%2C0.28&t=XMc9m3xS3bXemTM3-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=642%3A1700&show-proto-sidebar=1)
 
 ## 4.6. Domain-Driven Software Architecture.
 
@@ -3020,25 +3020,24 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 | upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 0f4531b | chore: initial structure of folders and files | chore: initial structure of folders and files | Apr 21, 2025 |
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
-## Sección diferenciación de segmentos objetivo
+#### Sección diferenciación de segmentos objetivo
 <figure style="text-align: center;">
     <img src="public\assets\images\Evidences\1.png" alt="Evidencia 1">
-    <figcaption>Evidencia 1</figcaption>
 </figure>
 
-## Sección módulos a ofrecer
+#### Sección módulos a ofrecer
 <figure style="text-align: center;">
     <img src="public\assets\images\Evidences\2.png" alt="Evidencia 2">
-    <figcaption>Evidencia 2</figcaption>
 </figure>
 
-## Sección elección de suscripción
+#### Sección elección de suscripción
 <figure style="text-align: center;">
     <img src="public\assets\images\Evidences\3.png" alt="Evidencia 3">
-    <figcaption>Evidencia 3</figcaption>
 </figure>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+Para la entrega de nuestro primer sprint no se  la documentación de servicios
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
