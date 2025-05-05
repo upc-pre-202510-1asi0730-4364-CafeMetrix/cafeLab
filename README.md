@@ -2681,21 +2681,21 @@ El diseño de base de datos es el proceso de organizar y estructurar los datos e
 
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
-# Project Management
+#### Project Management
 1. Trello: Para gestión general los sprints, tareas del equipo, etc.
   - Link: [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 
-# Product UX/UI Design:
+#### Product UX/UI Design:
 1. Figma: Para diseños como Wireframes, Mockups, Prototypes, etc. relacionados a archivos como
   - Link: [Figma](https://www.figma.com/design/ac0fpdPl6fqEDpJxCEYlY0/CafeLab?node-id=140-178&t=fprZU86nz2ahB2Bi-1)
 2. Vertabelo: Para diagramas de base de datos (ERD, diagramas de clases, etc.)
   - Link: [Vertabelo](Vertabelo)
 
-# Software Development:
+#### Software Development:
 1. Visual Studio Code: Para el desarrollo de la Landing Page del proyecto.
   - Link: [LandingPage](https://cafelab-landingpage-appweb.netlify.app/)
 
-# Software Documentation:
+#### Software Documentation:
 1. Visual Studio Code: Para la documentación de CaféLab se utilizó Visual Studio Code para el desarrollo de los capítulos en formato Markdown.
   - Link: [Documentation](Documentation)
 
@@ -2705,23 +2705,23 @@ Para todo el desarrollo de CaféLab se usará el flujo de trabajo de Gitflow. La
 ## Flujo de trabajo GitFlow:
 El flujo de trabajo Git Flow fue planteado por Vincent Driessen en "A successful Git branching model".
 
-### Main branch
+#### Main branch
 La rama principal (main) es donde se mantiene el código más estable y desplegado.
 
-### Develop branch
+#### Develop branch
 La rama develop actúa como el área principal donde se integran los últimos avances y correcciones antes de hacerles merge a master.
 
-### Release branch
+#### Release branch
 Las ramas release facilitan la preparación para una nueva versión del producto. Nos permiten aplicar correcciones menores en caso de imprevistos mientras develop sigue recibiendo nuevas funcionalidades.
 - Deriva de: develop
 - Se fusiona en: develop y master
 
-### Feature branch
+#### Feature branch
 Las ramas feature son utilizadas para desarrollar nuevas funcionalidades o mejoras específicas. Cada característica se desarrolla de forma aislada hasta estar lista para integrarse.
 - Deriva de: develop
 - Se fusiona de regreso a: develop
 
-### Hotfix branch
+#### Hotfix branch
 Las ramas hotfix se crean para corregir errores críticos detectados en producción, asegurando una reacción rápida sin interrumpir el trabajo de desarrollo continuo.
 - Deriva de: master.
 - Se fusiona en: master y develop.
@@ -2824,47 +2824,94 @@ Posteriormente, iniciamos sesión en [Netlify](https://www.netlify.com/) y conec
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
-<table>
-        <thead>
-            <tr>
-                <th>Sprint #</th>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Location</th>
-                <th>Prepared By</th>
-                <th>Attendees</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="centered">1</td>
-                <td class="centered">26/04/2025</td>
-                <td class="centered">09:00 AM</td>
-                <td>Reunión virtual mediante la aplicación Discord</td>
-                <td>Adrian Donayre</td>
-                <td>Fredy Fernández, Christian Inga, Renzo Uribe, Joseph Chavez, Adrian Donayre</td>
-            </tr>
-            <tr>
-                <td colspan="4" class="section-header">Sprint 1 Goal</td>
-                <td class="section-header">Sprint 1 Velocity</td>
-                <td class="section-header">Sum of Story Points</td>
-            </tr>
-            <tr>
-                <td colspan="4">Desarrollar y desplegar la landing page de nuestra startup Café Metrix</td>
-                <td class="centered">8</td>
-                <td class="centered">8</td>
-            </tr>
-        </tbody>
-    </table>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th style="text-align:center; border: 1px solid #000;">Sprint #</th>
+            <th style="text-align:center; border: 1px solid #000;">Date</th>
+            <th style="text-align:center; border: 1px solid #000;">Time</th>
+            <th style="text-align:center; border: 1px solid #000;">Location</th>
+            <th style="text-align:center; border: 1px solid #000;">Prepared By</th>
+            <th style="text-align:center; border: 1px solid #000;">Attendees</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:center; border: 1px solid #000;">1</td>
+            <td style="text-align:center; border: 1px solid #000;">26/04/2025</td>
+            <td style="text-align:center; border: 1px solid #000;">09:00 AM</td>
+            <td style="border: 1px solid #000;">Reunión virtual mediante la aplicación Discord</td>
+            <td style="border: 1px solid #000;">Adrian Donayre</td>
+            <td style="border: 1px solid #000;">Fredy Fernández, Christian Inga, Renzo Uribe, Joseph Chavez, Adrian Donayre</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align:center; border: 1px solid #000;">Sprint 1 Goal</td>
+            <td style="text-align:center; border: 1px solid #000;">Sprint 1 Velocity</td>
+            <td style="text-align:center; border: 1px solid #000;">Sum of Story Points</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="border: 1px solid #000;">Desarrollar y desplegar la landing page de nuestra startup Café Metrix</td>
+            <td style="text-align:center; border: 1px solid #000;">8</td>
+            <td style="text-align:center; border: 1px solid #000;">8</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
-| Team Member (Last Name, First Name) | GitHub Username | Información del Producto (US23) | Secciones Específicas por Segmento (US24) | Contacto con Equipo (US25) | Acceso directo a plataforma (US26) |
-|-------------------------------------|-----------------|--------------------------------|------------------------------------------|---------------------------|----------------------------------|
-| Donayre, Adrian                     | adriandonayredev | C                              | L                                        | C                         | L                                |
-| Tantaleán, Guillermo                | guillermotantalean1 | C                              | C                                        | L                         | C                                |
-| Esteban, Henry                      | kalet123-commit | C                              | C                                        | L                         | C                                |
-| Fernández, Fredy                    | u202320083      | C                              | L                                        | C                         | C                                |
-| Inga, Christian                     | Christian1905   | C                              | L                                        | C                         | C                                |
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th style="text-align:center; border: 1px solid #000;">Team Member (Last Name, First Name)</th>
+            <th style="text-align:center; border: 1px solid #000;">GitHub Username</th>
+            <th style="text-align:center; border: 1px solid #000;">Información del Producto (US23)</th>
+            <th style="text-align:center; border: 1px solid #000;">Secciones Específicas por Segmento (US24)</th>
+            <th style="text-align:center; border: 1px solid #000;">Contacto con Equipo (US25)</th>
+            <th style="text-align:center; border: 1px solid #000;">Acceso directo a plataforma (US26)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #000;">Donayre, Adrian</td>
+            <td style="border: 1px solid #000;">adriandonayredev</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">L</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">L</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">Tantaleán, Guillermo</td>
+            <td style="border: 1px solid #000;">guillermotantalean1</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">L</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">Esteban, Henry</td>
+            <td style="border: 1px solid #000;">kalet123-commit</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">L</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">Fernández, Fredy</td>
+            <td style="border: 1px solid #000;">u202320083</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">L</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">Inga, Christian</td>
+            <td style="border: 1px solid #000;">Christian1905</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">L</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+            <td style="text-align:center; border: 1px solid #000;">C</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.1.3. Sprint Backlog 1.
 Durante el primer sprint, el equipo se propuso iniciar y finalizar la landing page. Para la organización y gestión de sus integrantes, se empleó Trello, lo que facilitó la división de las historias de usuario en tareas más pequeñas y su asignación según las habilidades de cada miembro. A pesar de ello, debido a las limitaciones de tiempo y la acumulación de tareas, no tuvimos la oportunidad de probar al
@@ -2877,147 +2924,361 @@ completo todas las historias definidas.
 
 Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 
-<table>
-        <thead>
-            <tr>
-                <th colspan="2">User Story</th>
-                <th colspan="6">Work-Item/Task</th>
-            </tr>
-            <tr>
-                <th>Id</th>
-                <th>Title</th>
-                <th>Id</th>
-                <th>Title</th>
-                <th>Description</th>
-                <th>Estimation (Hours)</th>
-                <th>Assigned To</th>
-                <th>Status (To-do / In Process / To Review / Done)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>US23</td>
-                <td>Información del Producto</td>
-                <td>TK01</td>
-                <td>Configurar proyecto y estructura base</td>
-                <td>Crear estructura inicial del proyecto e implementar header con navegación y hero banner principal</td>
-                <td>4</td>
-                <td>Renzo</td>
-                <td>To-do</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>TK02</td>
-                <td>Desarrollar sección "Enfoque en beneficios claros"</td>
-                <td>Implementar sección con título y áreas diferenciadas para baristas y cafeterías</td>
-                <td>3</td>
-                <td>Joseph</td>
-                <td>To-do</td>
-            </tr>
-            <tr>
-                <td>US24</td>
-                <td>Secciones Específicas por Segmento</td>
-                <td>TK03</td>
-                <td>Implementar secciones para baristas y cafeterías</td>
-                <td>Crear las áreas "Soy barista" y "Tengo una cafetería" con descripciones y CTAs</td>
-                <td>4</td>
-                <td>Christian</td>
-                <td>To-do</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>TK04</td>
-                <td>Desarrollar sección de datos y gráficos</td>
-                <td>Implementar área "Datos que respaldan tus decisiones" con gráficos de dashboard y curvas</td>
-                <td>5</td>
-                <td>Adrian</td>
-                <td>To-do</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>TK05</td>
-                <td>Crear sección de planes y características</td>
-                <td>Implementar la comparativa de los 4 planes con precios y listas de características</td>
-                <td>5</td>
-                <td>Fredy</td>
-                <td>To-do</td>
-            </tr>
-            <tr>
-                <td>US25</td>
-                <td>Contacto con Equipo</td>
-                <td>TK06</td>
-                <td>Desarrollar sección de testimonios</td>
-                <td>Crear área de testimonios con fotos y citas de usuarios actuales</td>
-                <td>3</td>
-                <td>Kalet</td>
-                <td>To-do</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>TK07</td>
-                <td>Implementar sección FAQ y contacto</td>
-                <td>Crear área combinada con preguntas frecuentes y formulario de contacto con validación básica</td>
-                <td>4</td>
-                <td>Guillermo</td>
-                <td>To-do</td>
-            </tr>
-            <tr>
-                <td>US26</td>
-                <td>Acceso directo a plataforma</td>
-                <td>TK08</td>
-                <td>Crear footer y enlaces</td>
-                <td>Implementar pie de página con navegación, recursos y contacto</td>
-                <td>4</td>
-                <td>Joseph</td>
-                <td>To-do</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>TK09</td>
-                <td>Optimizar responsive y realizar pruebas</td>
-                <td>Asegurar compatibilidad con dispositivos móviles y ejecutar pruebas de funcionamiento</td>
-                <td>5</td>
-                <td>Adrian</td>
-                <td>To-do</td>
-            </tr>
-        </tbody>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align:center; border: 1px solid #000;">User Story</th>
+                <th colspan="6" style="text-align:center; border: 1px solid #000;">Work-Item/Task</th>
+            </tr>
+            <tr>
+                <th style="text-align:center; border: 1px solid #000;">Id</th>
+                <th style="text-align:center; border: 1px solid #000;">Title</th>
+                <th style="text-align:center; border: 1px solid #000;">Id</th>
+                <th style="text-align:center; border: 1px solid #000;">Title</th>
+                <th style="text-align:center; border: 1px solid #000;">Description</th>
+                <th style="text-align:center; border: 1px solid #000;">Estimation (Hours)</th>
+                <th style="text-align:center; border: 1px solid #000;">Assigned To</th>
+                <th style="text-align:center; border: 1px solid #000;">Status (To-do / In Process / To Review / Done)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" style="border: 1px solid #000;">US23</td>
+                <td rowspan="2" style="border: 1px solid #000;">Información del Producto</td>
+                <td style="border: 1px solid #000;">TK01</td>
+                <td style="border: 1px solid #000;">Configurar proyecto y estructura base</td>
+                <td style="border: 1px solid #000;">Crear estructura inicial del proyecto e implementar header con navegación y hero banner principal</td>
+                <td style="border: 1px solid #000;">4</td>
+                <td style="border: 1px solid #000;">Renzo</td>
+                <td style="border: 1px solid #000;">To-do</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">TK02</td>
+                <td style="border: 1px solid #000;">Desarrollar sección "Enfoque en beneficios claros"</td>
+                <td style="border: 1px solid #000;">Implementar sección con título y áreas diferenciadas para baristas y cafeterías</td>
+                <td style="border: 1px solid #000;">3</td>
+                <td style="border: 1px solid #000;">Joseph</td>
+                <td style="border: 1px solid #000;">To-do</td>
+            </tr>
+            <tr>
+                <td rowspan="3" style="border: 1px solid #000;">US24</td>
+                <td rowspan="3" style="border: 1px solid #000;">Secciones Específicas por Segmento</td>
+                <td style="border: 1px solid #000;">TK03</td>
+                <td style="border: 1px solid #000;">Implementar secciones para baristas y cafeterías</td>
+                <td style="border: 1px solid #000;">Crear las áreas "Soy barista" y "Tengo una cafetería" con descripciones y CTAs</td>
+                <td style="border: 1px solid #000;">4</td>
+                <td style="border: 1px solid #000;">Christian</td>
+                <td style="border: 1px solid #000;">To-do</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">TK04</td>
+                <td style="border: 1px solid #000;">Desarrollar sección de datos y gráficos</td>
+                <td style="border: 1px solid #000;">Implementar área "Datos que respaldan tus decisiones" con gráficos de dashboard y curvas</td>
+                <td style="border: 1px solid #000;">5</td>
+                <td style="border: 1px solid #000;">Adrian</td>
+                <td style="border: 1px solid #000;">To-do</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">TK05</td>
+                <td style="border: 1px solid #000;">Crear sección de planes y características</td>
+                <td style="border: 1px solid #000;">Implementar la comparativa de los 4 planes con precios y listas de características</td>
+                <td style="border: 1px solid #000;">5</td>
+                <td style="border: 1px solid #000;">Fredy</td>
+                <td style="border: 1px solid #000;">To-do</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="border: 1px solid #000;">US25</td>
+                <td rowspan="2" style="border: 1px solid #000;">Contacto con Equipo</td>
+                <td style="border: 1px solid #000;">TK06</td>
+                <td style="border: 1px solid #000;">Desarrollar sección de testimonios</td>
+                <td style="border: 1px solid #000;">Crear área de testimonios con fotos y citas de usuarios actuales</td>
+                <td style="border: 1px solid #000;">3</td>
+                <td style="border: 1px solid #000;">Kalet</td>
+                <td style="border: 1px solid #000;">To-do</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">TK07</td>
+                <td style="border: 1px solid #000;">Implementar sección FAQ y contacto</td>
+                <td style="border: 1px solid #000;">Crear área combinada con preguntas frecuentes y formulario de contacto con validación básica</td>
+                <td style="border: 1px solid #000;">4</td>
+                <td style="border: 1px solid #000;">Guillermo</td>
+                <td style="border: 1px solid #000;">To-do</td>
+            </tr>
+        </tbody>
+</table>
+
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align:center; border: 1px solid #000;">User Story</th>
+                <th colspan="6" style="text-align:center; border: 1px solid #000;">Work-Item/Task</th>
+            </tr>
+            <tr>
+                <th style="text-align:center; border: 1px solid #000;">Id</th>
+                <th style="text-align:center; border: 1px solid #000;">Title</th>
+                <th style="text-align:center; border: 1px solid #000;">Id</th>
+                <th style="text-align:center; border: 1px solid #000;">Title</th>
+                <th style="text-align:center; border: 1px solid #000;">Description</th>
+                <th style="text-align:center; border: 1px solid #000;">Estimation (Hours)</th>
+                <th style="text-align:center; border: 1px solid #000;">Assigned To</th>
+                <th style="text-align:center; border: 1px solid #000;">Status (To-do / In Process / To Review / Done)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" style="border: 1px solid #000;">US26</td>
+                <td rowspan="2" style="border: 1px solid #000;">Acceso directo a plataforma</td>
+                <td style="border: 1px solid #000;">TK08</td>
+                <td style="border: 1px solid #000;">Crear footer y enlaces</td>
+                <td style="border: 1px solid #000;">Implementar pie de página con navegación, recursos y contacto</td>
+                <td style="border: 1px solid #000;">4</td>
+                <td style="border: 1px solid #000;">Joseph</td>
+                <td style="border: 1px solid #000;">To-do</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">TK09</td>
+                <td style="border: 1px solid #000;">Optimizar responsive y realizar pruebas</td>
+                <td style="border: 1px solid #000;">Asegurar compatibilidad con dispositivos móviles y ejecutar pruebas de funcionamiento</td>
+                <td style="border: 1px solid #000;">5</td>
+                <td style="border: 1px solid #000;">Adrian</td>
+                <td style="border: 1px solid #000;">To-do</td>
+            </tr>
+        </tbody>
 </table>
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|------------|--------|-----------|----------------|-------------------|-------------------|
-| upc-pre-202510-1asi0730-4364-CafeMetrix | main | d83b119 | Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Apr 26, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 52f8c02 | Cambios del footer | Cambios del footer | Apr 26, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | main | 88b0054 | Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 8b1ce23 | Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas | Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 5d8e923 | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 028ff5b | add section plans-features and testimonials | add section plans-features and testimonials | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 012ba1a | add section plans-features and testimonials | add section plans-features and testimonials | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | b7c7cc4 | add section plans-features and testimonials | add section plans-features and testimonials | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-planes-caracteristicas | 8791f03 | add section plans-features and testimonials" | add section plans-features and testimonials" | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK06-faq-contacto | 47e4882 | Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto | Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK06-faq-contacto | db22b02 | feat (landing): join section faq to the rest of sections | feat (landing): join section faq to the rest of sections | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK06-faq-contacto | b5d8c31 | fix: sections visualization | fix: sections visualization | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 3dc985b | Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 752afd8 | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos | Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 52749d7 | feat: join sections | feat: join sections | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | ee480ec | Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria | Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | bbe8843 | feat: add data and graphics section | feat: add data and graphics section | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | 59b8d36 | style: increase benefits section size on style.css | style: increase benefits section size on style.css | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | 1dd5638 | Feat: Add benefits section to style.css | Feat: Add benefits section to style.css | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK03-segmentos-barista-cafeteria | 79799eb | Feat: Add benefits section to index.html | Feat: Add benefits section to index.html | Apr 25, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | c6108c7 | Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos | Apr 23, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | b00f2ac | Fix: Add active button corner | Fix: Add active button corner | Apr 23, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK04-datos-graficos | 4f51736 | style: change hover view | style: change hover view | Apr 23, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 4945634 | style: change files position and fix conflicts of this restructure | style: change files position and fix conflicts of this restructure | Apr 22, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK01-estructura-base | 1093b41 | Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base | Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base | Apr 22, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | feature/TK01-estructura-base | 19f91f6 | Feat: Add banner, logo header and hero section | Feat: Add banner, logo header and hero section | Apr 21, 2025 |
-| upc-pre-202510-1asi0730-4364-CafeMetrix | develop | 0f4531b | chore: initial structure of folders and files | chore: initial structure of folders and files | Apr 21, 2025 |
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th style="text-align:center; border: 1px solid #000;">Repository</th>
+            <th style="text-align:center; border: 1px solid #000;">Branch</th>
+            <th style="text-align:center; border: 1px solid #000;">Commit Id</th>
+            <th style="text-align:center; border: 1px solid #000;">Commit Message</th>
+            <th style="text-align:center; border: 1px solid #000;">Commit Message Body</th>
+            <th style="text-align:center; border: 1px solid #000;">Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">main</td>
+            <td style="border: 1px solid #000;">d83b119</td>
+            <td style="border: 1px solid #000;">Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
+            <td style="border: 1px solid #000;">Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
+            <td style="border: 1px solid #000;">Apr 26, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">develop</td>
+            <td style="border: 1px solid #000;">52f8c02</td>
+            <td style="border: 1px solid #000;">Cambios del footer</td>
+            <td style="border: 1px solid #000;">Cambios del footer</td>
+            <td style="border: 1px solid #000;">Apr 26, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">main</td>
+            <td style="border: 1px solid #000;">88b0054</td>
+            <td style="border: 1px solid #000;">Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
+            <td style="border: 1px solid #000;">Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">8b1ce23</td>
+            <td style="border: 1px solid #000;">Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">5d8e923</td>
+            <td style="border: 1px solid #000;">Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">028ff5b</td>
+            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
+            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">012ba1a</td>
+            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
+            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">b7c7cc4</td>
+            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
+            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
+            <td style="border: 1px solid #000;">8791f03</td>
+            <td style="border: 1px solid #000;">add section plans-features and testimonials"</td>
+            <td style="border: 1px solid #000;">add section plans-features and testimonials"</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK06-faq-contacto</td>
+            <td style="border: 1px solid #000;">47e4882</td>
+            <td style="border: 1px solid #000;">Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto</td>
+            <td style="border: 1px solid #000;">Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK06-faq-contacto</td>
+            <td style="border: 1px solid #000;">db22b02</td>
+            <td style="border: 1px solid #000;">feat (landing): join section faq to the rest of sections</td>
+            <td style="border: 1px solid #000;">feat (landing): join section faq to the rest of sections</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK06-faq-contacto</td>
+            <td style="border: 1px solid #000;">b5d8c31</td>
+            <td style="border: 1px solid #000;">fix: sections visualization</td>
+            <td style="border: 1px solid #000;">fix: sections visualization</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">3dc985b</td>
+            <td style="border: 1px solid #000;">Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">752afd8</td>
+            <td style="border: 1px solid #000;">Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">52749d7</td>
+            <td style="border: 1px solid #000;">feat: join sections</td>
+            <td style="border: 1px solid #000;">feat: join sections</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
+            <td style="border: 1px solid #000;">ee480ec</td>
+            <td style="border: 1px solid #000;">Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria</td>
+            <td style="border: 1px solid #000;">Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
+            <td style="border: 1px solid #000;">bbe8843</td>
+            <td style="border: 1px solid #000;">feat: add data and graphics section</td>
+            <td style="border: 1px solid #000;">feat: add data and graphics section</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
+            <td style="border: 1px solid #000;">59b8d36</td>
+            <td style="border: 1px solid #000;">style: increase benefits section size on style.css</td>
+            <td style="border: 1px solid #000;">style: increase benefits section size on style.css</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
+            <td style="border: 1px solid #000;">1dd5638</td>
+            <td style="border: 1px solid #000;">Feat: Add benefits section to style.css</td>
+            <td style="border: 1px solid #000;">Feat: Add benefits section to style.css</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
+            <td style="border: 1px solid #000;">79799eb</td>
+            <td style="border: 1px solid #000;">Feat: Add benefits section to index.html</td>
+            <td style="border: 1px solid #000;">Feat: Add benefits section to index.html</td>
+            <td style="border: 1px solid #000;">Apr 25, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">c6108c7</td>
+            <td style="border: 1px solid #000;">Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">Apr 23, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">b00f2ac</td>
+            <td style="border: 1px solid #000;">Fix: Add active button corner</td>
+            <td style="border: 1px solid #000;">Fix: Add active button corner</td>
+            <td style="border: 1px solid #000;">Apr 23, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
+            <td style="border: 1px solid #000;">4f51736</td>
+            <td style="border: 1px solid #000;">style: change hover view</td>
+            <td style="border: 1px solid #000;">style: change hover view</td>
+            <td style="border: 1px solid #000;">Apr 23, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">develop</td>
+            <td style="border: 1px solid #000;">4945634</td>
+            <td style="border: 1px solid #000;">style: change files position and fix conflicts of this restructure</td>
+            <td style="border: 1px solid #000;">style: change files position and fix conflicts of this restructure</td>
+            <td style="border: 1px solid #000;">Apr 22, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK01-estructura-base</td>
+            <td style="border: 1px solid #000;">1093b41</td>
+            <td style="border: 1px solid #000;">Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base</td>
+            <td style="border: 1px solid #000;">Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base</td>
+            <td style="border: 1px solid #000;">Apr 22, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">feature/TK01-estructura-base</td>
+            <td style="border: 1px solid #000;">19f91f6</td>
+            <td style="border: 1px solid #000;">Feat: Add banner, logo header and hero section</td>
+            <td style="border: 1px solid #000;">Feat: Add banner, logo header and hero section</td>
+            <td style="border: 1px solid #000;">Apr 21, 2025</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+            <td style="border: 1px solid #000;">develop</td>
+            <td style="border: 1px solid #000;">0f4531b</td>
+            <td style="border: 1px solid #000;">chore: initial structure of folders and files</td>
+            <td style="border: 1px solid #000;">chore: initial structure of folders and files</td>
+            <td style="border: 1px solid #000;">Apr 21, 2025</td>
+        </tr>
+    </tbody>
+</table>
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 #### Sección diferenciación de segmentos objetivo
@@ -3039,6 +3300,19 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 Para la entrega de nuestro primer sprint no se contempló la documentación de servicios.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+En nuestro primer sprint, logramos desplegar la landing page. Estará mejorada para el segundo sprint, dado que se encontraron pequeñas partes que se pueden mejorar.
+<div align="center">
+  <img src="public\assets\images\Deployment1stSprint\1.png" alt="1">
+  <img src="public\assets\images\Deployment1stSprint\2.png" alt="2">
+  <img src="public\assets\images\Deployment1stSprint\3.png" alt="3">
+  <img src="public\assets\images\Deployment1stSprint\4.png" alt="4">
+  <img src="public\assets\images\Deployment1stSprint\5.png" alt="5">
+  <img src="public\assets\images\Deployment1stSprint\6.png" alt="6">
+  <img src="public\assets\images\Deployment1stSprint\7.png" alt="7">
+  <img src="public\assets\images\Deployment1stSprint\8.png" alt="8">
+  <img src="public\assets\images\Deployment1stSprint\9.png" alt="9">
+</div>
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 <table border="1">
   <tr>
@@ -3103,8 +3377,9 @@ Para la entrega de nuestro primer sprint no se contempló la documentación de s
 - **Euromonitor International.** (2023). *Coffee Shops Market in Latin America*. [https://www.euromonitor.com](https://www.euromonitor.com)
 - **Allied Market Research.** (2022). *Specialty Coffee Market by Product Type and Distribution Channel: Global Opportunity Analysis and Industry Forecast, 2021–2027*. [https://www.alliedmarketresearch.com](https://www.alliedmarketresearch.com)
 - **International Coffee Organization (ICO).** (2023). *World Coffee Consumption Statistics*. [https://www.ico.org](https://www.ico.org)
-
+- **Khononov, V.** (2022). *Learning Domain-Driven Design*. O’Reilly Media, Inc.[https://dl.ebooksworld.ir/books/Learning.Domain-Driven.Design.9781098100131.EBooksWorld.ir.pdf](https://dl.ebooksworld.ir/books/Learning.Domain-Driven.Design.9781098100131.EBooksWorld.ir.pdf)
+- **Evans, E.** (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Domain Language.[https://fabiofumarola.github.io/nosql/readingMaterial/Evans03.pdf](https://fabiofumarola.github.io/nosql/readingMaterial/Evans03.pdf)
 
 # Anexos
 
-[Video exposición de TB1](https://youtu.be/uChmUJqKPL0)
+- Enlace para acceder al [video exposición de TB1](https://youtu.be/uChmUJqKPL0)
