@@ -185,7 +185,7 @@ Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-436
     - [4.2.4. Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems](#425-navigation-systems)
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)****
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
@@ -1743,6 +1743,7 @@ La versión wireframe de nuestra landing page presenta una estructura básica co
 
 ![MobileWireframes](public/assets/images/LandingWireframes/8.png)
 
+
 ### 4.3.2. Landing Page Mock-up.
 **Landing Page para Desktop Web Browser**
 En nuestra versión mock-up se evidencia la implementación de los elementos de diseño específicos de Café Lab. Se aplicó la paleta de colores característica, que incluye tonos tierra y marrones cálidos como color primario, junto con verdes oscuros como color secundario, creando una estética que evoca la naturaleza del café y su proceso artesanal. La tipografía seleccionada se implementó de manera consistente en todos los elementos de texto, desde los encabezados principales hasta los párrafos descriptivos y botones de acción.
@@ -1756,8 +1757,12 @@ En nuestra versión mock-up se evidencia la implementación de los elementos de 
 ![Footer](public/assets/images/LandingMockUps/7.png)
 
 **Landing Page para Mobile Web Browser**
-![Inicio, menu, visualizaciones, planes](public/assets/images/LandingMockUps/8.png)
-![testimonios, FAQ, footer](public/assets/images/LandingMockUps/9.png)
+<br>
+![Inicio, menu, visualizaciones, planes](public/assets/images/LandingMockUps/8.png)  
+
+<br>
+
+![testimonios, FAQ, footer](public/assets/images/LandingMockUps/9.png)  
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
