@@ -2500,60 +2500,13 @@ Posteriormente, iniciamos sesión en [Netlify](https://www.netlify.com/) y conec
 </table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-    <thead>
-        <tr>
-            <th style="text-align:center; border: 1px solid #000;">Team Member (Last Name, First Name)</th>
-            <th style="text-align:center; border: 1px solid #000;">GitHub Username</th>
-            <th style="text-align:center; border: 1px solid #000;">Información del Producto (US23)</th>
-            <th style="text-align:center; border: 1px solid #000;">Secciones Específicas por Segmento (US24)</th>
-            <th style="text-align:center; border: 1px solid #000;">Contacto con Equipo (US25)</th>
-            <th style="text-align:center; border: 1px solid #000;">Acceso directo a plataforma (US26)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="border: 1px solid #000;">Donayre, Adrian</td>
-            <td style="border: 1px solid #000;">adriandonayredev</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">L</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">L</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">Tantaleán, Guillermo</td>
-            <td style="border: 1px solid #000;">guillermotantalean1</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">L</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">Esteban, Henry</td>
-            <td style="border: 1px solid #000;">kalet123-commit</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">L</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">Fernández, Fredy</td>
-            <td style="border: 1px solid #000;">u202320083</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">L</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">Inga, Christian</td>
-            <td style="border: 1px solid #000;">Christian1905</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">L</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-            <td style="text-align:center; border: 1px solid #000;">C</td>
-        </tr>
-    </tbody>
-</table>
+| Team Member (Last Name, First Name) | GitHub Username | Información del Producto (US23) | Secciones Específicas por Segmento (US24) | Contacto con Equipo (US25) | Acceso directo a plataforma (US26) |
+|-------------------------------------|-----------------|--------------------------------|------------------------------------------|---------------------------|----------------------------------|
+| Donayre, Adrian                     | adriandonayredev | C                              | L                                        | C                         | L                                |
+| Chavez, Joseph                | u202314019-MrOsoPanda | C                              | C                                        | L                         | C                                |
+| Uribe, Renzo                      | JKOlimpo | C                              | C                                        | L                         | C                                |
+| Fernández, Fredy                    | u202320083      | C                              | L                                        | C                         | C                                |
+| Inga, Christian                     | Christian1905   | C                              | L                                        | C                         | C                                |
 
 #### 5.2.1.3. Sprint Backlog 1.
 Durante el primer sprint, el equipo se propuso iniciar y finalizar la landing page. Para la organización y gestión de sus integrantes, se empleó Trello, lo que facilitó la división de las historias de usuario en tareas más pequeñas y su asignación según las habilidades de cada miembro. A pesar de ello, debido a las limitaciones de tiempo y la acumulación de tareas, no tuvimos la oportunidad de probar al
@@ -2566,127 +2519,115 @@ completo todas las historias definidas.
 
 Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <thead>
-            <tr>
-                <th colspan="2" style="text-align:center; border: 1px solid #000;">User Story</th>
-                <th colspan="6" style="text-align:center; border: 1px solid #000;">Work-Item/Task</th>
-            </tr>
-            <tr>
-                <th style="text-align:center; border: 1px solid #000;">Id</th>
-                <th style="text-align:center; border: 1px solid #000;">Title</th>
-                <th style="text-align:center; border: 1px solid #000;">Id</th>
-                <th style="text-align:center; border: 1px solid #000;">Title</th>
-                <th style="text-align:center; border: 1px solid #000;">Description</th>
-                <th style="text-align:center; border: 1px solid #000;">Estimation (Hours)</th>
-                <th style="text-align:center; border: 1px solid #000;">Assigned To</th>
-                <th style="text-align:center; border: 1px solid #000;">Status (To-do / In Process / To Review / Done)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="2" style="border: 1px solid #000;">US23</td>
-                <td rowspan="2" style="border: 1px solid #000;">Información del Producto</td>
-                <td style="border: 1px solid #000;">TK01</td>
-                <td style="border: 1px solid #000;">Configurar proyecto y estructura base</td>
-                <td style="border: 1px solid #000;">Crear estructura inicial del proyecto e implementar header con navegación y hero banner principal</td>
-                <td style="border: 1px solid #000;">4</td>
-                <td style="border: 1px solid #000;">Renzo</td>
-                <td style="border: 1px solid #000;">To-do</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #000;">TK02</td>
-                <td style="border: 1px solid #000;">Desarrollar sección "Enfoque en beneficios claros"</td>
-                <td style="border: 1px solid #000;">Implementar sección con título y áreas diferenciadas para baristas y cafeterías</td>
-                <td style="border: 1px solid #000;">3</td>
-                <td style="border: 1px solid #000;">Joseph</td>
-                <td style="border: 1px solid #000;">To-do</td>
-            </tr>
-            <tr>
-                <td rowspan="3" style="border: 1px solid #000;">US24</td>
-                <td rowspan="3" style="border: 1px solid #000;">Secciones Específicas por Segmento</td>
-                <td style="border: 1px solid #000;">TK03</td>
-                <td style="border: 1px solid #000;">Implementar secciones para baristas y cafeterías</td>
-                <td style="border: 1px solid #000;">Crear las áreas "Soy barista" y "Tengo una cafetería" con descripciones y CTAs</td>
-                <td style="border: 1px solid #000;">4</td>
-                <td style="border: 1px solid #000;">Christian</td>
-                <td style="border: 1px solid #000;">To-do</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #000;">TK04</td>
-                <td style="border: 1px solid #000;">Desarrollar sección de datos y gráficos</td>
-                <td style="border: 1px solid #000;">Implementar área "Datos que respaldan tus decisiones" con gráficos de dashboard y curvas</td>
-                <td style="border: 1px solid #000;">5</td>
-                <td style="border: 1px solid #000;">Adrian</td>
-                <td style="border: 1px solid #000;">To-do</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #000;">TK05</td>
-                <td style="border: 1px solid #000;">Crear sección de planes y características</td>
-                <td style="border: 1px solid #000;">Implementar la comparativa de los 4 planes con precios y listas de características</td>
-                <td style="border: 1px solid #000;">5</td>
-                <td style="border: 1px solid #000;">Fredy</td>
-                <td style="border: 1px solid #000;">To-do</td>
-            </tr>
-            <tr>
-                <td rowspan="2" style="border: 1px solid #000;">US25</td>
-                <td rowspan="2" style="border: 1px solid #000;">Contacto con Equipo</td>
-                <td style="border: 1px solid #000;">TK06</td>
-                <td style="border: 1px solid #000;">Desarrollar sección de testimonios</td>
-                <td style="border: 1px solid #000;">Crear área de testimonios con fotos y citas de usuarios actuales</td>
-                <td style="border: 1px solid #000;">3</td>
-                <td style="border: 1px solid #000;">Kalet</td>
-                <td style="border: 1px solid #000;">To-do</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #000;">TK07</td>
-                <td style="border: 1px solid #000;">Implementar sección FAQ y contacto</td>
-                <td style="border: 1px solid #000;">Crear área combinada con preguntas frecuentes y formulario de contacto con validación básica</td>
-                <td style="border: 1px solid #000;">4</td>
-                <td style="border: 1px solid #000;">Guillermo</td>
-                <td style="border: 1px solid #000;">To-do</td>
-            </tr>
-        </tbody>
-</table>
-
-
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <thead>
-            <tr>
-                <th colspan="2" style="text-align:center; border: 1px solid #000;">User Story</th>
-                <th colspan="6" style="text-align:center; border: 1px solid #000;">Work-Item/Task</th>
-            </tr>
-            <tr>
-                <th style="text-align:center; border: 1px solid #000;">Id</th>
-                <th style="text-align:center; border: 1px solid #000;">Title</th>
-                <th style="text-align:center; border: 1px solid #000;">Id</th>
-                <th style="text-align:center; border: 1px solid #000;">Title</th>
-                <th style="text-align:center; border: 1px solid #000;">Description</th>
-                <th style="text-align:center; border: 1px solid #000;">Estimation (Hours)</th>
-                <th style="text-align:center; border: 1px solid #000;">Assigned To</th>
-                <th style="text-align:center; border: 1px solid #000;">Status (To-do / In Process / To Review / Done)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="2" style="border: 1px solid #000;">US26</td>
-                <td rowspan="2" style="border: 1px solid #000;">Acceso directo a plataforma</td>
-                <td style="border: 1px solid #000;">TK08</td>
-                <td style="border: 1px solid #000;">Crear footer y enlaces</td>
-                <td style="border: 1px solid #000;">Implementar pie de página con navegación, recursos y contacto</td>
-                <td style="border: 1px solid #000;">4</td>
-                <td style="border: 1px solid #000;">Joseph</td>
-                <td style="border: 1px solid #000;">To-do</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #000;">TK09</td>
-                <td style="border: 1px solid #000;">Optimizar responsive y realizar pruebas</td>
-                <td style="border: 1px solid #000;">Asegurar compatibilidad con dispositivos móviles y ejecutar pruebas de funcionamiento</td>
-                <td style="border: 1px solid #000;">5</td>
-                <td style="border: 1px solid #000;">Adrian</td>
-                <td style="border: 1px solid #000;">To-do</td>
-            </tr>
-        </tbody>
+<table>
+        <thead>
+            <tr>
+                <th colspan="2">User Story</th>
+                <th colspan="6">Work-Item/Task</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Estimation (Hours)</th>
+                <th>Assigned To</th>
+                <th>Status (To-do / In Process / To Review / Done)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>US23</td>
+                <td>Información del Producto</td>
+                <td>TK01</td>
+                <td>Configurar proyecto y estructura base</td>
+                <td>Crear estructura inicial del proyecto e implementar header con navegación y hero banner principal</td>
+                <td>4</td>
+                <td>Renzo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK02</td>
+                <td>Desarrollar sección "Enfoque en beneficios claros"</td>
+                <td>Implementar sección con título y áreas diferenciadas para baristas y cafeterías</td>
+                <td>3</td>
+                <td>Joseph</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td>US24</td>
+                <td>Secciones Específicas por Segmento</td>
+                <td>TK03</td>
+                <td>Implementar secciones para baristas y cafeterías</td>
+                <td>Crear las áreas "Soy barista" y "Tengo una cafetería" con descripciones y CTAs</td>
+                <td>4</td>
+                <td>Christian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK04</td>
+                <td>Desarrollar sección de datos y gráficos</td>
+                <td>Implementar área "Datos que respaldan tus decisiones" con gráficos de dashboard y curvas</td>
+                <td>5</td>
+                <td>Adrian</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK05</td>
+                <td>Crear sección de planes y características</td>
+                <td>Implementar la comparativa de los 4 planes con precios y listas de características</td>
+                <td>5</td>
+                <td>Fredy</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td>US25</td>
+                <td>Contacto con Equipo</td>
+                <td>TK06</td>
+                <td>Desarrollar sección de testimonios</td>
+                <td>Crear área de testimonios con fotos y citas de usuarios actuales</td>
+                <td>3</td>
+                <td>Joseph</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK07</td>
+                <td>Implementar sección FAQ y contacto</td>
+                <td>Crear área combinada con preguntas frecuentes y formulario de contacto con validación básica</td>
+                <td>4</td>
+                <td>Renzo</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td>US26</td>
+                <td>Acceso directo a plataforma</td>
+                <td>TK08</td>
+                <td>Crear footer y enlaces</td>
+                <td>Implementar pie de página con navegación, recursos y contacto</td>
+                <td>4</td>
+                <td>Joseph</td>
+                <td>To-do</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TK09</td>
+                <td>Optimizar responsive y realizar pruebas</td>
+                <td>Asegurar compatibilidad con dispositivos móviles y ejecutar pruebas de funcionamiento</td>
+                <td>5</td>
+                <td>Adrian</td>
+                <td>To-do</td>
+            </tr>
+        </tbody>
 </table>
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
