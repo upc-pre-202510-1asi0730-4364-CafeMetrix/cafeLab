@@ -2259,7 +2259,7 @@ Se toma un diseño que pueda adaptarse a los dispositivos del usuario, de esta f
 Los mensajes mostrados son claros, entendibles y universales en la pagina, de esta forma el usuario no tiene que procesar mayo informacion de forma irrelevante para su experiencia en la plataforma
 ![Prototipo](public/assets/images/UserFlowDiagram/prototipoCafe.png)
 
-Enlace para acceder al video del [Web Applications Prototyping] ().
+Enlace para acceder al video del [Web Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311745_upc_edu_pe/EZPR4Fsz7hZFksK1_9Vx_vEB6JGmjvwgJjvO2-XIsWGogg?e=BmEiFa).
 
 Enlace del prototipo [Figma](https://www.figma.com/proto/ac0fpdPl6fqEDpJxCEYlY0/CafeLab?page-id=140%3A178&node-id=642-1700&p=f&viewport=-12071%2C-1480%2C0.28&t=XMc9m3xS3bXemTM3-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=642%3A1700&show-proto-sidebar=1)
 
