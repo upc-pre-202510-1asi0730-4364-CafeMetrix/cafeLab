@@ -722,7 +722,9 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
     <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación</td>
   </tr>
+
 #### Entrevistas a dueños o administradores de cafeterías de especialidad
+
 <table border="1">
   <tr>
     <th>Campo</th>
@@ -750,6 +752,8 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
         Ver grabación</td>
   </tr>
 </table>
+
+
 
 <table border="1">
   <tr>
