@@ -640,6 +640,94 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
 ---
 ### 2.2.2. Registro de entrevistas 
 
+#### Entrevistas a dueños o administradores de cafeterías de especialidad
+
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 1</td>
+    <td>Omar Ortiz</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>47</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Borja</td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Entrevistas\EntrevistaOmarOrtiz.png" alt="Foto de Omar Ortiz"></td>
+    <td>Omar cuenta con una certificación internacional como barista por la SCA y actualmente es dueño de una cafetería especializada. Tiene un conocimiento sólido sobre los procesos del café, desde la selección del grano y sus características (como altura, proceso y humedad), hasta el control del tueste y la calibración diaria de las bebidas. Se encarga personalmente del almacenamiento y monitoreo del grano, utilizando herramientas como Excel para llevar registros de peso, rendimiento y trazabilidad. Aunque se maneja bien con herramientas digitales básicas, reconoce que ciertos procesos manuales podrían optimizarse mediante una plataforma digital especializada. Publica contenido educativo sobre café en LinkedIn, lo cual también refuerza su rol como formador dentro del rubro.</td>
+  </tr>
+  <tr>
+    <td>Timing:26:13-32:40</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación</td>
+   
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 2</td>
+    <td>Ivo Kalinowski</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Borja</td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Entrevistas\EntrevistaIvoKalinowski.jpg" alt="Foto de Ivo Kalinowski" width="7000"></td>
+    <td>Ivo es dueño de una cafetería de especialidad y cuenta con una amplia experiencia en el manejo integral del café, desde la selección del grano hasta la experiencia final en taza. Aunque actualmente no trabaja con cafés certificados, valora su importancia y reconoce la necesidad de herramientas digitales para gestionar mejor la documentación relacionada. La comunicación de las características del café hacia sus clientes es principalmente oral, apoyada en pizarras, y considera útil un sistema visual y estandarizado para este fin. Evalúa a sus proveedores mediante catas y relaciones de confianza, sin un registro formal, y le interesaría contar con una plataforma para organizar esa información. El almacenamiento de café lo gestiona de forma empírica, pero ha experimentado pérdidas que podrían evitarse con monitoreo digital. Para mantener la consistencia entre baristas, implementa protocolos de preparación y entrenamiento constante, aunque identifica la necesidad de una herramienta para estandarizar y compartir recetas. Transmite el conocimiento técnico de manera oral y presencial, y ve valor en una bitácora digital que permita documentar recetas, aprendizajes y procesos. Utiliza Excel y WhatsApp como herramientas principales, pero admite que muchos procesos siguen siendo manuales. Está interesado en una plataforma integral que permita gestionar trazabilidad, control de calidad, inventario, recetas, capacitación y costos de forma centralizada, mejorando así la eficiencia y la calidad de su operación.</td>
+  </tr>
+  <tr>
+    <td>Timing:32:40-40:46</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación</td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 3</td>
+    <td>Raul Donayre</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>42</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Borja</td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Entrevistas\EntrevistaRaulDonayre.png" alt="Foto de Raul Donayre" width="7000"></td>
+    <td>Raul describió sus principales desafíos operativos y necesidades tecnológicas. Actualmente maneja de forma manual y desorganizada aspectos cruciales como certificaciones, información de proveedores y trazabilidad del café, lo que dificulta responder ágilmente a los clientes. Utiliza métodos básicos para comunicar las características especiales del café, incluyendo tarjetas informativas, aunque reconoce que necesita algo más visual y atractivo. Para mantener la consistencia entre baristas, implementa un sistema de mentoría y reuniones semanales de cata, pero admite que su documentación y capacitación necesitan actualización. En cuanto a tecnología, usa principalmente Excel, una caja registradora digital y aplicaciones básicas de tueste, pero carece de un sistema integral. Su principal necesidad es una plataforma que mejore la eficiencia operativa y la experiencia del cliente, permitiendo mostrar el valor agregado de sus productos para justificar precios más altos y aumentar la rentabilidad del negocio. El dueño enfatiza que cualquier solución debe ser tangible y visible para los clientes, ayudando a gestionar todo el proceso desde la recepción del grano hasta la taza final.</td>
+  </tr>
+  <tr>
+    <td>Timing:19:48-26:13</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación</td>
+  </tr>
+</table>
+
+---
 #### Entrevistas a baristas profesionales
 
 <table border="1">
@@ -669,7 +757,6 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
         Ver grabación</td>
   </tr>
 </table>
-</table>
 
 <table border="1">
   <tr>
@@ -678,34 +765,6 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
   </tr>
   <tr>
     <td>Entrevistado 2</td>
-    <td>Victor Cruz</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>23</td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td>Santiago de Surco</td>
-  </tr>
-  <tr>
-    <td><img src="public\assets\images\Entrevistas\EntrevistaVictorCruz.jpg" alt="Foto de Victor Cruz" width="8500"></td>
-    <td>Víctor Cruz es un barista autodidacta con experiencia en café de especialidad, formado a través de investigación personal, observación en cafeterías y visitas a fincas productoras de café como las de Villa Rica. Su enfoque destaca por la curiosidad y el aprendizaje empírico, aunque reconoce limitaciones en la documentación de métodos tradicionales como el tueste a leña. Sus principales desafíos incluyen la calibración precisa de máquinas inestables, la estandarización de recetas entre baristas, y el control del inventario ante la falta de tiempo y recursos. Utiliza métodos como el V60 para evaluación sensorial y busca profesionalizar aún más su práctica para aplicar su conocimiento a nivel internacional. Considera clave contar con una plataforma integral que permita rastrear todo el proceso del café, desde el grano verde hasta la taza de café final, y destaca el valor de la tecnología para mejorar consistencia, trazabilidad y eficiencia.</td>
-  </tr>
-  <tr>
-    <td>Timing:06:55-13:26</td>
-    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-        Ver grabación</td>
-  </tr>
-</table>
-
-<table border="1">
-  <tr>
-    <th>Campo</th>
-    <th>Información</th>
-  </tr>
-  <tr>
-    <td>Entrevistado 3</td>
     <td>Anyela Guillermo</td>
   </tr>
   <tr>
@@ -721,65 +780,9 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
     <td>Anyela es una barista con 3 años de experiencia en café de especialidad y participante en competencias de latte art. Sus principales desafíos incluyen mantener la consistencia entre baristas, documentar recetas, encontrar temperaturas ideales para métodos filtrados, preservar propiedades del café mediante almacenamiento adecuado y lograr precisión en calibraciones. Aunque utiliza registros manuales, identifica la necesidad de herramientas tecnológicas para evaluación del café, análisis de variedades y monitoreo de almacenamiento. Considera valioso implementar una plataforma integral que conecte todo el proceso del café y espacios tipo laboratorio que integren teoría y práctica, desde el cultivo hasta la taza final.</td>
   </tr>
   <tr>
-    <td>Timing:13:26-19:48</td>
+    <td>Timing:13:27-19:48</td>
     <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación</td>
-  </tr>
-#### Entrevistas a dueños o administradores de cafeterías de especialidad
-<table border="1">
-  <tr>
-    <th>Campo</th>
-    <th>Información</th>
-  </tr>
-  <tr>
-    <td>Entrevistado 1</td>
-    <td>Raul Donayre</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>42</td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td>San Borja</td>
-  </tr>
-  <tr>
-    <td><img src="public\assets\images\Entrevistas\EntrevistaRaulDonayre.png" alt="Foto de Raul Donayre" width="7000"></td>
-    <td>Raul describió sus principales desafíos operativos y necesidades tecnológicas. Actualmente maneja de forma manual y desorganizada aspectos cruciales como certificaciones, información de proveedores y trazabilidad del café, lo que dificulta responder ágilmente a los clientes. Utiliza métodos básicos para comunicar las características especiales del café, incluyendo tarjetas informativas, aunque reconoce que necesita algo más visual y atractivo. Para mantener la consistencia entre baristas, implementa un sistema de mentoría y reuniones semanales de cata, pero admite que su documentación y capacitación necesitan actualización. En cuanto a tecnología, usa principalmente Excel, una caja registradora digital y aplicaciones básicas de tueste, pero carece de un sistema integral. Su principal necesidad es una plataforma que mejore la eficiencia operativa y la experiencia del cliente, permitiendo mostrar el valor agregado de sus productos para justificar precios más altos y aumentar la rentabilidad del negocio. El dueño enfatiza que cualquier solución debe ser tangible y visible para los clientes, ayudando a gestionar todo el proceso desde la recepción del grano hasta la taza final.</td>
-  </tr>
-  <tr>
-    <td>Timing:19:48-26:13</td>
-    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-        Ver grabación</td>
-  </tr>
-</table>
-
-<table border="1">
-  <tr>
-    <th>Campo</th>
-    <th>Información</th>
-  </tr>
-  <tr>
-    <td>Entrevistado 2</td>
-    <td>Omar Ortiz</td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td>47</td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td>San Borja</td>
-  </tr>
-  <tr>
-    <td><img src="public\assets\images\Entrevistas\EntrevistaOmarOrtiz.png" alt="Foto de Omar Ortiz"></td>
-    <td>Omar cuenta con una certificación internacional como barista por la SCA y actualmente es dueño de una cafetería especializada. Tiene un conocimiento sólido sobre los procesos del café, desde la selección del grano y sus características (como altura, proceso y humedad), hasta el control del tueste y la calibración diaria de las bebidas. Se encarga personalmente del almacenamiento y monitoreo del grano, utilizando herramientas como Excel para llevar registros de peso, rendimiento y trazabilidad. Aunque se maneja bien con herramientas digitales básicas, reconoce que ciertos procesos manuales podrían optimizarse mediante una plataforma digital especializada. Publica contenido educativo sobre café en LinkedIn, lo cual también refuerza su rol como formador dentro del rubro.</td>
-  </tr>
-  <tr>
-    <td>Timing:26:13-32:40</td>
-    <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-        Ver grabación</td>
-   
   </tr>
 </table>
 
@@ -790,22 +793,22 @@ Ofrecer el Plan Base Cafetal gratuito con funcionalidades clave (registro básic
   </tr>
   <tr>
     <td>Entrevistado 3</td>
-    <td>Ivo Kalinowski</td>
+    <td>Victor Cruz</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td>28</td>
+    <td>23</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td>San Borja</td>
+    <td>Santiago de Surco</td>
   </tr>
   <tr>
-    <td><img src="public\assets\images\Entrevistas\EntrevistaIvoKalinowski.jpg" alt="Foto de Ivo Kalinowski" width="7000"></td>
-    <td>Ivo es dueño de una cafetería de especialidad y cuenta con una amplia experiencia en el manejo integral del café, desde la selección del grano hasta la experiencia final en taza. Aunque actualmente no trabaja con cafés certificados, valora su importancia y reconoce la necesidad de herramientas digitales para gestionar mejor la documentación relacionada. La comunicación de las características del café hacia sus clientes es principalmente oral, apoyada en pizarras, y considera útil un sistema visual y estandarizado para este fin. Evalúa a sus proveedores mediante catas y relaciones de confianza, sin un registro formal, y le interesaría contar con una plataforma para organizar esa información. El almacenamiento de café lo gestiona de forma empírica, pero ha experimentado pérdidas que podrían evitarse con monitoreo digital. Para mantener la consistencia entre baristas, implementa protocolos de preparación y entrenamiento constante, aunque identifica la necesidad de una herramienta para estandarizar y compartir recetas. Transmite el conocimiento técnico de manera oral y presencial, y ve valor en una bitácora digital que permita documentar recetas, aprendizajes y procesos. Utiliza Excel y WhatsApp como herramientas principales, pero admite que muchos procesos siguen siendo manuales. Está interesado en una plataforma integral que permita gestionar trazabilidad, control de calidad, inventario, recetas, capacitación y costos de forma centralizada, mejorando así la eficiencia y la calidad de su operación.</td>
+    <td><img src="public\assets\images\Entrevistas\EntrevistaVictorCruz.jpg" alt="Foto de Victor Cruz" width="8500"></td>
+    <td>Víctor Cruz es un barista autodidacta con experiencia en café de especialidad, formado a través de investigación personal, observación en cafeterías y visitas a fincas productoras de café como las de Villa Rica. Su enfoque destaca por la curiosidad y el aprendizaje empírico, aunque reconoce limitaciones en la documentación de métodos tradicionales como el tueste a leña. Sus principales desafíos incluyen la calibración precisa de máquinas inestables, la estandarización de recetas entre baristas, y el control del inventario ante la falta de tiempo y recursos. Utiliza métodos como el V60 para evaluación sensorial y busca profesionalizar aún más su práctica para aplicar su conocimiento a nivel internacional. Considera clave contar con una plataforma integral que permita rastrear todo el proceso del café, desde el grano verde hasta la taza de café final, y destaca el valor de la tecnología para mejorar consistencia, trazabilidad y eficiencia.</td>
   </tr>
   <tr>
-    <td>Timing:32:40-40:46</td>
+    <td>Timing:06:55-13:27</td>
     <td>    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ESlL0dXXzIFHvNO_L7wd6lAB96OjUBRnmY5j9-DMdWezVg?e=6ZBgG7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación</td>
   </tr>
