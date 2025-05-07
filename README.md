@@ -2089,6 +2089,9 @@ Production Cost Management 5 - US20
  ![image](public/assets/images/Wireflows/GestorCostos.png)
 
 ### 4.4.2. Web Applications Mock-ups.
+
+### Desktop Mock-ups 
+
 Select Suscription - US03
 ![SelectSuscription](public/assets/images/WebAppMockup/SelectSuscriptionUS03.png)
 
