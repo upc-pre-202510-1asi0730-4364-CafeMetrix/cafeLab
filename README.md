@@ -1974,7 +1974,51 @@ Production Cost Management 5 - US20
 
 **Log In**
 
-![image](public/assets/images/MobileWireframes/Signin.png)
+![image](public/assets/images/MobileWireframes/Login.png)
+
+**Welcome Page**
+
+![image](public/assets/images/MobileWireframes/WelcomePage.png)
+
+**Suppliers**
+
+![image](public/assets/images/MobileWireframes/Suppliers.png)
+
+**Coffee Lot**
+
+![image](public/assets/images/MobileWireframes/Coffeelot.png)
+
+**Roast Profiles and Comparison**
+
+![image](public/assets/images/MobileWireframes/Roast.png)
+
+**Cupping Sessions**
+
+![image](public/assets/images/MobileWireframes/Cupping.png)
+
+**Recipes**
+
+![image](public/assets/images/MobileWireframes/Recipes.png)
+
+**Grind Calibration**
+
+![image](public/assets/images/MobileWireframes/Calibration.png)
+
+**Defects Library**
+
+![image](public/assets/images/MobileWireframes/Defects.png)
+
+**Patterns of Roast and Cupping**
+
+![image](public/assets/images/MobileWireframes/Patterns.png)
+
+**Inventory**
+
+![image](public/assets/images/MobileWireframes/Inventory.png)
+
+**Cost Management**
+
+![image](public/assets/images/MobileWireframes/Cost.png)
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
