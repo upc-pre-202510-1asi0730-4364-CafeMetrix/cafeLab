@@ -1745,7 +1745,7 @@ La versión wireframe de nuestra landing page presenta una estructura básica co
 
 
 ### 4.3.2. Landing Page Mock-up.
-**Landing Page para Desktop Web Browser**
+**Landing Page para Desktop Web Browser**<br>
 En nuestra versión mock-up se evidencia la implementación de los elementos de diseño específicos de Café Lab. Se aplicó la paleta de colores característica, que incluye tonos tierra y marrones cálidos como color primario, junto con verdes oscuros como color secundario, creando una estética que evoca la naturaleza del café y su proceso artesanal. La tipografía seleccionada se implementó de manera consistente en todos los elementos de texto, desde los encabezados principales hasta los párrafos descriptivos y botones de acción.
 
 ![Hero](public/assets/images/LandingMockUps/1.png)
@@ -1758,6 +1758,7 @@ En nuestra versión mock-up se evidencia la implementación de los elementos de 
 
 **Landing Page para Mobile Web Browser**
 <br>
+
 ![Inicio, menu, visualizaciones, planes](public/assets/images/LandingMockUps/8.png)  
 
 <br>
