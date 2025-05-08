@@ -406,7 +406,7 @@ Visualmente, el producto debe ser claro, moderno y profesional, con un diseño m
 **Cuando** los usuarios reduzcan las pérdidas de calidad por mala conservación en un 30% y mejoren los resultados del tueste en un 20%.
 #### 1.2.2.4. Lean UX Canvas
 
-<td><img src="public\assets\images\Lean Ux Canvas\LeanUxCanvas.png" alt="LeanUxCanvas"></td>
+<td><img src="public\assets\images\Lean-Ux-Canvas\LeanUxCanvas.png" alt="LeanUxCanvas"></td>
 
 Enlace para acceder al [Canvas](https://app.mural.co/t/workspace06322/m/workspace06322/1746663843706/9d4cdde362fcb2e2e7ab63b79b9f4cbbbb9cf6c0?sender=udb49d0aae562d2e192373949).
 
