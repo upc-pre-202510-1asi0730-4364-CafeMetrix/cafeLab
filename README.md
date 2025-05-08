@@ -405,37 +405,10 @@ Visualmente, el producto debe ser claro, moderno y profesional, con un diseño m
 
 **Cuando** los usuarios reduzcan las pérdidas de calidad por mala conservación en un 30% y mejoren los resultados del tueste en un 20%.
 #### 1.2.2.4. Lean UX Canvas
-<div style="text-align:center;">
-    <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <tr>
-            <th style="text-align:center; border: 1px solid #ddd;">Business Problem</th>
-            <th style="text-align:center; border: 1px solid #ddd;">Business Outcomes</th>
-            <th style="text-align:center; border: 1px solid #ddd;">Users & Customers</th>
-            <th style="text-align:center; border: 1px solid #ddd;">User Benefits</th>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;">- Baristas y cafeterías carecen de herramientas integradas para documentar, replicar y compartir procesos clave (tueste, calibración, cata, preparación), impidiendo estandarizar y escalar la calidad del café.<br><br>- No hay conexión técnica documentada entre el tueste y la experiencia en taza; los baristas desconocen variables críticas (humedad, temperatura, curva de tueste), generando inconsistencias y pérdidas de calidad.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">- Incrementar la adopción de CaféLab entre baristas y cafeterías de especialidad.<br><br>- Reducir pérdidas de calidad mediante mejor control del almacenamiento y procesos.<br><br>- Aumentar la satisfacción del cliente con consistencia en la calidad del café.<br><br>- Generar ingresos recurrentes con planes premium ($29 y $59/mes).<br><br>- Posicionarse como líder en trazabilidad y transparencia en la industria del café.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">- <strong>Baristas Profesionales:</strong> Gestionan todo el proceso del café, buscan calidad, consistencia y trazabilidad para competencias y clientes exigentes.<br><br>- <strong>Cafeterías de Especialidad:</strong> Negocios que ofrecen cafés de origen, priorizan transparencia y sostenibilidad, necesitan cumplir certificaciones.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">- <strong>Baristas:</strong> Mayor consistencia, mejor reputación, datos técnicos y sensoriales para diferenciarse.<br><br>- <strong>Cafeterías:</strong> Fidelización de clientes mediante trazabilidad, cumplimiento de certificaciones, optimización de inventario y procesos.</td>
-        </tr>
-    </table>
-    <br>
-    <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <tr>
-            <th style="text-align:center; border: 1px solid #ddd;">Solution Ideas</th>
-            <th style="text-align:center; border: 1px solid #ddd;">Hypothesis Statement</th>
-            <th style="text-align:center; border: 1px solid #ddd;">What's the Most Important Thing We Need to Learn First?</th>
-            <th style="text-align:center; border: 1px solid #ddd;">What's the Least Amount of Work We Need to Do to Learn the Next Most Important Thing?</th>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;">- Plataforma dual (software + IoT):<br><br>  - Software con módulos para gestión de café verde, tueste, calibración, cata y administración.<br><br>  - TrackSilo: Sensor IoT para monitorear temperatura (18–22 °C) y humedad (55–65 %) del café verde, con alertas y registro por lote.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">- Si proporcionamos a baristas herramientas para registrar curvas de tueste, entonces mejorarán la consistencia.<br><br>- Si ofrecemos trazabilidad a cafeterías, entonces cumplirán certificaciones y fidelizarán clientes.<br><br>- Si integramos TrackSilo, entonces reduciremos pérdidas de calidad.<br><br>- Si el software es intuitivo, entonces los baristas lo adoptarán.<br><br>- Si ofrecemos planes premium, entonces los usuarios pagarán $29 o $59/mes.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">- <strong>Riesgo:</strong> Resistencia a la adopción tecnológica, costo percibido de planes premium, problemas técnicos con TrackSilo.<br><br>- <strong>Validar:</strong> Usabilidad, valor percibido y disposición a pagar mediante pruebas con un MVP.</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">- Desarrollar un MVP del software y TrackSilo.<br><br>- Probar con un grupo pequeño de baristas y cafeterías.<br><br>- Recopilar retroalimentación y ajustar la solución.</td>
-        </tr>
-    </table>
-</div>
+
+<td><img src="public\assets\images\Lean Ux Canvas\LeanUxCanvas.png" alt="LeanUxCanvas"></td>
+
+Enlace para acceder al [Canvas](https://app.mural.co/t/workspace06322/m/workspace06322/1746663843706/9d4cdde362fcb2e2e7ab63b79b9f4cbbbb9cf6c0?sender=udb49d0aae562d2e192373949).
 
 ## 1.3. Segmentos objetivo
 
