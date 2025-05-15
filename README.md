@@ -3041,6 +3041,63 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+#### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2
+<table>
+        <thead>
+            <tr>
+                <th>Sprint #</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Location</th>
+                <th>Prepared By</th>
+                <th>Attendees</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="centered">1</td>
+                <td class="centered">01/05/2025</td>
+                <td class="centered">09:00 AM</td>
+                <td>Reunión virtual mediante la aplicación Discord</td>
+                <td>Adrian Donayre</td>
+                <td>Fredy Fernández, Christian Inga, Renzo Uribe, Joseph Chavez, Adrian Donayre</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="section-header">Sprint 2 Goal</td>
+                <td class="section-header">Sprint 2 Velocity</td>
+                <td class="section-header">Sum of Story Points</td>
+            </tr>
+            <tr>
+                <td colspan="4">Desarrollar el prototipo del figma en WebStorm, ademas de realizar el deployd de la aplicacion.</td>
+                <td class="centered">8</td>
+                <td class="centered">8</td>
+            </tr>
+        </tbody>
+    </table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+| Team Member (Last Name, First Name) | GitHub Username | Información del Producto (US23) | Secciones Específicas por Segmento (US24) | Contacto con Equipo (US25) | Acceso directo a plataforma (US26) |
+|-------------------------------------|-----------------|--------------------------------|------------------------------------------|---------------------------|----------------------------------|
+| Donayre, Adrian                     | adriandonayredev  | C                              | L                                        | C                         | L                                |
+| Chavez, Joseph                      | u202314019-MrOsoPanda| C                              | C                                        | L                         | C                            |
+| Uribe, Renzo                    | JKOlimpo | C                              | C                                        | L                         | C                                |
+| Fernández, Fredy                    | u202320083      | C                              | L                                        | C                         | C                                |
+| Inga, Christian                     | Christian1905   | C                              | L                                        | C                         | C                                |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+#### 5.2.2.3.Sprint Backlog 2.
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
