@@ -3069,7 +3069,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
                 <td class="section-header">Sum of Story Points</td>
             </tr>
             <tr>
-                <td colspan="4">Desarrollar el prototipo del figma en WebStorm, ademas de realizar el deployd de la aplicacion.</td>
+                <td colspan="4">Desarrollar el prototipo del figma en WebStorm, ademas de realizar las correciones y  deplegar la primera versión completa de la FrontEndApp.</td>
                 <td class="centered">8</td>
                 <td class="centered">8</td>
             </tr>
@@ -3085,9 +3085,280 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 | Fernández, Fredy                    | u202320083      | C                              | L                                        | C                         | C                                |
 | Inga, Christian                     | Christian1905   | C                              | L                                        | C                         | C                                |
 
-#### 5.2.2.2. Aspect Leaders and Collaborators.
 
 #### 5.2.2.3.Sprint Backlog 2.
+
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item/Task</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-do / In Process / To Review / Done)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>US02</td>
+            <td>Perfil Personalizado</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US03</td>
+            <td>Selección de Plan</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US04</td>
+            <td>Registro de Proveedores</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Gestión de Lotes de Café Verde</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Registro de Certificaciones</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US07</td>
+            <td>Creación de Perfil de Tueste</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US08</td>
+            <td>Registro de Sesión de Tueste</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US09</td>
+            <td>Análisis Comparativo de Tuestes</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US10</td>
+            <td>Biblioteca de Defectos de Tueste</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US11</td>
+            <td>Cata Digital Estructurada</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US12</td>
+            <td>Visualización de Perfiles Sensoriales</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US13</td>
+            <td>Correlación Tueste-Sabor</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US14</td>
+            <td>Historial de Catas</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US15</td>
+            <td>Creación de Recetas de Preparación</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US16</td>
+            <td>Calibración de Molienda</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US17</td>
+            <td>Portafolio de Bebidas</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US18</td>
+            <td>Compartir Recetas</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US19</td>
+            <td>Control de Inventario Integrado</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US20</td>
+            <td>Gestión de Costos de Producción</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US21</td>
+            <td>Análisis de Eficiencia y Rendimiento</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US22</td>
+            <td>Reportes de Trazabilidad</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US23</td>
+            <td>Información del Producto</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US24</td>
+            <td>Secciones Específicas por Segmento</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US25</td>
+            <td>Contacto con Equipo</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US26</td>
+            <td>Acceso directo a plataforma</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
 
