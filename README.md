@@ -3613,7 +3613,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
     </thead>
     <tbody>
         <tr>
-            <td></td>
+            <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/complete-app</td>
             <td>d50f094</td>
             <td>Fixed merge</td>
@@ -3621,7 +3621,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+            <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/complete_plan</td>
             <td>(multiple)</td>
             <td>feat: Add all modules to complete plan. (5 commits)</td>
@@ -3629,7 +3629,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+            <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/signin-signup</td>
             <td>bbeffdc</td>
             <td>unify: add owner dashboard</td>
@@ -3637,7 +3637,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>owner-Features</td>
             <td>(merge)</td>
             <td>Merge branch 'owner-Features' of https://github.com/upc-pre-202510-1a…</td>
@@ -3645,7 +3645,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/complete_plan</td>
             <td>14c7ac4</td>
             <td>feat: Add CompletePayment page, CompletePlan Dashboard and Portfolio …</td>
@@ -3653,7 +3653,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>owner-Features</td>
             <td>dcbc37a</td>
             <td>images</td>
@@ -3661,7 +3661,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>Defects-Details</td>
             <td>7e48c67</td>
             <td>Conectar con la principal</td>
@@ -3669,7 +3669,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/portfolios_recipes</td>
             <td>db9f80c</td>
             <td>feat: Add CompletePayment page, CompletePlan Dashboard and Portfolio …</td>
@@ -3677,7 +3677,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>owner-Features</td>
             <td>721b53c</td>
             <td>owner</td>
@@ -3685,7 +3685,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/signin-signup</td>
             <td>9d7f343</td>
             <td>feat: deployment works</td>
@@ -3693,7 +3693,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/signin-signup</td>
             <td>2a3d9fe</td>
             <td>feat: add environments files, http instance and firebase files</td>
@@ -3701,7 +3701,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 14, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>Defects-Details</td>
             <td>21d71ec</td>
             <td>Lo que le toco a panda</td>
@@ -3709,7 +3709,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 13, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>Defects-Details</td>
             <td>21d71ec</td>
             <td>Sensory-evaluation complete</td>
@@ -3717,7 +3717,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 13, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/signin-signup</td>
             <td>17bca7a</td>
             <td>feat: modify login, signup, edit profile to the mockup version</td>
@@ -3725,7 +3725,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 13, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/signin-signup</td>
             <td>42572a2</td>
             <td>feat: add the header for sigin and the rest of the initial pages</td>
@@ -3733,7 +3733,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 13, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>feature/signin-signup</td>
             <td>183adf6</td>
             <td>feat: add logic of signin, sign up, edit profile, select subscripcion</td>
@@ -3741,7 +3741,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 13, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>sensory-evaluation</td>
             <td>21d71ec (forced)</td>
             <td>Sensory-evaluation complete</td>
@@ -3749,7 +3749,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 12, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>sensory-evaluation</td>
             <td>5bc6185</td>
             <td>files</td>
@@ -3757,7 +3757,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 12, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>sensory-evaluation</td>
             <td>(deleted)</td>
             <td>Deleted branch</td>
@@ -3765,7 +3765,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 12, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>sensory-evaluation</td>
             <td>84a20e2</td>
             <td>feat: add language-switcher file</td>
@@ -3773,7 +3773,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 12, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>develop</td>
             <td>84a20e2</td>
             <td>feat: add language-switcher file (2 commits)</td>
@@ -3781,7 +3781,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 11, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>main</td>
             <td>5bc6185</td>
             <td>files</td>
@@ -3789,7 +3789,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 08, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>develop</td>
             <td>0be061f</td>
             <td>merge: integrate local vue+vite setup with remote repository (2 commits)</td>
@@ -3797,7 +3797,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 08, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>main</td>
             <td>0be061f</td>
             <td>merge: integrate local vue+vite setup with remote repository</td>
@@ -3805,7 +3805,7 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
             <td>~May 08, 2025</td>
         </tr>
         <tr>
-            <td></td>
+             <td>upc-pre-202510-1asi0730-4364</td>
             <td>main</td>
             <td>d31c0bd</td>
             <td>Initial commit</td>
