@@ -3600,7 +3600,220 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
     </tbody>
 </table>
 #### 5.2.2.4.Development Evidence for Sprint Review.
-
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit Id</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td>feature/complete-app</td>
+            <td>d50f094</td>
+            <td>Fixed merge</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>feature/complete_plan</td>
+            <td>(multiple)</td>
+            <td>feat: Add all modules to complete plan. (5 commits)</td>
+            <td>(details of 5 commits not fully shown)</td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>feature/signin-signup</td>
+            <td>bbeffdc</td>
+            <td>unify: add owner dashboard</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>owner-Features</td>
+            <td>(merge)</td>
+            <td>Merge branch 'owner-Features' of https://github.com/upc-pre-202510-1a…</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>feature/complete_plan</td>
+            <td>14c7ac4</td>
+            <td>feat: Add CompletePayment page, CompletePlan Dashboard and Portfolio …</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>owner-Features</td>
+            <td>dcbc37a</td>
+            <td>images</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Defects-Details</td>
+            <td>7e48c67</td>
+            <td>Conectar con la principal</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>feature/portfolios_recipes</td>
+            <td>db9f80c</td>
+            <td>feat: Add CompletePayment page, CompletePlan Dashboard and Portfolio …</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>owner-Features</td>
+            <td>721b53c</td>
+            <td>owner</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>feature/signin-signup</td>
+            <td>9d7f343</td>
+            <td>feat: deployment works</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>feature/signin-signup</td>
+            <td>2a3d9fe</td>
+            <td>feat: add environments files, http instance and firebase files</td>
+            <td></td>
+            <td>~May 14, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Defects-Details</td>
+            <td>21d71ec</td>
+            <td>Lo que le toco a panda</td>
+            <td></td>
+            <td>~May 13, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Defects-Details</td>
+            <td>21d71ec</td>
+            <td>Sensory-evaluation complete</td>
+            <td></td>
+            <td>~May 13, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>feature/signin-signup</td>
+            <td>17bca7a</td>
+            <td>feat: modify login, signup, edit profile to the mockup version</td>
+            <td></td>
+            <td>~May 13, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>feature/signin-signup</td>
+            <td>42572a2</td>
+            <td>feat: add the header for sigin and the rest of the initial pages</td>
+            <td></td>
+            <td>~May 13, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>feature/signin-signup</td>
+            <td>183adf6</td>
+            <td>feat: add logic of signin, sign up, edit profile, select subscripcion</td>
+            <td></td>
+            <td>~May 13, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>sensory-evaluation</td>
+            <td>21d71ec (forced)</td>
+            <td>Sensory-evaluation complete</td>
+            <td>Force push</td>
+            <td>~May 12, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>sensory-evaluation</td>
+            <td>5bc6185</td>
+            <td>files</td>
+            <td></td>
+            <td>~May 12, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>sensory-evaluation</td>
+            <td>(deleted)</td>
+            <td>Deleted branch</td>
+            <td></td>
+            <td>~May 12, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>sensory-evaluation</td>
+            <td>84a20e2</td>
+            <td>feat: add language-switcher file</td>
+            <td></td>
+            <td>~May 12, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>develop</td>
+            <td>84a20e2</td>
+            <td>feat: add language-switcher file (2 commits)</td>
+            <td></td>
+            <td>~May 11, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>main</td>
+            <td>5bc6185</td>
+            <td>files</td>
+            <td></td>
+            <td>~May 08, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>develop</td>
+            <td>0be061f</td>
+            <td>merge: integrate local vue+vite setup with remote repository (2 commits)</td>
+            <td></td>
+            <td>~May 08, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>main</td>
+            <td>0be061f</td>
+            <td>merge: integrate local vue+vite setup with remote repository</td>
+            <td></td>
+            <td>~May 08, 2025</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>main</td>
+            <td>d31c0bd</td>
+            <td>Initial commit</td>
+            <td></td>
+            <td>~May 08, 2025</td>
+        </tr>
+    </tbody>
+</table>
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
