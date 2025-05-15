@@ -3213,6 +3213,28 @@ En nuestro primer sprint, logramos desplegar la landing page. Estará mejorada p
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+En este segundo sprint, el equipo se centró en desarrollar el frontend de Café Lab. Para lograrlo, tuvimos que desarrollar distintos endpoints con el propósito de contar con un fake REST API. Decidimos desplegar en mockAPI una vez contamos con ellos. Estos son [MockAPI1](https://6824c1b40f0188d7e72aabca.mockapi.io/api/v1/users) y [MockAPI2](https://6824c85c0f0188d7e72ac99e.mockapi.io/api/v1).
+
+<table style="border-collapse: collapse; width: 100%;">
+    <tr>
+        <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Endpoint</th>
+        <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Details</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; text-align: center; padding: 8px;">/users</td>
+        <td style="border: 1px solid #dddddd; text-align: center; padding: 8px;">Endpoint que cuenta con los atributos del usuario, ya sea barista o dueño/administrador de cafetería.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; text-align: center; padding: 8px;">/portfolios</td>
+        <td style="border: 1px solid #dddddd; text-align: center; padding: 8px;">Endpoint que cuenta con los atributos de los distintos portafolios. Estos almacenan las bebidas que se pueden crear.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; text-align: center; padding: 8px;">/recipes</td>
+        <td style="border: 1px solid #dddddd; text-align: center; padding: 8px;">Endpoint que cuenta con los atributos de las recetas. Estos incluyen el método de preparación, la calibración del molino, el portfolio al cual están asociados, los pasos que se siguen en su preparación, etc.</td>
+    </tr>
+</table>
+
 # Conclusiones
 ## Conclusiones y recomendaciones.
 ## Conclusiones
