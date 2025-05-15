@@ -86,6 +86,25 @@
       </ul>
     </td>
   </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">TB2</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">14/05/2025</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>Renzo Uribe</li>
+        <li>Joseph Chavez</li>
+        <li>Adrian Donayre</li>
+        <li>Christian Inga</li>
+        <li>Carlos Fernandez</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">            
+      <ul>
+        <li>Capítulo V: Product Implementation, Validation & Deployment hasta el primer sprint</li>
+        <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+      </ul>
+    </td>
+  </tr>
 </table><br>
 
 <!--Link al repositorio en la organización-->
