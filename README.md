@@ -3235,6 +3235,27 @@ En este segundo sprint, el equipo se centró en desarrollar el frontend de Café
     </tr>
 </table>
 
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Para este segundo sprint, el equipo priorizó la entrega ya desplegada de todo el web aplication frontend. A pesar de bugs y llamadas con errores hacia el REST API, se logró plantear la lógica de nuestra solución de software.
+
+Web Application:
+En las siguientes imágenes se muestra el correcto despliegue de la página, además de las distintas pantallas que la componen.
+
+<div align="center">
+  <img src="public\assets\images\Deployment2ndSprint\1.png" alt="1">
+  <img src="public\assets\images\Deployment2ndSprint\2.png" alt="2">
+  <img src="public\assets\images\Deployment2ndSprint\3.png" alt="3">
+  <img src="public\assets\images\Deployment2ndSprint\4.png" alt="4">
+  <img src="public\assets\images\Deployment2ndSprint\5.png" alt="5">
+  <img src="public\assets\images\Deployment2ndSprint\6.png" alt="6">
+  <img src="public\assets\images\Deployment2ndSprint\7.png" alt="7">
+  <img src="public\assets\images\Deployment2ndSprint\8.png" alt="8">
+  <img src="public\assets\images\Deployment2ndSprint\9.png" alt="9">
+</div>
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+
 # Conclusiones
 ## Conclusiones y recomendaciones.
 ## Conclusiones
