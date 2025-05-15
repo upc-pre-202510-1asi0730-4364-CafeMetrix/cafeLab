@@ -2998,7 +2998,6 @@ En nuestro primer sprint, logramos desplegar la landing page. Estará mejorada p
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
-
 #### 5.2.2.3. Sprint Backlog 2.
 
 
@@ -3235,6 +3234,67 @@ En nuestro primer sprint, logramos desplegar la landing page. Estará mejorada p
 </table>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
+En el segundo sprint se alcanzo un desarrollo importante en la implementación de la aplicación La cual muestra
+los diferentes módulos que ofrece nuestro proyecto, aplicando internacionalización y siendo responsive, para que se pueda acceder desde cualquier dispositivo. Se muestran a continuación las evidencias:
+
+**US01:**
+![image](public/assets/images/WebAppEvidences/US01.png)  
+![image](public/assets/images/WebAppEvidences/US01-1.png)
+
+**US02:**
+![image](public/assets/images/WebAppEvidences/US02.png)
+
+**US03:**
+![image](public/assets/images/WebAppEvidences/US03.png)
+
+**US04:**
+![image](public/assets/images/WebAppEvidences/US04.png)
+
+**US05:**
+![image](public/assets/images/WebAppEvidences/US05.png)
+
+**US07:**
+![image](public/assets/images/WebAppEvidences/US07.png)
+
+**US08:**
+![image](public/assets/images/WebAppEvidences/US08.png)  
+![image](public/assets/images/WebAppEvidences/US08-1.png)
+
+**US09:**
+![image](public/assets/images/WebAppEvidences/US09.png)  
+![image](public/assets/images/WebAppEvidences/US09-1.png)
+
+**US10:**
+![image](public/assets/images/WebAppEvidences/US10.png)  
+![image](public/assets/images/WebAppEvidences/US10-1.png)
+
+**US12:**
+![image](public/assets/images/WebAppEvidences/US12.png)  
+![image](public/assets/images/WebAppEvidences/US12-1.png)
+
+**US13:**
+![image](public/assets/images/WebAppEvidences/US13.png)
+
+**US14:**
+![image](public/assets/images/WebAppEvidences/US14.png)
+
+**US16:**
+![image](public/assets/images/WebAppEvidences/US16.png)  
+![image](public/assets/images/WebAppEvidences/US16-1.png)
+
+**US17:**
+![image](public/assets/images/WebAppEvidences/US17.png)
+
+**US24:**
+![image](public/assets/images/WebAppEvidences/US24-1.png)  
+![image](public/assets/images/WebAppEvidences/US24-2.png)
+
+**US25:**
+![image](public/assets/images/WebAppEvidences/US25.png)
+
+**US26:**
+![image](public/assets/images/WebAppEvidences/US26.png)
+
 
 
 # Conclusiones
