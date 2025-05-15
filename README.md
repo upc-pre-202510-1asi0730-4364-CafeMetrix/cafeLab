@@ -2804,6 +2804,29 @@ Link de [Trello](https://trello.com/b/diGtoNBa/sprint-1)
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+### 5.2.1 Sprint 2
+El Sprint #2 tiene como fecha de inicio el 5/5/2025 y como meta realizar el front
+end y fake API de la web application de manera que sea atractiva y funcional.
+
+### Sprint #2
+
+| Sprint # | Date       | Time    | Location                                  | Prepared By | Attendees                                                                 |
+|----------|------------|---------|-------------------------------------------|-------------|---------------------------------------------------------------------------|
+| 2        | 05/05/2025 | 10:00 PM| Reunión virtual mediante la aplicación Discord | Adrian Donayre | Adrian Donayre, Joseph Chavez, Carlos Fernández, Christian Inga, Renzo Uribe |
+
+---
+
+#### Sprint 2 Goal
+
+> Realizar el front end de la web application de manera que sea atractiva y funcional
+
+| Sprint 2 Velocity | Sum of Story Points |
+|-------------------|---------------------|
+| --                | --                  |
+
+#### 5.2.2.2. Sprint Backlog 2
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 ### 5.3.2. Registro de Entrevistas.
