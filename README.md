@@ -3015,223 +3015,199 @@ En nuestro primer sprint, logramos desplegar la landing page. Estará mejorada p
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">main</td>
-            <td style="border: 1px solid #000;">d83b119</td>
-            <td style="border: 1px solid #000;">Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
-            <td style="border: 1px solid #000;">Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
-            <td style="border: 1px solid #000;">Apr 26, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">develop</td>
-            <td style="border: 1px solid #000;">52f8c02</td>
-            <td style="border: 1px solid #000;">Cambios del footer</td>
-            <td style="border: 1px solid #000;">Cambios del footer</td>
-            <td style="border: 1px solid #000;">Apr 26, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">main</td>
-            <td style="border: 1px solid #000;">88b0054</td>
-            <td style="border: 1px solid #000;">Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
-            <td style="border: 1px solid #000;">Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">8b1ce23</td>
-            <td style="border: 1px solid #000;">Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">Merge pull request #7 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">5d8e923</td>
-            <td style="border: 1px solid #000;">Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">028ff5b</td>
-            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
-            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">012ba1a</td>
-            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
-            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">b7c7cc4</td>
-            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
-            <td style="border: 1px solid #000;">add section plans-features and testimonials</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-planes-caracteristicas</td>
-            <td style="border: 1px solid #000;">8791f03</td>
-            <td style="border: 1px solid #000;">add section plans-features and testimonials"</td>
-            <td style="border: 1px solid #000;">add section plans-features and testimonials"</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK06-faq-contacto</td>
-            <td style="border: 1px solid #000;">47e4882</td>
-            <td style="border: 1px solid #000;">Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto</td>
-            <td style="border: 1px solid #000;">Merge pull request #5 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK06-faq-contacto</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK06-faq-contacto</td>
-            <td style="border: 1px solid #000;">db22b02</td>
-            <td style="border: 1px solid #000;">feat (landing): join section faq to the rest of sections</td>
-            <td style="border: 1px solid #000;">feat (landing): join section faq to the rest of sections</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK06-faq-contacto</td>
-            <td style="border: 1px solid #000;">b5d8c31</td>
-            <td style="border: 1px solid #000;">fix: sections visualization</td>
-            <td style="border: 1px solid #000;">fix: sections visualization</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">3dc985b</td>
-            <td style="border: 1px solid #000;">Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">Merge pull request #4 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">752afd8</td>
-            <td style="border: 1px solid #000;">Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">Merge branch 'develop' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage into feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">52749d7</td>
-            <td style="border: 1px solid #000;">feat: join sections</td>
-            <td style="border: 1px solid #000;">feat: join sections</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
-            <td style="border: 1px solid #000;">ee480ec</td>
-            <td style="border: 1px solid #000;">Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria</td>
-            <td style="border: 1px solid #000;">Merge pull request #3 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK03-segmentos-barista-cafeteria</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
-            <td style="border: 1px solid #000;">bbe8843</td>
-            <td style="border: 1px solid #000;">feat: add data and graphics section</td>
-            <td style="border: 1px solid #000;">feat: add data and graphics section</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
-            <td style="border: 1px solid #000;">59b8d36</td>
-            <td style="border: 1px solid #000;">style: increase benefits section size on style.css</td>
-            <td style="border: 1px solid #000;">style: increase benefits section size on style.css</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
-            <td style="border: 1px solid #000;">1dd5638</td>
-            <td style="border: 1px solid #000;">Feat: Add benefits section to style.css</td>
-            <td style="border: 1px solid #000;">Feat: Add benefits section to style.css</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK03-segmentos-barista-cafeteria</td>
-            <td style="border: 1px solid #000;">79799eb</td>
-            <td style="border: 1px solid #000;">Feat: Add benefits section to index.html</td>
-            <td style="border: 1px solid #000;">Feat: Add benefits section to index.html</td>
-            <td style="border: 1px solid #000;">Apr 25, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">c6108c7</td>
-            <td style="border: 1px solid #000;">Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">Merge pull request #2 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">Apr 23, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">b00f2ac</td>
-            <td style="border: 1px solid #000;">Fix: Add active button corner</td>
-            <td style="border: 1px solid #000;">Fix: Add active button corner</td>
-            <td style="border: 1px solid #000;">Apr 23, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK04-datos-graficos</td>
-            <td style="border: 1px solid #000;">4f51736</td>
-            <td style="border: 1px solid #000;">style: change hover view</td>
-            <td style="border: 1px solid #000;">style: change hover view</td>
-            <td style="border: 1px solid #000;">Apr 23, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">develop</td>
-            <td style="border: 1px solid #000;">4945634</td>
-            <td style="border: 1px solid #000;">style: change files position and fix conflicts of this restructure</td>
-            <td style="border: 1px solid #000;">style: change files position and fix conflicts of this restructure</td>
-            <td style="border: 1px solid #000;">Apr 22, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK01-estructura-base</td>
-            <td style="border: 1px solid #000;">1093b41</td>
-            <td style="border: 1px solid #000;">Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base</td>
-            <td style="border: 1px solid #000;">Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/TK01-estructura-base</td>
-            <td style="border: 1px solid #000;">Apr 22, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">feature/TK01-estructura-base</td>
-            <td style="border: 1px solid #000;">19f91f6</td>
-            <td style="border: 1px solid #000;">Feat: Add banner, logo header and hero section</td>
-            <td style="border: 1px solid #000;">Feat: Add banner, logo header and hero section</td>
-            <td style="border: 1px solid #000;">Apr 21, 2025</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
-            <td style="border: 1px solid #000;">develop</td>
-            <td style="border: 1px solid #000;">0f4531b</td>
-            <td style="border: 1px solid #000;">chore: initial structure of folders and files</td>
-            <td style="border: 1px solid #000;">chore: initial structure of folders and files</td>
-            <td style="border: 1px solid #000;">Apr 21, 2025</td>
-        </tr>
-    </tbody>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">d50f094</td>
+        <td style="border: 1px solid #000;">Fixed merge</td>
+        <td style="border: 1px solid #000;">Fixed merge</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">feature/signin-signup</td>
+        <td style="border: 1px solid #000;">92fca52</td>
+        <td style="border: 1px solid #000;">Merge branch 'feature/signin-signup' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into allmerge</td>
+        <td style="border: 1px solid #000;">Merge branch 'feature/signin-signup' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into allmerge</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">feature/complete_plan</td>
+        <td style="border: 1px solid #000;">04623be</td>
+        <td style="border: 1px solid #000;">feat: Add all modules to complete plan.</td>
+        <td style="border: 1px solid #000;">feat: Add all modules to complete plan.</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">feature/complete_plan</td>
+        <td style="border: 1px solid #000;">12cf0a4</td>
+        <td style="border: 1px solid #000;">feat: add defect library, correlation and calibration to complete plan.</td>
+        <td style="border: 1px solid #000;">feat: add defect library, correlation and calibration to complete plan.</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">feature/complete_plan</td>
+        <td style="border: 1px solid #000;">24fcaf6</td>
+        <td style="border: 1px solid #000;">Merge branch 'Defects-Details' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into feature/complete_plan</td>
+        <td style="border: 1px solid #000;">Merge branch 'Defects-Details' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into feature/complete_plan</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">feature/complete_plan</td>
+        <td style="border: 1px solid #000;">14c7ac4</td>
+        <td style="border: 1px solid #000;">Merge branch 'owner-Features' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into complete_plan</td>
+        <td style="border: 1px solid #000;">Merge branch 'owner-Features' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into complete_plan</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">7e48c67</td>
+        <td style="border: 1px solid #000;">Conectar con la principal</td>
+        <td style="border: 1px solid #000;">Conectar con la principal</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">feature/complete_plan</td>
+        <td style="border: 1px solid #000;">db9f80c</td>
+        <td style="border: 1px solid #000;">feat: Add CompletePayment page, CompletePlan Dashboard and Portfolio & Recipes tools.</td>
+        <td style="border: 1px solid #000;">feat: Add CompletePayment page, CompletePlan Dashboard and Portfolio & Recipes tools.</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">owner-Features</td>
+        <td style="border: 1px solid #000;">721b53c</td>
+        <td style="border: 1px solid #000;">owner</td>
+        <td style="border: 1px solid #000;">owner</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">bf977f3</td>
+        <td style="border: 1px solid #000;">Lo que le toco a panda</td>
+        <td style="border: 1px solid #000;">Lo que le toco a panda</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">21d71ec</td>
+        <td style="border: 1px solid #000;">Sensory-evaluation complete</td>
+        <td style="border: 1px solid #000;">Sensory-evaluation complete</td>
+        <td style="border: 1px solid #000;">May 12, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">9d7f343</td>
+        <td style="border: 1px solid #000;">feat: deployment works</td>
+        <td style="border: 1px solid #000;">feat: deployment works</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">2a3d9fe</td>
+        <td style="border: 1px solid #000;">feat: add environments files, http instance and firebase files</td>
+        <td style="border: 1px solid #000;">feat: add environments files, http instance and firebase files</td>
+        <td style="border: 1px solid #000;">May 14, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">17bca7a</td>
+        <td style="border: 1px solid #000;">feat: modify login, signup, edit profile to the mockup version</td>
+        <td style="border: 1px solid #000;">feat: modify login, signup, edit profile to the mockup version</td>
+        <td style="border: 1px solid #000;">May 13, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">42572a2</td>
+        <td style="border: 1px solid #000;">feat: add the header for sigin and the rest of the initial pages</td>
+        <td style="border: 1px solid #000;">feat: add the header for sigin and the rest of the initial pages</td>
+        <td style="border: 1px solid #000;">May 13, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">183adf6</td>
+        <td style="border: 1px solid #000;">feat: add logic of signin, sign up, edit profile, select subscripcion</td>
+        <td style="border: 1px solid #000;">feat: add logic of signin, sign up, edit profile, select subscripcion</td>
+        <td style="border: 1px solid #000;">May 13, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">84a20e2</td>
+        <td style="border: 1px solid #000;">feat: add language-switcher file</td>
+        <td style="border: 1px solid #000;">feat: add language-switcher file</td>
+        <td style="border: 1px solid #000;">May 11, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">5bc6185</td>
+        <td style="border: 1px solid #000;">files</td>
+        <td style="border: 1px solid #000;">files</td>
+        <td style="border: 1px solid #000;">May 8, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">0be061f</td>
+        <td style="border: 1px solid #000;">merge: integrate local vue+vite setup with remote repository</td>
+        <td style="border: 1px solid #000;">merge: integrate local vue+vite setup with remote repository</td>
+        <td style="border: 1px solid #000;">May 8, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">106e436</td>
+        <td style="border: 1px solid #000;">Initial commit: Vue + Vite project setup</td>
+        <td style="border: 1px solid #000;">Initial commit: Vue + Vite project setup</td>
+        <td style="border: 1px solid #000;">May 8, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">Vue-Vite-Project</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">d31c0bd</td>
+        <td style="border: 1px solid #000;">Initial commit</td>
+        <td style="border: 1px solid #000;">Initial commit</td>
+        <td style="border: 1px solid #000;">May 8, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">d83b119</td>
+        <td style="border: 1px solid #000;">Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
+        <td style="border: 1px solid #000;">Merge pull request #9 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
+        <td style="border: 1px solid #000;">Apr 26, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">develop</td>
+        <td style="border: 1px solid #000;">52f8c02</td>
+        <td style="border: 1px solid #000;">Cambios del footer</td>
+        <td style="border: 1px solid #000;">Cambios del footer</td>
+        <td style="border: 1px solid #000;">Apr 26, 2025</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #000;">upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+        <td style="border: 1px solid #000;">main</td>
+        <td style="border: 1px solid #000;">88b0054</td>
+        <td style="border: 1px solid #000;">Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
+        <td style="border: 1px solid #000;">Merge pull request #8 from upc-pre-202510-1asi0730-4364-CafeMetrix/develop</td>
+        <td style="border: 1px solid #000;">Apr 25, 2025</td>
+    </tr>
+</tbody>
 </table>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
