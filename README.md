@@ -3110,256 +3110,495 @@ Link del [Trello](https://trello.com/b/diGtoNBa/sprint-1)
         <tr>
             <td>US02</td>
             <td>Perfil Personalizado</td>
+            <td>PP-TK01</td>
+            <td>Diseñar UI de perfil</td>
+            <td>Crear la interfaz de usuario para la configuración y actualización del perfil.</td>
+            <td>8</td>
+            <td>Renzo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>PP-TK02</td>
+            <td>Implementar lógica de perfil</td>
+            <td>Desarrollar la funcionalidad para guardar y mostrar la información del perfil del usuario.</td>
+            <td>12</td>
+            <td>Joseph</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US03</td>
             <td>Selección de Plan</td>
+            <td>SP-TK01</td>
+            <td>Diseñar vista de planes</td>
+            <td>Crear la interfaz para mostrar los diferentes planes y sus características.</td>
+            <td>6</td>
+            <td>Christian</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>SP-TK02</td>
+            <td>Implementar selección de plan</td>
+            <td>Desarrollar la lógica para que el usuario pueda seleccionar un plan (incluido el gratuito).</td>
+            <td>10</td>
+            <td>Adrian</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US04</td>
             <td>Registro de Proveedores</td>
+            <td>RP-TK01</td>
+            <td>Crear formulario de proveedor</td>
+            <td>Diseñar e implementar el formulario para registrar nuevos proveedores.</td>
+            <td>8</td>
+            <td>Fredy</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>RP-TK02</td>
+            <td>Implementar evaluación de proveedor</td>
+            <td>Desarrollar la funcionalidad para evaluar a los proveedores.</td>
+            <td>10</td>
+            <td>Kalet</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US05</td>
             <td>Gestión de Lotes de Café Verde</td>
+            <td>GL-TK01</td>
+            <td>Formulario de ingreso de lote</td>
+            <td>Crear el formulario para registrar la información de un nuevo lote de café.</td>
+            <td>10</td>
+            <td>Guillermo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>GL-TK02</td>
+            <td>Actualizar estado de lote</td>
+            <td>Implementar la funcionalidad para cambiar el estado de un lote.</td>
+            <td>6</td>
+            <td>Joseph</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US06</td>
             <td>Registro de Certificaciones</td>
+            <td>RC-TK01</td>
+            <td>Adjuntar certificación a lote</td>
+            <td>Desarrollar la funcionalidad para adjuntar documentos de certificación a un lote.</td>
+            <td>8</td>
+            <td>Adrian</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>RC-TK02</td>
+            <td>Generar etiquetas con certificación</td>
+            <td>Implementar la generación de etiquetas digitales con la información de la certificación.</td>
+            <td>12</td>
+            <td>Renzo</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US07</td>
             <td>Creación de Perfil de Tueste</td>
+            <td>CP-TK01</td>
+            <td>Formulario de perfil de tueste</td>
+            <td>Crear el formulario para ingresar los parámetros de un perfil de tueste.</td>
+            <td>10</td>
+            <td>Fredy</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>CP-TK02</td>
+            <td>Duplicar y modificar perfil</td>
+            <td>Implementar la funcionalidad para duplicar y editar perfiles de tueste.</td>
+            <td>8</td>
+            <td>Christian</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US08</td>
             <td>Registro de Sesión de Tueste</td>
+            <td>RS-TK01</td>
+            <td>Iniciar sesión de tueste</td>
+            <td>Desarrollar la funcionalidad para iniciar el registro de una nueva sesión de tueste.</td>
+            <td>6</td>
+            <td>Guillermo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>RS-TK02</td>
+            <td>Registrar puntos de tueste</td>
+            <td>Implementar la captura manual de puntos de temperatura y tiempo durante el tueste.</td>
+            <td>10</td>
+            <td>Kalet</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US09</td>
             <td>Análisis Comparativo de Tuestes</td>
+            <td>AC-TK01</td>
+            <td>Seleccionar sesiones para comparar</td>
+            <td>Crear la interfaz para que el usuario pueda seleccionar sesiones de tueste para comparar.</td>
+            <td>8</td>
+            <td>Joseph</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>AC-TK02</td>
+            <td>Mostrar curvas comparativas</td>
+            <td>Implementar la visualización de las curvas de tueste superpuestas.</td>
+            <td>12</td>
+            <td>Adrian</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US10</td>
             <td>Biblioteca de Defectos de Tueste</td>
+            <td>BD-TK01</td>
+            <td>Interfaz de biblioteca de defectos</td>
+            <td>Diseñar e implementar la interfaz para buscar y ver la biblioteca de defectos.</td>
+            <td>10</td>
+            <td>Renzo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>BD-TK02</td>
+            <td>Mostrar detalles de defecto</td>
+            <td>Desarrollar la vista detallada de cada defecto con causas y soluciones.</td>
+            <td>8</td>
+            <td>Fredy</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US11</td>
             <td>Cata Digital Estructurada</td>
+            <td>CD-TK01</td>
+            <td>Formulario de evaluación sensorial</td>
+            <td>Crear el formulario digital para la evaluación sensorial del café.</td>
+            <td>12</td>
+            <td>Christian</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>CD-TK02</td>
+            <td>Calcular perfil sensorial</td>
+            <td>Implementar la lógica para generar el perfil sensorial basado en las calificaciones.</td>
+            <td>10</td>
+            <td>Guillermo</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US12</td>
             <td>Visualización de Perfiles Sensoriales</td>
+            <td>VP-TK01</td>
+            <td>Generar hexágono sensorial</td>
+            <td>Implementar la generación del gráfico de hexágono con los atributos sensoriales.</td>
+            <td>8</td>
+            <td>Kalet</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>VP-TK02</td>
+            <td>Comparar perfiles sensoriales</td>
+            <td>Desarrollar la funcionalidad para mostrar múltiples hexágonos superpuestos.</td>
+            <td>10</td>
+            <td>Joseph</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US13</td>
             <td>Correlación Tueste-Sabor</td>
+            <td>CS-TK01</td>
+            <td>Seleccionar factor de tueste</td>
+            <td>Crear la interfaz para que el usuario elija un parámetro de tueste para analizar.</td>
+            <td>6</td>
+            <td>Adrian</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>CS-TK02</td>
+            <td>Mostrar correlación con sabor</td>
+            <td>Implementar la visualización de la correlación entre el parámetro de tueste y los atributos sensoriales.</td>
+            <td>12</td>
+            <td>Renzo</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US14</td>
             <td>Historial de Catas</td>
+            <td>HC-TK01</td>
+            <td>Filtrar historial de catas</td>
+            <td>Desarrollar la funcionalidad para filtrar el historial de catas por diferentes criterios.</td>
+            <td>10</td>
+            <td>Fredy</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>HC-TK02</td>
+            <td>Mostrar evolución temporal</td>
+            <td>Implementar gráficos para visualizar la evolución de los atributos sensoriales a lo largo del tiempo.</td>
+            <td>12</td>
+            <td>Christian</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US15</td>
             <td>Creación de Recetas de Preparación</td>
+            <td>CR-TK01</td>
+            <td>Formulario de receta</td>
+            <td>Crear el formulario para documentar los detalles de una receta de preparación.</td>
+            <td>8</td>
+            <td>Guillermo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>CR-TK02</td>
+            <td>Vincular receta a lote</td>
+            <td>Implementar la funcionalidad para asociar una receta a un lote específico.</td>
+            <td>6</td>
+            <td>Kalet</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US16</td>
             <td>Calibración de Molienda</td>
+            <td>CM-TK01</td>
+            <td>Registro de calibración</td>
+            <td>Desarrollar la funcionalidad para registrar la configuración de la molienda.</td>
+            <td>8</td>
+            <td>Joseph</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>CM-TK02</td>
+            <td>Referencia visual de molienda</td>
+            <td>Implementar la carga y visualización de fotos de la molienda.</td>
+            <td>10</td>
+            <td>Adrian</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US17</td>
             <td>Portafolio de Bebidas</td>
+            <td>PB-TK01</td>
+            <td>Ficha de bebida</td>
+            <td>Crear el formulario para documentar la información de una bebida.</td>
+            <td>10</td>
+            <td>Renzo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>PB-TK02</td>
+            <td>Organizar por categorías</td>
+            <td>Implementar la funcionalidad para clasificar las bebidas en categorías.</td>
+            <td>6</td>
+            <td>Fredy</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US18</td>
             <td>Compartir Recetas</td>
+            <td>CO-TK01</td>
+            <td>Compartir con equipo</td>
+            <td>Desarrollar la funcionalidad para compartir recetas con miembros del equipo.</td>
+            <td>8</td>
+            <td>Christian</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>CO-TK02</td>
+            <td>Sugerir mejoras</td>
+            <td>Implementar la funcionalidad para que los miembros del equipo sugieran cambios en las recetas.</td>
+            <td>10</td>
+            <td>Guillermo</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US19</td>
             <td>Control de Inventario Integrado</td>
+            <td>CI-TK01</td>
+            <td>Panel de inventario</td>
+            <td>Crear la interfaz para visualizar el inventario actual.</td>
+            <td>12</td>
+            <td>Kalet</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>CI-TK02</td>
+            <td>Registrar consumo</td>
+            <td>Implementar la funcionalidad para registrar el consumo de café.</td>
+            <td>10</td>
+            <td>Joseph</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US20</td>
             <td>Gestión de Costos de Producción</td>
+            <td>GC-TK01</td>
+            <td>Formulario de costos por lote</td>
+            <td>Crear el formulario para registrar los costos de producción de un lote.</td>
+            <td>10</td>
+            <td>Adrian</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>GC-TK02</td>
+            <td>Visualizar indicadores económicos</td>
+            <td>Implementar la visualización de los indicadores de costo y margen.</td>
+            <td>12</td>
+            <td>Renzo</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US21</td>
             <td>Análisis de Eficiencia y Rendimiento</td>
+            <td>AE-TK01</td>
+            <td>Calcular métricas de rendimiento</td>
+            <td>Implementar el cálculo automático de las métricas de rendimiento.</td>
+            <td>10</td>
+            <td>Fredy</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>AE-TK02</td>
+            <td>Comparativa de rendimiento</td>
+            <td>Desarrollar la tabla comparativa de rendimiento entre lotes.</td>
+            <td>12</td>
+            <td>Christian</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US22</td>
             <td>Reportes de Trazabilidad</td>
+            <td>RT-TK01</td>
+            <td>Generar reporte por lote</td>
+            <td>Implementar la generación de un reporte completo de trazabilidad por lote.</td>
+            <td>15</td>
+            <td>Guillermo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>RT-TK02</td>
+            <td>Ficha técnica comercial</td>
+            <td>Desarrollar la generación de la ficha técnica comercial para clientes.</td>
+            <td>10</td>
+            <td>Kalet</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US23</td>
             <td>Información del Producto</td>
+            <td>LP-TK01</td>
+            <td>Diseñar sección "Beneficios Clave"</td>
+            <td>Crear el diseño visual y el texto para la sección principal que destaca los beneficios de la plataforma.</td>
+            <td>8</td>
+            <td>Joseph</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>LP-TK02</td>
+            <td>Implementar sección "Beneficios Clave"</td>
+            <td>Desarrollar la sección en HTML/CSS/JS con el contenido diseñado.</td>
+            <td>12</td>
+            <td>Adrian</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US24</td>
             <td>Secciones Específicas por Segmento</td>
+            <td>LP-TK03</td>
+            <td>Diseñar secciones "Para Baristas" y "Para Cafeterías"</td>
+            <td>Crear el diseño visual y el texto específico para cada sección.</td>
+            <td>10</td>
+            <td>Renzo</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>LP-TK04</td>
+            <td>Implementar secciones "Para Baristas" y "Para Cafeterías"</td>
+            <td>Desarrollar las secciones en HTML/CSS/JS con el contenido diseñado.</td>
+            <td>15</td>
+            <td>Fredy</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US25</td>
             <td>Contacto con Equipo</td>
+            <td>LP-TK05</td>
+            <td>Diseñar formulario de contacto</td>
+            <td>Crear el diseño visual del formulario de contacto.</td>
+            <td>5</td>
+            <td>Christian</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>LP-TK06</td>
+            <td>Implementar formulario de contacto</td>
+            <td>Desarrollar el formulario con validaciones básicas y la lógica de envío.</td>
+            <td>10</td>
+            <td>Guillermo</td>
+            <td>To-do</td>
         </tr>
         <tr>
             <td>US26</td>
             <td>Acceso directo a plataforma</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>LP-TK07</td>
+            <td>Implementar botón "Acceder a la Plataforma"</td>
+            <td>Crear el botón y la funcionalidad para redirigir al usuario a la aplicación principal.</td>
+            <td>3</td>
+            <td>Kalet</td>
+            <td>To-do</td>
         </tr>
     </tbody>
 </table>
-
 #### 5.2.2.4.Development Evidence for Sprint Review.
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
