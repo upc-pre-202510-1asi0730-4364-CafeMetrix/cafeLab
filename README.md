@@ -11,7 +11,7 @@
 <p align="left">
     <strong>Docente: </strong>Alex Humberto Sánchez Ponce<br><!--El br es para el salto de línea-->
     <strong>Sección: </strong>4364<br>
-    <strong>Ciclo: </strong>2025 - 1<br>
+    <strong>Ciclo: </strong>2025 - 10<br>
     <strong>Startup: </strong>Café Metrix<br>
     <strong>Producto: </strong>Café Lab
 </p>
@@ -51,7 +51,7 @@
 </div>
 
 <!--FECHA QUE SE MODIFICA-->
-<div align="center" style="font-weight: bold;">24 DE ABRIL DE 2025</div><br>
+<div align="center" style="font-weight: bold;">14 DE MAYO DE 2025</div><br>
 
 <!--Registro de versiones-->
 <h1 align="left">Registro de versiones del Informe</h1>
@@ -87,7 +87,7 @@
     </td>
   </tr>
   <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">TB2</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">TP</td>
     <td style="border: 1px solid #ddd; padding: 8px;">14/05/2025</td>
     <td style="border: 1px solid #ddd; padding: 8px;">
       <ul>
@@ -100,7 +100,7 @@
     </td>
     <td style="border: 1px solid #ddd; padding: 8px;">            
       <ul>
-        <li>Capítulo V: Product Implementation, Validation & Deployment hasta el primer sprint</li>
+        <li>Capítulo V: Product Implementation, Validation & Deployment hasta el segundo sprint</li>
         <li>Avance de Conclusiones, Bibliografía y Anexos</li>
       </ul>
     </td>
@@ -109,7 +109,6 @@
 
 <!--Link al repositorio en la organización-->
 # Project Report Collaboration Insights
-Link de repositorio del reporte: [https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab)
 
 **TB1 Network Graph**
 <figure style="text-align: center;">
@@ -3398,7 +3397,25 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
 - **International Coffee Organization (ICO).** (2023). *World Coffee Consumption Statistics*. [https://www.ico.org](https://www.ico.org)
 - **Khononov, V.** (2022). *Learning Domain-Driven Design*. O’Reilly Media, Inc.[https://dl.ebooksworld.ir/books/Learning.Domain-Driven.Design.9781098100131.EBooksWorld.ir.pdf](https://dl.ebooksworld.ir/books/Learning.Domain-Driven.Design.9781098100131.EBooksWorld.ir.pdf)
 - **Evans, E.** (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Domain Language.[https://fabiofumarola.github.io/nosql/readingMaterial/Evans03.pdf](https://fabiofumarola.github.io/nosql/readingMaterial/Evans03.pdf)
+- **Teams, A** (s, f.).  Angular material. Angular Material. [https://material.angular.dev/](https://material.angular.dev/)
+- **Vernon, V.** (2016). Domain-Driven Design Distilled. [https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/](https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/)
 
 # Anexos
 
-- Enlace para acceder al [video exposición de TB1](https://youtu.be/uChmUJqKPL0)
+- Enlace para acceder al [video exposición de TB1]()
+
+- Enlace para acceder al [video exposición de TP1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314019_upc_edu_pe/ET2BnBHcd8NGhtwxnvWf7B4BYON-N9wv_tY9ssfZ23J_KA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g27gDr)
+
+- Enlace para acceder al [Figma](https://www.figma.com/design/ac0fpdPl6fqEDpJxCEYlY0/CafeLab?node-id=140-178&p=f&t=f0KUudOr0KNMX5mk-0)
+
+- Enlace para acceder al  [repositorio Front-end](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd.git)
+
+- Enlace para acceder al  [Front-end]()
+
+- Enlace para acceder al [repositorio Back-end](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd.git)
+
+- Enlace para acceder al [repositorio Landing-page](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage.git)
+
+- Enlace para acceder al [Landing-page](https://cafelab-landingpage-appweb.netlify.app/)
+
+- Enlace para acceder al [repositorio Informe](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab.git)
