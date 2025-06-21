@@ -3361,41 +3361,6 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
 #### 5.2.3. Sprint 3.
 #### 5.2.3.1. Sprint Planning 3.
 #### 5.2.3.2. Sprint Backlog 3.
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Sprint Backlog 3 - CafeLab</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 30px;
-      background-color: #f9f9f9;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 14px;
-      background-color: #fff;
-    }
-    th, td {
-      border: 1px solid #000;
-      padding: 8px;
-      text-align: left;
-      vertical-align: top;
-    }
-    th {
-      background-color: #e6e6e6;
-    }
-  </style>
-</head>
-<body>
-
-<h2>Sprint Backlog 3 - Café Lab (Corrello)</h2>
 
 <table>
   <tr>
