@@ -3358,9 +3358,13 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
     <td>Creación de welcome owner, suppliers, coffee lot, roast profiles, roast comparison, suppliers registration, coffee lot registration, roast profiles registration, supplier information and coffee lot information.</td>
   </tr>
 </table>
+
 #### 5.2.3. Sprint 3.
+
 #### 5.2.3.1. Sprint Planning 3.
+
 #### 5.2.3.2. Sprint Backlog 3.
+
 
 <table>
   <tr>
