@@ -51,7 +51,7 @@
 </div>
 
 <!--FECHA QUE SE MODIFICA-->
-<div align="center" style="font-weight: bold;">14 DE MAYO DE 2025</div><br>
+<div align="center" style="font-weight: bold;">21 DE JUNIO DE 2025</div><br>
 
 <!--Registro de versiones-->
 <h1 align="left">Registro de versiones del Informe</h1>
@@ -203,7 +203,7 @@
     - [4.2.4. Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems](#425-navigation-systems)
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)****
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
@@ -220,6 +220,7 @@
     - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
+  - [4.9. Diagrams](#49-diagrams)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
@@ -236,6 +237,15 @@
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2324,33 +2334,32 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
 
 ### 4.6.1. Software Architecture Context Diagram.
 
-![image](https://github.com/user-attachments/assets/38460830-585d-4833-ae1a-4afa48e16528)
+<td><img src="public\assets\images\Plantuml\C4 Contexto.png" alt="context diagram"></td>
 
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
-![image](https://github.com/user-attachments/assets/53a50408-68b1-4db5-bfc8-d0b588a4f9d8)
+<td><img src="public\assets\images\Plantuml\C4 Contenedores.png" alt="context diagram"></td>
 
 
 ### 4.6.3. Software Architecture Components Diagrams.
 
-**Log-In Bounded Context**
+**Login-Logup - Frontend**
+<td><img src="public\assets\images\Plantuml\C4 Frontend Componentes LOGIN LOGUP.png"></td>
 
-![structurizr-92816-ComponentsDiagram](https://github.com/user-attachments/assets/d74302e8-31a2-45de-b9a7-44bd5b5aa37d)
+**Profiles Bounded Context - Backend**
 
-**Companies Bounded Context**
+<td><img src="public\assets\images\Plantuml\C4 Backend Componentes PROFILES.png"></td>
 
-![structurizr-92816-ComponentsDiagram (1)](https://github.com/user-attachments/assets/eec71779-f7f1-4c00-850b-a76e28dd7ed8)
+**Coffee Production Bounded Context - Backend**
 
-**Crop Bounded Context**
-
-![structurizr-92816-ComponentsDiagram (2)](https://github.com/user-attachments/assets/5b179005-3810-4671-8366-22a662045acf)
+<td><img src="public\assets\images\Plantuml\C4 Backend Componentes COFFEE-PRODUCTION.png"></td>
 
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-![image](https://github.com/user-attachments/assets/3a527d25-49fc-4c9c-a334-0cebe38422f2)
+<td><img src="public\assets\images\Plantuml\cl-class-diagram.png"></td>
 
 
 ### 4.7.2. Class Dictionary.
@@ -2373,6 +2382,16 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
 El diseño de base de datos es el proceso de organizar y estructurar los datos en un sistema, creando tablas, relaciones y reglas para garantizar eficiencia, integridad y facilidad de acceso. Este diseño asegura que los datos se almacenen de manera coherente y sean fáciles de gestionar, consultar y mantener a medida que el sistema crece y evoluciona.
 ### 4.8.1. Database Diagram.
 <img src="https://raw.githubusercontent.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab/feature/informe-readme/public/assets/images/Database%20Diagram/Database_Diagram.png" alt="Database Diagram">
+
+## 4.9. Diagrams.
+#### Layers Diagram
+<td><img src="public\assets\images\Plantuml\cl-layers-diagram.png" alt="layer diagram"></td>
+
+#### Packages Diagram
+<td><img src="public\assets\images\Plantuml\cl-package-diagram.png" alt="packages diagram"></td>
+
+#### Class Diagram
+<td><img src="public\assets\images\Plantuml\cl-class-diagram.png" alt="class diagram"></td>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -3015,9 +3034,789 @@ En nuestro primer sprint, logramos desplegar la landing page. Estará mejorada p
 </table>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
+En esta sección se presenta la Leadership-and-Collaboration Matrix (LACX), un artefacto clave que define la estructura de responsabilidades para el Sprint actual. Esta matriz identifica claramente quién asume el rol de líder y quiénes actúan como colaboradores en cada aspecto del proyecto, facilitando una comunicación efectiva y una distribución equitativa del trabajo.
+
+Para este Sprint, los aspectos principales corresponden a las User Stories que definen el alcance funcional de nuestro front end: Registro de Proveedores (US01), Gestión de Lotes de Café Verde (US02), Registro de Certificaciones (US03), Creación de Perfil de Tueste (US04), Registro de Sesión de Tueste (US05), Análisis Comparativo de Tuestes (US06), Biblioteca de Defectos de Tueste (US07), Cata Digital Estructurada (US08), Visualización de Perfiles Sensoriales (US09), Correlación Tueste-Sabor (US10), Historial de Catas (US11), Creación de Recetas de Preparación (US12), Calibración de Molienda (US13), Portafolio de Bebidas (US14), Compartir Recetas (US15), Control de Inventario Integrado (US16), Gestión de Costos de Producción (US17), Análisis de Eficiencia y Rendimiento (US18), Reportes de Trazabilidad (US19), Información del Producto (US20), Secciones Específicas por Segmento (US21), Contacto con Equipo (US22), Acceso directo a plataforma (US23), Registro y Autenticación (Usuarios) (US24), Perfil Personalizado (US25) y Selección de Plan (US26). Cada miembro del equipo ha sido asignado estratégicamente como líder (L) o colaborador (C) según sus fortalezas y la carga de trabajo planificada.
+
+<table border="1" align="center">
+<tr>
+<th rowspan="2">User Story</th>
+<th colspan="5">Team Members</th>
+</tr>
+<tr>
+<th>Adrian<br/>Donayre</th>
+<th>Renzo<br/>Uribe</th>
+<th>Joseph<br/>Chavez<br/>(Joseph)</th>
+<th>Fredy<br/>Fernández</th>
+<th>Christian<br/>Inga</th>
+</tr>
+<tr>
+<td>US01: Registro de Proveedores</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US02: Gestión de Lotes de Café Verde</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US03: Registro de Certificaciones</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US04: Creación de Perfil de Tueste</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US05: Registro de Sesión de Tueste</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US06: Análisis Comparativo de Tuestes</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US07: Biblioteca de Defectos de Tueste</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US08: Cata Digital Estructurada</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US09: Visualización de Perfiles Sensoriales</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US10: Correlación Tueste-Sabor</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US11: Historial de Catas</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US12: Creación de Recetas de Preparación</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US13: Calibración de Molienda</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US14: Portafolio de Bebidas</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+</tr>
+<tr>
+<td>US15: Compartir Recetas</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US16: Control de Inventario Integrado</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US17: Gestión de Costos de Producción</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+</tr>
+<tr>
+<td>US18: Análisis de Eficiencia y Rendimiento</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+</tr>
+<tr>
+<td>US19: Reportes de Trazabilidad</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+</tr>
+<tr>
+<td>US20: Información del Producto</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US21: Secciones Específicas por Segmento</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>L</td>
+</tr>
+<tr>
+<td>US22: Contacto con Equipo</td>
+<td>C</td>
+<td>L</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US23: Acceso directo a plataforma</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US24: Registro y Autenticación (Usuarios)</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US25: Perfil Personalizado</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>US26: Selección de Plan</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+</tr>
+</table>
 
 #### 5.2.2.3. Sprint Backlog 2.
+Durante el segundo sprint, el equipo se propuso iniciar y finalizar el frontend. Para la organización y gestión de sus integrantes, se empleó Trello, lo que facilitó la división de las historias de usuario en tareas más pequeñas y su asignación según las habilidades de cada miembro. 
 
+<p align="center">
+    <img src="" alt="Organización en la herramienta Trello">
+</p>
+
+Link de [Trello]()
+
+<table border="1">
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="5">Work-Item/Task</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+<th>Description</th>
+<th>Estimation (Hours)</th>
+<th>Assigned To</th>
+<th>Status (To-do / In Process / To Review / Done)</th>
+</tr>
+<tr>
+<td rowspan="3">US01</td>
+<td rowspan="3">Registro de Proveedores</td>
+<td>TK01</td>
+<td>Diseñar formulario de registro</td>
+<td>Crear interfaz de usuario para el registro de proveedores con campos requeridos</td>
+<td>2</td>
+<td>Adrian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK02</td>
+<td>Implementar validaciones</td>
+<td>Agregar validaciones de campos y manejo de errores</td>
+<td>2</td>
+<td>Adrian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK03</td>
+<td>Conectar con servicios</td>
+<td>Implementar comunicación con la fake API para guardar proveedores</td>
+<td>1</td>
+<td>Adrian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="3">US02</td>
+<td rowspan="3">Gestión de Lotes de Café Verde</td>
+<td>TK04</td>
+<td>Crear formulario de lotes</td>
+<td>Diseñar interfaz para registrar información de lotes de café verde</td>
+<td>2</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK05</td>
+<td>Implementar lista con filtros</td>
+<td>Crear vista de tabla con todos los lotes y opciones de filtrado</td>
+<td>2</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK06</td>
+<td>Agregar operaciones CRUD</td>
+<td>Implementar crear, leer, actualizar y eliminar lotes</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US03</td>
+<td rowspan="2">Registro de Certificaciones</td>
+<td>TK07</td>
+<td>Diseñar interfaz de certificaciones</td>
+<td>Crear formulario para documentar certificaciones con campos necesarios</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK08</td>
+<td>Implementar gestión de documentos</td>
+<td>Agregar funcionalidad para simular carga y vista previa de archivos</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US04</td>
+<td rowspan="2">Creación de Perfil de Tueste</td>
+<td>TK09</td>
+<td>Diseñar editor de perfiles</td>
+<td>Crear interfaz para configurar perfiles de tueste personalizados</td>
+<td>2</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK10</td>
+<td>Implementar visualizaciones</td>
+<td>Agregar gráficos de curvas de temperatura y tiempo</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US05</td>
+<td rowspan="2">Registro de Sesión de Tueste</td>
+<td>TK11</td>
+<td>Crear formulario de sesión</td>
+<td>Diseñar interfaz para documentar cada sesión de tueste</td>
+<td>2</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK12</td>
+<td>Implementar vista de historial</td>
+<td>Crear tabla con historial de sesiones, paginación y búsqueda</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="3">US06</td>
+<td rowspan="3">Análisis Comparativo de Tuestes</td>
+<td>TK13</td>
+<td>Diseñar selector múltiple</td>
+<td>Crear interfaz para seleccionar y comparar varios tuestes</td>
+<td>2</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK14</td>
+<td>Implementar gráficos comparativos</td>
+<td>Desarrollar visualizaciones para comparar patrones y resultados</td>
+<td>2</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK15</td>
+<td>Agregar análisis estadístico</td>
+<td>Implementar cálculos y métricas comparativas</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US07</td>
+<td rowspan="2">Biblioteca de Defectos de Tueste</td>
+<td>TK16</td>
+<td>Crear catálogo visual</td>
+<td>Diseñar galería de defectos comunes con imágenes y descripciones</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK17</td>
+<td>Implementar sistema de búsqueda</td>
+<td>Agregar búsqueda y filtrado por categorías</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US08</td>
+<td rowspan="2">Cata Digital Estructurada</td>
+<td>TK18</td>
+<td>Diseñar formulario de cata</td>
+<td>Crear interfaz para evaluaciones sensoriales estructuradas</td>
+<td>2</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK19</td>
+<td>Implementar herramienta visual</td>
+<td>Agregar rueda de sabores interactiva para selección de atributos</td>
+<td>1</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US09</td>
+<td rowspan="2">Visualización de Perfiles Sensoriales</td>
+<td>TK20</td>
+<td>Crear gráfico radial</td>
+<td>Implementar visualización tipo radar para perfiles sensoriales</td>
+<td>2</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK21</td>
+<td>Implementar comparación visual</td>
+<td>Agregar funcionalidad para superponer múltiples perfiles</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US10</td>
+<td rowspan="2">Correlación Tueste-Sabor</td>
+<td>TK22</td>
+<td>Diseñar vista de correlaciones</td>
+<td>Crear interfaz para visualizar relaciones entre parámetros</td>
+<td>2</td>
+<td>Kalet</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK23</td>
+<td>Implementar análisis sensorial</td>
+<td>Agregar funcionalidad para mostrar resultados sensoriales</td>
+<td>3</td>
+<td>Kalet</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="3">US11</td>
+<td rowspan="3">Historial de Catas</td>
+<td>TK24</td>
+<td>Crear vista de historial</td>
+<td>Diseñar interfaz para acceder a catas anteriores</td>
+<td>2</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK25</td>
+<td>Implementar filtros avanzados</td>
+<td>Agregar filtros por lote, fecha, origen y período</td>
+<td>2</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK26</td>
+<td>Agregar análisis de tendencias</td>
+<td>Implementar gráficos de evolución temporal</td>
+<td>1</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="3">US12</td>
+<td rowspan="3">Creación de Recetas de Preparación</td>
+<td>TK27</td>
+<td>Diseñar editor de recetas</td>
+<td>Crear interfaz para documentar recetas detalladas</td>
+<td>2</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK28</td>
+<td>Implementar parámetros de preparación</td>
+<td>Agregar campos para temperatura, tiempo y proporciones</td>
+<td>2</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK29</td>
+<td>Crear galería de métodos</td>
+<td>Implementar biblioteca visual de métodos de preparación</td>
+<td>1</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US13</td>
+<td rowspan="2">Calibración de Molienda</td>
+<td>TK30</td>
+<td>Diseñar configurador de molienda</td>
+<td>Crear interfaz para documentar configuraciones por equipo</td>
+<td>1</td>
+<td>Kalet</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK31</td>
+<td>Implementar guías visuales</td>
+<td>Agregar referencias visuales para tamaños de partícula</td>
+<td>1</td>
+<td>Kalet</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US14</td>
+<td rowspan="2">Portafolio de Bebidas</td>
+<td>TK32</td>
+<td>Crear catálogo digital</td>
+<td>Diseñar portafolio visual de bebidas y recetas</td>
+<td>2</td>
+<td>Christian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK33</td>
+<td>Implementar presentación interactiva</td>
+<td>Agregar funcionalidad para presentar a clientes</td>
+<td>1</td>
+<td>Christian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US15</td>
+<td rowspan="2">Compartir Recetas</td>
+<td>TK34</td>
+<td>Implementar sistema de compartir</td>
+<td>Crear funcionalidad para compartir recetas con el equipo</td>
+<td>2</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK35</td>
+<td>Agregar control de versiones</td>
+<td>Implementar historial de cambios en recetas</td>
+<td>1</td>
+<td>Guillermo</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US16</td>
+<td rowspan="2">Control de Inventario Integrado</td>
+<td>TK36</td>
+<td>Diseñar dashboard de inventario</td>
+<td>Crear vista general de inventario de café verde y tostado</td>
+<td>2</td>
+<td>Kalet</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK37</td>
+<td>Implementar alertas de stock</td>
+<td>Agregar notificaciones para niveles bajos de inventario</td>
+<td>1</td>
+<td>Kalet</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US17</td>
+<td rowspan="2">Gestión de Costos de Producción</td>
+<td>TK38</td>
+<td>Crear calculadora de costos</td>
+<td>Diseñar herramienta para calcular costos por lote</td>
+<td>2</td>
+<td>Christian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK39</td>
+<td>Implementar análisis de rentabilidad</td>
+<td>Agregar visualizaciones de márgenes y rentabilidad</td>
+<td>1</td>
+<td>Christian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US18</td>
+<td rowspan="2">Análisis de Eficiencia y Rendimiento</td>
+<td>TK40</td>
+<td>Diseñar dashboard de métricas</td>
+<td>Crear vista con indicadores clave de producción</td>
+<td>2</td>
+<td>Christian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK41</td>
+<td>Implementar reportes comparativos</td>
+<td>Agregar comparación entre lotes y períodos</td>
+<td>1</td>
+<td>Christian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US19</td>
+<td rowspan="2">Reportes de Trazabilidad</td>
+<td>TK42</td>
+<td>Crear generador de reportes</td>
+<td>Diseñar sistema para generar reportes de trazabilidad completa</td>
+<td>2</td>
+<td>Christian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK43</td>
+<td>Implementar exportación</td>
+<td>Agregar funcionalidad para descargar reportes</td>
+<td>1</td>
+<td>Christian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="3">US20</td>
+<td rowspan="3">Información del Producto</td>
+<td>TK44</td>
+<td>Configurar proyecto y estructura base</td>
+<td>Crear estructura inicial del proyecto e implementar header con navegación y hero banner principal</td>
+<td>4</td>
+<td>Guillermo</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TK45</td>
+<td>Desarrollar sección "Enfoque en beneficios claros"</td>
+<td>Implementar sección con título y áreas diferenciadas para baristas y cafeterías</td>
+<td>3</td>
+<td>Kalet</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TK46</td>
+<td>Implementar diseño adaptable</td>
+<td>Asegurar que la interfaz funcione en diferentes dispositivos</td>
+<td>1</td>
+<td>Guillermo</td>
+<td>To-do</td>
+</tr>
+<tr>
+<td rowspan="3">US21</td>
+<td rowspan="3">Secciones Específicas por Segmento</td>
+<td>TK47</td>
+<td>Implementar secciones para baristas y cafeterías</td>
+<td>Crear las áreas "Soy barista" y "Tengo una cafetería" con descripciones y CTAs</td>
+<td>4</td>
+<td>Christian</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TK48</td>
+<td>Desarrollar sección de datos y gráficos</td>
+<td>Implementar área "Datos que respaldan tus decisiones" con gráficos de dashboard y curvas</td>
+<td>5</td>
+<td>Adrian</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TK49</td>
+<td>Crear sección de planes y características</td>
+<td>Implementar la comparativa de los 4 planes con precios y listas de características</td>
+<td>5</td>
+<td>Fredy</td>
+<td>Done</td>
+</tr>
+<tr>
+<td rowspan="2">US22</td>
+<td rowspan="2">Contacto con Equipo</td>
+<td>TK50</td>
+<td>Desarrollar sección de testimonios</td>
+<td>Crear área de testimonios con fotos y citas de usuarios actuales</td>
+<td>3</td>
+<td>Kalet</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TK51</td>
+<td>Implementar formulario de contacto</td>
+<td>Crear formulario funcional para consultas antes del registro</td>
+<td>2</td>
+<td>Guillermo</td>
+<td>Done</td>
+</tr>
+<tr>
+<td rowspan="2">US23</td>
+<td rowspan="2">Acceso directo a plataforma</td>
+<td>TK52</td>
+<td>Implementar botones principales</td>
+<td>Agregar botones de llamada a la acción en secciones clave</td>
+<td>1</td>
+<td>Adrian</td>
+<td>To-do</td>
+</tr>
+<tr>
+<td>TK53</td>
+<td>Crear navegación rápida</td>
+<td>Implementar accesos directos desde el menú principal</td>
+<td>1</td>
+<td>Adrian</td>
+<td>To-do</td>
+</tr>
+<tr>
+<td rowspan="3">US24</td>
+<td rowspan="3">Registro y Autenticación (Usuarios)</td>
+<td>TK54</td>
+<td>Diseñar formularios de acceso</td>
+<td>Crear interfaces de registro e inicio de sesión con validaciones</td>
+<td>2</td>
+<td>Adrian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK55</td>
+<td>Implementar gestión de sesiones</td>
+<td>Agregar manejo de estado de autenticación del usuario</td>
+<td>2</td>
+<td>Adrian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK56</td>
+<td>Agregar recuperación de contraseña</td>
+<td>Implementar flujo para recuperar acceso a la cuenta</td>
+<td>1</td>
+<td>Adrian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US25</td>
+<td rowspan="2">Perfil Personalizado</td>
+<td>TK57</td>
+<td>Diseñar página de perfil</td>
+<td>Crear interfaz para configurar información profesional</td>
+<td>1</td>
+<td>Adrian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK58</td>
+<td>Implementar personalización</td>
+<td>Agregar opciones para personalizar la experiencia del usuario</td>
+<td>1</td>
+<td>Adrian</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td rowspan="2">US26</td>
+<td rowspan="2">Selección de Plan</td>
+<td>TK59</td>
+<td>Diseñar selector de planes</td>
+<td>Crear interfaz para elegir entre planes disponibles</td>
+<td>2</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+<tr>
+<td>TK60</td>
+<td>Implementar proceso de suscripción</td>
+<td>Agregar flujo completo de selección y confirmación</td>
+<td>1</td>
+<td>Fredy</td>
+<td>In Process</td>
+</tr>
+</table>
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
@@ -3362,9 +4161,41 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
 #### 5.2.3. Sprint 3.
 
 #### 5.2.3.1. Sprint Planning 3.
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th style="text-align:center; border: 1px solid #000;">Sprint #</th>
+            <th style="text-align:center; border: 1px solid #000;">Date</th>
+            <th style="text-align:center; border: 1px solid #000;">Time</th>
+            <th style="text-align:center; border: 1px solid #000;">Location</th>
+            <th style="text-align:center; border: 1px solid #000;">Prepared By</th>
+            <th style="text-align:center; border: 1px solid #000;">Attendees</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:center; border: 1px solid #000;">3</td>
+            <td style="text-align:center; border: 1px solid #000;">29/05/2025</td>
+            <td style="text-align:center; border: 1px solid #000;">07:00 PM</td>
+            <td style="border: 1px solid #000;">Reunión virtual mediante la aplicación Discord</td>
+            <td style="border: 1px solid #000;">Adrian Donayre</td>
+            <td style="border: 1px solid #000;">Fredy Fernández, Christian Inga, Renzo Uribe, Adrian Donayre</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align:center; border: 1px solid #000;">Sprint 3 Goal</td>
+            <td style="text-align:center; border: 1px solid #000;">Sprint 3 Velocity</td>
+            <td style="text-align:center; border: 1px solid #000;">Sum of Story Points</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="border: 1px solid #000;">Desarrollar y desplegar el frontend de nuestra startup Café Metrix</td>
+            <td style="text-align:center; border: 1px solid #000;">50</td>
+            <td style="text-align:center; border: 1px solid #000;">50</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.3.2. Sprint Backlog 3.
-
+Para este Sprint, los aspectos principales corresponden a las User Stories restantes del alcance proyectado a nuestro front end sumado a la realización de las Technical Stories corresponientes al back end: Registro de Sesión de Tueste (US05), Análisis Comparativo de Tuestes (US06), Biblioteca de Defectos de Tueste (US07), Cata Digital Estructurada (US08), Visualización de Perfiles Sensoriales (US09), Correlación Tueste-Sabor (US10), Historial de Catas (US11), Creación de Recetas de Preparación (US12), Calibración de Molienda (US13), Portafolio de Bebidas (US14), Compartir Recetas (US15), Control de Inventario Integrado (US16), Gestión de Costos de Producción (US17), Análisis de Eficiencia y Rendimiento (US18), Reportes de Trazabilidad (US19), Perfil Personalizado (US25), Selección de Plan (US26), POST HTTPS Proveedores (TS01), GET HTTPS Proveedores (TS02), GET HTTPS Planes (TS03), POST HTTPS Planes (TS04), entre otros. Cada miembro del equipo ha sido asignado estratégicamente como líder (L) o colaborador (C) según sus fortalezas y la carga de trabajo planificada.
 
 <table>
   <tr>
@@ -3462,6 +4293,98 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
 </html>
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
+<table border="1">
+<tr>
+<th>Repository</th>
+<th>Branch</th>
+<th>Commit id</th>
+<th>Commit Message</th>
+<th>Commit Message Body</th>
+<th>Committer on (Date)</th>
+</tr>
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>feature/frontend-fredy</td>
+  <td>1738bf2</td>
+  <td>fix(payment): se separó el component plan card correctamente.</td>
+  <td>fredyfernandez1</td>
+  <td>May 30, 2025</td>
+</tr>
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>feature/frontend-fredy</td>
+  <td>7b63c65</td>
+  <td>cambios en los archivos</td>
+  <td>fredyfernandez1</td>
+  <td>May 30, 2025</td>
+</tr>
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>main</td>
+  <td>3c461bd</td>
+  <td>style: add favicon and rename the application</td>
+  <td>adriandonayredev</td>
+  <td>May 31, 2025</td>
+</tr>
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>main</td>
+  <td>df9ca94</td>
+  <td>feat(chore): add auth domain with toolbar in public component and an endpoint</td>
+  <td>adriandonayredev</td>
+  <td>May 31, 2025</td>
+</tr>
+
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>feature/frontend-fredy</td>
+  <td>0bb4258</td>
+  <td>fix(dashboard): fixed the welcome barista component to a correct ddd architecture</td>
+  <td>fredyfernandez1</td>
+  <td>Jun 1, 2025</td>
+</tr>
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>feature/frontend-adrian</td>
+  <td>04a7887</td>
+  <td>fix(dashboards): correct the src route in welcome barista page component</td>
+  <td>adriandonayre6</td>
+  <td>Jun 1, 2025</td>
+</tr>
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>feature/frontend-adrian</td>
+  <td>c39e185</td>
+  <td>fix(cupping sessions): create service and entity in cupping sessions feature.</td>
+  <td>adriandonayre6</td>
+  <td>Jun 1, 2025</td>
+</tr>
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>feature/frontend-adrian</td>
+  <td>a2a167a</td>
+  <td>fix(payment): fix the route to the visa and mastercard logo.</td>
+  <td>adriandonayre6</td>
+  <td>Jun 1, 2025</td>
+</tr>
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>feature/frontend-christian</td>
+  <td>e0e0b3b</td>
+  <td>fix(payment): fix styles of select-payment page component.</td>
+  <td>christianinga21</td>
+  <td>Jun 1, 2025</td>
+</tr>
+<tr>
+  <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
+  <td>feature/frontend-christian</td>
+  <td>7223931</td>
+  <td>add styles to select payment component</td>
+  <td>christianinga21</td>
+  <td>Jun 1, 2025</td>
+</tr>
+</table>
+
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 <table>
   <tr>
@@ -3512,17 +4435,241 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
 </table>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
+<td><img src="public\assets\images\EvidencesSP3\1.png" alt="evidencia post"></td>
+
+<td><img src="public\assets\images\EvidencesSP3\2.png" alt="evidencia get"></td>
+
+<td><img src="public\assets\images\EvidencesSP3\3.png" alt="evidencia"></td>
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Para la entrega del tercer sprint, se desplego el landing page completamente funcional. Cumpliendo los user stories correspondientes al entregable. De la misma forma se desplego la web application parcialmente completa, pues presenta ciertos bugs que será solucionados en el siguiente sprint. Asimismo, se desplego el back-end parcialmente completo, pues no se ha concluido.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+## 5.3. Validation interviews
+ En la sección de “Validation Interviews” del proyecto CafeLab nos enfocamos en mejorar la presentación y funcionalidad de la plataforma web dirigida a baristas y dueños/administradores de cafeterías. En este punto se llega a la comunicación directa con los segmentos objetivos con el fin de entrevistar y obtener respuestas sobre la experiencia y percepción dentro de la plataforma, ya sean criticas positivas o negativas, esto ayuda en la mejora continua para la integración adecuada de futuras integraciones o correcciones orientadas en mejorar la mejora continua de la plataforma. A continuación se muestran los user goals necesarios para la realización de las entrevistas:
+
+## 5.3.1. Diseño de entrevistas.
+En esta sección de detallas los objetivos de los usuarios pertenecientes al segmento objetivo, mediante la definición de estos user gol se obtiene los resultados mas cercanos a la experiencia del usuario en la navegación y recorrido ideal en la plataforma para lograr sus objetivos ya sean baristas o dueños/administrados de cafeterías.
+
+#### User Goal: Registrarse y elegir suscripción(Barista y dueño/administrador de cafetería)
+El usuario elegirá si es un barista o un dueño de cafetería, en base a esto el formulario de registro mostrará más o menos campos a completar, una vez registrados podrán elegir el plan que más deseen, luego, procederán a la pantalla de pago. Confirmado el pago, podrán acceder a las herramientas disponibles según su plan.
+
+#### User Goal: Iniciar Sesión.(Barista y dueño/administrador de cafetería)
+El usuario de la aplicación ya cuenta con una cuenta, sea de barista o dueño de cafetería, si ingresa mal sus datos, se le pedirá que los ingrese nuevamente, una vez los datos sean correctos, podrá acceder a las herramientas según su plan.
+
+#### User Goal: Editar su Perfil. (Barista y dueño/administrador de cafetería)
+Una vez el usuario haya entrado a la app web, puede ver su perfil mediante el botón de "Perfil", de este modo puede editar los datos que le gusten.
+
+##### User Goal: Registrar, Editar y Observar sus Proveedores. (Barista y dueño/administrador de cafetería)
+El usuario desde la pantalla de inicio donde aparecen las herramientas, selecciona "Proveedores" accediendo a la pantalla de "Proveedores" el cuál tiene las funciones de registrar proveedores, editar los que ya están registrados y observar los datos del proveedor que gusten.
+
+#### User Goal: Registrar, Editar y Observar sus Lotes de Café. (Barista y dueño/administrador de cafetería)
+Desde el inicio, el usuario selecciona la herramienta de "Lotes de Café" accediendo a una lista con sus lotes registrados, del mismo modo puede registrar nuevos lotes de café, editar los existentes o simplemente ver la información de alguno que elija.
+
+#### User Goal: Registrar, Editar y Visualizar sus perfiles de tueste, también comparar entre dos de ellos. (Barista y dueño/administrador de cafetería)
+Desde el apartado de herramientas, selecciona "Perfiles de Tueste", de este modo puede observar en una tabla sus perfiles registrados, así como registrar uno nuevo, editar un existente, visualizar los datos y curva de tueste del que seleccione y también comparar las curvas de tueste entre dos perfiles.
+
+#### User Goal: Registrar, Editar y Observar sus Catas con su hexágono sensorial. (Barista y dueño/administrador de cafetería)
+Desde el apartado de herramientas, selecciona "Catas", accediendo a la tabla que contiene sus catas registradas, desde esta pantalla puede registrar una cata, editar una existente, visualizar sus catas registradas junto con su hexágono sensorial si lo requiere. Por otro lado, también puede comparar los hexágonos sensoriales entre dos catas.
+
+#### User Goal: Observar la biblioteca de defectos, con posibles causas y soluciones. (Barista y dueño/administrador de cafetería)
+Desde el apartado de herramientas, selecciona "Biblioteca de defectos", teniendo una lista con los defectos, si selecciones alguno puede observar sus posibles causas y las soluciones recomendadas.
+
+#### User Goal: Identificar la relación entre el tueste y los sabores del café. (Barista y dueño/administrador de cafetería)
+Desde el apartado de herramientas, selecciona la "Relación tueste - sabor", donde puede seleccionar las catas que se visualizarán en el gráfico mostrando la concentración de tuestes exitosos de color morado, en términos de temperatura y tiempo. También desde este apartado, pueden acceder a la biblioteca que muestra las variables en el tostado que pueden influir en la taza final de café.
+
+#### User Goal: Poder registrar, editar y visualizar sus recetas, así como portafolios con las recetas especiales. (Barista y dueño/administrador de cafetería)
+Desde el apartado de herramientas, selecciona "Recetas", de este modo accediendo a una pantalla que le muestra los portafolios que tiene y las recetas que están fuera de este portafolio, puede crear un nuevo portafolio o visualizar los ya creados con sus recetas asociadas, también puede asignar nuevas recetas a un portafolio. Puede crear una receta, al crear una debería seleccionar si está hecho por extracción o por método de espresso. Por otro lado, al visualizar las recetas hechas se le mostrará toda la información asociada.
+
+#### User Goal: Tener un registro de las calibraciones de sus moliendas para un mejor resultado. (Barista y dueño/administrador de cafetería)
+Desde el apartado de herramientas, selecciona "Calibración de Molienda", en este apartado puede registrar o editar las calibraciones de las moliendas, de este modo teniendo un acabado igual para sus recetas.
+
+#### User Goal: Tener un adecuado manejo de su inventario, pudiendo registrar lotes y visualizar información importante. (Barista y dueño/administrador de cafetería)
+Desde el apartado de herramientas, selecciona "Inventario", en el cual se puede observar la cantidad restante del lote seleccionado, puede registrar el consumo que se haga para las recetas, de esta forma teniendo un buen manejo de su inventario y stock.
+
+#### User Goal: Poder gestionar sus costos de una manera eficiente, para optimizar sus ganancias y rentabilidad.(Barista y dueño/administrador de cafetería)
+Desde el apartado de herramientas, selecciona "Gestión de Costos", accediendo al proceso en el que puede registrar todos sus costos, como de materia prima, mano de obra, costos de transporte, etc., de este modo calculará su margen potencial y el precio sugerido por kg.
 
 
+#### **Segmento #1: Dueños/Administradores de Cafeterías de Especialidad <br> (Funciones: Proveedores, Lotes de Café, Perfiles de Tuestes, Inventario, Gestión de Costos)**
 
-### 5.3.3 Evaluación según heurísticas  
+1. ¿Cómo describirías tu experiencia general con la aplicación web?
+
+2. ¿Hubo algo que no encontraste o que te confundió en cada una de esas secciones?
+
+3. De las tareas realizadas, ¿cuál te aportó mayor valor para la gestión de tu cafetería?
+
+4. ¿Qué paso o flujo te sorprendió positivamente (por su rapidez, claridad o utilidad)?
+
+5. En una escala del 1 al 5, ¿cómo calificarías la intuitividad de la navegación para acceder a Proveedores, Lotes, Perfiles, Inventario y Costos?
+
+6. ¿Viste algún elemento visual (íconos, botones, textos) que te distrajera o no resultara claro?
+
+7. Si pudieras añadir o mejorar una sola función en estas cinco áreas, ¿cuál sería y por qué?
+
+8. ¿Recomendarías CaféLab a otros dueños o administradores de cafeterías? ¿Qué ventaja destacarías para convencerlos?
+
+#### **Segmento #2: Baristas Profesionales <br> (Funciones: Sesiones de Cata, Librería de Defectos, Correlación Tueste-Sabor, Calibración de Molienda, Recetas)**
+
+1. ¿Cómo describirías tu experiencia general con la aplicación web?
+
+2. ¿Hubo algo que no encontraste o que te confundió al interactuar con esas secciones?
+
+3. De las cinco funciones, ¿cuál te pareció la que aporta más valor a tu trabajo diario como barista?
+
+4. ¿Qué parte del flujo te sorprendió positivamente (por ejemplo, la rapidez en cargar resultados de cata o la claridad de la librería)?
+
+5. En una escala del 1 al 5, ¿cómo calificarías la intuitividad de navegación en todas las funciones?
+
+6. ¿Observaste algún elemento visual que distraiga o no te quedara claro?
+
+7. Del 1 al 10, ¿qué tan útil te resultó la plataforma para optimizar tus procesos de preparación y cata?
+
+8. Si pudieras añadir o mejorar una sola función orientada a baristas, ¿cuál sería y por qué?
+
+9. ¿Recomendarías CaféLab a otros baristas profesionales? ¿Qué aspecto destacarías para convencerlos?
+
+## 5.3.2. Registro de entrevistas
+#### Entrevistas a dueños o administradores de cafeterías de especialidad
+
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 1</td>
+    <td>Cesar Costa</td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Interview-validation\interview-owner1.png" alt="Foto de Cesar Costa"></td>
+    <td>Tuvo una experiencia muy positiva con Cafelab, destacando especialmente la funcionalidad de perfiles de tueste como el aspecto más valioso, ya que le permite ser más exacto en la preparación del café y prever estadísticas clave. Dio una calificación perfecta (5/5) en navegación e interacción, y afirmó que recomendaría la aplicación a otros dueños. Aprecia su capacidad para gestionar integralmente el negocio, no solo las ventas, y valora las gráficas comparativas de tueste, así como la sección de soporte. Señaló la utilidad de visualizar diferencias de temperatura y tiempo como un beneficio clave.
+
+</td>
+  </tr>
+  <tr>
+    <td>Timing:00:09-04:25</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/personal/u202310210_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310210%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0729%2D4307%2Dcafemetrix%2Dvalidation%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eaf630f9d%2D2b60%2D4b48%2D9493%2Dfb339c946e34">
+        Ver grabación</td>
+  </tr>
+</table>
+
+
+<table border="1">
+<tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 2</td>
+    <td>Raul Donayre</td>
+  </tr>
+  <tr>
+  <td><img src="public\assets\images\Interview-validation\interview-owner2.png" alt="Foto de Raul Donayre"></td>
+    <td>Consideró que la aplicación es muy intuitiva, ágil y le permite obtener resultados rápidamente con menos esfuerzo operativo. Valoró especialmente el registro detallado de proveedores, granos y lotes, y la posibilidad de comparar perfiles de tueste. Describió la herramienta como un “paquete muy completo” y la recomendaría por su capacidad de centralizar información previamente dispersa.</td>
+  </tr>
+  <tr>
+    <td>Timing:04:25-08:57</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/personal/u202310210_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310210%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0729%2D4307%2Dcafemetrix%2Dvalidation%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eaf630f9d%2D2b60%2D4b48%2D9493%2Dfb339c946e34">
+        Ver grabación</td>
+  </tr>
+</table>
+
+
+<table border="1">
+  <tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 3</td>
+    <td>Ana Garcia</td>
+  </tr>
+  <tr>
+   <td><img src="public\assets\images\Interview-validation\interview-owner3.png" alt="Foto de Ana Garcia"></td>
+    <td>Resaltó la fluidez de la experiencia y la coherencia visual de la interfaz, otorgando un 4/5 en intuitividad. Destacó la gestión de costos como la función de mayor valor, y se sorprendió positivamente por el manejo de inventarios y alertas automáticas. Aprecia la integración de todas las funciones en un solo sistema. Como puntos de mejora, sugirió aumentar la visibilidad de los íconos de edición, marcar claramente los campos obligatorios, diferenciar mejor los botones de editar y clonar, y añadir un registro de cambios para mayor control interno.
+
+</td>
+  </tr>
+  <tr>
+    <td>Timing:08:57-14:34</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/personal/u202310210_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310210%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0729%2D4307%2Dcafemetrix%2Dvalidation%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eaf630f9d%2D2b60%2D4b48%2D9493%2Dfb339c946e34">
+        Ver grabación</td>
+  </tr>
+</table>
+
+
+#### Entrevistas a baristas de cafeterías de especialidad
+<table border="1">
+<tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 4</td>
+    <td>Ranferi Valdivia</td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Interview-validation\interview-barista1.png" alt="Foto de Ranferi Valdivia"></td>
+    <td>Tuvo una excelente primera impresión de la aplicación, describiéndola como ordenada y bien organizada. Valoró la disponibilidad del sistema en español e inglés, otorgando una calificación de 4/5 en intuitividad y recomendándola con firmeza a otros baristas. Resaltó la utilidad de contar con herramientas centralizadas para estandarizar procedimientos antes realizados manualmente y destacó las gráficas de tueste como recurso clave para optimizar temperaturas y tiempos. Aunque al inicio tuvo cierta dificultad para ubicar algunas secciones, encontró el sistema útil para la profesionalización del trabajo del barista.</td>
+  </tr>
+  <tr>
+    <td>Timing:17:41-22:37
+</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/personal/u202310210_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310210%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0729%2D4307%2Dcafemetrix%2Dvalidation%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eaf630f9d%2D2b60%2D4b48%2D9493%2Dfb339c946e34">
+        Ver grabación</td>
+  </tr>
+</table>
+
+<table border="1">
+<tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 5</td>
+    <td>Patricia Alvarez</td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Interview-validation\interview-barista2.png" alt="Foto de Patricia Alvarez"></td>
+    <td> Describió Cafelab como una aplicación amigable, práctica y suficiente para registrar la información necesaria en su día a día. Le dio una calificación perfecta de 10/10 en optimización de procesos, reconociendo su utilidad directa para la eficiencia del trabajo operativo.</td>
+  </tr>
+  <tr>
+    <td>Timing:22:37-29:42
+</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/personal/u202310210_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310210%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0729%2D4307%2Dcafemetrix%2Dvalidation%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eaf630f9d%2D2b60%2D4b48%2D9493%2Dfb339c946e34">
+        Ver grabación</td>
+  </tr>
+</table>
+
+<table border="1">
+<tr>
+    <th>Campo</th>
+    <th>Información</th>
+  </tr>
+  <tr>
+    <td>Entrevistado 6</td>
+    <td>Aldo Zavala</td>
+  </tr>
+  <tr>
+    <td><img src="public\assets\images\Interview-validation\interview-barista3.png" alt="Foto de Aldo Zavala"></td>
+    <td>Elogió la interfaz intuitiva, el diseño claro y la fluidez general del sistema. Calificó la navegación con un 4/5 y la optimización de procesos con un 9.5/10. Considera las sesiones de cata como la función más valiosa y destacó lo fácil que es gestionar recetas y centralizar notas, lo que le permite ahorrar tiempo en documentación. Propuso mejorar la biblioteca de defectos agregando filtros por intensidad y categoría, hacer más distinguibles los íconos de clonar, y añadió la sugerencia de integrar un temporizador en las sesiones de cata.</td>
+  </tr>
+  <tr>
+    <td>Timing:29:42-35:31</td>
+    <td>    <a href="https://upcedupe-my.sharepoint.com/personal/u202310210_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310210%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0729%2D4307%2Dcafemetrix%2Dvalidation%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eaf630f9d%2D2b60%2D4b48%2D9493%2Dfb339c946e34">
+        Ver grabación</td>
+  </tr>
+</table>
+
+
+## 5.3.3 Evaluación según heurísticas  
 **UX Heuristics & Principles Evaluation**  
 **Usability – Inclusive Design – Information Architecture**
 
@@ -3726,15 +4873,13 @@ Diseñar vistas o accesos diferenciados según el tipo de usuario.
 
 # Anexos
 
-- Enlace para acceder al [video exposición de TB1]()
-
 - Enlace para acceder al [video exposición de TP1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314019_upc_edu_pe/ET2BnBHcd8NGhtwxnvWf7B4BYON-N9wv_tY9ssfZ23J_KA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=g27gDr)
 
 - Enlace para acceder al [Figma](https://www.figma.com/design/ac0fpdPl6fqEDpJxCEYlY0/CafeLab?node-id=140-178&p=f&t=f0KUudOr0KNMX5mk-0)
 
 - Enlace para acceder al  [repositorio Front-end](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd.git)
 
-- Enlace para acceder al  [Front-end]()
+- Enlace para acceder al  [Front-end](https://coffeelab-a5cd7.web.app/login)
 
 - Enlace para acceder al [repositorio Back-end](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd.git)
 
@@ -3743,3 +4888,9 @@ Diseñar vistas o accesos diferenciados según el tipo de usuario.
 - Enlace para acceder al [Landing-page](https://cafelab-landingpage-appweb.netlify.app/)
 
 - Enlace para acceder al [repositorio Informe](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab.git)
+
+- Enlace para acceder al [video de entrevistas de validacion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcWZn2YfObZBh4M3zCg6WU0B6d2mLOuhCCA9tmsVkKQVHg?e=82qMBU)
+
+- Enlace para acceder al [video about the team](https://upcedupe-my.sharepoint.com/personal/u202310187_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310187%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0730%2D4364%2DcafeMetrix%2Dabout%20the%2Dteam%2Dsprint%2D2%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2589bfba%2D3db4%2D4cf5%2Dbd4f%2D34040571462f&isDarkMode=true)
+
+- Enlace para acceder al [video about the product](https://www.youtube.com/watch?v=Op5L0uSXScE)
