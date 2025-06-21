@@ -3463,6 +3463,53 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+
+  <tr>
+    <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd</td>
+    <td>feature/defects</td>
+    <td>ccad69b</td>
+    <td>feat: Implement DDD architecture and fix compilation issues</td>
+    <td>Incluye estructura validada para pruebas de integración y unidad de módulos backend</td>
+    <td>20/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd</td>
+    <td>feature/profiles</td>
+    <td>fbbf6c2</td>
+    <td>feat(commands): add update-profile-command</td>
+    <td>Se implementó comando probado para actualización de perfiles, incluye lógica de test</td>
+    <td>19/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd</td>
+    <td>feature/cuppingSessions-Costoslote</td>
+    <td>5c7056d</td>
+    <td>fix: added DDD structure</td>
+    <td>Configuración de estructura con pruebas básicas de compilación y separación de capas</td>
+    <td>20/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab</td>
+    <td>feature/informe-readme-fix</td>
+    <td>a2b7c10</td>
+    <td>docs: actualiza evidencia de pruebas y tareas validadas</td>
+    <td>Se documentaron los resultados de pruebas manuales y su relación con el backlog</td>
+    <td>21/06/2025</td>
+  </tr>
+
+</table>
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
