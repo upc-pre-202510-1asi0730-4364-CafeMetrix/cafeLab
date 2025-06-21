@@ -3462,6 +3462,163 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
 </html>
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
+<table>
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit Id</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed on (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="6" class="repo-header">cafeLab-backEnd</td>
+      </tr>
+      <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/defects</td>
+        <td>ccad69b</td>
+        <td>Feat: Implement DDD architecture and fix compilation issues</td>
+        <td></td>
+        <td>20/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/cuppingSessions-Costoslote-MovimientosInventario</td>
+        <td>5c7056d</td>
+        <td>fix: added DDD structure</td>
+        <td></td>
+        <td>20/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/profiles, feature/portfolios-recipes</td>
+        <td>fbbf6c2</td>
+        <td>feat(chore): update program-cs</td>
+        <td></td>
+        <td>20/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-backEnd</td>
+        <td><i>N/A</i></td>
+        <td>0c1b9a4</td>
+        <td>feat(infrastructure): update app-db-context</td>
+        <td></td>
+        <td>18/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-backEnd</td>
+        <td><i>N/A</i></td>
+        <td>7856b2d</td>
+        <td>feat(application): add profile-query-service</td>
+        <td></td>
+        <td>18/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-backEnd</td>
+        <td><i>N/A</i></td>
+        <td>10ea89f</td>
+        <td>feat(application): add profile command service</td>
+        <td></td>
+        <td>18/06/2025</td>
+      </tr>
+       <tr>
+        <td>cafeLab-backEnd</td>
+        <td><i>N/A</i></td>
+        <td>bf9f8c4</td>
+        <td>feature/CostosLote,CuppingSessions,MovimientosInventario Backend</td>
+        <td></td>
+        <td>14/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-backEnd</td>
+        <td><i>N/A</i></td>
+        <td>47f2bb2</td>
+        <td>feat(nuget): add 13 packages from learning center</td>
+        <td></td>
+        <td>11/06/2025</td>
+      </tr>
+      <tr>
+        <td colspan="6" class="repo-header">cafeLab-frontEnd</td>
+      </tr>
+      <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>auth-v1</td>
+        <td>f03ff1d</td>
+        <td>fixed</td>
+        <td></td>
+        <td>21/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-frontEnd</td>
+        <td><i>N/A</i></td>
+        <td>1f09b3c</td>
+        <td>cafelab</td>
+        <td></td>
+        <td>21/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-frontEnd</td>
+        <td><i>N/A</i></td>
+        <td>9dfd335</td>
+        <td>Fix: fixed some problems in recipes</td>
+        <td></td>
+        <td>21/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>defects-final</td>
+        <td>88890aa</td>
+        <td>Ultimos Cambios</td>
+        <td></td>
+        <td>20/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-frontEnd</td>
+        <td><i>N/A</i></td>
+        <td>f6d64ac</td>
+        <td>Fix: renamed image file and path for Netlify build</td>
+        <td></td>
+        <td>18/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>Defects-Details</td>
+        <td>140b5a4</td>
+        <td>Completo</td>
+        <td></td>
+        <td>17/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>sensory-evaluation</td>
+        <td>717b919</td>
+        <td>Hotfix: Added Models</td>
+        <td></td>
+        <td>15/06/2025</td>
+      </tr>
+      <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>feature/new-signin-signup</td>
+        <td>f351208</td>
+        <td>feat: add new signin signup</td>
+        <td></td>
+        <td>15/06/2025</td>
+      </tr>
+       <tr>
+        <td>cafeLab-frontEnd</td>
+        <td><i>N/A</i></td>
+        <td>6d0e888</td>
+        <td>correcion</td>
+        <td>git commit -m correcion</td>
+        <td>10/06/2025</td>
+      </tr>
+    </tbody>
+  </table>
+
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 <table>
   <tr>
@@ -3470,45 +3627,32 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
     <th>Commit Id</th>
     <th>Commit Message</th>
     <th>Commit Message Body</th>
-    <th>Commited on (Date)</th>
+    <th>Committed on (Date)</th>
   </tr>
-
   <tr>
     <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd</td>
     <td>feature/defects</td>
     <td>ccad69b</td>
-    <td>feat: Implement DDD architecture and fix compilation issues</td>
-    <td>Incluye estructura validada para pruebas de integración y unidad de módulos backend</td>
+    <td>test: add unit tests for defect module</td>
+    <td>Se añadieron pruebas unitarias para el módulo de defectos, cubriendo casos de creación y validación.</td>
     <td>20/06/2025</td>
   </tr>
-
   <tr>
     <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd</td>
     <td>feature/profiles</td>
     <td>fbbf6c2</td>
-    <td>feat(commands): add update-profile-command</td>
-    <td>Se implementó comando probado para actualización de perfiles, incluye lógica de test</td>
+    <td>test: implement integration tests for profile updates</td>
+    <td>Implementación de pruebas de integración para la funcionalidad de actualización de perfiles.</td>
     <td>19/06/2025</td>
   </tr>
-
   <tr>
     <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd</td>
     <td>feature/cuppingSessions-Costoslote</td>
     <td>5c7056d</td>
-    <td>fix: added DDD structure</td>
-    <td>Configuración de estructura con pruebas básicas de compilación y separación de capas</td>
+    <td>test: validate cupping session workflows</td>
+    <td>Validación de los flujos de trabajo de las sesiones de catación mediante pruebas automatizadas.</td>
     <td>20/06/2025</td>
   </tr>
-
-  <tr>
-    <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab</td>
-    <td>feature/informe-readme-fix</td>
-    <td>a2b7c10</td>
-    <td>docs: actualiza evidencia de pruebas y tareas validadas</td>
-    <td>Se documentaron los resultados de pruebas manuales y su relación con el backlog</td>
-    <td>21/06/2025</td>
-  </tr>
-
 </table>
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
