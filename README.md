@@ -3358,6 +3358,147 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
     <td>Creación de welcome owner, suppliers, coffee lot, roast profiles, roast comparison, suppliers registration, coffee lot registration, roast profiles registration, supplier information and coffee lot information.</td>
   </tr>
 </table>
+#### 5.2.3. Sprint 3.
+#### 5.2.3.1. Sprint Planning 3.
+#### 5.2.3.2. Sprint Backlog 3.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sprint Backlog 3 - CafeLab</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f9f9f9;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #e6e6e6;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Sprint Backlog 3 - Café Lab (Corrello)</h2>
+
+<table>
+  <tr>
+    <th>User Story</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Registro de Sesión de Tueste</td>
+    <td>Registrar y almacenar sesiones de tueste para análisis posterior</td>
+    <td>3</td>
+    <td>Renzo Sebastian Uribe Livia</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Análisis Comparativo de Tuestes</td>
+    <td>Comparar resultados entre distintas sesiones de tueste</td>
+    <td>5</td>
+    <td>Renzo Sebastian Uribe Livia</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Control de Inventario Integrado</td>
+    <td>Gestionar inventario en tiempo real desde backend</td>
+    <td>5</td>
+    <td>Adrian Ricardo Donayre Alvarez</td>
+    <td>In-process</td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Cata Digital Estructurada</td>
+    <td>Desarrollar modelo digital para calificar catas desde el sistema</td>
+    <td>3</td>
+    <td>Adrian Ricardo Donayre Alvarez</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Biblioteca de Defectos de Tueste</td>
+    <td>Almacenar y clasificar defectos comunes en los perfiles</td>
+    <td>2</td>
+    <td>Joseph Manuel Chavez Viera</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Contacto con Equipo</td>
+    <td>Desarrollar lógica de comunicación entre miembros del sistema</td>
+    <td>3</td>
+    <td>Joseph Manuel Chavez Viera</td>
+    <td>To-review</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Visualización de Perfiles Sensoriales</td>
+    <td>Backend para mostrar perfiles sensoriales generados por catas</td>
+    <td>3</td>
+    <td>Christian Fabrizio Inga Orihuela</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Correlación Tueste-Sabor</td>
+    <td>Analizar relación entre tipo de tueste y perfil de sabor</td>
+    <td>5</td>
+    <td>Christian Fabrizio Inga Orihuela</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td>Historial de Catas</td>
+    <td>Guardar historial cronológico de todas las catas realizadas</td>
+    <td>5</td>
+    <td>Carlos Fredy Fernandez Camayo</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td>Creación de Recetas</td>
+    <td>Funcionalidad para guardar y consultar recetas de café personalizadas</td>
+    <td>5</td>
+    <td>Carlos Fredy Fernandez Camayo</td>
+    <td>To-do</td>
+  </tr>
+
+</table>
+
+</body>
+</html>
+
+#### 5.2.3.3. Development Evidence for Sprint Review.
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review.
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
