@@ -3515,6 +3515,168 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
+## 5.3
+
+### 5.3.3 Evaluación según heurísticas  
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**
+
+---
+
+### Información del Proyecto
+
+- **Carrera:** Ingeniería de Software  
+- **Curso:** Aplicaciones Web  
+- **Sección:** 4364  
+- **Profesores:** Todos  
+- **Auditor:** CaféLab  
+- **Cliente(s):** CaféLab  
+- **Sitio o App a Evaluar:** CaféLab
+
+---
+
+### TAREAS A EVALUAR
+
+Para el alcance de esta entrega, se realizó la revisión de las siguientes tareas:
+
+- Navegación general en el flujo de suscripción al Plan Barista  
+- Visualización y registro de sesiones de cata  
+- Consulta de inventario de café verde y tostado  
+- Gestión de costos y lotes de producción  
+- Uso de la plataforma en dispositivos móviles
+
+---
+
+### Escala de Severidad de Problemas
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir con más frecuencia o es más difícil de superar para el usuario. Debería tener una prioridad baja para resolverse en la próxima versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Debería tener alta prioridad para corregirse. |
+| 4     | Problema muy grave: error que impide al usuario continuar utilizando la herramienta. Debe corregirse antes del lanzamiento. |
+
+---
+
+### TABLA RESUMEN
+
+| #  | Problema                                                                                  | Escala de severidad | Heurística/Principio violado                                     |
+|----|-------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------|
+| 1  | No existe guía inicial o ayuda contextual al registrarse o navegar por primera vez        | 2                   | Usabilidad: Ayuda y documentación                                |
+| 2  | Al guardar una sesión de cata, no hay retroalimentación clara de éxito o error            | 3                   | Usabilidad: Feedback del sistema                                 |
+| 3  | Inconsistencias leves en estilos entre headers y botones en distintas vistas              | 1                   | Usabilidad: Consistencia y estándares                            |
+| 4  | No hay confirmación visual previa al eliminar registros de inventario                     | 3                   | Usabilidad: Prevención de errores / Feedback del sistema         |
+| 5  | La tabla de inventario no permite filtros por proveedor o tipo de café                    | 2                   | Arquitectura de Información: Is it findable?                     |
+| 6  | No se puede previsualizar registros completos de sesiones desde la tabla                 | 2                   | Usabilidad: Flexibilidad y eficiencia de uso                     |
+| 7  | En mobile, algunos botones se muestran muy pequeños y hay scroll horizontal              | 3                   | Diseño Responsivo: Accesibilidad en múltiples dispositivos       |
+| 8  | Errores como campos vacíos no se explican con claridad                                   | 2                   | Usabilidad: Ayuda para reconocer y recuperarse de errores        |
+| 9  | Acciones frecuentes como iniciar nueva cata están algo escondidas                        | 1                   | Usabilidad: Flexibilidad y eficiencia de uso                     |
+| 10 | No hay diferenciación visual o funcional entre usuarios tipo barista y administrador     | 2                   | Usabilidad: Correspondencia con el mundo real                    |
+
+---
+
+### DESCRIPCIÓN DE PROBLEMAS
+
+#### PROBLEMA #1: No existe guía inicial o ayuda contextual  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Ayuda y documentación  
+**Problema:**  
+El sistema no incluye ningún tipo de tour guiado ni ayudas contextuales para orientar a usuarios primerizos, lo que puede dificultar su comprensión del flujo de suscripción o funcionalidades disponibles.  
+**Recomendación:**  
+Agregar un onboarding o ventanas emergentes con tips breves al ingresar por primera vez.
+
+---
+
+#### PROBLEMA #2: Falta retroalimentación clara al guardar una cata  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Feedback del sistema  
+**Problema:**  
+Cuando se guarda una sesión de cata, el sistema no muestra un mensaje visual de éxito ni alerta en caso de fallo (por ejemplo, al no completar un campo).  
+**Recomendación:**  
+Implementar confirmaciones visuales y validaciones en tiempo real.
+
+---
+
+#### PROBLEMA #3: Inconsistencias en estilos visuales  
+**Severidad:** 1  
+**Heurística violada:** Usabilidad - Consistencia y estándares  
+**Problema:**  
+Existen leves diferencias en la jerarquía visual entre headers o botones según el módulo (como en Inventario y Plan Barista).  
+**Recomendación:**  
+Unificar estilos tipográficos, tamaños y colores según guía de diseño.
+
+---
+
+#### PROBLEMA #4: No hay confirmación al eliminar registros del inventario  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Prevención de errores / Feedback del sistema  
+**Problema:**  
+El usuario puede eliminar un registro de inventario sin confirmación previa ni mensaje de éxito, lo cual puede ocasionar pérdidas accidentales de datos.  
+**Recomendación:**  
+Agregar diálogos de confirmación y alertas post-acción.
+
+---
+
+#### PROBLEMA #5: No hay filtros por proveedor o tipo de café  
+**Severidad:** 2  
+**Heurística violada:** Arquitectura de Información - Is it findable?  
+**Problema:**  
+En la sección de inventario, no hay opciones para filtrar lotes por proveedor, variedad o tipo de café, lo que afecta la usabilidad en escenarios con múltiples registros.  
+**Recomendación:**  
+Añadir filtros dinámicos para agilizar la navegación.
+
+---
+
+#### PROBLEMA #6: No se puede previsualizar sesiones desde la tabla  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso  
+**Problema:**  
+Para revisar los detalles de una sesión de cata, el usuario debe acceder a otra vista, lo que interrumpe el flujo de trabajo.  
+**Recomendación:**  
+Permitir una previsualización rápida tipo "preview modal" desde la tabla principal.
+
+---
+
+#### PROBLEMA #7: Problemas de responsividad en pantallas pequeñas  
+**Severidad:** 3  
+**Heurística violada:** Diseño Responsivo - Accesibilidad en múltiples dispositivos  
+**Problema:**  
+En móviles, algunos botones son muy pequeños y aparecen barras de scroll horizontal que dificultan la navegación.  
+**Recomendación:**  
+Mejorar la adaptabilidad de los componentes y usar breakpoints adecuados.
+
+---
+
+#### PROBLEMA #8: Mensajes de error poco descriptivos  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Ayuda para reconocer y recuperarse de errores  
+**Problema:**  
+Cuando un campo no es llenado o ocurre un fallo, el mensaje suele ser genérico (“Error” o “Campo inválido”) sin mayor detalle.  
+**Recomendación:**  
+Brindar mensajes específicos, indicando qué campo falta y cómo solucionarlo.
+
+---
+
+#### PROBLEMA #9: Acciones frecuentes no son fácilmente accesibles  
+**Severidad:** 1  
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso  
+**Problema:**  
+El botón para iniciar una nueva cata o registrar lote no siempre está visible a primera vista.  
+**Recomendación:**  
+Aumentar visibilidad con botones destacados o accesos rápidos.
+
+---
+
+#### PROBLEMA #10: No hay diferenciación entre tipos de usuario  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Correspondencia con el mundo real  
+**Problema:**  
+Todos los usuarios ven las mismas vistas, sin una diferenciación clara según su rol (administrador, barista).  
+**Recomendación:**  
+Diseñar vistas o accesos diferenciados según el tipo de usuario.
+
+---
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
