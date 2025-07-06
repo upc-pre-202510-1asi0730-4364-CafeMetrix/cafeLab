@@ -246,6 +246,23 @@
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4.](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint) 
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -3287,7 +3304,7 @@ Durante el segundo sprint, el equipo se propuso iniciar y finalizar el frontend.
     <img src="" alt="Organización en la herramienta Trello">
 </p>
 
-Link de [Trello]()
+Link de [Trello](public\assets\images\Trello\trello.png)
 
 <table border="1">
 <tr>
@@ -4082,8 +4099,8 @@ los diferentes módulos que ofrece nuestro proyecto, aplicando internacionalizac
 ![image](public/assets/images/WebAppEvidences/US10-1.png)
 
 **US12:**
-![image](public/assets/images/WebAppEvidences/US12.png)  
-![image](public/assets/images/WebAppEvidences/US12-1.png)
+![image](public\assets\images\WebAppEvidences\US-12.png)  
+![image](public\assets\images\WebAppEvidences\US-12-1.png)
 
 **US13:**
 ![image](public/assets/images/WebAppEvidences/US13.png)
@@ -4178,7 +4195,7 @@ En las siguientes imágenes se muestra el correcto despliegue de la página, ade
   </tr>
 </table>
 
-#### 5.2.3. Sprint 3.
+### 5.2.3. Sprint 3.
 
 #### 5.2.3.1. Sprint Planning 3.
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
@@ -4354,7 +4371,6 @@ Para este Sprint, los aspectos principales corresponden a las User Stories resta
   <td>adriandonayredev</td>
   <td>May 31, 2025</td>
 </tr>
-
 <tr>
   <td>upc-pre-202510-1asi0730-4364-CafeMetrix</td>
   <td>feature/frontend-fredy</td>
@@ -4563,42 +4579,6 @@ Para este Sprint, los aspectos principales corresponden a las User Stories resta
     </tbody>
   </table>
 
-#### 5.2.3.4. Testing Suite Evidence for Sprint Review.
-<table>
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit Message</th>
-    <th>Commit Message Body</th>
-    <th>Committed on (Date)</th>
-  </tr>
-  <tr>
-    <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd</td>
-    <td>feature/defects</td>
-    <td>ccad69b</td>
-    <td>test: add unit tests for defect module</td>
-    <td>Se añadieron pruebas unitarias para el módulo de defectos, cubriendo casos de creación y validación.</td>
-    <td>20/06/2025</td>
-  </tr>
-  <tr>
-    <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd</td>
-    <td>feature/profiles</td>
-    <td>fbbf6c2</td>
-    <td>test: implement integration tests for profile updates</td>
-    <td>Implementación de pruebas de integración para la funcionalidad de actualización de perfiles.</td>
-    <td>19/06/2025</td>
-  </tr>
-  <tr>
-    <td>https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd</td>
-    <td>feature/cuppingSessions-Costoslote</td>
-    <td>5c7056d</td>
-    <td>test: validate cupping session workflows</td>
-    <td>Validación de los flujos de trabajo de las sesiones de catación mediante pruebas automatizadas.</td>
-    <td>20/06/2025</td>
-  </tr>
-</table>
-
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 <td><img src="public\assets\images\EvidencesSP3\1.png" alt="evidencia post"></td>
 
@@ -4607,14 +4587,667 @@ Para este Sprint, los aspectos principales corresponden a las User Stories resta
 <td><img src="public\assets\images\EvidencesSP3\3.png" alt="evidencia"></td>
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+En este tercer sprint se planificó la culminación del front-end y en un 40% la culminación del back-end. Trabajamos con Mock Api para que el front-end tomara y almacenara datos mientras se sigue implementando el back-end para su futura conexión con front-end.
 
+<div align="center">
+  <img src="public\assets\images\ExecutionEvidence\1.png" alt="1">
+  <img src="public\assets\images\ExecutionEvidence\2.png" alt="2">
+  <img src="public\assets\images\ExecutionEvidence\3.png" alt="3">
+</div>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Para la entrega del tercer sprint, se desplego el landing page completamente funcional. Cumpliendo los user stories correspondientes al entregable. De la misma forma se desplego la web application parcialmente completa, pues presenta ciertos bugs que será solucionados en el siguiente sprint. Asimismo, se desplego el back-end parcialmente completo, pues no se ha concluido.
 
-#### 5.2.3.8. Team Collaboration Insights during Sprint.
+### 5.2.4. Sprint 4.
 
-#### 5.2.3.5. Execution Evidence for Sprint Review.
+### 5.2.4.1. Sprint Planning 4.
+<p>
+        El Sprint #4 tiene como fecha de inicio el 16/06/2025 y como meta establece culminar, conectar y desplegar el front end y el back end de la aplicación.
+    </p>
+    <table>
+        <tr>
+            <th>Sprint #</th>
+            <th colspan="2">Sprint 4</th>
+        </tr>
+        <tr>
+            <th colspan="3">Sprint Planning Background</th>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td colspan="2">2025-06-16</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td colspan="2">11:00 AM</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 4</th>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord meeting</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Adrian Donayre</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>
+                Renzo Sebastian Uribe Livia,<br>
+                Joseph Manuel Chavez Viera,<br>
+                Adrian Ricardo Donayre Alvarez,<br>
+                Christian Fabrizio Inga Orihuela,<br>
+                Carlos Fredy Fernandez Camayo
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 4 Review Summary</td>
+            <td>
+                El sprint anterior propuso continuar el desarrollo del front end de la aplicación, y desplegar una primera versión del back end con endpoints funcionales. Se evidencia que el equipo logró cumplir con todos los objetivos propuestos.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 4 Retrospective Summary</td>
+            <td>
+                <b>¿Qué funcionó bien?</b> Los story points fueron acertados. La comunicación activa durante el sprint permitió que los miembros del grupo se mantuvieran informados sobre el proceso de desarrollo del proyecto.<br>
+                <b>¿Qué no salió bien o cómo se esperaba?</b> El testing pudo haber sido documentado de mejor manera. Sintaxis de historias de usuario poco claras.<br>
+                <b>¿Qué deberíamos intentar hacer a continuación?</b> Investigar sobre testing y documentarlo de manera apropiada. Revisar las user stories y reestructurarlas para que todos los developers comprendan con simplicidad su propósito.
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Sprint Goal & User Stories</th>
+        </tr>
+        <tr>
+            <td>Sprint 4 Goal</td>
+            <td>
+                Elaborar la sección "Reportes estadísticos", conectar la aplicación con un API de terceros para enviar invitaciones por correo electrónico a los trabajadores, culminar los endpoints restantes, implementar el security e inicio de sesión del usuario, y finalmente conectar el front end y el back end.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 4 Velocity</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>33</td>
+        </tr>
+    </table>
+
+### 5.2.4.2. Sprint Backlog 4.
+<table>
+    <tr>
+        <th rowspan="2">Technical User Story</th>
+        <th colspan="3">WorkItem / Task</th>
+        <th rowspan="2">Description</th>
+        <th rowspan="2">Estimation (Hours)</th>
+        <th rowspan="2">Assigned To</th>
+        <th rowspan="2">Status(To-do/In-Process/To-Review/Done)</th>
+    </tr>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Id</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Renzo<br>Integración front/back</td>
+        <td>TK01</td>
+        <td colspan="2">Modificar backend para integración con frontend</td>
+        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
+        <td>4</td>
+        <td>Renzo Sebastian Uribe Livia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TK02</td>
+        <td colspan="2">Inventario y gestión de costos de producción</td>
+        <td>Implementar y conectar los módulos de inventario y registro de costos de producción en ambos lados (front y back end).</td>
+        <td>4</td>
+        <td>Renzo Sebastian Uribe Livia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TK03</td>
+        <td colspan="2">Cupping session</td>
+        <td>Desarrollar y conectar la funcionalidad de sesiones de cata en el sistema completo.</td>
+        <td>4</td>
+        <td>Renzo Sebastian Uribe Livia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Joseph<br>Integración front/back</td>
+        <td>TK04</td>
+        <td colspan="2">Modificar backend para integración con frontend</td>
+        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
+        <td>4</td>
+        <td>Joseph Manuel Chavez Viera</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TK05</td>
+        <td colspan="2">Defects y calibrations</td>
+        <td>Arreglar y conectar la gestión de defectos y calibraciones tanto en el backend como en el frontend.</td>
+        <td>4</td>
+        <td>Joseph Manuel Chavez Viera</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Christian<br>Integración front/back</td>
+        <td>TK06</td>
+        <td colspan="2">Modificar backend para integración con frontend</td>
+        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
+        <td>4</td>
+        <td>Christian Fabrizio Inga Orihuela</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TK07</td>
+        <td colspan="2">Recetas</td>
+        <td>Implementar y conectar la gestión de recetas en el sistema completo (front y back end).</td>
+        <td>4</td>
+        <td>Christian Fabrizio Inga Orihuela</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Fredy<br>Integración front/back</td>
+        <td>TK08</td>
+        <td colspan="2">Modificar backend para integración con frontend</td>
+        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
+        <td>4</td>
+        <td>Carlos Fredy Fernandez Camayo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TK09</td>
+        <td colspan="2">Suppliers, coffee lot, roast profiles, roast comparison</td>
+        <td>Desarrollar y conectar los módulos de proveedores, lotes de café, perfiles de tueste y comparación de tuestes en ambos lados.</td>
+        <td>4</td>
+        <td>Carlos Fredy Fernandez Camayo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Adrian<br>Integración front/back</td>
+        <td>TK10</td>
+        <td colspan="2">Modificar backend para integración con frontend</td>
+        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
+        <td>4</td>
+        <td>Adrian Ricardo Donayre Alvarez</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TK11</td>
+        <td colspan="2">Registro, pago y perfil</td>
+        <td>Implementar y conectar los módulos de registro de usuario, pagos y perfil en el sistema completo.</td>
+        <td>4</td>
+        <td>Adrian Ricardo Donayre Alvarez</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TK12</td>
+        <td colspan="2">IAM (Identity & Access Management)</td>
+        <td>Desarrollar y conectar la gestión de identidad y acceso (IAM) tanto en el backend como en el frontend.</td>
+        <td>4</td>
+        <td>Adrian Ricardo Donayre Alvarez</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+### 5.2.4.3. Development Evidence for Sprint Review.
+
+Como parte de las evidencias del sprint review, se demuestran mediante una tabla los commits realizados a lo largo de este
+tercer sprint. Como se establecio trabajar el frontend y backendde la web application, se muestran commits de diferentes
+repositorios donde se trabajo.
+
+<table>
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit Id</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited on (Date)</th>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>features/defects</td>
+        <td>f4b49cc</td>
+        <td>feat: add deffects features</td>
+        <td></td>
+        <td>05/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>1d3a255</td>
+        <td>actualizacion de defecto y calibracion</td>
+        <td></td>
+        <td>03/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>2ef9406</td>
+        <td>user-id</td>
+        <td></td>
+        <td>03/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>a53a87d</td>
+        <td>coffeeproduction</td>
+        <td></td>
+        <td>03/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/coffeeproduction</td>
+        <td>b58c841</td>
+        <td>bounded context</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>4f6326b</td>
+        <td>string to int</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>86b89be</td>
+        <td>Ignoro bin/ y obj/ generados automáticamente</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>7b93a18</td>
+        <td>Merge branch 'feature/profiles' into develop</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>8217088</td>
+        <td>Agrego archivos faltantes</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>89cd53d</td>
+        <td>feat(chore): change file development</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>3279f15</td>
+        <td>feat(chore): add azure connection</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>18a3213</td>
+        <td>Delete global.json</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>a78e56a</td>
+        <td>Delete CafeLab.API.sln</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>1b5eeef</td>
+        <td>Delete CafeLab.API directory</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>1603937</td>
+        <td>Create README.md</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>develop</td>
+        <td>369c8a</td>
+        <td>Delete .idea/.idea.CafeLab.API/.idea directory</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/profiles</td>
+        <td>89cd53d</td>
+        <td>feat(chore): change file development</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/profiles</td>
+        <td>3279f15</td>
+        <td>feat(chore): add azure connection</td>
+        <td></td>
+        <td>02/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/cupping</td>
+        <td>5c7965d</td>
+        <td>fix: added DDD structure</td>
+        <td></td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/defects</td>
+        <td>f8c68c8</td>
+        <td>se agrego lo de defectos y calibration2</td>
+        <td></td>
+        <td>03/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/defects</td>
+        <td>ccad69b</td>
+        <td>Feat: Implement DDD architecture and fix compilation issues</td>
+        <td></td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-backEnd</td>
+        <td>feature/portfolios</td>
+        <td>fbfbfc2</td>
+        <td>feat(chore): update program-cs</td>
+        <td></td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>b454afb</td>
+        <td>Fix: Added Save Costlot</td>
+        <td></td>
+        <td>03/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>e56727d</td>
+        <td>Feat: Add inventory and cost managment complete</td>
+        <td></td>
+        <td>01/07/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>3cc98b9</td>
+        <td>Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/sensory-evaluation-v2</td>
+        <td></td>
+        <td>30/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>5931a389</td>
+        <td>Feat:Added new cupping Sessions to barista plan</td>
+        <td></td>
+        <td>24/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>f49f71d</td>
+        <td>fixed</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>1f980b2</td>
+        <td>cafelab</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>auth-v1</td>
+        <td>9c864d6</td>
+        <td>Merge branch 'auth-v1' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into auth-v1</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>43a8355</td>
+        <td>profile roasting</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>9cf4335</td>
+        <td>Fix fixed some problems in recipes</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>auth-v1</td>
+        <td>9c414d5</td>
+        <td>Merge branch 'auth-v1' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into auth-v1</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>5aac474</td>
+        <td>roast profiles</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>1e7985f</td>
+        <td>rec: fixed endpoints for preparation bounded context</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>auth-v1</td>
+        <td>61419ec</td>
+        <td>Merge branch 'auth-v1' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into auth-v1</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>cafeLab-frontEnd</td>
+        <td>main</td>
+        <td>4754c45</td>
+        <td>Fix fixed endpoint paths for portfolios and recipes to .env</td>
+        <td></td>
+        <td>21/06/2025</td>
+    </tr>
+</table>
+
+### 5.2.4.4. Testing Suite Evidence for Sprint Review.
+
+<table>
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit Id</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited on (Date)</th>
+    </tr>
+    <tr>
+        <td>CafeMetrix-Cafelab</td>
+        <td>"feature/informe-readme-fix"</td>
+        <td>feat(added authentication and coffee lot module tests)</td>
+        <td>added user and company repository persistence tests</td>
+        <td>Se agregaron pruebas unitarias y de integración para los módulos de autenticación y gestión de lotes de café.</td>
+        <td>06/07/2025</td>
+    </tr>
+</table>
+
+<img src="public\assets\images\testingSuite\testing1.jpg">
+
+
+### 5.2.4.5. Execution Evidence for Sprint Review.
+
+ En el sprint 4 se alcanzo un desarrollo completo del frontend y backend de la web application. La cual muestra nuevas vistas
+ relevantes acerca del producto y del start up, tanto en ingles como en español, asi como su version responsive. A continuación
+ se muestran algunas evidencias:
+
+ <img src="public\assets\images\ExecutionEvidence\evidence1.jpg">
+
+ <img src="public\assets\images\ExecutionEvidence\evidence2.jpg">
+
+ <img src="public\assets\images\ExecutionEvidence\evidence3.jpg">
+
+ <img src="public\assets\images\ExecutionEvidence\evidence4.jpg">
+
+ <img src="public\assets\images\ExecutionEvidence\evidence5.jpg">
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+<table>
+    <tr>
+        <th>Módulo</th>
+        <th>Operación</th>
+        <th>Parámetros</th>
+        <th>URL</th>
+        <th>Descripción</th>
+    </tr>
+    <tr>
+        <td>Authentication</td>
+        <td>POST</td>
+        <td>No tiene</td>
+        <td>/api/v1/authentication/sign-in</td>
+        <td>Inicio de sesión de usuario (JWT)</td>
+    </tr>
+    <tr>
+        <td>Authentication</td>
+        <td>POST</td>
+        <td>No tiene</td>
+        <td>/api/v1/authentication/sign-up</td>
+        <td>Registro de usuario</td>
+    </tr>
+    <tr>
+        <td>Defects</td>
+        <td>GET</td>
+        <td>No tiene</td>
+        <td>/api/v1/defects</td>
+        <td>Listar defectos</td>
+    </tr>
+    <tr>
+        <td>Defects</td>
+        <td>POST</td>
+        <td>No tiene</td>
+        <td>/api/v1/defects</td>
+        <td>Registrar un defecto</td>
+    </tr>
+    <tr>
+        <td>Calibrations</td>
+        <td>GET</td>
+        <td>No tiene</td>
+        <td>/api/v1/calibrations</td>
+        <td>Listar calibraciones</td>
+    </tr>
+    <tr>
+        <td>Calibrations</td>
+        <td>POST</td>
+        <td>No tiene</td>
+        <td>/api/v1/calibrations</td>
+        <td>Registrar calibración</td>
+    </tr>
+    <tr>
+        <td>Roast Profiles</td>
+        <td>GET</td>
+        <td>No tiene</td>
+        <td>/api/v1/roast-profiles</td>
+        <td>Listar perfiles de tueste</td>
+    </tr>
+    <tr>
+        <td>Roast Profiles</td>
+        <td>POST</td>
+        <td>No tiene</td>
+        <td>/api/v1/roast-profiles</td>
+        <td>Registrar perfil de tueste</td>
+    </tr>
+    <tr>
+        <td>Recipes</td>
+        <td>GET</td>
+        <td>No tiene</td>
+        <td>/api/v1/recipes</td>
+        <td>Listar recetas</td>
+    </tr>
+    <tr>
+        <td>Recipes</td>
+        <td>POST</td>
+        <td>No tiene</td>
+        <td>/api/v1/recipes</td>
+        <td>Registrar receta</td>
+    </tr>
+    <tr>
+        <td>Portfolios</td>
+        <td>GET</td>
+        <td>No tiene</td>
+        <td>/api/v1/portfolios</td>
+        <td>Listar portfolios</td>
+    </tr>
+    <tr>
+        <td>Portfolios</td>
+        <td>POST</td>
+        <td>No tiene</td>
+        <td>/api/v1/portfolios</td>
+        <td>Registrar portfolio</td>
+    </tr>
+    <tr>
+        <td>Users</td>
+        <td>GET</td>
+        <td>{userId}</td>
+        <td>/api/v1/users/{userId}</td>
+        <td>Obtener información de usuario</td>
+    </tr>
+</table>
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+### 5.2.4.8. Team Collaboration Insights during Sprint.
+
 
 ## 5.3. Validation interviews
  En la sección de “Validation Interviews” del proyecto CafeLab nos enfocamos en mejorar la presentación y funcionalidad de la plataforma web dirigida a baristas y dueños/administradores de cafeterías. En este punto se llega a la comunicación directa con los segmentos objetivos con el fin de entrevistar y obtener respuestas sobre la experiencia y percepción dentro de la plataforma, ya sean criticas positivas o negativas, esto ayuda en la mejora continua para la integración adecuada de futuras integraciones o correcciones orientadas en mejorar la mejora continua de la plataforma. A continuación se muestran los user goals necesarios para la realización de las entrevistas:
@@ -4994,656 +5627,6 @@ Diseñar vistas o accesos diferenciados según el tipo de usuario.
 
 ---
 
-5.2.4.1. Sprint Planning 4.
-<p>
-        El Sprint #4 tiene como fecha de inicio el 16/06/2025 y como meta establece culminar, conectar y desplegar el front end y el back end de la aplicación.
-    </p>
-    <table>
-        <tr>
-            <th>Sprint #</th>
-            <th colspan="2">Sprint 4</th>
-        </tr>
-        <tr>
-            <th colspan="3">Sprint Planning Background</th>
-        </tr>
-        <tr>
-            <td>Date</td>
-            <td colspan="2">2025-06-16</td>
-        </tr>
-        <tr>
-            <td>Time</td>
-            <td colspan="2">11:00 AM</td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <th>Sprint #</th>
-            <th>Sprint 4</th>
-        </tr>
-        <tr>
-            <td>Location</td>
-            <td>Discord meeting</td>
-        </tr>
-        <tr>
-            <td>Prepared by</td>
-            <td>Adrian Donayre</td>
-        </tr>
-        <tr>
-            <td>Attendees (to planning meeting)</td>
-            <td>
-                Renzo Sebastian Uribe Livia,<br>
-                Joseph Manuel Chavez Viera,<br>
-                Adrian Ricardo Donayre Alvarez,<br>
-                Christian Fabrizio Inga Orihuela,<br>
-                Carlos Fredy Fernandez Camayo
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint 4 Review Summary</td>
-            <td>
-                El sprint anterior propuso continuar el desarrollo del front end de la aplicación, y desplegar una primera versión del back end con endpoints funcionales. Se evidencia que el equipo logró cumplir con todos los objetivos propuestos.
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint 4 Retrospective Summary</td>
-            <td>
-                <b>¿Qué funcionó bien?</b> Los story points fueron acertados. La comunicación activa durante el sprint permitió que los miembros del grupo se mantuvieran informados sobre el proceso de desarrollo del proyecto.<br>
-                <b>¿Qué no salió bien o cómo se esperaba?</b> El testing pudo haber sido documentado de mejor manera. Sintaxis de historias de usuario poco claras.<br>
-                <b>¿Qué deberíamos intentar hacer a continuación?</b> Investigar sobre testing y documentarlo de manera apropiada. Revisar las user stories y reestructurarlas para que todos los developers comprendan con simplicidad su propósito.
-            </td>
-        </tr>
-        <tr>
-            <th colspan="2">Sprint Goal & User Stories</th>
-        </tr>
-        <tr>
-            <td>Sprint 4 Goal</td>
-            <td>
-                Elaborar la sección "Reportes estadísticos", conectar la aplicación con un API de terceros para enviar invitaciones por correo electrónico a los trabajadores, culminar los endpoints restantes, implementar el security e inicio de sesión del usuario, y finalmente conectar el front end y el back end.
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint 4 Velocity</td>
-            <td>33</td>
-        </tr>
-        <tr>
-            <td>Sum of story points</td>
-            <td>33</td>
-        </tr>
-    </table>
-
-5.2.4.2. Sprint Backlog 4.
-<table>
-    <tr>
-        <th rowspan="2">Technical User Story</th>
-        <th colspan="3">WorkItem / Task</th>
-        <th rowspan="2">Description</th>
-        <th rowspan="2">Estimation (Hours)</th>
-        <th rowspan="2">Assigned To</th>
-        <th rowspan="2">Status(To-do/In-Process/To-Review/Done)</th>
-    </tr>
-    <tr>
-        <th>Id</th>
-        <th>Title</th>
-        <th>Id</th>
-        <th>Title</th>
-    </tr>
-    <tr>
-        <td rowspan="3">Renzo<br>Integración front/back</td>
-        <td>TK01</td>
-        <td colspan="2">Modificar backend para integración con frontend</td>
-        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
-        <td>4</td>
-        <td>Renzo Sebastian Uribe Livia</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td>TK02</td>
-        <td colspan="2">Inventario y gestión de costos de producción</td>
-        <td>Implementar y conectar los módulos de inventario y registro de costos de producción en ambos lados (front y back end).</td>
-        <td>4</td>
-        <td>Renzo Sebastian Uribe Livia</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td>TK03</td>
-        <td colspan="2">Cupping session</td>
-        <td>Desarrollar y conectar la funcionalidad de sesiones de cata en el sistema completo.</td>
-        <td>4</td>
-        <td>Renzo Sebastian Uribe Livia</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td rowspan="2">Joseph<br>Integración front/back</td>
-        <td>TK04</td>
-        <td colspan="2">Modificar backend para integración con frontend</td>
-        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
-        <td>4</td>
-        <td>Joseph Manuel Chavez Viera</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td>TK05</td>
-        <td colspan="2">Defects y calibrations</td>
-        <td>Arreglar y conectar la gestión de defectos y calibraciones tanto en el backend como en el frontend.</td>
-        <td>4</td>
-        <td>Joseph Manuel Chavez Viera</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td rowspan="2">Christian<br>Integración front/back</td>
-        <td>TK06</td>
-        <td colspan="2">Modificar backend para integración con frontend</td>
-        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
-        <td>4</td>
-        <td>Christian Fabrizio Inga Orihuela</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td>TK07</td>
-        <td colspan="2">Recetas</td>
-        <td>Implementar y conectar la gestión de recetas en el sistema completo (front y back end).</td>
-        <td>4</td>
-        <td>Christian Fabrizio Inga Orihuela</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td rowspan="2">Fredy<br>Integración front/back</td>
-        <td>TK08</td>
-        <td colspan="2">Modificar backend para integración con frontend</td>
-        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
-        <td>4</td>
-        <td>Carlos Fredy Fernandez Camayo</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td>TK09</td>
-        <td colspan="2">Suppliers, coffee lot, roast profiles, roast comparison</td>
-        <td>Desarrollar y conectar los módulos de proveedores, lotes de café, perfiles de tueste y comparación de tuestes en ambos lados.</td>
-        <td>4</td>
-        <td>Carlos Fredy Fernandez Camayo</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td rowspan="3">Adrian<br>Integración front/back</td>
-        <td>TK10</td>
-        <td colspan="2">Modificar backend para integración con frontend</td>
-        <td>Actualizar endpoints y lógica para asegurar la correcta comunicación entre el backend y el frontend.</td>
-        <td>4</td>
-        <td>Adrian Ricardo Donayre Alvarez</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td>TK11</td>
-        <td colspan="2">Registro, pago y perfil</td>
-        <td>Implementar y conectar los módulos de registro de usuario, pagos y perfil en el sistema completo.</td>
-        <td>4</td>
-        <td>Adrian Ricardo Donayre Alvarez</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td>TK12</td>
-        <td colspan="2">IAM (Identity & Access Management)</td>
-        <td>Desarrollar y conectar la gestión de identidad y acceso (IAM) tanto en el backend como en el frontend.</td>
-        <td>4</td>
-        <td>Adrian Ricardo Donayre Alvarez</td>
-        <td>Done</td>
-    </tr>
-</table>
-
-5.2.4.3. Development Evidence for Sprint Review.
-
-Como parte de las evidencias del sprint review, se demuestran mediante una tabla los commits realizados a lo largo de este
-tercer sprint. Como se establecio trabajar el frontend y backendde la web application, se muestran commits de diferentes
-repositorios donde se trabajo.
-
-<table>
-    <tr>
-        <th>Repository</th>
-        <th>Branch</th>
-        <th>Commit Id</th>
-        <th>Commit Message</th>
-        <th>Commit Message Body</th>
-        <th>Commited on (Date)</th>
-    </tr>
-    <!-- BACKEND COMMITS -->
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>features/defects</td>
-        <td>f4b49cc</td>
-        <td>feat: add deffects features</td>
-        <td></td>
-        <td>05/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>1d3a255</td>
-        <td>actualizacion de defecto y calibracion</td>
-        <td></td>
-        <td>03/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>2ef9406</td>
-        <td>user-id</td>
-        <td></td>
-        <td>03/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>a53a87d</td>
-        <td>coffeeproduction</td>
-        <td></td>
-        <td>03/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>feature/coffeeproduction</td>
-        <td>b58c841</td>
-        <td>bounded context</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>4f6326b</td>
-        <td>string to int</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>86b89be</td>
-        <td>Ignoro bin/ y obj/ generados automáticamente</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>7b93a18</td>
-        <td>Merge branch 'feature/profiles' into develop</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>8217088</td>
-        <td>Agrego archivos faltantes</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>89cd53d</td>
-        <td>feat(chore): change file development</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>3279f15</td>
-        <td>feat(chore): add azure connection</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>18a3213</td>
-        <td>Delete global.json</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>a78e56a</td>
-        <td>Delete CafeLab.API.sln</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>1b5eeef</td>
-        <td>Delete CafeLab.API directory</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>1603937</td>
-        <td>Create README.md</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>develop</td>
-        <td>369c8a</td>
-        <td>Delete .idea/.idea.CafeLab.API/.idea directory</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>feature/profiles</td>
-        <td>89cd53d</td>
-        <td>feat(chore): change file development</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>feature/profiles</td>
-        <td>3279f15</td>
-        <td>feat(chore): add azure connection</td>
-        <td></td>
-        <td>02/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>feature/cupping</td>
-        <td>5c7965d</td>
-        <td>fix: added DDD structure</td>
-        <td></td>
-        <td>20/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>feature/defects</td>
-        <td>f8c68c8</td>
-        <td>se agrego lo de defectos y calibration2</td>
-        <td></td>
-        <td>03/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>feature/defects</td>
-        <td>ccad69b</td>
-        <td>Feat: Implement DDD architecture and fix compilation issues</td>
-        <td></td>
-        <td>20/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-backEnd</td>
-        <td>feature/portfolios</td>
-        <td>fbfbfc2</td>
-        <td>feat(chore): update program-cs</td>
-        <td></td>
-        <td>20/06/2025</td>
-    </tr>
-    <!-- FRONTEND COMMITS -->
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>b454afb</td>
-        <td>Fix: Added Save Costlot</td>
-        <td></td>
-        <td>03/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>e56727d</td>
-        <td>Feat: Add inventory and cost managment complete</td>
-        <td></td>
-        <td>01/07/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>3cc98b9</td>
-        <td>Merge pull request #1 from upc-pre-202510-1asi0730-4364-CafeMetrix/feature/sensory-evaluation-v2</td>
-        <td></td>
-        <td>30/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>5931a389</td>
-        <td>Feat:Added new cupping Sessions to barista plan</td>
-        <td></td>
-        <td>24/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>f49f71d</td>
-        <td>fixed</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>1f980b2</td>
-        <td>cafelab</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>auth-v1</td>
-        <td>9c864d6</td>
-        <td>Merge branch 'auth-v1' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into auth-v1</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>43a8355</td>
-        <td>profile roasting</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>9cf4335</td>
-        <td>Fix fixed some problems in recipes</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>auth-v1</td>
-        <td>9c414d5</td>
-        <td>Merge branch 'auth-v1' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into auth-v1</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>5aac474</td>
-        <td>roast profiles</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>1e7985f</td>
-        <td>rec: fixed endpoints for preparation bounded context</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>auth-v1</td>
-        <td>61419ec</td>
-        <td>Merge branch 'auth-v1' of https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd into auth-v1</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-    <tr>
-        <td>cafeLab-frontEnd</td>
-        <td>main</td>
-        <td>4754c45</td>
-        <td>Fix fixed endpoint paths for portfolios and recipes to .env</td>
-        <td></td>
-        <td>21/06/2025</td>
-    </tr>
-</table>
-
-5.2.4.4. Testing Suite Evidence for Sprint Review.
-
-<table>
-    <tr>
-        <th>Repository</th>
-        <th>Branch</th>
-        <th>Commit Id</th>
-        <th>Commit Message</th>
-        <th>Commit Message Body</th>
-        <th>Commited on (Date)</th>
-    </tr>
-    <tr>
-        <td>CafeMetrix-Cafelab</td>
-        <td>"feature/informe-readme-fix"</td>
-        <td>feat(added authentication and coffee lot module tests)</td>
-        <td>added user and company repository persistence tests</td>
-        <td>Se agregaron pruebas unitarias y de integración para los módulos de autenticación y gestión de lotes de café.</td>
-        <td>06/07/2025</td>
-    </tr>
-</table>
-
-<img src="public\assets\images\testingSuite\testing1.jpg">
-
-
-5.2.4.5. Execution Evidence for Sprint Review.
-
- En el sprint 4 se alcanzo un desarrollo completo del frontend y backend de la web application. La cual muestra nuevas vistas
- relevantes acerca del producto y del start up, tanto en ingles como en español, asi como su version responsive. A continuación
- se muestran algunas evidencias:
-
- <img src="public\assets\images\ExecutionEvidence\evidence1.jpg">
-
- <img src="public\assets\images\ExecutionEvidence\evidence2.jpg">
-
- <img src="public\assets\images\ExecutionEvidence\evidence3.jpg">
-
- <img src="public\assets\images\ExecutionEvidence\evidence4.jpg">
-
- <img src="public\assets\images\ExecutionEvidence\evidence5.jpg">
-
-5.2.4.6. Services Documentation Evidence for Sprint Review.
-
-<table>
-    <tr>
-        <th>Módulo</th>
-        <th>Operación</th>
-        <th>Parámetros</th>
-        <th>URL</th>
-        <th>Descripción</th>
-    </tr>
-    <tr>
-        <td>Authentication</td>
-        <td>POST</td>
-        <td>No tiene</td>
-        <td>/api/v1/authentication/sign-in</td>
-        <td>Inicio de sesión de usuario (JWT)</td>
-    </tr>
-    <tr>
-        <td>Authentication</td>
-        <td>POST</td>
-        <td>No tiene</td>
-        <td>/api/v1/authentication/sign-up</td>
-        <td>Registro de usuario</td>
-    </tr>
-    <tr>
-        <td>Defects</td>
-        <td>GET</td>
-        <td>No tiene</td>
-        <td>/api/v1/defects</td>
-        <td>Listar defectos</td>
-    </tr>
-    <tr>
-        <td>Defects</td>
-        <td>POST</td>
-        <td>No tiene</td>
-        <td>/api/v1/defects</td>
-        <td>Registrar un defecto</td>
-    </tr>
-    <tr>
-        <td>Calibrations</td>
-        <td>GET</td>
-        <td>No tiene</td>
-        <td>/api/v1/calibrations</td>
-        <td>Listar calibraciones</td>
-    </tr>
-    <tr>
-        <td>Calibrations</td>
-        <td>POST</td>
-        <td>No tiene</td>
-        <td>/api/v1/calibrations</td>
-        <td>Registrar calibración</td>
-    </tr>
-    <tr>
-        <td>Roast Profiles</td>
-        <td>GET</td>
-        <td>No tiene</td>
-        <td>/api/v1/roast-profiles</td>
-        <td>Listar perfiles de tueste</td>
-    </tr>
-    <tr>
-        <td>Roast Profiles</td>
-        <td>POST</td>
-        <td>No tiene</td>
-        <td>/api/v1/roast-profiles</td>
-        <td>Registrar perfil de tueste</td>
-    </tr>
-    <tr>
-        <td>Recipes</td>
-        <td>GET</td>
-        <td>No tiene</td>
-        <td>/api/v1/recipes</td>
-        <td>Listar recetas</td>
-    </tr>
-    <tr>
-        <td>Recipes</td>
-        <td>POST</td>
-        <td>No tiene</td>
-        <td>/api/v1/recipes</td>
-        <td>Registrar receta</td>
-    </tr>
-    <tr>
-        <td>Portfolios</td>
-        <td>GET</td>
-        <td>No tiene</td>
-        <td>/api/v1/portfolios</td>
-        <td>Listar portfolios</td>
-    </tr>
-    <tr>
-        <td>Portfolios</td>
-        <td>POST</td>
-        <td>No tiene</td>
-        <td>/api/v1/portfolios</td>
-        <td>Registrar portfolio</td>
-    </tr>
-    <tr>
-        <td>Users</td>
-        <td>GET</td>
-        <td>{userId}</td>
-        <td>/api/v1/users/{userId}</td>
-        <td>Obtener información de usuario</td>
-    </tr>
-</table>
-
-5.2.4.7. Software Deployment Evidence for Sprint Review.
-
-5.2.4.8. Team Collaboration Insights during Sprint.
-
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
@@ -5708,4 +5691,4 @@ repositorios donde se trabajo.
 
 - Enlace para acceder al [video about the team](https://upcedupe-my.sharepoint.com/personal/u202310187_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310187%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0730%2D4364%2DcafeMetrix%2Dabout%20the%2Dteam%2Dsprint%2D2%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2589bfba%2D3db4%2D4cf5%2Dbd4f%2D34040571462f&isDarkMode=true)
 
-- Enlace para acceder al [video about the product](https://www.youtube.com/watch?v=Op5L0uSXScE)
+- Enlace para acceder al [video about the product](https://youtu.be/UvEGdqB4hOE)
