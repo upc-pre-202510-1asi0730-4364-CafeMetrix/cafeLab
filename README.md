@@ -3858,7 +3858,7 @@ Diseñar vistas o accesos diferenciados según el tipo de usuario.
         </tr>
         <tr>
             <td>Prepared by</td>
-            <td>Alan Galavis</td>
+            <td>Adrian Donayre</td>
         </tr>
         <tr>
             <td>Attendees (to planning meeting)</td>
@@ -4331,8 +4331,43 @@ repositorios donde se trabajo.
 
 5.2.4.4. Testing Suite Evidence for Sprint Review.
 
+<table>
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit Id</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited on (Date)</th>
+    </tr>
+    <tr>
+        <td>CafeMetrix-Cafelab</td>
+        <td>"feature/informe-readme-fix"</td>
+        <td>feat(added authentication and coffee lot module tests)</td>
+        <td>added user and company repository persistence tests</td>
+        <td>Se agregaron pruebas unitarias y de integración para los módulos de autenticación y gestión de lotes de café.</td>
+        <td>06/07/2025</td>
+    </tr>
+</table>
+
+<img src="public\assets\images\testingSuite\testing1.jpg">
+
+
 5.2.4.5. Execution Evidence for Sprint Review.
 
+ En el sprint 4 se alcanzo un desarrollo completo del frontend y backend de la web application. La cual muestra nuevas vistas
+ relevantes acerca del producto y del start up, tanto en ingles como en español, asi como su version responsive. A continuación
+ se muestran algunas evidencias:
+
+ <img src="public\assets\images\ExecutionEvidence\evidence1.jpg">
+
+ <img src="public\assets\images\ExecutionEvidence\evidence2.jpg">
+
+ <img src="public\assets\images\ExecutionEvidence\evidence3.jpg">
+
+ <img src="public\assets\images\ExecutionEvidence\evidence4.jpg">
+
+ <img src="public\assets\images\ExecutionEvidence\evidence5.jpg">
 
 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
@@ -4357,41 +4392,6 @@ repositorios donde se trabajo.
         <td>No tiene</td>
         <td>/api/v1/authentication/sign-up</td>
         <td>Registro de usuario</td>
-    </tr>
-    <tr>
-        <td>Crops</td>
-        <td>POST</td>
-        <td>No tiene</td>
-        <td>/api/v1/crops</td>
-        <td>Crear un nuevo cultivo</td>
-    </tr>
-    <tr>
-        <td>Crops</td>
-        <td>GET</td>
-        <td>{cropId}</td>
-        <td>/api/v1/crops/{cropId}</td>
-        <td>Obtener información de un cultivo</td>
-    </tr>
-    <tr>
-        <td>Crops</td>
-        <td>GET</td>
-        <td>{cropId}</td>
-        <td>/api/v1/crops/{cropId}/tunnels</td>
-        <td>Obtener túneles de un cultivo</td>
-    </tr>
-    <tr>
-        <td>Crops</td>
-        <td>GET</td>
-        <td>{cropId}</td>
-        <td>/api/v1/crops/{cropId}/formulas</td>
-        <td>Obtener fórmulas asociadas a un cultivo</td>
-    </tr>
-    <tr>
-        <td>Crops</td>
-        <td>POST</td>
-        <td>{cropId}</td>
-        <td>/api/v1/crops/{cropId}/formulas</td>
-        <td>Agregar fórmula a un cultivo</td>
     </tr>
     <tr>
         <td>Defects</td>
@@ -4462,13 +4462,6 @@ repositorios donde se trabajo.
         <td>No tiene</td>
         <td>/api/v1/portfolios</td>
         <td>Registrar portfolio</td>
-    </tr>
-    <tr>
-        <td>Roles</td>
-        <td>GET</td>
-        <td>No tiene</td>
-        <td>/api/v1/roles</td>
-        <td>Listar roles</td>
     </tr>
     <tr>
         <td>Users</td>
