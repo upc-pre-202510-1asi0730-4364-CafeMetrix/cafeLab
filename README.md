@@ -4023,6 +4023,11 @@ Diseñar vistas o accesos diferenciados según el tipo de usuario.
 </table>
 
 5.2.4.3. Development Evidence for Sprint Review.
+
+Como parte de las evidencias del sprint review, se demuestran mediante una tabla los commits realizados a lo largo de este
+tercer sprint. Como se establecio trabajar el frontend y backendde la web application, se muestran commits de diferentes
+repositorios donde se trabajo.
+
 <table>
     <tr>
         <th>Repository</th>
