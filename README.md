@@ -51,7 +51,7 @@
 </div>
 
 <!--FECHA QUE SE MODIFICA-->
-<div align="center" style="font-weight: bold;">21 DE JUNIO DE 2025</div><br>
+<div align="center" style="font-weight: bold;">6 DE JULIO DE 2025</div><br>
 
 <!--Registro de versiones-->
 <h1 align="left">Registro de versiones del Informe</h1>
