@@ -4589,11 +4589,10 @@ Para este Sprint, los aspectos principales corresponden a las User Stories resta
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 En este tercer sprint se planificó la culminación del front-end y en un 40% la culminación del back-end. Trabajamos con Mock Api para que el front-end tomara y almacenara datos mientras se sigue implementando el back-end para su futura conexión con front-end.
 
-<div align="center">
-  <img src="public\assets\images\ExecutionEvidence\1.png" alt="1">
-  <img src="public\assets\images\ExecutionEvidence\2.png" alt="2">
-  <img src="public\assets\images\ExecutionEvidence\3.png" alt="3">
-</div>
+<img src="public\assets\images\ExecutionEvidence\1.png" alt="1">
+<img src="public\assets\images\ExecutionEvidence\2.png" alt="2">
+<img src="public\assets\images\ExecutionEvidence\3.png" alt="3">
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Para la entrega del tercer sprint, se desplego el landing page completamente funcional. Cumpliendo los user stories correspondientes al entregable. De la misma forma se desplego la web application parcialmente completa, pues presenta ciertos bugs que será solucionados en el siguiente sprint. Asimismo, se desplego el back-end parcialmente completo, pues no se ha concluido.
@@ -4602,80 +4601,62 @@ Para la entrega del tercer sprint, se desplego el landing page completamente fun
 
 ### 5.2.4.1. Sprint Planning 4.
 <p>
-        El Sprint #4 tiene como fecha de inicio el 16/06/2025 y como meta establece culminar, conectar y desplegar el front end y el back end de la aplicación.
-    </p>
+  El Sprint #4 tiene como fecha de inicio el 16/06/2025 y como meta establece culminar, conectar y desplegar el front end y el back end de la aplicación.</p>
     <table>
-        <tr>
-            <th>Sprint #</th>
-            <th colspan="2">Sprint 4</th>
-        </tr>
-        <tr>
-            <th colspan="3">Sprint Planning Background</th>
-        </tr>
-        <tr>
-            <td>Date</td>
-            <td colspan="2">2025-06-16</td>
-        </tr>
-        <tr>
-            <td>Time</td>
-            <td colspan="2">11:00 AM</td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <th>Sprint #</th>
-            <th>Sprint 4</th>
-        </tr>
-        <tr>
-            <td>Location</td>
-            <td>Discord meeting</td>
-        </tr>
-        <tr>
-            <td>Prepared by</td>
-            <td>Adrian Donayre</td>
-        </tr>
-        <tr>
-            <td>Attendees (to planning meeting)</td>
-            <td>
-                Renzo Sebastian Uribe Livia,<br>
-                Joseph Manuel Chavez Viera,<br>
-                Adrian Ricardo Donayre Alvarez,<br>
-                Christian Fabrizio Inga Orihuela,<br>
-                Carlos Fredy Fernandez Camayo
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint 4 Review Summary</td>
-            <td>
-                El sprint anterior propuso continuar el desarrollo del front end de la aplicación, y desplegar una primera versión del back end con endpoints funcionales. Se evidencia que el equipo logró cumplir con todos los objetivos propuestos.
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint 4 Retrospective Summary</td>
-            <td>
-                <b>¿Qué funcionó bien?</b> Los story points fueron acertados. La comunicación activa durante el sprint permitió que los miembros del grupo se mantuvieran informados sobre el proceso de desarrollo del proyecto.<br>
-                <b>¿Qué no salió bien o cómo se esperaba?</b> El testing pudo haber sido documentado de mejor manera. Sintaxis de historias de usuario poco claras.<br>
-                <b>¿Qué deberíamos intentar hacer a continuación?</b> Investigar sobre testing y documentarlo de manera apropiada. Revisar las user stories y reestructurarlas para que todos los developers comprendan con simplicidad su propósito.
-            </td>
-        </tr>
-        <tr>
-            <th colspan="2">Sprint Goal & User Stories</th>
-        </tr>
-        <tr>
-            <td>Sprint 4 Goal</td>
-            <td>
-                Elaborar la sección "Reportes estadísticos", conectar la aplicación con un API de terceros para enviar invitaciones por correo electrónico a los trabajadores, culminar los endpoints restantes, implementar el security e inicio de sesión del usuario, y finalmente conectar el front end y el back end.
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint 4 Velocity</td>
-            <td>33</td>
-        </tr>
-        <tr>
-            <td>Sum of story points</td>
-            <td>33</td>
-        </tr>
-    </table>
+       <tr>
+           <th>Sprint #</th>
+           <th>Sprint 4</th>
+      </tr>
+      <tr>
+           <td>Location</td>
+           <td>Discord meeting</td>
+      </tr>
+      <tr>
+           <td>Prepared by</td>
+          <td>Adrian Donayre</td>
+      </tr>
+      <tr>
+           <td>Attendees (to planning meeting)</td>
+           <td>
+               Renzo Sebastian Uribe Livia,<br>
+               Joseph Manuel Chavez Viera,<br>
+              Adrian Ricardo Donayre Alvarez,<br>
+              Christian Fabrizio Inga Orihuela,<br>
+               Carlos Fredy Fernandez Camayo
+          </td>
+      </tr>
+       <tr>
+          <td>Sprint 4 Review Summary</td>
+          <td>
+               El sprint anterior propuso continuar el desarrollo del front end de la aplicación, y desplegar una primera versión del back end con endpoints funcionales. Se evidencia que el equipo logró cumplir con todos los objetivos propuestos.
+           </td>
+       </tr>
+      <tr>
+           <td>Sprint 4 Retrospective Summary</td>
+          <td>
+               <b>¿Qué funcionó bien?</b> Los story points fueron acertados. La comunicación activa durante el sprint permitió que los miembros del grupo se mantuvieran informados sobre el proceso de desarrollo del proyecto.<br>
+              <b>¿Qué no salió bien o cómo se esperaba?</b> El testing pudo haber sido documentado de mejor manera. Sintaxis de historias de usuario poco claras.<br>
+              <b>¿Qué deberíamos intentar hacer a continuación?</b> Investigar sobre testing y documentarlo de manera apropiada. Revisar las user stories y reestructurarlas para que todos los developers comprendan con simplicidad su propósito.
+          </td>
+       </tr>
+      <tr>
+           <th colspan="2">Sprint Goal & User Stories</th>
+       </tr>
+      <tr>
+           <td>Sprint 4 Goal</td>
+          <td>
+               Elaborar la sección "Reportes estadísticos", conectar la aplicación con un API de terceros para enviar invitaciones por correo electrónico a los trabajadores, culminar los endpoints restantes, implementar el security e inicio de sesión del usuario, y finalmente conectar el front end y el back end.
+          </td>
+      </tr>
+      <tr>
+        <td>Sprint 4 Velocity</td>
+        <td>33</td>
+       </tr>
+       <tr>
+          <td>Sum of story points</td>
+          <td>33</td>
+       </tr>
+  </table>
 
 ### 5.2.4.2. Sprint Backlog 4.
 <table>
@@ -5243,10 +5224,6 @@ repositorios donde se trabajo.
         <td>Obtener información de usuario</td>
     </tr>
 </table>
-
-### 5.2.4.7. Software Deployment Evidence for Sprint Review.
-
-### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 
 ## 5.3. Validation interviews
