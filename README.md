@@ -5660,13 +5660,15 @@ Diseñar vistas o accesos diferenciados según el tipo de usuario.
 
 - Enlace para acceder al  [repositorio Front-end](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-frontEnd.git)
 
-- Enlace para acceder al  [Front-end](https://coffeelab-a5cd7.web.app/login)
+- Enlace para acceder al  [Front-end](https://cafelab-cafemetrix.web.app/login)
 
 - Enlace para acceder al [repositorio Back-end](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-backEnd.git)
 
 - Enlace para acceder al [repositorio Landing-page](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab-landingPage.git)
 
 - Enlace para acceder al [Landing-page](https://cafelab-landingpage-appweb.netlify.app/)
+
+- Enlace para acceder al [Back-end](https://app-250706190522.azurewebsites.net/swagger/index.html)
 
 - Enlace para acceder al [repositorio Informe](https://github.com/upc-pre-202510-1asi0730-4364-CafeMetrix/cafeLab.git)
 
