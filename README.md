@@ -4616,7 +4616,6 @@ En este tercer sprint se planificó la culminación del front-end y en un 40% la
 
 <img src="public\assets\images\ExecutionEvidence\1.png" alt="1">
 <img src="public\assets\images\ExecutionEvidence\2.png" alt="2">
-<img src="public\assets\images\ExecutionEvidence\3.png" alt="3">
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
