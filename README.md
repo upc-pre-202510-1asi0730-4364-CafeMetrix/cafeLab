@@ -2397,12 +2397,31 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
 **Coffee Production Bounded Context - Backend**
 
 <td><img src="public\assets\images\Plantuml\C4 Backend Componentes COFFEE-PRODUCTION.png"></td>
+<td><img src="public/assets/images/Diagrams/Calibration.png" alt="Calibration"></td>
+<td><img src="public/assets/images/Diagrams/Defects.png" alt="Defects"></td>
+<td><img src="public/assets/images/Diagrams/Inventario.png" alt="Inventario"></td>
+<td><img src="public/assets/images/Diagrams/Sensory Evaluation.png" alt="Sensory Evaluation"></td>
+<td><img src="public/assets/images/Diagrams/Cost Managment.png" alt="Cost Managment"></td>
 
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
 <td><img src="public\assets\images\Plantuml\cl-class-diagram.png"></td>
+<td><img src="public/assets/images/Diagrams/Packages.jpeg" alt="Packages"></td>
+<td><img src="public/assets/images/Diagrams/Layers.jpeg" alt="Layers"></td>
+<td><img src="public/assets/images/Diagrams/Classes.jpeg" alt="Classes"></td>
+<td><img src="public/assets/images/Diagrams/Shared.jpeg" alt="Shared"></td>
+<td><img src="public/assets/images/Diagrams/Application.jpeg" alt="Application"></td>
+<td><img src="public/assets/images/Diagrams/Domain.jpeg" alt="Domain"></td>
+<td><img src="public/assets/images/Diagrams/Infrastructure.jpeg" alt="Infrastructure"></td>
+<td><img src="public/assets/images/Diagrams/interfaces.jpeg" alt="Interfaces"></td>
+<td><img src="public/assets/images/Diagrams/Packages1.jpeg" alt="Packages1"></td>
+<td><img src="public/assets/images/Diagrams/Calibrations y Defects .jpeg" alt="Calibrations y Defects"></td>
+<td><img src="public/assets/images/Diagrams/CostLote.jpeg" alt="CostLote"></td>
+<td><img src="public/assets/images/Diagrams/CuppingSession.jpeg" alt="Cupping Session"></td>
+<td><img src="public/assets/images/Diagrams/freddy.png" alt="Freddy"></td>
+<td><img src="public/assets/images/Diagrams/hola.jpeg" alt="Hola"></td>
 
 
 ### 4.7.2. Class Dictionary.
@@ -5676,4 +5695,4 @@ Diseñar vistas o accesos diferenciados según el tipo de usuario.
 
 - Enlace para acceder al [video about the team](https://upcedupe-my.sharepoint.com/personal/u202310187_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310187%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0730%2D4364%2DcafeMetrix%2Dabout%20the%2Dteam%2Dsprint%2D2%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2589bfba%2D3db4%2D4cf5%2Dbd4f%2D34040571462f&isDarkMode=true)
 
-- Enlace para acceder al [video about the product](https://youtu.be/UvEGdqB4hOE)
+- Enlace para acceder al [video about the product](https://youtu.be/Qx6NdgKUoRM)
