@@ -5693,4 +5693,4 @@ Diseñar vistas o accesos diferenciados según el tipo de usuario.
 
 - Enlace para acceder al [video about the team](https://upcedupe-my.sharepoint.com/personal/u202310187_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202310187%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0730%2D4364%2DcafeMetrix%2Dabout%20the%2Dteam%2Dsprint%2D2%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2589bfba%2D3db4%2D4cf5%2Dbd4f%2D34040571462f&isDarkMode=true)
 
-- Enlace para acceder al [video about the product](https://youtu.be/UvEGdqB4hOE)
+- Enlace para acceder al [video about the product](https://youtu.be/Qx6NdgKUoRM)
