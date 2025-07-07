@@ -2397,12 +2397,31 @@ El Domain Driven Design (DDD) busca establecer un entendimiento común del domin
 **Coffee Production Bounded Context - Backend**
 
 <td><img src="public\assets\images\Plantuml\C4 Backend Componentes COFFEE-PRODUCTION.png"></td>
+<td><img src="public/assets/images/Diagrams/Calibration.png" alt="Calibration"></td>
+<td><img src="public/assets/images/Diagrams/Defects.png" alt="Defects"></td>
+<td><img src="public/assets/images/Diagrams/Inventario.png" alt="Inventario"></td>
+<td><img src="public/assets/images/Diagrams/Sensory Evaluation.png" alt="Sensory Evaluation"></td>
+<td><img src="public/assets/images/Diagrams/Cost Managment.png" alt="Cost Managment"></td>
 
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
 <td><img src="public\assets\images\Plantuml\cl-class-diagram.png"></td>
+<td><img src="public/assets/images/Diagrams/Packages.jpeg" alt="Packages"></td>
+<td><img src="public/assets/images/Diagrams/Layers.jpeg" alt="Layers"></td>
+<td><img src="public/assets/images/Diagrams/Classes.jpeg" alt="Classes"></td>
+<td><img src="public/assets/images/Diagrams/Shared.jpeg" alt="Shared"></td>
+<td><img src="public/assets/images/Diagrams/Application.jpeg" alt="Application"></td>
+<td><img src="public/assets/images/Diagrams/Domain.jpeg" alt="Domain"></td>
+<td><img src="public/assets/images/Diagrams/Infrastructure.jpeg" alt="Infrastructure"></td>
+<td><img src="public/assets/images/Diagrams/interfaces.jpeg" alt="Interfaces"></td>
+<td><img src="public/assets/images/Diagrams/Packages1.jpeg" alt="Packages1"></td>
+<td><img src="public/assets/images/Diagrams/Calibrations y Defects .jpeg" alt="Calibrations y Defects"></td>
+<td><img src="public/assets/images/Diagrams/CostLote.jpeg" alt="CostLote"></td>
+<td><img src="public/assets/images/Diagrams/CuppingSession.jpeg" alt="Cupping Session"></td>
+<td><img src="public/assets/images/Diagrams/freddy.png" alt="Freddy"></td>
+<td><img src="public/assets/images/Diagrams/hola.jpeg" alt="Hola"></td>
 
 
 ### 4.7.2. Class Dictionary.
